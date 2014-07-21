@@ -38,3 +38,5 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AdvanceSearc
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AdvanceSearch\bin\Release\Newtonsoft.Json.xml
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AdvanceSearch\obj\Release\AspxCommerce.AdvanceSearch.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AdvanceSearch\obj\Release\AspxCommerce.AdvanceSearch.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AdvanceSearch\obj\Release\AspxCommerce.AdvanceSearch.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AdvanceSearch\obj\Release\AspxCommerce.AdvanceSearch.dll

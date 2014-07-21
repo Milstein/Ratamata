@@ -3,3 +3,5 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerc
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.Core.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.Core\obj\Release\AspxCommerce.Core.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.Core\obj\Release\AspxCommerce.Core.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.Core\obj\Release\AspxCommerce.Core.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.Core\obj\Release\AspxCommerce.Core.dll

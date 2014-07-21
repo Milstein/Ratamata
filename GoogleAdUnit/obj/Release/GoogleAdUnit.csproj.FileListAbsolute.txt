@@ -2,3 +2,7 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\GoogleAdUnit\bin\Release\
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb

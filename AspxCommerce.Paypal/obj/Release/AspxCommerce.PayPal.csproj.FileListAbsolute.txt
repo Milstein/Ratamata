@@ -38,3 +38,5 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.Paypal\bin\M
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.Paypal\bin\Newtonsoft.Json.xml
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.Paypal\obj\Release\AspxCommerce.Paypal.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.Paypal\obj\Release\AspxCommerce.Paypal.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.Paypal\obj\Release\AspxCommerce.PayPal.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.Paypal\obj\Release\AspxCommerce.Paypal.dll

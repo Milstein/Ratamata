@@ -61,3 +61,5 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManage
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\Newtonsoft.Json.xml
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\obj\Release\AspxCommerce.FlightManagement.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\obj\Release\AspxCommerce.FlightManagement.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.FlightManagement\obj\Release\AspxCommerce.FlightManagement.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.FlightManagement\obj\Release\AspxCommerce.FlightManagement.dll

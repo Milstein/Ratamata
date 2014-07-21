@@ -1,1 +1,2 @@
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Core\obj\Release\SageFrame.Core.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Core\obj\Release\SageFrame.Core.csprojResolveAssemblyReference.cache

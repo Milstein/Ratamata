@@ -3,3 +3,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.T
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Templating\obj\Debug\SageFrame.Templating.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.Templating.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.Templating.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Templating\obj\Debug\SageFrame.Templating.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb

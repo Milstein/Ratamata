@@ -5,3 +5,10 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ModuleManager\b
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ModuleManager\bin\Release\SageFrame.ModuleManager.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ModuleManager\bin\Release\SageFrame.ModuleManager.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ModuleManager\bin\Release\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ModuleManager\bin\Release\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ModuleManager\obj\Release\SageFrame.ModuleManager.pdb

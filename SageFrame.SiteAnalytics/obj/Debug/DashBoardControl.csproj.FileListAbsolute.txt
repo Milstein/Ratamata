@@ -3,3 +3,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\DashBoardCo
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\DashBoardControl.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\DashBoardControl.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb

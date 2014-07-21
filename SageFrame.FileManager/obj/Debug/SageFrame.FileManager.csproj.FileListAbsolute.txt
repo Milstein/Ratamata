@@ -3,3 +3,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.F
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.FileManager.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.FileManager.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb

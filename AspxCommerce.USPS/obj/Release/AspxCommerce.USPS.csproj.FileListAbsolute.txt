@@ -38,3 +38,5 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.USPS\bin\Rel
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.USPS\bin\Release\Newtonsoft.Json.xml
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.USPS\obj\Release\AspxCommerce.USPS.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.USPS\obj\Release\AspxCommerce.USPS.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.USPS\obj\Release\AspxCommerce.USPS.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.USPS\obj\Release\AspxCommerce.USPS.dll

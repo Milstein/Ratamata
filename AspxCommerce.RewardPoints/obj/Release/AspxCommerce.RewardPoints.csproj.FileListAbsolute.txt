@@ -3,3 +3,5 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerc
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.RewardPoints.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.RewardPoints\obj\Release\AspxCommerce.RewardPoints.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.RewardPoints\obj\Release\AspxCommerce.RewardPoints.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.RewardPoints\obj\Release\AspxCommerce.RewardPoints.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.RewardPoints\obj\Release\AspxCommerce.RewardPoints.dll

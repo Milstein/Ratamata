@@ -3,3 +3,9 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerc
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AIM\obj\Debug\AspxCommerce.AIM.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AIM\obj\Debug\AspxCommerce.AIM.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AIM\obj\Debug\AspxCommerce.AIM.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\AspxCommerce.AIM.dll.config
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\AspxCommerce.AIM.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\AspxCommerce.AIM.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AIM\obj\Debug\AspxCommerce.AIM.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AIM\obj\Debug\AspxCommerce.AIM.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AIM\obj\Debug\AspxCommerce.AIM.pdb

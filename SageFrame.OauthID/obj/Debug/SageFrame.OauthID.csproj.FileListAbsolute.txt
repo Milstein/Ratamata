@@ -5,3 +5,10 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.OauthID\bin\Deb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.OauthID\bin\Debug\SageFrame.OauthID.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.OauthID\bin\Debug\SageFrame.OauthID.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.OauthID\bin\Debug\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.OauthID\bin\Debug\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.OauthID\obj\Debug\SageFrame.OauthID.pdb

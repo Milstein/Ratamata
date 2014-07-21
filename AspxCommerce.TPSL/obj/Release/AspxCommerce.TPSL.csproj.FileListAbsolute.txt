@@ -226,3 +226,5 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.TPSL\bin\Mic
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.TPSL\bin\Newtonsoft.Json.xml
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.TPSL\obj\Release\AspxCommerce.TPSL.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.TPSL\obj\Release\AspxCommerce.TPSL.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.TPSL\obj\Release\AspxCommerce.TPSL.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.TPSL\obj\Release\AspxCommerce.TPSL.dll

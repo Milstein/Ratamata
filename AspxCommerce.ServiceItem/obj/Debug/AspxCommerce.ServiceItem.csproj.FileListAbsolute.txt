@@ -3,3 +3,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerc
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.ServiceItem\obj\Debug\AspxCommerce.ServiceItem.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.ServiceItem\obj\Debug\AspxCommerce.ServiceItem.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.ServiceItem\obj\Debug\AspxCommerce.ServiceItem.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\AspxCommerce.ServiceItem.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\AspxCommerce.ServiceItem.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.ServiceItem\obj\Debug\AspxCommerce.ServiceItem.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.ServiceItem\obj\Debug\AspxCommerce.ServiceItem.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.ServiceItem\obj\Debug\AspxCommerce.ServiceItem.pdb

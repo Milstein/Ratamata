@@ -5,3 +5,10 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Dashboard\bin\R
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Dashboard\obj\Release\SageFrame.Dashboard.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Dashboard\obj\Release\SageFrame.Dashboard.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Dashboard\obj\Release\SageFrame.Dashboard.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Dashboard\bin\Release\SageFrame.Dashboard.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Dashboard\bin\Release\SageFrame.Dashboard.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Dashboard\bin\Release\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Dashboard\bin\Release\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Dashboard\obj\Release\SageFrame.Dashboard.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Dashboard\obj\Release\SageFrame.Dashboard.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Dashboard\obj\Release\SageFrame.Dashboard.pdb

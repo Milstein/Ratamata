@@ -3,3 +3,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.I
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.IpAccess.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.IpAccess.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.pdb

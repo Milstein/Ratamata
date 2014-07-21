@@ -5,3 +5,10 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SEOExtension\bi
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SEOExtension\bin\Release\SageFrame.SEOExtension.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SEOExtension\bin\Release\SageFrame.SEOExtension.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SEOExtension\bin\Release\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SEOExtension\bin\Release\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.pdb

@@ -38,3 +38,5 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AdminNotific
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AdminNotification\bin\Release\Newtonsoft.Json.xml
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AdminNotification\obj\Release\AspxCommerce.AdminNotification.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AdminNotification\obj\Release\AspxCommerce.AdminNotification.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AdminNotification\obj\Release\AspxCommerce.AdminNotification.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AdminNotification\obj\Release\AspxCommerce.AdminNotification.dll

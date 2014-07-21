@@ -5,3 +5,10 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.BreadCrum\bin\R
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.BreadCrum\bin\Release\SageFrame.BreadCrum.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.BreadCrum\bin\Release\SageFrame.BreadCrum.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.BreadCrum\bin\Release\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.BreadCrum\bin\Release\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.pdb

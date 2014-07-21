@@ -110,3 +110,5 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.dll

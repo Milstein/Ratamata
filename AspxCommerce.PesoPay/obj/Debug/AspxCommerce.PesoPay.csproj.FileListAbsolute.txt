@@ -282,3 +282,43 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\itextsharp.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\AjaxControlToolkit.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.CDN.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\Ionic.Zip.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Owin.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\Owin.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\Newtonsoft.Json.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.CDN.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Owin.xml
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\bin\Debug\Newtonsoft.Json.xml
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb
