@@ -1,0 +1,5 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.Logo.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.Logo.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Logo\obj\Debug\SageFrame.Logo.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Logo\obj\Debug\SageFrame.Logo.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Logo\obj\Debug\SageFrame.Logo.pdb

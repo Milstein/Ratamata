@@ -1,0 +1,346 @@
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_RecommendedItemSetting]    Script Date: 12/30/2013 14:11:33 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Aspx_RecommendedItemSetting](
+	[SettingID] [int] IDENTITY(1,1) NOT NULL,
+	[SettingKey] [nvarchar](256) NULL,
+	[SettingValue] [int] NULL,
+	[CultureName] [nvarchar](256) NULL,
+	[StoreID] [int] NULL,
+	[PortalID] [int] NULL,
+	[IsActive] [bit] NOT NULL,
+	[IsDeleted] [bit] NOT NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) NULL,
+	[DeletedBy] [nvarchar](256) NULL,
+	[UpdatedBy] [nvarchar](256) NULL,
+ CONSTRAINT [PK_Aspx_RecommendedItemSetting] PRIMARY KEY CLUSTERED 
+(
+	[SettingID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET IDENTITY_INSERT [dbo].[Aspx_RecommendedItemSetting] ON
+INSERT [dbo].[Aspx_RecommendedItemSetting] ([SettingID], [SettingKey], [SettingValue], [CultureName], [StoreID], [PortalID], [IsActive], [IsDeleted], [IsModified], [AddedOn], [DeletedOn], [UpdatedOn], [AddedBy], [DeletedBy], [UpdatedBy]) VALUES (1, N'RecommendedItemCount', 5, N'en-US', 0, 1, 1, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+SET IDENTITY_INSERT [dbo].[Aspx_RecommendedItemSetting] OFF
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetRecommendedItem]    Script Date: 12/30/2013 14:15:14 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: 12/26/2013
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_GetRecommendedItem] 1,1,'en-US','hari',33,10
+CREATE PROCEDURE [dbo].[usp_Aspx_GetRecommendedItem] (
+	@StoreID INT
+	,@PortalID INT
+	,@CultureName NVARCHAR(256)
+	,@UserName NVARCHAR(256)
+	,@CustomerID INT
+	,@Count INT
+	)
+AS
+BEGIN
+	SET NOCOUNT ON;
+	DECLARE @UserProfileID INT
+		,@CartID INT
+
+	SET @UserProfileID = (
+			SELECT p.UserProfileID
+			FROM Aspx_Personalization p
+			WHERE p.CustomerID = @CustomerID
+				AND IsActive = 1
+				AND IsDeleted = 0
+			)
+
+	SELECT @CartID = CartID
+	FROM Aspx_Cart
+	WHERE CustomerID = @CustomerID
+		AND StoreID = @StoreID
+		AND PortalID = @PortalID
+
+	DECLARE @pItemTbl TABLE (ItemID INT)
+
+	INSERT INTO @pItemTbl (ItemID)
+	SELECT DISTINCT (pItem.ItemID)
+	FROM Aspx_PersonalizationItem pItem
+	WHERE UserProfileID = @UserProfileID
+		AND StoreID = @StoreID
+		AND PortalID = @PortalID
+		AND CultureName = @CultureName;
+	
+	WITH CRUItems (ItemID)
+	AS (
+		SELECT DISTINCT ItemID
+		FROM (
+			SELECT RelatedItemID AS ItemID
+			FROM Aspx_RelatedItems ri
+			INNER JOIN @pItemTbl t ON t.ItemID = ri.ItemID
+			WHERE StoreID = @StoreID
+				AND PortalID = @PortalID
+			
+			UNION ALL
+			
+			SELECT CrossSellItemID AS ItemID
+			FROM Aspx_CrossSells cs
+			INNER JOIN @pItemTbl t ON t.ItemID = cs.ItemID
+			WHERE StoreID = @StoreID
+				AND PortalID = @PortalID
+			
+			UNION ALL
+			
+			SELECT UPSellItemID AS ItemID
+			FROM Aspx_UpSells up
+			INNER JOIN @pItemTbl t ON t.ItemID = up.ItemID
+			WHERE StoreID = @StoreID
+				AND PortalID = @PortalID
+			) AS X
+		WHERE ItemID NOT IN (
+				SELECT ItemID
+				FROM @pItemTbl
+				)
+		)
+	SELECT TOP (@Count) item.ItemID
+		,item.SKU
+		,itemDetail.NAME as ItemName
+	FROM Aspx_items AS item
+	INNER JOIN CRUItems AS tmpFinal ON item.ItemID = tmpFinal.ItemID
+	INNER JOIN [Aspx_ItemInformationDetails] AS itemDetail ON itemDetail.ItemID = item.ItemId
+	WHERE item.StoreID = @StoreID
+		AND item.PortalID = @PortalID
+		AND item.IsDeleted = 0
+		AND item.IsActive = 1
+		AND (
+			item.ActiveFrom <= convert(VARCHAR(10), getdate(), 111)
+			AND item.ActiveTo >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND (
+			(
+				item.HideToAnonymous = 0
+				AND @UserName = 'anonymoususer'
+				)
+			OR @UserName != 'anonymoususer'
+			)
+		AND itemDetail.CultureName = @CultureName
+
+	SELECT TOP (@Count) item.ItemID
+		,item.SKU
+		,itemDetail.NAME as ItemName
+	FROM dbo.Aspx_CartItems ci
+	INNER JOIN dbo.Aspx_Cart c ON ci.CartID = c.CartID
+	INNER JOIN Aspx_items AS item ON item.ItemID = ci.ItemID
+	INNER JOIN [Aspx_ItemInformationDetails] AS itemDetail ON itemDetail.ItemID = item.ItemId
+	WHERE c.CartID = @CartID
+		AND c.StoreID = @StoreID
+		AND c.PortalID = @PortalID
+		AND ci.IsDeleted = 0
+		AND item.StoreID = @StoreID
+		AND item.PortalID = @PortalID
+		AND item.IsDeleted = 0
+		AND item.IsActive = 1
+		AND (
+			item.ActiveFrom <= convert(VARCHAR(10), getdate(), 111)
+			AND item.ActiveTo >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND (
+			(
+				item.HideToAnonymous = 0
+				AND @UserName = 'anonymoususer'
+				)
+			OR @UserName != 'anonymoususer'
+			)
+		AND itemDetail.CultureName = @CultureName
+	GROUP BY item.ItemID
+		,item.SKU
+		,itemDetail.NAME
+
+	SELECT TOP (@Count) i.ItemID
+		,i.SKU
+		,iid.[Name] as ItemName
+	FROM dbo.Aspx_WishItems wi
+	INNER JOIN dbo.Aspx_WishItemDetails wid ON wi.WishItemID = wid.WishItemID
+		AND wi.CostVariantValueIDs = wid.CostVariantValueIDs
+	INNER JOIN dbo.Aspx_Items i ON i.ItemID = wi.ItemID
+	INNER JOIN Aspx_ItemInformationDetails iid ON iid.ItemID = i.ItemID
+		AND iid.CultureName = @CultureName
+	WHERE wid.StoreID = @StoreID
+		AND wid.PortalID = @PortalID
+		AND wid.UserName = @UserName
+		AND wid.IsActive = 1
+		AND i.Visibility = 1
+		AND i.IsActive = 1
+		AND i.IsDeleted = 0
+		AND (
+			(
+				i.HideToAnONymous = 0
+				AND @UserName = 'anonyymoususer'
+				)
+			OR @UserName != 'anonymoususer'
+			)
+		AND (
+			i.ActiveFrom <= convert(VARCHAR(10), getdate(), 111)
+			AND i.ActiveTo >= convert(VARCHAR(10), getdate(), 111)
+			)
+	GROUP BY i.ItemID
+		,i.SKU
+		,iid.[Name]
+END
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetRecommendedItemSettings]    Script Date: 12/30/2013 14:15:14 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+-- [dbo].[usp_Aspx_GetRecommendedItemSettings] 1,1,'en-US'
+CREATE PROCEDURE [dbo].[usp_Aspx_GetRecommendedItemSettings]
+	(
+	@StoreID INT
+	,@PortalID INT
+	,@CultureName NVARCHAR(256)
+	)
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	IF (
+			NOT EXISTS (
+				SELECT 1
+				FROM dbo.Aspx_RecommendedItemSetting
+				WHERE storeID = @StoreID
+					AND PortalID = @PortalID
+				)
+			)
+	BEGIN
+		INSERT INTO dbo.Aspx_RecommendedItemSetting (
+			[SettingKey]
+			,[SettingValue]
+			,[StoreID]
+			,[PortalID]
+			,[CultureName]
+			,[IsActive]
+			,[IsDeleted]
+			,[IsModified]
+			,[AddedOn]
+			,[UpdatedOn]
+			,[DeletedOn]
+			,[AddedBy]
+			,[UpdatedBy]
+			,[DeletedBy]
+			)
+		SELECT SettingKey
+			,SettingValue
+			,@StoreID
+			,@PortalID
+			,@CultureName
+			,[IsActive]
+			,[IsDeleted]
+			,[IsModified]
+			,[AddedOn]
+			,[UpdatedOn]
+			,[DeletedOn]
+			,[AddedBy]
+			,[UpdatedBy]
+			,[DeletedBy]
+		FROM dbo.Aspx_RecommendedItemSetting
+		WHERE PortalID = 1
+			AND StoreId = 0
+	END;
+
+	WITH settingCTE
+	AS (
+		SELECT ris.SettingKey 
+			,ris.SettingValue 
+		FROM dbo.Aspx_RecommendedItemSetting ris
+		WHERE StoreID = @StoreID
+			AND PortalID = @PortalID
+		)
+		,Aspx_RecommendedItemSetting
+	AS (
+		SELECT *
+		FROM (
+			SELECT SettingValue 
+				,CASE [SettingKey]
+					WHEN 'RecommendedItemCount'
+						THEN 'RecommendedItemCount'
+					END AS SKey
+			FROM settingCTE
+			) DataTable
+		pivot(max(SettingValue) FOR Skey IN (RecommendedItemCount)) PivotTable
+		)
+	SELECT *
+	FROM Aspx_RecommendedItemSetting
+END
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_RecommendedItemSaveSettings]    Script Date: 12/30/2013 14:15:14 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[usp_Aspx_RecommendedItemSaveSettings]	 
+	(
+	@StoreID INT
+	,@PortalID INT
+	,@CultureName NVARCHAR(256)
+	,@NoOfItemDisplay INT
+	)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	UPDATE dbo.Aspx_RecommendedItemSetting
+	SET SettingValue = @NoOfItemDisplay,
+	IsModified=1,
+	UpdatedOn=GETDATE()
+	WHERE SettingKey = 'RecommendedItemCount'
+		AND StoreID = @StoreID
+		AND PortalID = @PortalID
+END
+
+GO
+
+DECLARE @ModuleID INT
+ set @ModuleID=(SELECT ModuleID FROM Modules WHERE FriendlyName='AspxRecommendedItem')
+INSERT INTO dbo.Aspx_PersonalizationModules(
+	ModuleID, FriendlyName, PortalID,CultureName,IsActive,AddedOn
+	)
+SELECT ModuleID,FriendlyName,PortalID,'en-US',1,GETDATE() FROM Modules 
+WHERE FriendlyName='AspxRecommendedItem'
+
+GO

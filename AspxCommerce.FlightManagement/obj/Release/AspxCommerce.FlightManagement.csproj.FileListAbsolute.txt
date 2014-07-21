@@ -1,0 +1,63 @@
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\obj\Release\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\AspxCommerce.FlightManagement.dll
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\AspxCommerce.FlightManagement.pdb
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\AspxCommerce.Core.dll
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\SageFrame.Common.dll
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\SageFrame.Core.dll
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\SageFrame.Security.dll
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\AjaxControlToolkit.dll
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\CurrencyConverter.dll
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\SageFrame.Templating.dll
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\itextsharp.dll
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\CurrencyConverter.pdb
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\SageFrame.Core.pdb
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\SageFrame.Common.pdb
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\SageFrame.Templating.pdb
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\AspxCommerce.Core.pdb
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\bin\Release\SageFrame.Security.pdb
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\obj\Release\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\obj\Release\AspxCommerce.FlightManagement.dll
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\obj\Release\AspxCommerce.FlightManagement.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.FlightManagement\obj\Release\AspxCommerce.FlightManagement.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.FlightManagement\obj\Release\AspxCommerce.FlightManagement.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\obj\Release\AspxCommerce.FlightManagement.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\AspxCommerce.FlightManagement.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\AspxCommerce.FlightManagement.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\AspxCommerce.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.Security.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\itextsharp.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.Pages.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.NewsLetter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\CurrencyConverter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\AjaxControlToolkit.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.Templating.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.CDN.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\Ionic.Zip.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\Microsoft.AspNet.SignalR.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\Microsoft.AspNet.SignalR.Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\Newtonsoft.Json.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\AspxCommerce.Core.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.Core.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.Security.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.Pages.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.NewsLetter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\CurrencyConverter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.Templating.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.Scheduler.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\SageFrame.CDN.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\Microsoft.AspNet.SignalR.Core.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\Microsoft.AspNet.SignalR.Owin.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\bin\Release\Newtonsoft.Json.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\obj\Release\AspxCommerce.FlightManagement.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\obj\Release\AspxCommerce.FlightManagement.pdb

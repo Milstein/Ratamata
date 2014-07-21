@@ -1,0 +1,284 @@
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.dll
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.pdb
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.dll
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.dll
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\AjaxControlToolkit.dll
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.dll
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.dll
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.dll
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.dll
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\itextsharp.dll
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.pdb
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.pdb
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.pdb
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.pdb
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.pdb
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.pdb
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
+D:\AspxMultiCurrencyInstall\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.dll
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.pdb
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.dll
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.dll
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\AjaxControlToolkit.dll
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.dll
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.dll
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.dll
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.dll
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\itextsharp.dll
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.pdb
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.pdb
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\obj\Debug\ResolveAssemblyReference.cache
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.dll
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.pdb
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.dll
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.dll
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\AjaxControlToolkit.dll
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.dll
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.dll
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.dll
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.dll
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\itextsharp.dll
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.pdb
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.pdb
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\obj\Debug\ResolveAssemblyReference.cache
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.pdb
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.pdb
+C:\My Works\!@#\AspxFragnanceFinal\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.pdb
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.dll
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.pdb
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.dll
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.dll
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\AjaxControlToolkit.dll
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.dll
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.dll
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.dll
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.dll
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\itextsharp.dll
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.pdb
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.pdb
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.pdb
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.pdb
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.pdb
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\obj\Debug\ResolveAssemblyReference.cache
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
+D:\!@Latest\fff\!@For Fresh Templates\!@New zips\!!tEMPLATES\FragnanceClient\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.pdb
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.pdb
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.pdb
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.dll
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.pdb
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.dll
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.dll
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\AjaxControlToolkit.dll
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.dll
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.dll
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.dll
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.dll
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\itextsharp.dll
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.pdb
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.pdb
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.pdb
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.pdb
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.pdb
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\AjaxControlToolkit.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\Ionic.Zip.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\System.Web.Mvc.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\itextsharp.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\itextsharp.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\DocumentFormat.OpenXml.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\AjaxControlToolkit.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.CDN.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Ionic.Zip.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Newtonsoft.Json.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.CDN.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Owin.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Newtonsoft.Json.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\itextsharp.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\AjaxControlToolkit.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.CDN.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Ionic.Zip.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Newtonsoft.Json.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.CDN.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Owin.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\bin\Debug\Newtonsoft.Json.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\itextsharp.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\AjaxControlToolkit.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.CDN.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\Ionic.Zip.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Owin.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\Owin.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\Newtonsoft.Json.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.CDN.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Owin.xml
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\bin\Debug\Newtonsoft.Json.xml
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\itextsharp.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\AjaxControlToolkit.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.CDN.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\Ionic.Zip.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\Newtonsoft.Json.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.CDN.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Owin.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\bin\Debug\Newtonsoft.Json.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb

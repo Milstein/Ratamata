@@ -1,0 +1,7 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Dashboard\bin\Debug\SageFrame.Dashboard.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Dashboard\bin\Debug\SageFrame.Dashboard.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Dashboard\bin\Debug\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Dashboard\bin\Debug\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Dashboard\obj\Debug\SageFrame.Dashboard.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Dashboard\obj\Debug\SageFrame.Dashboard.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Dashboard\obj\Debug\SageFrame.Dashboard.pdb

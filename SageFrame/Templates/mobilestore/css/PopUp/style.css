@@ -1,0 +1,164 @@
+/* CSS Document */
+#trigger {
+	text-align:center;
+}
+
+
+
+.popupbox {
+	background-color:#FFF;
+	display: none;
+	position: fixed;
+	top: 50%;
+	left:50%;
+	z-index: 9999;
+	-webkit-box-shadow:0 0 0 15px rgba(0,0,0,0.5);
+	-moz-box-shadow:0 0 0 15px rgba(0,0,0,0.5);
+	box-shadow:0 0 0 15px rgba(0,0,0,0.5);
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+    border-radius:5px;
+	min-height:160px;
+	max-width:900px;
+}
+#fade {
+	display: none;
+	
+	background:#000;
+	
+	opacity:0.5;filter: alpha(opacity=50); 
+	
+	left: 0;  
+	
+	position:fixed;left: 0;top: 0;
+	
+	width:100%; height:100%;
+	
+	z-index:9000;  
+}
+.popupbox  .cssClassFormWrapper {padding:10px 15px 0; }
+.popupbox *{ z-index:9999;}
+.popupbox2 {
+	width:454px;
+	height:307px;
+	background-image:url(../../images/pu_03.png);
+	background-repeat:no-repeat;
+	display: none;
+	float: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 9999;
+	-webkit-box-shadow: 0px 0px 10px #fff;
+	-moz-box-shadow: 0px 0px 10px #fff;
+	box-shadow: 0px 0px 10px #fff;
+}
+.popupbox3 {
+	width:502px;
+	height:302px;
+	background-image:url(../../images/3_03.png);
+	background-repeat:no-repeat;
+	display: none;
+	float: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 9999;
+	-webkit-box-shadow: 0px 0px 10px #fff;
+	-moz-box-shadow: 0px 0px 10px #fff;
+	box-shadow: 0px 0px 10px #fff;
+}
+
+#intabdiv {
+	padding:10px;
+}
+#close img {
+	text-decoration:none;
+}
+#close {
+	width:50px;
+	height:50px;
+	position: absolute;
+	float:right;
+}
+#intabdiv2 {
+	padding:70px;
+}
+.popupbox h2 {margin:2px;
+	font:bold 18px/14px 'Open Sans',Arial, Helvetica, sans-serif;
+	color:#34464a;
+	padding:10px 20px;
+	border-bottom:1px solid #d7d7d7;
+}
+#intabdiv2 p {
+	font-size:12px;
+	color:#696868;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:20px;
+}
+#intabdiv3 {
+	padding:70px;
+}
+.popupbox .cssClassButtonWrapper { float:right; margin:10px;
+}
+
+.popupbox .cssClassFormWrapper .cssClassLabel { padding:0 10px;}
+
+.popupbox  .cssClassFormWrapper input[type="text"], .popupbox  .cssClassFormWrapper textarea, .popupbox .cssClassFormWrapper select {width:250px;} 
+
+.popupbox .cssClassFormWrapper select { width:262px; margin:3px 5px;}
+.error {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#F00;
+	padding:0 0 0 5px;
+}
+.cssClassCloseIcon { position:relative;
+	z-index:9999;
+}
+.cssClassCloseIcon button {
+	background:none;
+	border:none;
+	outline:none;
+	text-indent:-6000px;
+	position:absolute;
+	right:10px;
+	top:6px;
+}
+button.cssClassClose {
+	background:url(../../images/close.png) no-repeat -25px 0;
+	
+	width:25px;
+	height:26px;
+	cursor:pointer;
+}
+button.cssClassClose:hover  { background:url(../../images/close.png) no-repeat;}
+.cssClassReviewInfos {
+	padding:5px;
+	background-color:#bcebff;
+	margin:5px 0 0 0;
+}
+.cssClassReviewInfos a {
+	text-decoration:underline;
+}
+.cssClassPopUpHeading {
+	margin:7px 0;
+}
+span.star-rating-control {
+	float:left;
+	width:90px; padding-bottom:6px;
+}
+.cssClassToolTipInfo span.star-rating-control {
+	float:right;
+}
+span.cssClassRatingText {
+	float:left;
+	padding:0 0 0 5px;
+}
+td.cssClassReviewCriteria {
+	width:152px;
+}
+.cssClassItemCostVariant { width:auto;}
+.cssClassItemCostVariant .ui-corner-all {max-height:390px; margin: 12px 10px 0; overflow: auto;width: 640px;} 
+.cssClassItemCostVariant .ui-tabs .ui-tabs-panel {padding: 20px 0 0;}
+
+.popupbox  .cssClassFormWrapper input{ margin:5px; padding:4px 5px; }

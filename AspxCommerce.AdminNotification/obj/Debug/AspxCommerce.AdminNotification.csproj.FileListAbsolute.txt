@@ -1,0 +1,5 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.AdminNotification.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.AdminNotification.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AdminNotification\obj\Debug\AspxCommerce.AdminNotification.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AdminNotification\obj\Debug\AspxCommerce.AdminNotification.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AdminNotification\obj\Debug\AspxCommerce.AdminNotification.pdb

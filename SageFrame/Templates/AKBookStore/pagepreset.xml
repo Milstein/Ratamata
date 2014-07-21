@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pagepreset>
+  <layout>
+    <preset layout="All">All</preset>
+    <preset layout="home">Home</preset>
+    <preset layout="RssLayout">Rss</preset>
+  </layout>
+  <theme>default</theme>
+  <width>narrow</width>
+</pagepreset>

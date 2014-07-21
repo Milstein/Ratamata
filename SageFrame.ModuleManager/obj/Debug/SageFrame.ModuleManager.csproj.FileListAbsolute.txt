@@ -1,0 +1,7 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ModuleManager\bin\Debug\SageFrame.ModuleManager.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ModuleManager\bin\Debug\SageFrame.ModuleManager.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ModuleManager\bin\Debug\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ModuleManager\bin\Debug\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.pdb

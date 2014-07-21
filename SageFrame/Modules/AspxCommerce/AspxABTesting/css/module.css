@@ -1,0 +1,57 @@
+﻿
+
+
+.sfTabInterface {float:right; width:auto; }
+
+
+#divABTestDetail td {
+    vertical-align: middle !important; 
+}
+
+select.sfListmenu { -webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;}
+.sfFormwrapper input.hasDatepicker, .sfFormwrapper select.sfListmenu  { width: 195px !important;}
+.ui-datepicker td a.ui-state-active { background:#FBEC88 !important;}
+
+#tblNewABTest .sfButtonwrapper { margin-left: 220px; margin-top: -24px !important; position: static !important;}
+
+
+
+
+/* reward point */
+tr.noBg, tr.noBg h2 { border-bottom:none !important;}
+tr.noBg td { background:#F8F8F8 !important;}
+.sfFormwrapper input.sfShortInputbox { width:50px;}
+.ui-tabs .ui-tabs-nav li a{ padding:11px 18px!important}
+
+/* store analytics */
+.cssClasABTest {  }
+.cssClasABTest li { border:1px solid #ccc; border-top:none; margin-right:15px;} 
+.cssClasABTest li a { font-weight:bold; padding:10px 15px; display:block;  color:#444; 
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */  }
+
+.cssClasABTest li:first-child { border-top:1px solid #ccc;}
+
+.cssClasABTest li a.cssClassmyAccountActive 
+{ background: #f2f9fe; /* Old browsers */
+background: -moz-linear-gradient(top, #f2f9fe 0%, #d6f0fd 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f9fe), color-stop(100%,#d6f0fd)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #f2f9fe 0%,#d6f0fd 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #f2f9fe 0%,#d6f0fd 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #f2f9fe 0%,#d6f0fd 100%); /* IE10+ */
+background: linear-gradient(to bottom, #f2f9fe 0%,#d6f0fd 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f9fe', endColorstr='#d6f0fd',GradientType=0 ); /* IE6-9 */
+}
+
+#tblNewABTest .sftype1 label.sfCancel { width:16px; height:16px; text-indent:-9999px; cursor:pointer; }
+
+.cssClassViewOf { display:inline-block;
+ padding-left:10px;}

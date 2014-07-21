@@ -1,0 +1,1298 @@
+/*------------------------------------*\
+    RESET
+\*------------------------------------*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {	margin:0; padding:0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display:block;}
+h1, h2, h3, h4, h5, h6 {	font-size:100%;}
+table {	border-collapse:collapse;	border-spacing:0;}
+strong, b, mark {	font-weight:bold;	font-style:inherit;}
+em, i, cite, q, address, dfn, var {	font-style:italic;	font-weight:inherit;}
+abbr[title], dfn[title] {	cursor:help;	border-bottom:1px dotted;}
+ins {	border-bottom:1px solid;}
+a, u, ins {	text-decoration:none;}
+del, s {text-decoration:line-through;}
+pre, code, samp, kbd {	font-family:monospace;}
+small {	font-size:0.75em;}
+.clear{ clear:both}
+img {	border:none;	font-style:italic;}
+button:hover{ cursor:pointer}
+input, select, textarea {font:inherit;}
+/* new clearfix */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+	@font-face {
+ font-family: 'Conv_PRISTINA';
+ src: url('../fonts/PRISTINA.eot');
+ src: local('☺'), url('../fonts/PRISTINA.ttf') format('truetype'), url('../fonts/PRISTINA.svg') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+body {background: url("../images/bg.png") repeat;font: 12px Arial, Helvetica, sans-seri}
+html, body, form {height:100%;}
+:focus {outline:none;}
+textarea{ border:1px solid #ddd}
+input[type=submit], input[type=reset], input[type=button] {}
+input[type=checkbox], input[type=radio]{ border:none !important; box-shadow:none !important; background:none !important; padding:0 !important}
+h1 {font: bold 18px/26px Arial, Helvetica, sans-serif ; color:#64275E;}
+h2 {color:#64275E;font: bold 15px Arial, Helvetica, sans-serif;}
+h3 {color: #666;font: bold 14px Arial, Helvetica, sans-serif; margin:10px 0 10px 0}
+h4, h5 {color: #686868;font: bold 11px Arial, Helvetica, sans-serif;}
+h6 {color: #005CA4;font: bold 11px Arial, Helvetica, sans-serif;}
+input, textarea, select {outline: medium none !important;font:11px Arial, Helvetica, sans-serif}
+.sfMainContent  input[type="text"], .sfMainContent  input[type="password"], .sfMainContent  select, .sfMainContent  textarea {
+padding:5px;
+/*width: 190px;
+height: 25px;*/
+-webkit-border-radius: 4px/3px;
+-moz-border-radius: 4px/3px;
+border-radius: 4px/3px;
+background-color: #c8bfe1;
+-webkit-box-shadow: inset 0 3px 3px rgba(0, 0, 0, .11), inset 0 0 5px rgba(255, 255, 255, .3);
+-moz-box-shadow: inset 0 3px 3px rgba(0, 0, 0, .11), inset 0 0 5px rgba(255, 255, 255, .3);
+box-shadow: inset 0 3px 3px rgba(0, 0, 0, .11), inset 0 0 5px rgba(255, 255, 255, .3);
+font-family: Arial, Helvetica, sans-serif;
+border: 1px solid #9f8acc;
+}
+p {color: #202020;font:12px/20px Arial, Helvetica, sans-serif;}
+b {font-family:Arial, Helvetica, sans-serif !important;}
+ul, li, ol {list-style: none outside none;}
+img {border: medium none;display:inline-block;}
+a img {border: medium none;}
+a {color: #64275E;font: 12px Arial, Helvetica, sans-serif;outline: medium none;text-decoration: none; text-transform:capitalize;}
+a:hover {cursor:pointer;color: #ce68c5;}
+.cssClassClear {clear: both;height: 1px;line-height: 1px;}
+.sfLogo {margin: 20px 0 3px;}
+.sfFloatLeft{ float:left;}
+.sfFloatRight{ float:right;  margin:0 !important}
+#sfAspxcommercemenu .sfWrapper {margin: 0 20px 20px 0px;}
+.cssClassLeftSideBox{ margin:0 0 20px 0; background-color: #FFFFFF;  overflow:hidden;
+border: 1px solid #ccc;}
+html, body, .sfFluid, form, .narrow{ height:100%}
+/*Top links*/
+#sfHeadertop{  padding:0px 0 0 0; min-width: 960px;width: 100%;  background: url("../images/flower.png") no-repeat scroll 0 0 transparent; }
+.sfWelcomeMsg h2 span{ font:13px/22px Arial, Helvetica, sans-serif; color:#fff}
+#sfToplinks{  min-width: 960px;background:url(../images/top-bg.png) repeat-x;width: 100%;padding: 10px 0 5px 0;}
+.cssClassLoginStatusWrapper { float: left;
+    height: 20px;
+    margin: 7px 0 0;}
+.cssClassHeaderCenter{float: right;
+    padding: 7px 0 0;
+    width: 40%}
+.cssClassLoginStatusInfo ul {overflow: hidden;padding:0px;}
+.cssClassLoginStatusInfo ul li {float: left;padding: 0 10px;}
+.cssClassLoginStatusInfo ul li a {color: #ccc; font:12px Arial, Helvetica, sans-serif; padding-left:10px}
+.cssClassTotalCount {font-family:Arial, Helvetica, sans-serif;}
+.cssClassLoginStatusInfo ul li a:hover {color: #fff; text-decoration:underline;}
+#sfAspxlogo .sfModule{ margin:0}
+.sfHeaderDropdown{ float:right; width:104px;  0}
+.sfHeaderDropdown dt a{ color:#fff}
+.sfHeaderDropdown dt{color: #fff;width: 75px;padding:5px 20px 5px 5px;font: 11px Arial, Helvetica, sans-serif;color:#fff; font:11px Arial, Helvetica, sans-serif;background: #a2459a url("../images/select_arrow.png") no-repeat 93% center;
+-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+#sfToplinks .sfModule{ margin-bottom:0; margin-right:0px;}
+.sfModuleHeaderControl{ float:left; width:13%;}
+.Currencyconverter{ float:left; margin: -20px 0 10px;}
+.LanguageSwitch{ float:left; margin:0 0 0 2px !important; width:25%;}
+.sfLogininfo ul li a{ color:#f4efff; font:12px Arial, Helvetica, sans-serif;}
+.sfLogininfo ul li a:hover{ color:#ce68c5}
+.sfLogininfo ul li{ float:left; padding: 4px 8px 0 10px;line-height: 10px;float: left;}
+.sfLogininfo ul li.sfRegister{border-left: 1px solid #fff;}
+.sfLogininfo ul li:last-child{ padding-right:0 !important}
+.sfLogininfo{ float:right;}
+.sfHeaderDropdown dt:hover{ cursor:pointer}
+.sfHeaderDropdown dd {position: absolute;top: 25px;background:#fff;height: auto;z-index: 9999;min-width:100px;list-style: none; border-radius:3px;}
+.sfHeaderDropdown dd ul li{padding:5px !important; border-bottom:1px solid #e9e9e9; border-top:none !important; }
+.sfHeaderDropdown dd ul li:hover{background: #a993d7; text-decoration:underline; color:#fff}
+.sfHeaderDropdown dd ul li a{ color:#535353}
+.sfHeaderDropdown dd ul li:hover a{ color:#fff}
+.sfModuleShoppingBagHeader{float: right;width: 23%;}
+.cssClassAccount{padding-left:10px!important;}
+.cssClassWishList{padding-left: 10px!important;}
+.cssClassCart{padding-left: 10px!important;}
+.sfModuleLoginStatus{  float:left; width:35%;}
+.sfModule{ margin:0}
+.cssClassCheckOut{padding-left: 10px!important;}
+.sfLogout{padding-left: 25px!important;}
+.sfRegister{padding-left:5px!important;}
+.sfModuleCurrencyConverter{ float:left; margin:0 0px 0 0}
+#sfAspxloginstatusbar{ float:right }
+.FlagButtonWrapper{ min-width:auto!important }
+/*Shopping cart popup*/
+.cssClassShoppingCart {float: right;position: relative; text-align:right;margin:5px 0; width:100%}
+.cssClassShoppingCart img{ cursor:pointer; margin-top:-5px; float:left}
+.cssClassShoppingCart p span {color: #ce68c5;padding: 0 5px;text-shadow: none;line-height: 32px;}
+#ShoppingCartPopUp .cssClassCommonSideBoxTable a {font:normal 12px Arial, Helvetica, sans-serif;padding: 0 10px; color:#000}
+#ShoppingCartPopUp .cssClassCommonSideBoxTable a:hover{ color:#910000; text-decoration:underline;}
+#ShoppingCartPopUp .cssClassCommonSideBoxTable>a {background:url(../images/black-btn.png) repeat-x; padding:5px 10px 5px 10px; border:1px solid #545454; color:#fff; margin:0 0 10px 0 !important}
+#ShoppingCartPopUp .cssClassCommonSideBoxTable>a:hover{background:#232222}
+.cssClassCommonSideBoxTable img:hover{ cursor:pointer}
+#ShoppingCartPopUp h2 {padding:5px 10px;color: #fff;font:bold 14px Arial, Helvetica, sans-serif;background:#64275E;}
+#ShoppingCartPopUp table {margin-bottom: 10px;}
+#ShoppingCartPopUp table td {padding: 5px 0;}
+#ShoppingCartPopUp {position: absolute;right: 1px;margin-top:55px;width: 534px;background: white;z-index: 9999;padding:10px;-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);}
+#ShoppingCartPopUp table tr {background: none repeat scroll 0 0 #f6f6f6;}
+#ShoppingCartPopUp table tr:nth-child(2n+1) {background: none repeat scroll 0 0 #fff !important;}
+.cssClassShoppingCart p {color: #dad9d9;display: block;	font:  11px/33px Arial, Helvetica, sans-serif; float:left; /*padding-top:6px;*/}
+.cssClassShoppingCart p span, .cssClassShoppingCart p span b {color: #ce68c5;padding: 0 5px;text-shadow: none; font:bold 12px/22px Arial, Helvetica, sans-serif}
+.cssClassShoppingCart p a {	color: #dad9d9;	font:11px Arial, Helvetica, sans-serif}
+/*Search*/
+.cssClassSageSearchWrapper{ float:right}
+.cssClassSageSearchWrapper a{ font:bold 12px/22px Arial, Helvetica, sans-serif; color:#ce68c5}
+.cssClassSageSearchWrapper input.cssClassSageSearchBox {width: 243px;
+height: 34px;-webkit-border-radius: 5px 4px 4px 5px/4px;-moz-border-radius: 5px 4px 4px 5px/4px;border-radius: 5px 4px 4px 5px/4px;background-color: #f2edff;-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .24);-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .24);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, .24);border: solid 1px #e8e3f2;background-image: -webkit-linear-gradient(bottom, #f2edff, #f4efff, #ede8f8);
+background-image: -moz-linear-gradient(bottom, #f2edff, #f4efff, #ede8f8);background-image: -o-linear-gradient(bottom, #f2edff, #f4efff, #ede8f8);background-image: -ms-linear-gradient(bottom, #f2edff, #f4efff, #ede8f8);background-image: linear-gradient(to top, #f2edff, #f4efff, #ede8f8);padding: 0 0 0 10px;}
+.lightText{ color:#9B9B9B;}
+.cssClassSageSearchWrapper input.cssClassSageSearchButton {background: url("../images/search-btn.png") no-repeat scroll 0 0 transparent;border: none !important;cursor: pointer;height: 35px;width: 54px;position: absolute;right: 2px;display: inline-block;text-indent: -9999px;}
+/*Navigation*/
+#sfSkinmenu {	
+background: url("../images/top-wrapper-bg.png") repeat scroll 0 0 transparent;
+margin: 20px 0 22px;
+position: relative;
+min-height: 73px;
+ }
+.sfModuleSkinMenu{background:url(../images/nav-bg.jpg) repeat-x;margin 21px 0;position: absolute;top:-30px;height:49px;width:100%;-webkit-border-top-left-radius:4px;
+-webkit-border-top-right-radius:4px;-moz-border-radius-topleft: 4px;-moz-border-radius-topright: 4px;border-top-left-radius: 4px;border-top-right-radius: 4px;border:1px solid #a381ea;border-bottom: none !important;}
+.sfModuleSkinMenu ul li{color: #efeafa;float:left;font: normal 14px/22px Arial, Helvetica, sans-serif;text-decoration: none;text-shadow: 0 1px 1px #806fa3;background: url(../images/nav-sep.png) repeat-y right;padding:0px 9px;height: 49px;}
+.sfModuleSkinMenu ul li.sfLast { background:none}
+.sfModuleSkinMenu ul li a, .sfModuleSkinMenu ul li a span{ color: #efeafa;text-decoration: none;
+text-shadow: 0 1px 1px #806fa3;
+font: normal 14px/22px Arial, Helvetica, sans-serif;}
+.sfModuleSkinMenu li:first-child{ background: url(../images/nav-sep.png) repeat-y right;}
+.sfModuleAspxSimpleSearch{ float:right}
+.sfModuleSkinMenu ul li:hover, .sfModuleSkinMenu ul li.sfActive {background: #ae45a3;background: -webkit-linear-gradient(bottom, #692863, #ae45a3);background: -moz-linear-gradient(bottom, #692863, #ae45a3);background: -o-linear-gradient(bottom, #692863, #ae45a3);background: -ms-linear-gradient(bottom, #692863, #ae45a3);background: linear-gradient(to top, #692863, #ae45a3);}
+/*Currency dropdown*/
+.cssClassCurrencySelect {color: white;font-size: 12px; float:left}
+
+.dropDown li span{ display: block;
+font: 12px  Arial, Helvetica, sans-serif;
+width: 123px;
+padding: 5px 0 5px 0;}
+.tzSelect {height:24px;color:#fff; font:11px Arial, Helvetica, sans-serif;background: #a2459a url("../images/select_arrow.png") no-repeat 93% center;
+width: 150px !important; float:left;color: #fff;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px; color:#fff;}
+.cssClassCurrencySelect select {border: 1px solid #ddd ;font-size: 12px;background-color: transparent;margin-left:5px;}
+.tzSelect .selectBox {position: absolute;line-height: 25px;padding:2px 5px;height: 100%;cursor: pointer; text-shadow:none;color:#fff; width:135px;}
+.tzSelect .selectBox span{ margin-left:5px;}
+.tzSelect .dropDown { top:26px; position:absolute;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;border: 1px solid #fff;border-top: none;list-style: none;background: #fff;color: #6f2968;}
+.tzSelect .dropDown li {background:#fff; clear:both; overflow:hidden;}
+.tzSelect .dropDown li:hover{ background: #a993d7;color: #fff;cursor: pointer !important;}
+.tzSelect .dropDown li span{margin-left: 1px;text-shadow: none; font:11px Arial, Helvetica, sans-serif;white-space: nowrap;}
+.tzSelect .dropDown li img{ float: left;margin:5px 2px 0 3px}
+
+/*Promo*/
+
+.cssViewAllPromos ul li{ float:left; border:1px solid #fff; margin:0 20px 20px 0; background:#fff;   text-align:center; width:20%}
+.cssViewAllPromos ul li img{ width: 97%;padding: 3px 3px 0px 3px;}
+/*Body*/
+#sfBodyContent{ margin:20px 0 40px 0; padding:0}
+.cssClassService  h2, .cssClassBestSeller  h2, sfMiddlemaincurrent h2.title{background: url(../images/h2-bg.png) repeat;height: 43px;margin-bottom: 30px;font: 20px/36px "Trebuchet MS", Arial, Helvetica, sans-serif;color: #fff;text-transform: capitalize;padding: 0 0 0 10px;}
+
+/*Product box*/
+.cssClassProductsBox {-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;background-color: #fefefe;-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .49), inset 0 0 5px rgba(255, 255, 190, .3);-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .49), inset 0 0 5px rgba(255, 255, 190, .3);box-shadow: 0 1px 3px rgba(0, 0, 0, .49), inset 0 0 5px rgba(255, 255, 190, .3);border: solid 1px #fff; margin-right:15px;}
+
+/*{ margin: 0 10px 10px 0;width: 21.6%;min-height: 261px;}*/
+
+/*Alert btn*/
+#alert-Buttons .cssClassSubmitBtn, #alert-Buttons input{width:auto !important; font:normal 14px Arial, Helvetica, sans-serif;}
+
+
+/*Cart & wishlist*/
+.cssClassCartInformationDetails .cssClassHeadeTitle, .estimate_shipping table .cssClassHeadeTitle td, .cssClassCommonCenterBox table tr.cssClassCommonCenterBoxTableHeading, tr.cssClassHeading, .cssClassShippingMethodInfo  .cssClassHeadeTitle    {
+background:#64275E; color:#fff; font:bold 13px Arial, Helvetica, sans-serif !important; border-bottom:none!important }
+.cssClassBlueBtnWrapper{ clear:both}
+tr.cssClassHeading th{ padding:12px 5px 12px 5px !important; font: bold 11px Arial, Helvetica, sans-serif ; text-shadow:none; text-align:left}
+.cssClassCommonCenterBox table tr.cssClassCommonCenterBoxTableHeading td, .cssClassCommonCenterBoxTable td{ padding:12px 12px 12px 5px;}
+.cssClassCommonCenterBox h2{ margin:10px 0 10px 0;} 
+.cssClassImage img, .cssClassCartPicture img{ background:#fff; border:1px solid #cacaca;}
+.cssClassCartInformationDetails td{ padding:15px;}
+.cssClassCommonSideBoxTable .cssClassWishItemDetails a, .cssClassCartPictureInformation a{ color:#101010; font:14px Arial, Helvetica, sans-serif}
+.popupbox .cssClassCommonCenterBoxTable{box-shadow:none; border:none}
+.cssClassCommonSideBoxTable .cssClassWishItemDetails a:hover, .cssClassCartPictureInformation a:hover{color:#AC3AA0}
+.cssClassBlueBtnWrapper .sfButtonwrapper{ float:right; margin:9px 5px 0 0}
+
+#wishitemBottom button span, .cssClassBlueBtnWrapper button span, .cssClassBlueBtn a{ font: 14px/20px Arial, Helvetica, sans-serif;text-shadow:none;float:left}
+.cssClassBlueBtn a:hover{ background: #940101}
+.cssClassHeader h2{ background:none;}
+.cssClassBlueBtn a{ margin:0px 0 0 0}
+.cssClassHeadeTitle td{/* padding:15px 15px 15px 0px;*/ font:bold 13px Arial, Helvetica, sans-serif; border-bottom:none !important; }
+.cssClassMasterCenter input.cssClassFormatCurrency, .cssClassMasterCenter .cssClassPreviewQTY input {
+color: #069;border: none !important;background: none !important;box-shadow: none;width: 111px;margin: 0px !important;padding-left: 0px!important;padding-right: 0px !important;border-radius: 0px;}
+.cssClassQTYInput input{ width:25px!important; text-align:center; background:none; box-shadow:none}
+.cssClassBlueBtn a span{ font: 14px Arial, Helvetica, sans-serif; color:#fff}
+.cssClassBlueBtnWrapper a{ float:right; margin:10px 0 10px 2px; padding:7px 20px !important}
+.cssClassCouponHelp {position: absolute;left: 275px;color: #000;white-space: normal;}
+.cssClasscarttotal{ position:relative}.cssClassCouponHelp h3 {width: 210px;text-align: left;color: #000;font: normal 11px/1.2 Arial, Helvetica, sans-serif !important;}
+.cssClassapplycoupon{ position:relative; margin:10px 0 0 0;}
+.cssClasscarttotal .sfButtonwrapper .sfBtn{
+    position: absolute;
+    right:1px;
+    top:1px;}
+.cssClasscarttotal .sfButtonwrapper .sfBtn a{ border-top-left-radius: 0 !important;
+	border-bottom-left-radius:0!important;}
+	.sfShoppingBagButton{ float:right;}
+
+.cssClassapplycoupon input{width: 250px!important; height:30px!important; padding:0px!Important;}
+.cssClassCartInformationDetails .cssClassCommonCenterBoxTable, .sfGridWrapperContent table{ background:#fff; border:1px solid #C8BFE1;-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);-moz-box-shadow:    0px 0px 10px rgba(0, 0, 0, 0.2);box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); margin:0 0 10px 0}
+.cssClassCartInformationDetails td, .cssClasMyAccountInformation .sfEven td{ border-bottom:1px solid #C8BFE1;}
+.estimate_shipping tr td{ padding:10px;}
+.sfGridWrapperContent{ margin:0 0 10px 0;}
+.sfGridWrapperContent td.cssClassAlignRight{ padding-right:0px;}
+.cssClassCartInformationDetails .sfOdd, .cssClassCartInformationDetails .sfEven, .cssClassCommonCenterBoxTable .sfOdd, .cssClassCommonCenterBoxTable .sfEven, .estimate_shipping .cssClassCommonBox  tr td, .cssClasMyAccountInformation .sfGridwrapper tr, .cssClasMyAccountInformation .sfEven, .cssClasMyAccountInformation .sfOdd {border:1px solid #C8BFE1}
+.cssClassSubTotalAmount {float:right; background:#fff;border:1px solid #F4EFFF !important; width:42%; -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);-moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);border-top: none !important;box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);}
+.cssClasMyAccountInformation .sfGridwrapper td{ padding:10px}
+.estimate_shipping .cssClassCommonBox {background: #e9e9e9;border: 1px solid #b3b3b3;
+border-bottom: none;-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);}
+.cssClassSubTotalAmount tr{ font:16px Arial, Helvetica, sans-serif;  border-bottom:2px dotted #CAC1E2}
+
+.cssClassLeftRightBtn{ float:left}
+
+
+/*My account*/
+.cssClassMyDashBoard .cssClassCommonSideBox {float: left;width: 25%;margin-top: 5px;}
+
+.cssClassMyDashBoard .cssClassCommonSideBox h2 span{ background:none;color: #fff !important;}
+.cssClasMyAccount ul li a {display: block;background: #fff;padding: 9px 38px 12px 11px;text-transform: capitalize;text-decoration: none;border: 1px solid #C8BFE1;border-top: none;font:12px Arial, Helvetica, sans-serif ;-moz-transition: all 0.3s ease-out;}
+.cssClasMyAccount ul li a:hover,.cssClasMyAccount ul li a.cssClassmyAccountActive {background-color:#AA93D8;text-decoration:none;color: #fff;}
+.cssClasMyAccountInformation {float: right;width: 73%;}
+.cssClassHeading td{ color:#fff;text-shadow:none; font:bold 13px Arial, Helvetica, sans-serif}
+#divItemRatingForm a{ color:#039}
+.cssClasMyAccountInformation tr td input{ margin:0 0 10px 0}
+.sfFormwrapper td{ padding:10px 5px;}
+.sfGridwrapper td a{ color:#036}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+background: #D6CCEC !important; border:1px solid #D6CCEC !important}
+.ui-accordion .ui-state-active{ background:#3b5998 !important; border-radius:0px !important; }
+.ui-accordion .ui-state-active h2{ color:#fff !important}
+.ui-accordion .ui-state-default .ui-icon, .ui-accordion .ui-state-active .ui-icon{ display:none}
+.cssClassFooterWrapper a{ color:#fff}
+.cssClassAccordionWrapper .cssClassQTY input, .cssClassAccordionWrapper .cssClassPreviewQTY input{ width:15px !important}
+.cssClassAccordionWrapper .cssClassSubTotalAmount td{ text-align:right; width:75%;}
+.cssClasMyAccountInformation .cssClassCommonBox{ margin:10px 0 10px 0}
+.cssClassAddressBook {padding: 8px 0 0;}
+.cssClassAddressBook ol li { float:left; margin-bottom:20px}
+.cssClassCol1 {float: left;background-color: #FFFFFF;border: 1px solid #C8BFE1;padding: 10px; width: 46.5%;}
+.cssClassCol2 {float: right;background-color: #FFFFFF;border: 1px solid #ccc;padding: 10px; width: 46.5%;}
+
+.cssClassActionOnClickShowInfo p a {color: #FFFFFF;font: bold 12px/18px Arial,Helvetica,sans-serif;padding: 5px 10px 0;}
+.cssClassActionOnClickShowInfo a {display: block; height: 22px;}
+.cssClassChange a:hover{background: url(../images/red-btn.jpg) repeat-x;}
+.cssClassActionOnClickShowInfo{background-color:#64275E}
+.cssClassActionOnClickShow {padding: 0;position: absolute;right: 40px;top: 0;z-index: 10;}
+.cssClassActionOnClick {position: relative;}
+/*Detail page*/
+.cssClassLeftSide .cssClassHalfColumn{ margin:5px 0;}
+.cssClassLeftSide .cssClassHalfColumn span b{ font-weight:normal; text-transform:capitalize;}
+.cssClassViewPerPage h4{  color: #000000;
+    float: left;
+    font: 10px/24px Arial,Helvetica,sans-serif;
+    margin-right: 5px;}
+
+.cssClassProductPictureDetails h2 span, .cssClassYouMayAlsoLike h2{ font:18px Arial, Helvetica, sans-serif; color:#910000; text-transform:capitalize;}
+.cssClssQTY input{ width:35px;}
+.cssClassProductRealPrice span{ font:22px Arial, Helvetica, sans-serif; color:#910000;}
+.cssClassYouSave{float: left;
+    font: 14px Arial,Helvetica,sans-serif;
+    margin: 5px 20px 10px 0;
+    text-transform: capitalize;}
+.cssClassYouSave, .cssClassDiscountPrice span { background:#e37c03; border:1px #bf6700 solid; padding:2px 12px 2px 12px; color:#fff; border-top-right-radius:15px; border-bottom-right-radius:15px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
+.cssClassYouSave #spanSaving b{ background:none; box-shadow:none; border:none; padding:0}
+.cssClassProducts .cssClassYouSave{ float:left; margin-bottom:20px;  margin-left: -11px;}
+a.sfAnchor{ font:10px Arial, Helvetica, sans-serif; color:#686868;}
+a.sfAnchor:hover{ color:#AC44A1;}
+.cssClassItemQuickOverview{  background:#FFFFFF;
+    border: 1px solid #D6CCEC;
+    margin-top: 15px;
+    padding: 12px;
+    width: 401px;}
+.cssClassItemQuickOverview h2{ font:16px Arial, Helvetica, sans-serif; color:#910000;}
+.detailButtonWrapper{ border-top:1px #C8BFE1 solid; border-bottom:1px #C8BFE1 solid; overflow: hidden; clear:both; margin:0px 0 20px 0; padding:13px 0 15px 0;}
+ .popupbox .sfButtonwrapper{ float:left}
+.cssClassLeftSide .sfButtonwrapper .sfBtn1{ float:none;}
+.cssClassPopularItemTags .sfButtonwrapper button{ margin:15px 0 0 0  ;}
+#Notify .sfButtonwrapper button{ margin:0 0 0 0}
+.cssClassLeftSide .sfButtonwrapper .sfBtn, .cssClassLeftSide .sfButtonwrapper .sfBtn1{float:left;} 
+.cssClassLeftSide .sfButtonwrapper .sfBtn:hover, #Notify .sfButtonwrapper button:hover{ background:#910000; font-style:normal}
+.cssClassAvailiability{ margin-bottom:10px;}
+.cssClassAvailiability b{ color:#AC3AA0; font-size:14px;}
+.cssClassAvailiability span{ font:14px Arial, Helvetica, sans-serif; color:#686868;}
+.cssClassRatingStar{ margin:5px 0 0 0;}
+.cssClassRatingTitle{ margin-top:0px;}
+.cssClassTotalReviews, .cssClassAddYourReview{ font:10px Arial, Helvetica, sans-serif;}
+.cssClassAddYourReview:hover{ text-decoration:underline;}
+.cssClassProductDetailInformation .ui-widget-header, #slider-range .ui-widget-header{ background:none; }
+.cssClassProductDetailInformation .cssClassTabpanelContent{ border:none;}
+.cssClassProductDetailInformation .ajax__tab_default, .cssClassProductDetailInformation .ui-widget-content{ background:none;}
+.ui-widget-content a{ color:#333}
+.cssClassProductDetailInformation .ajax__tab_default, .cssClassProductDetailInformation .ui-widget-content{ border-radius:0 0 0 0;}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{ color:#910000;}
+.cssClassProductDetailInformation  .ui-tabs .ui-tabs-nav li{ background:#D6CCEC}
+.ui-state-default span{color:#686868}
+.ui-tabs .ui-tabs-panel{ margin-top:-1px;}
+.cssClassTableLeftCol .cssClassLabel{ font:bold 14px Arial, Helvetica, sans-serif; padding:25px 10px;}
+.cssClassTableLeftCol .cssClassLabe table{ border:1px #093 solid;}
+.cssClassPopularItemTags .sfButtonwrapper button{background:url(../images/black-btn.png) repeat-x; padding:5px; color:#fff; border:1px #000 solid; font: 16px Arial,Helvetica,sans-serif; margin-left:0px;}
+.cssClassDecrease, .cssClassIncrease {background:#D6CCEC;color: #FFFFFF !important;cursor: default;font: 12px/26px segoe,Arial,Helvetica,sans-serif; margin: 0 2px 0 5px;padding: 0px 7px;text-align: center;text-decoration: none;border:none;}
+.cssClassDecrease button span, .cssClassIncrease span{ color:#fff;}
+.cssClassRateReview .cssClassItemRatingBox{ background:none; margin:0 0 0 0;}
+.cssClassItemRatingBox{ margin:10px 0 5px 0;}
+.cssClassRatingInfo p span, .cssClassRatingReviewDate{ color:#686868;}
+.cssClassRatingInfo p span strong{ color:#910000; text-transform:capitalize; font:14px Arial, Helvetica, sans-serif;}
+.cssClassRatingReviewDate strong{ font-weight:bold;}
+.cssClassRatingdesc p{ color:#686868}
+.cssClassCategoryWrapper{ margin:0 0 20px 0}
+
+.cssClassCategoryWrapper h2:hover, .cssClassLeftHeader:hover{ cursor:pointer}
+.divCategoryVertical .mega-menu{ margin-top:50px; }
+.cssClassYouMayAlsoLikeBox p span{ font-size:18px;}
+.cssClassYouMayAlsoLikeBox .sfButtonwrapper{ margin-top:18px;}
+.cssClassYouMayAlsoLikeBox .sfButtonwrapper a:hover{ background:#910000;}
+.cssClassProductPictureDetails ul li p{ font: bold 13px Arial, Helvetica, sans-serif; color:#910000; margin:20px 0 5px 0;}
+.cssClassQtyDiscount th{ background:#E9E8E8; padding:6px;  border:1px solid #B3B3B3;}
+.cssClassQtyDiscount td{ border:1px solid #B3B3B3; padding:6px; text-align:center; width:65%;}
+.cssClassToolTip {position: relative;width: 150px;}
+.cssClassToolTip img { cursor: pointer;}
+.cssClassToolTip .cssClassToolTipInfo {display: none;left: 0; position: absolute;top: 20px;z-index: 9999;}
+.cssClassToolTip:hover .cssClassToolTipInfo {background-color: #FFFFFF;border: 1px solid #999999;display: block;padding: 10px;}
+.cssClassCriteriaTitle {color: #555555;float: left;padding: 2px 10px;}
+.cssClassToolTip:hover .cssClassToolTipInfo img {cursor: default;}
+.cssClassToolTipDetailInfo {width: 153px;}
+.cssClassRatingdesc {float: left; width: 65%;}
+.cssClassItemRating {float: left;}
+.cssClassProductPictureDetails a b u span{background:url(../images/red-btn.jpg) repeat-x; border:1px solid #860101; padding:5px; color:#fff; font:14px Arial, Helvetica, sans-serif;}
+.cssClassProductPictureDetails a b u span:hover{ background:#910000;}
+.cssClassProductImage {float: left;width: 47%;}
+.cssClassProductPictureDetails {float: right;color: #555; width:48%; padding:0 10px 10px 10px; margin:0 0 10px 0}
+.cssClassProductPictureDetails .cssClassItemRating {float: left;}
+.cssClassRatingStar {float: left;}
+span.cssClassRatingTitle {left: 90px;position: absolute;top: 6px;}
+.cssClassTabPanelTable {margin-top: 30px;}
+.cssClassYouMayAlsoLike, .cssClassItemQuickOverview {height: 1%;margin-top:25px; margin-bottom:50px;}
+cssClassProductDetailInformation {margin: 40px 0 0;}
+li span.cssClssQTY input{ width:20px;}
+.cssClassLeftSide li{ float:left; margin:0 10px 0 0}
+.cssClassLeftSide  label input{ margin:0 5px 0 5px}.cssClassProductImage .cssClassItemRating{ margin:15px 0 10px 0; background:#FFF; padding:10px 8px;  border: 1px solid #D6CCEC; float:left;}
+.cssClassBulkDiscount { margin:0 0 0 10px}
+.popupbox .cssClassLeftSide h2{ margin-left:0 !important}
+.cssClassRightSide li{ padding:0 0 10px 0}
+.cssClassLeftSide .cssClssQTY{ margin:10px 20px 0 0; float:left; font:14px Arial, Helvetica, sans-serif; color:#686868;  width:79px}
+.cssClassRightSide .cssClassProductRealPrice{ color:#900}
+#spanSaving{ font:18px Arial, Helvetica, sans-serif}
+#spanAvailability{ color:#3b5998; font:18px Arial, Helvetica, sans-serif}
+.cssClassItemRating a{ color:#900; font:bold 12px Arial, Helvetica, sans-serif;}
+.cssClassLinkShare{ float:right;}
+.jcarousel-skin-pika{margin:15px 0 0 0 !important}
+.cssClassRightSide .sfButtonwrapper button span{ font:12px Arial, Helvetica, sans-serif;}
+#ItemDetails_TabContainer h2{padding:7px !important; }
+#ItemDetails_TabContainer h2.ui-state-active span {color:#fff !important;}
+#ItemDetails_TabContainer.ui-icon-triangle-1-s {background: url(../images/minus-icon.png) no-repeat !important;   
+display: inline-block !important; vertical-align:text-top;height: 20px; margin-right:15px;width: 20px; }
+#ItemDetails_TabContainer .ui-icon-triangle-1-e {background: url(../images/plus-icon.png) no-repeat  !important;     display: inline-block !important; height: 20px;vertical-align:text-top;margin-right:15px;width: 20px;}
+#ItemDetails_TabContainer .ui-widget-content{ background:#fff; height:auto !important; border: 1px solid #D6CCEC;clear:both; overflow:hidden;}
+.cssClassPopularItemTags {padding: 10px;}
+.tag_content {float:left;margin-right:15px;}
+.cssClassCross {margin-left: 5px;text-indent: -9999px;width: 20px;border:none;background:url(../images/btn-delete2.png) no-repeat;vertical-align: text-top;}
+.cssClassPopularItemTags strong {color: #391C88 ;font: bold 14px Arial, Helvetica, sans-serif;}
+.cssClassPopular-Itemstags {border-bottom: 1px solid #D6CCEC ;color: #6F6F6F;font: 11px/18px Arial, Helvetica, sans-serif; margin:0 0 25px 0; padding-bottom:10px;}
+.cssClassPopular-Itemstags a {color: #6F6F6F;font: 11px/18px Arial, Helvetica, sans-serif;text-decoration: none;}
+.cssClassPopular-Itemstags a:hover, .cssClassMyTags a:hover {color: #3C92CF;}
+.cssClassPopularItemTags button.cssClassIncrease span, .cssClassPopularItemTags button.cssClassDecrease span {background: none repeat scroll 0 0 transparent;color: #fff;float: none;font: bold 18px Arial, Helvetica, sans-serif;padding: 0; text-align:center;}
+.cssClassMyTags {overflow: hidden;}
+.cssClassMyTags a {color: #6F6F6F;float: left;font: 11px/18px Arial, Helvetica, sans-serif;}
+.cssClassWishToCart span{ font:bold 12px Arial, Helvetica, sans-serif;}
+
+/*Sucess page*/
+.LabelColInfo1R, .LabelColInfo2R { font:bold 12px Arial, Helvetica, sans-serif !important; padding:10px 0 10px 0}
+.cssClassCheckOutMethodLeft{ float:left; width:75%; margin:60px 0 0 0}
+
+.cssClassForgetPass{ padding-bottom:10px;}
+/*you may also like*/
+.cssClassYouMayAlsoLikeWrapper{ margin:10px 0 0 0}
+.cssClassYouMayAlsoLikeBox {background: #fff;padding:10px;width:20%;float: left;text-align:center;margin: 0px 38px 20px 0px;-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);}
+.cssClassMyAccountInformation{ overflow:hidden; clear:both; margin:10px 0 0 0}
+/*Pagination*/
+.Pagination {float:left !important;margin: 0 0 0 20px;}
+.pagination{   float: left; margin:0px 0 0 10px;}
+.pagination span { background-color:#AC3AA0; border:1px #C8BFE1 solid; color:#fff; font: 12px/26px segoe, Arial, Helvetica, sans-serif;padding: 1px 5px;text-align:center;text-decoration: none;margin: 0 2px;}
+ .pagination a:hover, .pagination span.current {background:#AC3AA0; color:#fff; font: 12px/26px segoe, Arial, Helvetica, sans-serif;padding: 1px 6px;text-align:center;text-decoration: none;margin: 0 2px; cursor:default;}
+.pagination a:hover{ cursor:pointer}
+.pagination a {color: #131313;font: 12px/26px Arial, Helvetica;margin: 0 2px;padding: 1px 6px;text-align: center;text-decoration: none; background:#fffdfd; border:1px solid #adacac}
+.cssClassPages{ float:left}
+.cssClassViewPerPage {float: right;
+position: relative;
+top: 0;
+right: 0px;
+font: 10px Arial, Helvetica, sans-serif;
+color: #000;}
+.cssClassPageNumberLeftBg{ display:block}
+#Pagination{ float:left}
+.cssClassViewPerPage span{ background:none !important; color:#222121; border:none !important; line-height:23px; float:left;}
+
+/*Top Searchcss*/
+.cssClassSageSearchWrapper li { float:left; }
+.sfModuleSimpleSearch{ float:right; margin:10px 0 0 0}
+#sfSearch .sfModule{ margin-bottom:0 }
+.cssClassTopSearch{clear: both; font:11px Arial, Helvetica, sans-serif; width:70%; margin-top:10px; float:left;}
+.cssClassTopSearch span, .cssClassTopSearch ul li { float:left; color:#686868; font:bold 13px Arial, Helvetica, sans-serif;}
+.cssClassTopSearch ul li a{ float:left; color:#fff;}#sfAspxloginstatusbar .sfModule{ margin:10px 0 0 0;}
+#sfBanner{ background:#fff;}
+#sfBanner .sfModule, #sfBanner1 .sfModule { margin:0px  !important}
+.sfModuleBookAppointmentHTML{ float:right}
+
+/* Popular Tags*/
+.cssClassPopularTags{color:#000;}
+.cssClassPopularTags ul li{ margin:10px; float:left;  border-top-left-radius:20px;  border-bottom-left-radius:20px; border-top-right-radius:3px;  border-top-right-radius:3px; border-bottom-right-radius:3px; border:1px #b1b0b0 solid; padding:5px 6px;}
+.cssClassPopularTags ul li a{background:url(../images/tag_bg.png) no-repeat 0 8px; padding:2px 0 0 15px; text-transform:none;}
+.cssClassPopularTags ul li:hover{ background:#e4e3e3}
+.cssClassPopularTags ul li:hover a{ color:#000;}
+.cssClassPopularTags .cssClassViewMore{ margin-right:5px;}
+.poll-box{ background:#fff; padding:10px; overflow:hidden}
+.tagcloud h2 span,  #sfAspxcommercemenu h2 span{ background:none; color:#fff}
+/*services module*/
+.cssClassService li, .cssClassAllService li {float: left;width: 22.7%;margin-right: 20px;}
+.cssClassService h3, .cssClassAllService li h3 {color: #b23169;font-family: 'Conv_PRISTINA';font-size: 30px;margin-bottom: 20px;}
+.cssClassService .cssClassImgWrapper, .cssClassAllService .cssClassImgWrapper, #divServiceName .cssImageWrapper {width: 195px;height: 190px;-moz-border-radius: 190px;-webkit-border-radius: 190px;border-radius: 190px;}
+.cssClassService .cssClassImgWrapper img, .cssClassAllService .cssClassImgWrapper img, #divServiceName .cssImageWrapper img {height: 190px;background: #fff;-moz-border-radius: 190px;-webkit-border-radius: 190px;border-radius: 190px; width:100%}
+#divLatestItemTemp {height: 232px !important;}
+.cssClassAllService li{ min-height:240px;}
+.cssClassAllService li .cssClassImgWrapper img{ width:100%}
+.cssClassAllService li .cssClassImgWrapper{ margin:0 0 10px 0}
+.cssClassService p{ text-align: center;font: 12px Arial, Helvetica, sans-serif;color: #504f54;text-shadow: 0px 1px 0px #fff;margin: 20px 0 0 0;}
+.cssImageWrapper{ background: #fff;border: 4px solid #fff;-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);margin-right: 30px;float:left}
+.cssClassService h3, .cssClassAllService h3 {text-align: center;}
+#cssServiceDetail .cssClassItems h3, #cssServiceDetail .cssClassItems h3 a {color: #910000;font: bold 14px Arial, Helvetica, sans-serif;}
+/*.cssClassItems span {
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #431885;
+}*/
+
+.cssServiceItemWrapper { display:table}
+.cssServiceItemDetails .sfButtonwrapper { margin-left:16%}
+.cssServiceItemDetails .sfButtonwrapper a { float:left; margin-top:15px;}
+.cssServiceDetail .cssClassItems {border: 1px solid #CAC1E2;
+    float: left;
+    margin: 30px 33px 0 0;
+    padding:0 10px 10px 10px;
+    width: 47.7%; -moz-box-sizing:border-box; box-sizing:border-box;
+}
+#divServiceDetails .cssClassItems p {
+color: #504f54;
+margin: 10px 0 10px 0;
+text-shadow: 0px 1px 0px #fff;
+}
+#divServiceDetails .cssClassItems h3, #divServiceDetails .cssClassItems h3 a {
+color: #B23169 !important;
+font: bold 14px Arial, Helvetica, sans-serif !important;
+}
+#divServiceDetails .cssClassItems h3  a:hover{
+	color:#431885!important}
+
+/* Services Appointment*/
+.cssClassAppointmentBody{ font:13px Arial, Helvetica, sans-serif; color:#686868;}
+.cssClassAppointmentHeading h2{background:url(../images/h2-bg.png) repeat-x right; margin-bottom:40px;}
+.cssClassAppointmentBody tr td{ padding:7px 0 7px 15px;}
+.cssClassAppointmentBody td span{ width:25%}
+.cssClassAppointmentBody tr td label input{ margin-right:5px;}
+.cssClassAppointmentBody tr td label{ margin-right:10px;}
+.cssClassServiceInfo, .cssClassPersonalInfo{ background:#CE68C5;}
+.cssClassServiceInfo span, .cssClassPersonalInfo span{ color:#fff!important; font:bold 14px Arial, Helvetica, sans-serif;}
+.cssClassPaymentList{ margin-top:30px;}
+.cssClassPaymentList span{background:#CE68C5; display:block; color:#fff; font:14px Arial, Helvetica, sans-serif ; padding:7px 0 7px 15px; margin-bottom:10px;}
+.ssClassPaymentList b label{ font:normal 14px Arial, Helvetica, sans-serif;}
+.cssServiceDesc p{ text-transform:lowercase;}
+.cssServiceDesc{ float:left; width:73%; border:1px solid #CAC1E2 ; padding:10px;}
+.cssClassLabel, .sfFormlabel, .sfFormMessage {
+color: #391c88 !important;
+font: bold 12px/22px Arial, Helvetica, sans-serif;
+white-space: nowrap;
+margin-left: 0 !important}
+.cssClassTimeList{ padding:5px}
+#divThankYou{ font:bold 16px Arial, Helvetica, sans-serif; color:#842D7B; text-transform:capitalize;}
+.HrTop{ background-color:#842D7B}
+.sfEmailSuccess{ font-size:11px; color:#900;}
+.SectionBar { margin:10px 0; color:#842D7B; font-weight:bold; font-size:14px}
+/*Advanced Search*/
+
+.cssClassAdvenceSearch .cssClassHeader{ background:none}
+.cssClassAdvenceSearch .searchForTextBox {background: #fff; -webkit-box-shadow: inset 0px 1px 3px 0px #d4d4d4;-moz-box-shadow: inset 0px 1px 3px 0px #d4d4d4;box-shadow: inset 0px 1px 3px 0px #d4d4d4;border: 1px solid #c4c3c3 !important;padding: 5px;width: 250px;}
+.cssClassAdvenceSearch .cssClassLabel{ font: 14px Arial, Helvetica, sans-serif; margin:0  10px 10px 0; float:left; line-height:30px; color:#990000;}
+.cssClassAdvenceSearch li{ float:left; margin: 6px 10px 0 0;}
+.cssClassAdvenceSearch .sfFormwrapper{ background:#e9e9e9;border: 1px solid #b3b3b3;padding:10px; margin:10px 0 10px 0}
+.cssClassAdvenceSearch .sfButtonwrapper  button{ background:url(../images/red-btn.jpg) repeat-x; border:1px solid #860101; padding:10px 15px 10px 15px; color:#fff; font:16px Arial, Helvetica, sans-serif; }
+.cssClassAdvenceSearch .sfButtonwrapper  button:hover{ background:#900}
+#divPriceFrom, #divPriceTo {margin-left: 10px;float: left;}#divPriceFrom span, #divPriceTo span {font: 11px/22px Arial, Helvetica,sans-serif;margin-right: 5px}
+.pricebox span{ line-height:22px !important}
+
+/*Cart page*/
+.ClassDeleteCartItems{ cursor:pointer}
+/*List view*/
+.cssClassProductListViewRight h2{ color:#64275E; margin:0 0 10px 0}
+.cssClassProductListViewRight p{ color:#585858; font:12px Arial, Helvetica, sans-serif;}
+.cssClassListViewProductPrice span{ font:20px Arial, Helvetica, sans-serif; color:#910000; margin:15px 0;}
+.viewWrapper .sort{  margin-left:20px; float:right;}
+.viewWrapper{ overflow:hidden; margin:10px 0 10px 0}
+.viewWrapper .view{ float:left}
+.viewWrapper .view h4, .viewWrapper .sort h4, .sort span{ float:left; line-height:26px !important; margin:0 5px 0 0; font:bold 12px Arial, Helvetica, sans-serif; color:#64275E;}
+.cssClassProductListView .cssClassAddtoCard .sfButtonwrapper { position:relative; right:0}
+.cssClassProductListView  .cssClassAddtoCard .sfButtonwrapper , .cssClassViewDetailsAddtoCart .sfButtonwrapper {float:left; margin:0 0 0 20px}
+.cssClassProductListView  .cssClassOutOfStock .sfButtonwrapper, .cssClassViewDetailsAddtoCart .cssClassOutOfStock .sfButtonwrapper  { background:none !important; padding:0}
+.cssClassProductListView  .cssClassOutOfStock .sfButtonwrapper:hover, .cssClassViewDetailsAddtoCart .cssClassOutOfStock .sfButtonwrapper:hover { background:none !important; padding:0 !important}
+
+.cssClassProductListView .cssClassAddtoCard .sfButtonwrapper:hover span, .cssClassViewDetailsAddtoCart .sfButtonwrapper:hover span{ color:#fff; text-shadow:none;}
+.cssClassProductListView .cssClassAddtoCard .sfButtonwrapper:hover, .cssClassViewDetailsAddtoCart .sfButtonwrapper:hover{background: url(../images/hover-btn1.png) no-repeat !important; }
+.cssClassProductListView  p{ color:#585858; font:12px Arial, Helvetica, sans-serif;margin:0 0 10px 0}
+/*.cssClassViewDetailsAddtoCart{ overflow:hidden; margin:10px 0 10px 0}*/
+
+
+
+
+/* Cost varient css*/
+.cssClassRadio {overflow:auto;position:relative;}
+.cssClassRadio label{ display:inline-block;    width:5.0em;}
+.cssClassRadio span {text-align:center;padding:2px;display:block;margin:5px 5px 5px 0;text-shadow:none;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;text-transform:capitalize;background:#fff;border:1px solid #D6CCEC;cursor:pointer;color:#000; font:12px Arial, Helvetica, sans-serif;}
+.cssClassRadio span:hover, .cssClassRadio input.cssRadioChecked + span { background:#D6CCEC;color:#AC3AA0;}
+.cssClassRadio  input {background:none;position:absolute;top:-20px; opacity:0}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected{ background: none repeat scroll 0 0 #FFFFFF !important;padding-bottom: 10px;top:-6px;}	
+.cssClassLeftSide .imgDelete{ margin:0 10px 0 0}
+/*Newsletter Subscribe*/
+.cssClassOrderReview button{ margin:30px 0 0 0px; }
+#divEmailSubsCribe{ overflow:hidden; color: #f4efff;}
+#divbUnsubscribe{ clear:both}
+#divSubscribe #header{  margin:0;}
+.cssClassCompareItem h2 span{ color:#910000;}
+.cssClassSlider ul li{ border:1px solid #ccc; background:#fff; margin-bottom:25px;}
+.cssRegularPrice .cssClassFormatCurrency span b{ color:#686868;}
+.sfMainFeaturedBrands h2{ font:18px Arial, Helvetica, sans-serif; color:#910000}
+
+/*Checkout page*/
+.cssClassAccordionWrapper .ui-state-default{-webkit-transition: all .5s ease-in-out;-moz-transition: all .5s ease-in-out;-o-transition: all .5s ease-in-out;-webkit-transition: all .5s ease-in-out;transition: all .5s ease-in-out;}
+.cssClassAccordionWrapper .ui-tabs .ui-tabs-panel, .PageOuter{padding: 30px 20px;border: 1px solid #fff;box-shadow: 2px 1px 3px 0 #a68a27;box-shadow: 2px 1px 3px 0 rgba(0,0,0,.2);-webkit-box-shadow: 2px 1px 3px 0 rgba(0,0,0,.2);-moz-box-shadow: 2px 1px 3px #a68a27;z-index: 3;margin:15px 0  0 0;background-color: #f7f8f8;border: 0;text-align: left; overflow:hidden}
+.cssClassRightAccordainMenu{ float:left;  width: 25%;}
+.cssClassRightAccordainMenuInfo, .cssClassRightAccordainMenuInfoSelected{ background:#fff; border:1px solid #C8BFE1; margin:0 0 10px 0; text-align:left;  padding:15px;}
+.cssClassRightAccordainMenuInfo h2, .cssClassRightAccordainMenuInfoSelected h2{ margin:0; color:#686868}
+.cssClassAccordionWrapper .ui-widget-content{ border:none; background:none}
+.cssClassRightAccordainTab ul{ background:#fff;}
+.sfSignlecheckoutleft{ float:left}
+.cssClassAccordionWrapper .ui-tabs ul.ui-tabs-nav li a{ padding:0; font:18px Arial, Helvetica, sans-serif; color: #686868}
+.cssClassAccordionWrapper  .ui-tabs .ui-tabs-nav{position: absolute;top: -78px;height: 78px!important;}
+.cssClassAccordionWrapper  .ui-tabs .ui-tabs-nav li { background:none !important; border:none !important; border-radius:0}
+.cssClassAccordionWrapper  .ui-tabs .ui-tabs-nav li a{background-color:#C8BFE1 !important;
+border-radius: 56px;color: #fff !important;display: block; font:12px Arial, Helvetica, sans-serif ;height: 56px !important;line-height: 56px !important;margin: 0 aut text-align: center;width: 56px !important; text-align:center;}
+.cssClassAccordionWrapper .ui-tabs .ui-tabs-nav li.ui-tabs-selected{   background-color: #F7F8F8 !important;
+    border: 1px solid #FFFFFF !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.25) !important;
+    padding: 15px;}
+
+	
+.cssClassAccordionWrapper  .ui-tabs .ui-tabs-nav li.ui-tabs-selected a{ background:#64275E!important; color:#fff !important}
+.cssClassAccordionWrapper .ui-tabs ul.ui-tabs-nav li.ui-tabs-selected a, .cssClassAccordionWrapper .ui-tabs ul.ui-tabs-nav li.ui-state-active a,.cssClassAccordionWrapper  .ui-tabs ul.ui-tabs-nav li.ui-state-default a:hover{font:18px Arial, Helvetica, sans-serif; color: #900}
+.cssClassLoginLeftBox{ background:#fff; margin:0 0 10px 0; padding:15px; border:1px solid #ccc}
+.cssClassSubTotalAmountWidth { text-align:right; width:475px;}
+.cssClassSubTotalAmountWidth, .cssClassGrandTotalAmountWidth{ background:#C8BFE1;}
+
+.cssClassCheckoutLeftBox input{ margin:0 0 10px 0}
+.cssClassCheckOutMethodRight{ float:right}
+.cssClassCheckOutMethodRight .cssClassTextBox{ margin:0 0 10px 0}
+.cssClassAccordionWrapper  .ui-widget select{ width:84%}
+.cssClassCheckBox input{ margin:0 10px 0 0; width:auto}
+.cssClassRadioBtn{ width:auto}
+.accordionHeading h2, .cssClassadminloginHeading h1, .cssClassLoginRighttBox h2{ text-transform:uppercase;}
+.cssClassShippingMethodInfo table{ border:1px solid #ccc;}
+.cssClassShippingMethodInfo table td{ padding:5px;}
+.cssClassShippingMethodInfo table td input{ float:left; margin:0 5px 0 0}
+.cssClassShippingMethodInfo table tr.sfEven td b{ color:#900}
+.cssClassCartPictureInformation b{ color:#000}
+.cssClassPaymentMethods label input, .cssClassAIMChildContent  input, .cssClassAIMChildContent  select{ margin:0 10px 10px 0}
+.cssClassAIMChildContent, #TPSLPaymentMethod{ background:#fff; padding:10px; border:1px solid #ccc; margin:10px 0 10px 0}
+.cssClassAIMChildContent b label{ float:left; min-width:120px;}
+.sfBtnChange button{ background:url(../images/change.png) no-repeat;height: 16px;margin: 0 0 0 15px;text-indent: -9999px;width: 16px; border:none;  }
+.cssClassAIMChildContent select{ width:auto !important}
+.cssClassAccordionWrapper .cssClassSubTotalAmount{ float:none; font:16px Arial, Helvetica, sans-serif; color:#000 }
+.classDetailTaxRateValue { text-align:left; font:16px Arial, Helvetica, sans-serif;color: #000; margin:0 0 0 11px;}
+.cssClassAccordionWrapper .row-total input, .cssClassAccordionWrapper  .cssClassSubTotalAmount input{ float:right;width: 85%; color:#64275E }
+p.cssClassActionImg a {background: url("../images/action.png") no-repeat scroll 0 0 transparent;display: block;margin: 0 0 0 15px;outline: medium none;text-indent: -9999px;width: 16px;height: 16px;}
+.cssClassTextarea{ margin:10px 0 0 0; width:90%;}
+.cssClassShippingMethodInfo .cssClassCartPictureInformation { float:left; width:97%;}
+.cssClassShippingMethodInfo .cssClassCartPictureInformation h3{ float:left; margin:0 10px 0 0}
+.cssClassNotFound, #compareErrorText{ border:1px solid  #C8BFE1; background: #fff; display:block; padding:10px; color:#000; margin:0px 0 0px 0;}
+.cssClassBestSeller { margin:30px 20px 20px 0; position:relative;}
+.nivo-caption p a{ color:#fff; text-shadow:none}
+.cssViewer span{ margin-right:8px}
+.cssClassItemBrands{ margin-top:10px}
+.cssClassItemBrands h2 span{  font: 14px Arial, Helvetica, sans-serif;color: #686868 !important;}
+.cssClassItemBrands a{ font:bold 12px Arial, Helvetica, sans-serif; margin-left:5px;}
+.cssClassLeftSide .cssClassProductOffPrice { margin-top:5px;}
+.classPriceHistoryList th{text-align:left; color:#64275E}
+.cssViewer span.cssClassView {background: url(../images/view.png) left no-repeat;padding: 10px 5px 10px 28px;color: #404040;}
+.cssServiceName{ display:block; clear:both; overflow:hidden}
+.cssClassProductsBoxWrapper { width:241px !important;}
+/*Popular Products*/
+.cssClassProductsBoxInfo h3 {color: #202020;font: 16px/18px Arial, Helvetica, sans-serif;padding: 4px 0 0;min-height: 40px;text-align: center;text-shadow: 1px 1px 0 #FFFFFF;}
+.cssClassProductPriceBox {float: left;}
+.cssClassProductsBox .cssClassYouSave {display:none;}
+.cssClassProductRealPrice, .cssListViewRight .cssClassListViewProductPrice {background:url(../images/price-bg.png)no-repeat;color:#fff;left:-1px;width:151px!important;height:33px!important;font:16px Arial, Helvetica, sans-serif;}
+.cssClassProductPictureDetails .cssClassRightSide .cssClassProductRealPrice span {
+	color:#6e55a2;
+	font:normal 20px Arial, Helvetica, sans-serif;
+}
+/*.cssClassProductOffPrice {background:url(../images/price-bg-right.png)no-repeat;color:#fff;left:-1px;width:151px;height:33px;font:16px Arial, Helvetica, sans-serif; margin:0 0 5px 1px}*/
+.cssClassProductListView .cssClassListViewProductPrice span {color:#fff;}
+.cssClassProductPrice {float:left;}
+.cssClassProductsBoxInfo h2, .cssClassProductsGridInfo h2 {color: #64275E;height:38px;padding-top:5px;font: 14px/16px Arial, Helvetica, sans-serif;text-align: center;}
+.cssClassProductsBoxInfo h3 {color: #202020;font:  16px/18px Arial, Helvetica, sans-serif;padding: 4px 0 0;min-height:40px;text-align: center;text-shadow: 1px 1px 0 #FFFFFF;}
+.cssClassProductPicture, .cssClassProductsGridPicture, .cssClassYouMayAlsoLikeBox p {text-align: center;margin:0 auto;}
+.cssClassYouMayAlsoLikeBox p{ margin-top:5px;}
+.cssClassProductPriceBox {float: left; margin-top:10px; height:65px;}
+.cssClassProductOffPrice {display:inline-block;}
+.cssClassProductOffPrice span.cssClassFormatCurrency {text-decoration: line-through;font:bold 15px Arial, Helvetica, sans-serif;display:inline-block;color:#AC3AA0; margin:5px 0;}
+.cssClassProductRealPrice span, .cssClassListViewProductPrice span {color: #fff;padding:5px 10px 5px 10px;font:bold 16px/28px Arial, Helvetica, sans-serif;}
+.cssClassProductDetail {padding: 5px 12px 5px 2px; float:left;}
+.cssClassProductDetail p a {color: #391C88;font: bold 12px/18px Arial, Helvetica, sans-serif;padding-left: 7px;text-shadow:0px 1px 1px #FFF;}
+.cssClassProductDetail p a:hover {color:#B865B1;}
+.cssClassBestSellerBox .bx-window {padding: 0px 0 0 1px; height:260px}
+.cssClassAddtoCard, .cssClassProducts .cssClassOutOfStock, .cssClassProductsBox .cssClassOutOfStock {min-height:45px;text-align:center;white-space:nowrap;}
+.cssClassButtonWrapper .cssClassCompareButton, .cssClassButtonWrapper .cssClassWishListButton {
+*margin-left:-7px;float:left;display:none;}
+/*.cssClassButtonWrapper button, .cssClassItems .sfButtonwrapper a, .sfButtonwrapper  button, .sfButtonwrapper a{-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;background:#af3ba3;-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, .26);-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, .26);box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, .26);border: solid 1px #97348d;background:-webkit-linear-gradient(bottom, #861f7c, #9f4d97);background: -moz-linear-gradient(bottom, #861f7c, #9f4d97);background: -o-linear-gradient(bottom, #861f7c, #9f4d97);
+background:-ms-linear-gradient(bottom, #861f7c, #9f4d97);font:14px Arial, Helvetica, sans-serif;padding:5px 17px;display:inline-block;color:#fff;}*/
+/*.cssClassAddtoCard .cssClassButtonWrapper button:hover, .cssClassItems .sfButtonwrapper a:hover, .sfButtonwrapper  button:hover, .sfButtonwrapper a:hover{-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);
+border: solid 1px #5e2459;background-image: -webkit-linear-gradient(top, #742a6d, #af3ba3);background-image: -moz-linear-gradient(top, #742a6d, #af3ba3);background-image: -o-linear-gradient(top, #742a6d, #af3ba3);background-image: -ms-linear-gradient(top, #742a6d, #af3ba3);background-image: linear-gradient(to bottom, #742a6d, #af3ba3);cursor:pointer;}*/
+.cssClassOutOfStock button, .cssClassOutOfStock a, .cssClassButtonWrapper button.cssClassOutOfStock {background:none !important;border:none !important;margin-top:5px;box-shadow:none;color:#CE68C5;white-space:nowrap;}
+.cssClassRightSide .cssClassButtonWrapper button.cssClassOutOfStock {margin-top:0;}
+.cssClassAddtoCard .cssClassOutOfStock button:hover, .cssClassOutOfStock a:hover {cursor:default !important;box-shadow:none !important;}
+.cssClassOutOfStock a {background:none;}
+.cssClassOutOfStock .cssClassButtonWrapper {padding:3px;}
+.cssClassBestSellerBox a.bx-next {background: url(../images/next2.png) no-repeat;margin: 0 5px;height: 25px;width: 25px;position: absolute;top: -64px;text-indent: -9999px; right:5px;}
+.cssClassBestSellerBox a.bx-prev {background: url(../images/previous2.png) no-repeat;margin: 0 5px;position:absolute;height: 25px;width: 25px;top:-64px;left: 890px;text-indent: -9999px;}
+
+@media print { 
+#sfHeadertop, #sfCategorybar, #sfFooterbtn, #sfBreadcrumb, #sfToplinks, .cssClassCompareBox .cssClassHeaderRight .sfButtonwrapper, .back-top{ display: none !important; }
+body{ font:12px Arial, Helvetica, sans-serif; color:#000}}
+#scrollbar1 .scrollbar, #scrollbar1 .viewport { height:135px !important;}
+/*Footer*/
+.cssClassFooterWrapper{ background:url(../images/footer-bg.jpg) repeat;}
+#sfFooterbtn{background: url("../images/footer-bg.jpg") repeat; margin:0px; padding:0 0 10px 0; min-width: 960px;width: 100%;}
+#sfFooterbtn h2{background: url(../images/footer-h2.png) repeat-x;color: #f4efff;margin-bottom: 15px;font: 18px/28px "Trebuchet MS", Arial, Helvetica, sans-serif;padding: 5px 12px;text-shadow: none;height: 41px;}
+#sfFooterbtn #header{ padding:0px;}
+.sfModuleSocialLinkFeed, .sfModuleFaceBookHtml, .sfModulesubscribe {margin-right: 25px;}
+#sfFootercopyright{background: url(../images/footer-bg1.png) repeat-x; padding:10px 0 10px 0}
+#vtab > div {background: none;}
+.rssContents a {color: #ddd5f1;text-shadow: none !important;}
+.rssContents a:hover{ color:#ce68c5}
+.rssContents .ContentSnippet {color: #fff;text-shadow: none;padding-bottom: 10px;border-bottom: 1px solid #1F192F;margin-bottom: 10px;-webkit-box-shadow: inset 0 -1px 0 #000;box-shadow: inset 0 -1px 0 #000;text-shadow: 0 1px 0 #0c0a12;}
+#vtab li h3 {display:none}
+.cssVideo .middlebox {background: #000;border: 3px solid #1f192f;padding: 5px;color: #fff;}
+#divSubscribe, #divUnSubscribe{ background:none; border:none; padding:0; text-align:left;}
+#divSubscribe img{ display:none;}
+#divEmailSubsCribe input {padding: 0 0 0 3px;margin: 10px 0 10px 0;width: 190px;height: 25px;-webkit-border-radius: 4px/3px;
+-moz-border-radius: 4px/3px;border-radius: 4px/3px;background-color: #c8bfe1;-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .6), inset 0 3px 3px rgba(0, 0, 0, .11), inset 0 0 5px rgba(255, 255, 255, .3);-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .6), inset 0 3px 3px rgba(0, 0, 0, .11), inset 0 0 5px rgba(255, 255, 255, .3);box-shadow: 0 1px 3px rgba(0, 0,0, .6), inset 0 3px 3px rgba(0, 0, 0, .11), inset 0 0 5px rgba(255, 255, 255, .3);border: solid 1px #0d0a16;}
+#alert-Buttons input, a.sfSubscribeButton {-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);border: solid 1px #5e2459;background: #af3ba3;background: -webkit-linear-gradient(bottom, #742a6d, #af3ba3);background: -moz-linear-gradient(bottom, #742a6d, #af3ba3);background: -o-linear-gradient(bottom, #742a6d, #af3ba3);background: -ms-linear-gradient(bottom, #742a6d, #af3ba3);background: linear-gradient(to top, #742a6d, #af3ba3);
+padding: 5px 10px 5px 10px;font:normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif !important;color: #fff;float:left;text-shadow: 0px 1px 0px #852d7c;}
+#alert-Buttons input:hover, a.sfSubscribeButton:hover{-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);
+-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);
+box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);
+border: solid 1px #5e2459;
+background: #3861f7c;
+background-image: -webkit-linear-gradient(top, #742a6d, #af3ba3);
+background-image: -moz-linear-gradient(top, #742a6d, #af3ba3);
+background-image: -o-linear-gradient(top, #742a6d, #af3ba3);
+background-image: -ms-linear-gradient(top, #742a6d, #af3ba3);
+background-image: linear-gradient(to bottom, #742a6d, #af3ba3);
+text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.28);
+cursor: pointer;}
+#divSubscribe #header h3, #divSubscribe #header h5{ margin:0; display:none}
+#divbUnsubscribe{ border:none; float:left; margin:10px 0 0 0}
+.aboutus p{ margin:0 0 10px 0}
+
+/*News page*/
+.cssClassNewsItem {
+	position:relative;
+	background:url(../images/news-sep.png) repeat-x bottom;
+	margin-bottom:20px;
+	padding:0px 0 20px 0;
+}
+.cssClassNewsItem a {
+	font:16px Arial, Helvetica, sans-serif;
+	color:#8067B7
+}
+.morenews a {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#CE68C5;
+}
+.cssClassNewsItem p.morenews {
+	margin:10px 0 0 0
+}
+.morenews a:hover {
+	color:#6e55a2
+}
+.cssClassNewsItem p span {
+	background:#CE68C5;
+	color: #fff;
+	left: 0px;
+	position: absolute;
+	font:bold 14px/30px Arial, Geneva, sans-serif;
+	margin: 0;
+	padding:10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	height:33px;
+	width:80px;
+}
+.cssClassNewsItem p {
+	padding-left: 120px;
+	margin: 0;
+	text-align: left;
+	line-height: 24px;
+}
+/*.cssClassNewsLongDesc p img {
+	border:3px solid #CE68C5
+}*/
+.cssClassNewsLongDesc p img.right {
+	float:left;
+	margin-right:20px;
+}
+.cssClassDateFormat {
+	font:italic 11px Arial, Helvetica, sans-serif;
+	margin-bottom:15px;
+}
+.cssClassNewsHeading {
+	font:16px Arial, Helvetica, sans-serif;
+	color:#8067B7;
+	margin-bottom:10px;
+}
+.cssClassNewsLongDesc p {
+	margin-bottom:15px;
+}
+.cssClassNewsPage .cssClassButtonWrapper label {
+	float:none;
+	line-height:10px;
+}
+
+/*.divPromoContainer{ padding-top:2.9%}*/
+.divPromoContainer .lof-slidecontent .navigator-content{border: 3px solid #B865B1;
+    height: 294px;
+    width: 285px; background:#F4EFFF}
+.BookAnAppointment{ float:right; margin:5px 0 25px 0}
+
+
+.sfNavigation{	background: url(../images/nav-bg.jpg) repeat-x;
+position: absolute;
+	top: -19px;
+	clear:both;
+	height:49px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border:1px solid #a381ea;
+	border-bottom:none !important;}
+	
+.sfNavigation, .cssClassCategoryNav {
+	position:relative;
+ *z-index:5000;
+}
+.sfNavigation ul, .cssClassCategoryNav ul {
+	margin-bottom:0;
+}
+.cssClassHeaderLeft:before {
+	content:"";
+	text-indent:-9999px;
+	height: 299px;
+	width:196px;
+	top:44px;
+	position:absolute;
+	left:0px;
+	background:url(../images/flower.png) no-repeat;
+}
+.sfNavigation ul li, .cssClassCategoryNav ul li {
+		float: left;
+	position: relative;
+}
+.sfNavigation ul li a, .cssClassCategoryNav ul li a {
+	color: #efeafa;
+	display:block;
+	float:none;
+	font:bold 14px/22px Arial, Helvetica, sans-serif!important;
+	text-decoration: none;
+	text-shadow: 0 1px 1px #806fa3;
+	background:url(../images/nav-sep.png) repeat-y right center;
+	padding:13px 19px;
+}
+.sfNavigation ul li:hover, .cssClassCategoryNav ul li:hover, .cssClassCategoryNav ul li.sfActive, .sfNavigation ul li.sfActive {
+	background: #ae45a3!important;
+	background: -webkit-linear-gradient(bottom, #692863, #ae45a3)!important;
+	background: -moz-linear-gradient(bottom, #692863, #ae45a3)!important;
+	background:  -o-linear-gradient(bottom, #692863, #ae45a3)!important;
+	background: -ms-linear-gradient(bottom, #692863, #ae45a3)!important;
+	background:  linear-gradient(to top, #692863, #ae45a3!important);
+}
+.sfNavigation ul li.cssClassLastMenu a {
+	background:none;
+}
+.sfNavigation ul li ul, .cssClassCategoryNav ul li ul {
+	display: none;
+	left: -1px;
+	position: absolute;
+	top:33px;
+	z-index:9999;
+	width: 200px;
+	background-color: #ECECEC;
+	border:2px solid #0C94D0;
+}
+.sfNavigation ul li:hover > ul, .cssClassCategoryNav ul li:hover > ul {
+	display: block;
+}
+.sfNavigation ul li:hover a,, .cssClassCategoryNav ul li:hover a {
+ background:#3B89C7;
+color:#fff;
+}
+.sfNavigation ul li.cssClassAdminLastMenu ul ul, .cssClassCategoryNav ul li.cssClassCategoryLastMenu ul li ul {
+	position:absolute;
+	left:-187px !important;
+}
+.sfNavigation ul li ul li ul, .cssClassCategoryNav ul li ul li ul {
+	left:200px;
+	top:0;
+	position:absolute;
+}
+.sfNavigation ul li:hover ul li, .cssClassCategoryNav ul li:hover ul li {
+	border-bottom: 1px solid #f9f9f9;
+	border-top: 1px solid #ccc;
+	margin: 0;
+	float:none;
+	z-index:9999;
+	position: relative;
+	width: 200px;
+}
+.sfNavigation ul li:hover ul li:first-child, .cssClassCategoryNav ul li:hover ul li:first-child {
+	border-top:none;
+}
+.sfNavigation ul li:hover ul li:last-child, .cssClassCategoryNav ul li:hover ul li:last-child {
+	border-bottom:none;
+}
+.sfNavigation ul li:hover ul li a, .cssClassCategoryNav ul li:hover ul li a {
+	color: #0C93CE;
+	display: block;
+	font: bold 12px/20px Arial, Helvetica, sans-serif !important;
+	padding:5px 10px;
+	text-shadow:0 1px 0 #fff;
+	background:none;
+}
+.sfNavigation ul li:hover ul li, .cssClassCategoryNav ul li:hover ul li {
+	float:none;
+}
+.sfNavigation ul li:hover ul li:hover, .cssClassCategoryNav ul li:hover ul li:hover {
+	background-color: #fff;
+}
+.sfNavigation ul li ul li ul, .cssClassCategoryNav ul li ul li ul {
+	left:200px;
+	position:absolute;
+	display:none;
+}
+.sfNavigation ul li.cssClassLastMenu ul li ul, .cssClassCategoryNav ul li.cssClassLastMenu ul li ul {
+	position:absolute;
+	left:-200px !important;
+}
+.cssClassCategoryNav li.cssClassCategoryParent li.cssClassCategoryParent {
+	background:url(../images/gray-arrow.png) no-repeat 95% center;
+}
+
+
+
+.cssClassProductsBoxInfo, .cssClassProductsGridPicture {
+	overflow:hidden;
+	text-align: center;
+	vertical-align: middle;
+	width:224px;
+	display:table-cell;
+}
+#sfSkinmenu .sfWrapper, .lof-slidecontent {  margin-top:-20px;}
+
+.cssClassBottomWrapper h3, .cssClassBottomWrapper h2, .cssClassBottomContent #vtab li h3 {
+	background: url(../images/footer-h2.png) repeat-x;
+	color:#f4efff;
+	margin-bottom:15px;
+	font:18px/28px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: 5px 12px;
+	text-shadow:none;
+	height:41px;
+}
+
+
+#btnSubscribe, #btnUnSubscribe{-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);
+	border: solid 1px #5e2459;
+	background:#af3ba3;
+	background:-webkit-linear-gradient(bottom, #742a6d, #af3ba3);
+	background: -moz-linear-gradient(bottom, #742a6d, #af3ba3);
+	background: -o-linear-gradient(bottom, #742a6d, #af3ba3);
+	background: -ms-linear-gradient(bottom, #742a6d, #af3ba3);
+	background: linear-gradient(to top, #742a6d, #af3ba3);
+	padding:5px 10px 5px 10px;
+	color:#fff;
+	text-shadow:0px 1px 0px #852d7c;
+	margin:0px;
+	}
+	
+.sfFeedback .sfButtonwrapper input, .bannerText td .sfButtonwrapper input, 
+.cssClassButtonWrapper button, .cssClassButtonWrapper a, #ShoppingCartPopUp .cssClassCommonSideBoxTable > a, #divClickAway a, #btnTestOrder, .cssClassForgetPasswordPageLeft .cssClassButton, .cssClassOrderReview .cssClassButtonWrapper input, .cssClassForgetPasswordPage button, .cssClassAppointmentBody #btnSubmit, .cssClassloginbox .cssClassButtonWrapper input, .cssClassUserRegistration .cssClassButtonWrapper input, .cssClassBlueBtn a, #divShoppingCart .cssClassCommonSideBoxCartTable a#lnkViewShoppingCart, #divShoppingCart .cssClassCommonSideBoxCartTable a#lnkMiniShoppingCheckOut, #wishitemBottom  Button, .cssClassdvRPBalance button, .cssClassButtonWrapper button, .cssClassItems .sfButtonwrapper a, .sfButtonwrapper  button, .sfButtonwrapper a, .toogleSwitch a, .cssClassAccordionWrapper .sfButtonwrapper button, .cssClassAccordionWrapper .sfButtonwrapper input, .cssClassLeftSide .sfButtonwrapper .sfBtn1, .cssClassPopularItemTags .sfButtonwrapper button, .popupbox .sfFormwrapper .sfButtonwrapper button, #divClickAway .sfButtonwrapper a, #divClickAway .sfButtonwrapper button, .cssClassChange a, .cssClassChange a, .cssClassBack, .cssClassbtnGoBack, .cssClassbtnProceedReturn, .cssClassButtonSubmit, .cssClassHeaderRight .sfButtonwrapper button, .cssClassLeftSide .sfButtonwrapper .sfBtn, #Notify .sfButtonwrapper button, .cssClassYouMayAlsoLikeBox .sfButtonwrapper a, .sfFeedbackform input, .cssCompareProductsBox .sfButtonwrapper input.sfBtn, .sfButtonwrapperclear input.sfBtn
+{/* background: -moz-linear-gradient(center bottom , #861F7C, #9F4D97) repeat scroll 0 0 transparent;
+background: -webkit-linear-gradient(center bottom , #861F7C, #9F4D97) repeat scroll 0 0 transparent;*/
+background:-webkit-linear-gradient(bottom, #742a6d, #af3ba3);
+	background: -moz-linear-gradient(bottom, #742a6d, #af3ba3);
+	background: -o-linear-gradient(bottom, #742a6d, #af3ba3);
+	background: -ms-linear-gradient(bottom, #742a6d, #af3ba3);
+	background: linear-gradient(to top, #742a6d, #af3ba3);
+    border: 1px solid #97348D;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px rgba(255, 255, 255, 0.26) inset;
+    color: #FFFFFF;
+    display: inline-block;
+    font: 14px Arial,Helvetica,sans-serif;
+    padding: 5px 10px;
+		}
+#wishitemBottom  Button, .cssClassBlueBtnWrapper .sfButtonwrapper .sfBtn, .cssClassdvRPBalance button{ margin-right:10px}
+
+.bannerText td .sfButtonwrapper input{ width:100px; padding:0px 25px 4px 25px;}
+#lytA__udp__128 { float:left;}
+.GeoLocation{ float:right; margin:15px 0 0 0 }
+
+#btnSubscribe:hover, #btnUnSubscribe:hover, .sfFeedback .sfButtonwrapper input:hover, .bannerText td .sfButtonwrapper input:hover,
+.cssClassButtonWrapper button:hover, .cssClassButtonWrapper a:hover, #ShoppingCartPopUp .cssClassCommonSideBoxTable > a:hover, #divClickAway a:hover, #btnTestOrder:hover, .cssClassForgetPasswordPageLeft .cssClassButton:hover, .cssClassOrderReview .cssClassButtonWrapper input:hover, .cssClassForgetPasswordPage button:hover, .cssClassAppointmentBody #btnSubmit:hover, .cssClassloginbox .cssClassButtonWrapper input:hover, .cssClassUserRegistration .cssClassButtonWrapper input:hover, .cssClassBlueBtn a:hover, #divShoppingCart .cssClassCommonSideBoxCartTable a#lnkViewShoppingCart:hover, #divShoppingCart .cssClassCommonSideBoxCartTable a#lnkMiniShoppingCheckOut:hover, #wishitemBottom  Button:hover, .cssClassdvRPBalance button:hover, .cssClassAddtoCard .cssClassButtonWrapper button:hover, .cssClassItems .sfButtonwrapper a:hover, .sfButtonwrapper  button:hover, .sfButtonwrapper a:hover, .toogleSwitch a:hover, .cssClassAccordionWrapper .sfButtonwrapper button:hover, .cssClassAccordionWrapper .sfButtonwrapper input:hover, .cssClassLeftSide .sfButtonwrapper .sfBtn:hover, .cssClassPopularItemTags .sfButtonwrapper button:hover, .popupbox .sfFormwrapper .sfButtonwrapper button:hover, #divClickAway .sfButtonwrapper a:hover, #divClickAway .sfButtonwrapper button:hover, .cssClassChange a:hover, .cssClassChange a:hover, .cssClassBack:hover, .cssClassbtnGoBack:hover, .cssClassbtnProceedReturn:hover, .cssClassButtonSubmit:hover, .cssClassHeaderRight .sfButtonwrapper button:hover, .cssClassLeftSide .sfButtonwrapper .sfBtn:hover, #Notify .sfButtonwrapper button:hover, .sfBtn1:hover, .cssClassYouMayAlsoLikeBox .sfButtonwrapper a:hover, .sfFeedbackform input:hover, .cssCompareProductsBox .sfButtonwrapper input.sfBtn:hover, .sfButtonwrapperclear input.sfBtn:hover
+{-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .75), inset 0 1px rgba(255, 255, 255, 0), inset 0 0 1px rgba(255, 255, 255, .13);
+	border: solid 1px #5e2459;
+	background:#3861f7c;
+	background-image: -webkit-linear-gradient(top, #742a6d, #af3ba3);
+	background-image: -moz-linear-gradient(top, #742a6d, #af3ba3);
+	background-image: -o-linear-gradient(top, #742a6d, #af3ba3);
+	background-image: -ms-linear-gradient(top, #742a6d, #af3ba3);
+	background-image: linear-gradient(to bottom, #742a6d, #af3ba3);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.28);
+	color:#fff;
+	cursor:pointer;}
+.cssClassAccordionWrapper .sfButtonwrapper button, .cssClassAccordionWrapper .sfButtonwrapper input, .cssClassLeftSide .sfButtonwrapper .sfBtn1, .cssClassPopularItemTags .sfButtonwrapper button, .popupbox .sfFormwrapper .sfButtonwrapper button, #divClickAway .sfButtonwrapper a, #divClickAway .sfButtonwrapper button{ margin:10px 0px;}
+.cssClassBottomWrapper h3, .cssClassBottomWrapper h2, .cssClassBottomContent #vtab li h3{background: url(../images/footer-h2.png) repeat-x;
+	color:#f4efff;
+	margin-bottom:15px;
+	font:18px/28px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: 5px 12px;
+	text-shadow:none;
+	height:41px;
+}
+
+#sfAspxcopyright, #sfAspxservice, #sfAspxhelp, #sfAspxsociallink {
+	float:left;
+	width:23%;
+	margin-right:25px;
+}
+#sfAspxsociallink{ margin-right:0px!Important}
+
+.fb_ltr{ width:215px!Important;}
+.cssClassProducts h1, h2.title, .cssClassAppointmentHeading h2, .cssClassRegistrationInformation, .cssClassProductDetailInformation h2, .cssClassItemQuickOverview h2, .cssClassBestSeller h2, .cssClassCompanyNews h2, .cssClassService h2, #divServiceAllContainer h2, #divServiceName h2, .cssViewAllPromos h2, .cssServiceItemWrapper h2, .bannerText h1, .cssClassMiddleHeader, .cssClassCategoryWrapper h2, .cssClassLeftHeader, .cssClassMyDashBoard .cssClassCommonSideBox h2{  background: url("../images/h2-bg.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font: 18px/36px "Trebuchet MS",Arial,Helvetica,sans-serif;
+    height: 43px;
+    margin-bottom: 30px;
+    padding: 0 0 0 10px;
+    text-transform: capitalize;}
+	
+.sort{ float:right; margin-bottom:5px;}
+.BreadCrumb {
+background: none repeat scroll 0 0 #F4EFFF;
+border-bottom: 1px solid #9D86A1;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.16);
+position: absolute;
+top: 31px;
+height: 41px;
+width: 100%;}
+
+.breadCrumb ul li{ line-height:39px;}
+.cssClassFrontStoreButton{ float:right; width:350px;}
+#divMap{ margin-top:20px;}
+#divMap td{ vertical-align:top;}
+.navMap{ margin-left:20px;}
+.sidebar{background-color: #DAC6F9;
+    background-image: linear-gradient(to top, #DAC6F9, #D9BDFF);
+    border: 1px solid #CFC1EC;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px rgba(255, 255, 255, 0.4) inset, 0 0 1px rgba(255, 255, 255, 0.3) inset;
+    display: inline-block;
+    margin: 10px 20px 0 0;
+    padding: 10px;}
+.sidebar:hover{ background:#fff; cursor:pointer;}
+.sfFaqholder .sfFaqtitle{color: #8067B7;
+    font: 15px Arial,Helvetica,sans-serif;}
+
+.bannerText td input{ background-color: #C8BFE1 !important;
+    border: 1px solid #9F8ACC !important;
+    border-radius: 4px 4px 4px 4px / 3px 3px 3px 3px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.11) inset, 0 0 5px rgba(255, 255, 255, 0.3) inset !important;
+    font-family: Arial,Helvetica,sans-serif;
+    height: 25px;
+    padding: 0 0 0 3px;
+    width: 190px;}
+.bannerText td{ padding:15px;}
+.bannerText td span{ color: #391C88 !important;
+    font: bold 12px/22px Arial,Helvetica,sans-serif;
+    margin-left: 0 !important;
+    white-space: nowrap;}
+.cssViewMore{ margin:0 20px 10px 0; float:right;}
+.cssViewMore a{   color: #CE68C5;
+    font: bold 12px Arial,Helvetica,sans-serif;
+    text-decoration: underline;}
+.cssViewMore a:hover{ color:#64275E}
+/*.cssCategoryBlock .cssClassProductsBox, .cssClassDisplayResult .cssClassProductsBox{ width:22.5%;}*/
+.cssCategoryBlock .cssClassProductsBox, .cssClassDisplayResult .cssClassProductsBox{ float: left;
+   margin: 0 25px 30px 0;
+   overflow: hidden;
+    padding: 10px 0 0;
+   }
+.cssClassWishListButton{ text-align:center; margin:5px 0;}
+.cssClassViewPerPage select, .cssClassDrop select, .cssClassPageNumber input{ width:50px!important;}
+.sort select{ width:100px}
+.cssServiceDetail .sfButtonwrapper{ margin-top:5px;}
+.cssClassDrop, .cssClassViewPerPage select{/*float:right;*/margin-left:5px;}
+.cssClassDrop{ float:right;}
+
+.sfFaqExpand{    color: #CE68C5;
+    font: 15px Arial,Helvetica,sans-serif;}
+
+.view .cssClassGrid span, .view .cssClassList span{ color:#64275E; margin-right:5px;}
+.view .sfactive{ color:#B141A5;}
+.cssClassProductListView{-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #D6CCEC #D6CCEC -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    padding: 15px;}
+.cssClassProductListViewLeft{ float: left;
+    padding-bottom: 5px;
+    width: 135px;}
+.cssClassProductListViewRight{margin-left: 160px;}
+.cssClassFilter{ float:left; width:21.7%; margin-right:30px;}
+.cssCategoryWrapper{ float:right; width:75%}
+.cssCategoryWrapper .cssClassDisplayResult{ margin-bottom:10px;}
+.cssClassProductListViewRight .cssClassViewDetailsAddtoCart .sfButtonwrapper{ margin:0 10px 0 0;}
+
+.cssClassFeaturedBg span{  background: url("../images/featured-bg.jpg") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    font: bold 11px/17px Verdana,Geneva,sans-serif;
+    height: 17px;
+    left: 0;
+    margin: 6px 0 0;
+    position: absolute;
+    text-align: center;
+    top: -5px;
+    width: 136px;}
+.cssClassProductListViewLeft{ position:relative;}
+.cssClassProductPicture{border: 1px solid #F2F1F1;
+    display: block;
+    
+	width:135px; overflow:hidden;
+	}
+a.cssClassGrid, a.cssClassList{ background: url("../images/viewAs.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 14px;
+    margin: 6px 0 5px 10px;
+    text-indent: -999em;
+    width: 16px;}
+.a.cssClassList.sfactive, a.cssClassList:hover{ background-position:-34px 0px;}
+a.cssClassList{ background-position: -34px 0;
+    width: 16px;}
+.filter .cssClassbrowseprice ul li{ padding:5px 0}
+.filter .cssClassbrowseprice a{ color:#64275E;}
+.cssClassProductsBoxNoMargin, .cssClassNoMargin, .cssClassYouMayAlsoLikeBoxFourth{ margin-right:0px !important;}
+.cssClassWishListDash .sfButtonwrapper{ margin:10px 0;}
+#wishitemBottom{ float:right;}
+
+/*----------------Cart------------*/
+.cssClassImage{ margin-bottom:5px;}
+.toogleWrapper{ margin:25px 0 0 0}
+.toogleWrapper table td span{ font-weight:bold;}
+#dvEstimateRate{  margin: 30px 0 0;
+    position: relative;}
+#dvEstimateRate td{ width:100px;}
+#dvEstimateRate #addmore{  position: absolute;top:76px;}
+#divMyCart td{ vertical-align:middle;}
+.cssClassSubTotalAmount td{ text-align:right; padding:5px;}
+.cssClassNegative{color: #910000;
+    float: left;
+    font: 18px/30px Arial,Helvetica,sans-serif;
+    margin: 0 0 0 10px;}
+#divMyCart .cssClassSubTotalAmount input, input.cssClassFormatCurrency {background: none repeat scroll 0 0 transparent !important;
+    border: medium none !important;
+    box-shadow: none !important;
+    font: bold 16px Arial,Helvetica,sans-serif;
+    text-align: right;
+    width: 120px; }
+#divMyCart .cssClassSubTotalAmountWidth strong, #divMyCart .cssClassGrandTotalAmountWidth input, .cssClassSubTotalAmountWidth strong{color:#64275E !important}
+.row-total-input{ text-align:left!important; font-weight:normal!important;}
+#gdvRateDetail{ margin-top:15px;}
+#gdvRateDetail td{ border:1px solid #CAC1E2;}
+/*----------------Cart------------*/
+	
+/*----------------Reward Point------------*/
+.cssClassdvRewardPointsMain{ margin: 20px 0 0;    width: 530px;}
+.cssClassdvRPBalance table, .cssClassdvRPCurrent table{background: none repeat scroll 0 0 #FFFFFF;    border: 1px solid #CAC1E2;}
+.cssClassdvRPBalance table td, .cssClassdvRPCurrent table td{  padding:10px;}
+.cssClassdvRPMainHeading b{ font-size:16px;}
+/*----------------Reward Point------------*/
+
+.cssItemImage{ border: 1px solid #CAC1E2; float:left;  margin-right:30px;}
+.cssClassTDPGList, .cssClassAccordionWrapper td{ vertical-align:middle;}
+.cssClassAccordionWrapper .cssClassSubTotalAmount{float: none;
+    font: 14px Arial,Helvetica,sans-serif; color:#64275E;}
+.cssClassService h3 a, .cssClassAllService h3 a{ font:bold 30px "Conv_PRISTINA"; color:#b23169;}
+.cssServiceItemDetails .cssClassFormatCurrency, .cssClassItems span{ font:bold 14px Arial, Helvetica, sans-serif; color:#64275E}
+
+/*---------------Dashboard------------*/
+.cssClassStoreDetail{float: left; margin:0px 50px 0 0;}
+.cssClassBillingAddress li h4{font-size: 14px; margin-top:5px; color:#64275E;}
+.sfGridWrapperTable tbody{background: #FFFFFF; border: 1px solid #C8BFE1;}
+#divReturnInfo td{ vertical-align:top;}
+.cssClassMyDashBoard #divProductInfo .sfGridWrapperTable td input{ width:30px;}
+select.cssClassddlReturnReason, select.cssClassddlShipping{ width:75px;}
+#divProductInfo .sfGridWrapperTable .cssClasschkSelectAll{ margin-left:14px;}
+.cssClassRight a, .cssClassHeaderRight button, .cssClassBack{ margin:10px 0px;}
+.cssClasspBalance, .cssClasspExchangeRate, .cssClasspBalanceLimitations{background: #FFFFFF;
+    border: 1px solid #C8BFE1;
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
+    width: 28.8%;}
+.cssClassgdvRewardPointsSettings_grid .cssClassSearchPanel td{  float: left !important; width: 230px;}
+.cssClassWishComment textarea{ width:132px; vertical-align:middle;}
+/*---------------Dashboard------------*/
+
+/*---------------Item detail------------*/
+.cssViewer{ font: bold 12px Arial,Helvetica,sans-serif;margin: 10px 0;}
+.cssClassItemCategoriesHeading{ float:left;}
+.detailButtonWrapper .sfButtonwrapper .sfBtn1{ margin:0 10px 0 10px;}
+.cssClassProductPictureDetails .sfButtonwrapper{ margin:7px 0 50px 142px;}
+.magnifyarea { position:absolute;top:368px !important; z-index:1 !important; width:657px !important; height:320px!important; box-shadow:none !important; border:1px solid #D6CCEC!important;}
+.cssClassCostVariant{ margin-top:15px;}
+
+/*---------------Item detail------------*/
+/*---------------Compare Item------------*/
+.fixed{bottom: 3px;
+    position: fixed;
+    width: 980px;
+    z-index: 999999;}
+.compareProductsBoxTitle{ background:#AC3AA0;color: #fff;font: 12px Arial,Helvetica,sans-serif;font-style: normal;margin-bottom: 0;padding: 5px 15px;border: 1px #ccc solid;border-bottom: none;position:relative;text-transform: uppercase}
+.compareProductsBoxTitle h2{ color:#fff; margin:0; font-size:12px;}
+.compareProduct{ border: 1px solid #D6CCEC;
+    float: left;
+    height: 67px;
+    padding: 2px;
+    width: 175px;
+	box-shadow:none;
+	background:#fff;
+	}
+.compareProduct .productImage{  border: 1px solid #D6CCEC;
+    float: left;
+    height: 65px;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+    width: 50px;}
+.compareProduct .productImage img{ background: none repeat scroll 0 0 #FFFFFF;
+    height: 65px;
+    width: 50px;}
+.cssCompareProductsBox .sfButtonwrapper, .sfButtonwrapperclear{ float:left; margin:20px 0 0 0}
+.compareClose{text-indent: -9999px;width: 24px;border:none;background:url(../images/Close_Icon.png) no-repeat;position:absolute;right: 10px;top:4px;height:24px;}
+.compareClose:hover{ cursor:pointer}
+.compareProductClose{margin-left: 5px;text-indent: -9999px;width: 20px;border:none;background:url(../images/btndelete1.png) no-repeat;vertical-align: text-top; right:-15px; top:-6px; position:absolute}
+.cssCompareBtnWrapper a{ background:#AC3AA0; border:1px solid #AC3AA0; padding:7px 15px 15px 15px;  font-size:16px; color:#fff;}
+.cssCompareBtnWrapper a:hover{ background:#64275E; border:1px solid #64275E;}
+.cssCompareProductsBox{background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #D6CCEC;padding: 10px;}
+.cssCompareProductsBox .empty{background: url("../images/noimg.jpg") no-repeat scroll center center transparent;
+    border: 1px solid #F0F0F0;
+    float: left;
+    height: 67px;
+    margin-right:15px;
+    padding: 2px;
+    width: 175px;
+}
+.cssCompareProductsBox .compareProduct{ margin:0 15px 0 0; position:relative;}
+.sfButtonwrapperclear input.sfBtn{ margin-left:5px;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext{ margin-top:17%}
+
+.back-top.Button.WhiteButton
+
+/*---------------Compare Item------------*/
+
+/*---------------Back to top------------*/
+.back-top.Button.WhiteButton{
+	 background: url("../images/arrow.png") repeat-x scroll 0 0 #1D1C1C;
+    border: 1px solid #000000 !important;
+    border-radius: 10px 10px 10px 10px;
+    color: #524D4D;
+    height: 51px;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.9);
+    width: 51px;}
+.back-top.Button.Indicator{
+	 background: url("../images/arrow.png") repeat-x scroll 0 0 #1D1C1C;
+	 height: 51px;
+	 width:51px;
+	 border-radius: 10px 10px 10px 10px;
+	border-width: 0;
+    box-shadow: 0 0 #FFFFFF, 0 1px 3px rgba(34, 25, 25, 0.5);
+    display: block;
+    position: fixed;
+    text-align: center;
+    z-index: 4;}
+.back-top.Button{ cursor: pointer;
+    font-family: "helvetica neue",arial,sans-serif;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 0;}
+.back-top { -moz-transition: bottom 250ms ease-in-out 0s; bottom: -10px; padding: 10px 10px 20px; right: 15px; width: 110px;}
+.back-top.Button.WhiteButton:hover{ opacity:0.7; -moz-transition: all 0.8s ease-out;}
+
+/*--------------Back to top------------*/
+
+/*Back to top*/
+
+
+#ajaxBusy, .sfLoadingdiv {
+	bottom: 0;
+	display: block;
+	font:bold 15px/30px Arial, Helvetica, sans-serif;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index:9999;
+	color:#fff;
+	padding:5px 0;
+	letter-spacing:1px;
+	background:rgba(0, 0, 0, 0.8);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#8000000, endColorstr=#80000000);
+	zoom: 1;
+}
+

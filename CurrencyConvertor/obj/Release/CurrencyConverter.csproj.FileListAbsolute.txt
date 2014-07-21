@@ -1,0 +1,4 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\CurrencyConvertor\bin\Release\CurrencyConverter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\CurrencyConvertor\bin\Release\CurrencyConverter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\CurrencyConvertor\obj\Release\CurrencyConverter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\CurrencyConvertor\obj\Release\CurrencyConverter.pdb

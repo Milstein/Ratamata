@@ -1,0 +1,5 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.Localization.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.Localization.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Localization\obj\Debug\SageFrame.Localization.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb

@@ -1,0 +1,30 @@
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame\bin\SageFrame.Ticker.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame\bin\SageFrame.Ticker.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Ticker\obj\Debug\ResolveAssemblyReference.cache
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.pdb
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame\bin\SageFrame.Ticker.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame\bin\SageFrame.Ticker.pdb
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Ticker\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame\bin\SageFrame.Ticker.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame\bin\SageFrame.Ticker.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Ticker\obj\Debug\ResolveAssemblyReference.cache
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame\bin\SageFrame.Ticker.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame\bin\SageFrame.Ticker.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Ticker\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame\bin\SageFrame.Ticker.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame\bin\SageFrame.Ticker.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Ticker\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.Ticker.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.Ticker.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.pdb

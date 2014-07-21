@@ -1,0 +1,5 @@
+F:\!@AspxTemplates\AspxFragnance\SageFrame\bin\AspxCommerce.PesoPay.dll
+F:\!@AspxTemplates\AspxFragnance\SageFrame\bin\AspxCommerce.PesoPay.pdb
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\obj\Release\ResolveAssemblyReference.cache
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\obj\Release\AspxCommerce.PesoPay.dll
+F:\!@AspxTemplates\AspxFragnance\AspxCommerce.PesoPay\obj\Release\AspxCommerce.PesoPay.pdb

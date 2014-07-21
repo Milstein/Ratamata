@@ -1,0 +1,5 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.BreadCrum.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.BreadCrum.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb

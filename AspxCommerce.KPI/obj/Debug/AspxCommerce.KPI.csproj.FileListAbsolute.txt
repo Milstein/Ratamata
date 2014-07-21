@@ -1,0 +1,10 @@
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\SageFrame\bin\AspxCommerce.KPI.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\SageFrame\bin\AspxCommerce.KPI.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.KPI\obj\Debug\AspxCommerce.KPI.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.KPI\obj\Debug\AspxCommerce.KPI.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.KPI\obj\Debug\AspxCommerce.KPI.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.KPI.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.KPI.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.KPI\obj\Debug\AspxCommerce.KPI.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.KPI\obj\Debug\AspxCommerce.KPI.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.KPI\obj\Debug\AspxCommerce.KPI.pdb

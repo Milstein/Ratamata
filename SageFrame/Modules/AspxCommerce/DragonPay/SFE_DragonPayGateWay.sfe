@@ -1,0 +1,90 @@
+﻿<sageframe version="1.0.0.0" type="paymentgateway">
+	<folders>
+		<folder>
+			<name>SFE_DragonPayGateWay</name>
+			<paymentgatewayname>DragonPay</paymentgatewayname>
+			<friendlyname>DragonPayGateWay</friendlyname>
+			<foldername>AspxCommerce/DragonPay</foldername>
+			<description>DragonPay</description>
+			<culturename>en-US</culturename>
+			<version>01.00.00</version>
+			<settings>
+
+				<setting>
+					<key>DragonPayMerchantID</key>
+					<value>CHEMWORLD</value>
+				</setting>
+				<setting>
+					<key>DragonPaySecretKey</key>
+					<value>Fg$Hz3k8M@e</value>
+				</setting>
+				<setting>
+					<key>DragonPayPostBackURL</key>
+					<value>http://localhost:13957/SageFrame/Modules/AspxCommerce/DragonPay/Handler.aspx</value>
+				</setting>
+				<setting>
+					<key>DragonPayReturnURL</key>
+					<value>http://localhost:13957/SageFrame/DragonPaySuccess.aspx</value>
+				</setting>					
+				<setting>
+					<key>DragonPayCurrencyCode</key>
+					<value>PHP</value>
+				</setting>
+				<setting>
+					<key>IsTestDragonPay</key>
+					<value>True</value>
+				</setting>
+
+			</settings>
+			<modules>
+				<module>
+					<controls>
+						<control>
+							<key>DragonPayView</key>
+							<title>Pay Through DragonPay</title>
+							<src>Modules/AspxCommerce/DragonPay/DragonPayView.ascx</src>
+							<type>View</type>
+							<helpurl>http://www.SageFrame.com/default.aspx</helpurl>
+							<supportspartialrendering>false</supportspartialrendering>
+						</control>
+						<control>
+							<key>DragonPaySetting</key>
+							<title>DragonPay Setting</title>
+							<src>Modules/AspxCommerce/DragonPay/DragonPaySetting.ascx</src>
+							<type>Setting</type>
+							<helpurl>http://www.SageFrame.com/default.aspx</helpurl>
+							<supportspartialrendering>false</supportspartialrendering>
+						</control>
+						<control type="Page">
+							<key>DragonPaySuccess</key>
+							<title>DragonPay Success</title>
+							<src>Modules/AspxCommerce/DragonPay/DragonPaySuccess.ascx</src>
+							<type>View</type>
+							<helpurl>http://www.aspxcommerce.com/default.aspx</helpurl>
+							<supportspartialrendering>false</supportspartialrendering>
+						</control>
+						<control type="Page">
+							<key>DragonPayError</key>
+							<title>DragonPay Error</title>
+							<src>Modules/AspxCommerce/DragonPay/DragonPayError.ascx</src>
+							<type>View</type>
+							<helpurl>http://www.aspxcommerce.com/default.aspx</helpurl>
+							<supportspartialrendering>false</supportspartialrendering>
+						</control>
+					</controls>
+				</module>
+			</modules>
+			<files>
+				<file>
+					<name>01.00.00.SqlDataProvider</name>
+				</file>
+				<file>
+					<name>AspxCommerce.DragonPay.dll</name>
+				</file>
+				<file>
+					<name>Uninstall.SqlDataProvider</name>
+				</file>
+			</files>
+		</folder>
+	</folders>
+</sageframe>

@@ -1,0 +1,7 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SageBanner\bin\Release\SageFrame.SageBanner.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SageBanner\bin\Release\SageFrame.SageBanner.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SageBanner\bin\Release\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SageBanner\bin\Release\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SageBanner\obj\Release\SageFrame.SageBanner.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SageBanner\obj\Release\SageFrame.SageBanner.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SageBanner\obj\Release\SageFrame.SageBanner.csprojResolveAssemblyReference.cache

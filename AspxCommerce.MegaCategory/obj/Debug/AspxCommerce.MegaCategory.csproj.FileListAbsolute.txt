@@ -1,0 +1,5 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.MegaCategory.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.MegaCategory.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.MegaCategory\obj\Debug\AspxCommerce.MegaCategory.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.MegaCategory\obj\Debug\AspxCommerce.MegaCategory.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.MegaCategory\obj\Debug\AspxCommerce.MegaCategory.pdb

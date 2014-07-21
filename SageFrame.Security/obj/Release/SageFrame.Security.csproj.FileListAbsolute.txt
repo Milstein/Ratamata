@@ -1,0 +1,7 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Security\bin\Release\SageFrame.Security.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Security\bin\Release\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Security\obj\Release\SageFrame.Security.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Security\obj\Release\SageFrame.Security.csprojResolveAssemblyReference.cache

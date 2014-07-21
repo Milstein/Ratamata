@@ -1,0 +1,32 @@
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\obj\Debug\ResolveAssemblyReference.cache
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\AspxCommerce.FlightManagement.dll
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\AspxCommerce.FlightManagement.pdb
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\AspxCommerce.Core.dll
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\SageFrame.Common.dll
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\SageFrame.Core.dll
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\SageFrame.Security.dll
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\AjaxControlToolkit.dll
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\CurrencyConverter.dll
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\SageFrame.Templating.dll
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\itextsharp.dll
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\CurrencyConverter.pdb
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\SageFrame.Core.pdb
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\SageFrame.Common.pdb
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\SageFrame.Templating.pdb
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\AspxCommerce.Core.pdb
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\bin\Debug\SageFrame.Security.pdb
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.dll
+D:\BrainDigit Projects\AspxCommerce\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.pdb
+D:\!@AspxCommerce\AspxClientModuleTest\SageFrame\bin\AspxCommerce.FlightManagement.dll
+D:\!@AspxCommerce\AspxClientModuleTest\SageFrame\bin\AspxCommerce.FlightManagement.pdb
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.dll
+D:\!@AspxCommerce\AspxClientModuleTest\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.FlightManagement.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.FlightManagement.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.pdb

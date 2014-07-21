@@ -1,0 +1,91 @@
+#header {
+	border-bottom:1px dotted #000000;
+	margin:0 0 20px;
+	padding:20px 0;
+}
+#header h1 {
+	font-size:36px;
+	margin:0;
+}
+#header h4 {
+	font-weight:normal;
+	margin:7px 0 0;
+}
+#header h4 a {
+	text-decoration:none;
+}
+#alert-Box {
+	padding-bottom: 0;
+	background: #FEF8F1;
+	z-index:999999;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+#alert-InBox {
+	padding-top: 15px;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+	
+}
+#alert-BoxContent {
+	
+	padding: 0px 20px;
+}
+#alert-BoxContenedor {
+	padding: 0px 0px 5px 55px;
+	text-align: left;
+	font-family:Verdana;
+	font-size:12px;
+	color:#000;
+}
+#alert-BoxContenedor h1, #alert-BoxContenedor h2, #alert-BoxContenedor h3, #alert-BoxContenedor b, #alert-BoxContenedor strong {
+	text-align: left;
+	font-family:Verdana;
+	font-size:12px;
+	color:#000;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+}
+#alert-Buttons {
+	text-align:left;
+}
+#alert-Buttons input {
+	margin: 10px 10px;
+	background: url("../../images/brownbtn.jpg") repeat-x scroll left top transparent;
+    border: 1px solid #826342;
+	padding:2px 0;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+	color:#FFF;
+}
+#alert-BoxContenedor #BoxPromptInput {
+	margin-top:5px;
+}
+#alert-Box .BoxAlert {
+	background: url('../../images/dialog-warning.png') top left no-repeat;
+}
+#alert-Box .BoxConfirm {
+	background: url('../../images/delete.gif') top left no-repeat;
+}
+#alert-Box .BoxPrompt {
+	background: url('../../images/dialog-warning.png') top left no-repeat;
+}
+#alert-Box .BoxInfo {
+	background: url('../../images/informaion.png') top left no-repeat;
+}
+#alert-Box .BoxError {
+	background: url('../../images/dialog-error.png') top left no-repeat;
+}
+#alert-Box .MessageInfo {
+	background: url('../../images/questionMark1.jpg') top left no-repeat;
+}
+#alert-Box .AddToCartInfo {
+	background: url('../../images/informaion.png') top left no-repeat;
+}
+ .AddToCartInfo #alert-Buttons{
+	text-align:left;
+}

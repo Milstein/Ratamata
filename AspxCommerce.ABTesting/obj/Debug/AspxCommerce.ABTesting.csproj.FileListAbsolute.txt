@@ -1,0 +1,10 @@
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\SageFrame\bin\AspxCommerce.ABTesting.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\SageFrame\bin\AspxCommerce.ABTesting.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.ABTesting\obj\Debug\AspxCommerce.ABTesting.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.ABTesting\obj\Debug\AspxCommerce.ABTesting.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.ABTesting\obj\Debug\AspxCommerce.ABTesting.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.ABTesting.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.ABTesting.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.ABTesting\obj\Debug\AspxCommerce.ABTesting.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.ABTesting\obj\Debug\AspxCommerce.ABTesting.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.ABTesting\obj\Debug\AspxCommerce.ABTesting.pdb

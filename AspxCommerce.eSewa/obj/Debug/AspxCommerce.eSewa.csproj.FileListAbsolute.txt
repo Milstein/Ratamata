@@ -1,0 +1,57 @@
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\AspxCommerce.Core.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Common.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Core.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\AjaxControlToolkit.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\CurrencyConverter.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\ICSharpCode.SharpZipLib.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Templating.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Security.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\itextsharp.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\CurrencyConverter.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Core.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Common.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Templating.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\AspxCommerce.Core.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Security.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxJivanNew\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\SageFrame\bin\AspxCommerce.eSewa.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\SageFrame\bin\AspxCommerce.eSewa.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\SageFrame\bin\AspxCommerce.eSewa.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\SageFrame\bin\AspxCommerce.eSewa.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\SageFrame\bin\AspxCommerce.eSewa.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\SageFrame\bin\AspxCommerce.eSewa.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.eSewa.dll.config
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\SageFrame\bin\AspxCommerce.eSewa.dll.config
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\SageFrame\bin\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\SageFrame\bin\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.pdb

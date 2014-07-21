@@ -1,0 +1,5 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.NewsLetter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.NewsLetter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.NewsLetter\obj\Debug\SageFrame.NewsLetter.pdb

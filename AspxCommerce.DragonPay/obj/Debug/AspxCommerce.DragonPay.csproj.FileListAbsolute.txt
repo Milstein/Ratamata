@@ -1,0 +1,92 @@
+D:\1. AspxFragrance\AspxCommerce.DragonPay\bin\Debug\AspxCommerce.DragonPay.dll
+D:\1. AspxFragrance\AspxCommerce.DragonPay\bin\Debug\AspxCommerce.DragonPay.pdb
+D:\1. AspxFragrance\AspxCommerce.DragonPay\bin\Debug\AspxCommerce.Core.dll
+D:\1. AspxFragrance\AspxCommerce.DragonPay\bin\Debug\SageFrame.Common.dll
+D:\1. AspxFragrance\AspxCommerce.DragonPay\bin\Debug\AjaxControlToolkit.dll
+D:\1. AspxFragrance\AspxCommerce.DragonPay\bin\Debug\CurrencyConverter.dll
+D:\1. AspxFragrance\AspxCommerce.DragonPay\bin\Debug\SageFrame.Core.dll
+D:\1. AspxFragrance\AspxCommerce.DragonPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\1. AspxFragrance\AspxCommerce.DragonPay\bin\Debug\SageFrame.Templating.dll
+D:\1. AspxFragrance\AspxCommerce.DragonPay\bin\Debug\SageFrame.Security.dll
+D:\1. AspxFragrance\AspxCommerce.DragonPay\bin\Debug\itextsharp.dll
+D:\1. AspxFragrance\AspxCommerce.DragonPay\bin\Debug\SageFrame.Templating.pdb
+D:\1. AspxFragrance\AspxCommerce.DragonPay\bin\Debug\AspxCommerce.Core.pdb
+D:\1. AspxFragrance\AspxCommerce.DragonPay\obj\Debug\ResolveAssemblyReference.cache
+D:\1. AspxFragrance\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.dll
+D:\1. AspxFragrance\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.pdb
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\AspxCommerce.DragonPay.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\AspxCommerce.DragonPay.pdb
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\AspxCommerce.Core.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.Common.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.Pages.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\AjaxControlToolkit.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\Ionic.Zip.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.Core.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\CurrencyConverter.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.Templating.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.NewsLetter.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.Scheduler.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.Security.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\itextsharp.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.Pages.pdb
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.Core.pdb
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\CurrencyConverter.pdb
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.Templating.pdb
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.NewsLetter.pdb
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.Scheduler.pdb
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.Security.pdb
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\SageFrame.Common.pdb
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\bin\Debug\AspxCommerce.Core.pdb
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\obj\Debug\ResolveAssemblyReference.cache
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.dll
+D:\1. AspxComeerce-April-5-2013\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.pdb
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.dll
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.pdb
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\AspxCommerce.DragonPay.dll
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\AspxCommerce.DragonPay.pdb
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\AspxCommerce.Core.dll
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\SageFrame.Common.dll
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\AjaxControlToolkit.dll
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\CurrencyConverter.dll
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\SageFrame.Core.dll
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\SageFrame.Templating.dll
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\SageFrame.Security.dll
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\itextsharp.dll
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\SageFrame.Core.pdb
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\SageFrame.Common.pdb
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\SageFrame.Templating.pdb
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\AspxCommerce.Core.pdb
+D:\!@AspxFragFeb27FragnanceFinalApril24\AspxCommerce.DragonPay\bin\Debug\SageFrame.Security.pdb
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\SageFrame\bin\AspxCommerce.DragonPay.dll
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\SageFrame\bin\AspxCommerce.DragonPay.pdb
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.DragonPay\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.dll
+D:\!@AspxCommerce\AspxCommerceV1.1ChemWorld\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame\bin\AspxCommerce.DragonPay.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame\bin\AspxCommerce.DragonPay.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.DragonPay\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.DragonPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.DragonPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.DragonPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.DragonPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\SageFrame\bin\AspxCommerce.DragonPay.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\SageFrame\bin\AspxCommerce.DragonPay.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.DragonPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.DragonPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.pdb

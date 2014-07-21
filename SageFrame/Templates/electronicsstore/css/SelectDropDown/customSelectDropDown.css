@@ -1,0 +1,39 @@
+
+.tzSelect{
+
+	/* This is the container of the new select element */
+
+	height:28px;
+	display:inline-block;
+	min-width:200px;
+	position:relative;
+
+	/* Preloading the background image for the dropdown */
+	background:#FFFFFF url("../../images/select_arrow.png") no-repeat 98% 0;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 2px 1px 0 #06526F;
+    margin-left: 5px; display:none !important;
+}
+
+.tzSelect .selectBox{
+	position:absolute;
+	height:100%; cursor:pointer;
+	width:100%;
+}
+.tzSelect .dropDown{
+	position:absolute;
+	top:40px;
+	left:0;
+	width:100%; height:100%; z-index:9999;
+	border:1px solid #32333b;
+	border-width:0 1px 1px;
+	list-style:none;
+
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+
+	-moz-box-shadow:0 0 4px #111;
+	-webkit-box-shadow:0 0 4px #111;
+	box-shadow:0 0 4px #111;
+}

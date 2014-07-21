@@ -1,0 +1,44 @@
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_Aspx_RecommendedItemSetting_IsActive]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_RecommendedItemSetting] DROP CONSTRAINT [DF_Aspx_RecommendedItemSetting_IsActive]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_Aspx_RecommendedItemSetting_IsDeleted]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_RecommendedItemSetting] DROP CONSTRAINT [DF_Aspx_RecommendedItemSetting_IsDeleted]
+END
+
+GO
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_RecommendedItemSetting]    Script Date: 12/30/2013 14:11:40 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_RecommendedItemSetting]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_RecommendedItemSetting]
+GO
+
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetRecommendedItem]    Script Date: 12/30/2013 14:15:21 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetRecommendedItem]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetRecommendedItem]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetRecommendedItemSettings]    Script Date: 12/30/2013 14:15:21 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetRecommendedItemSettings]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetRecommendedItemSettings]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_RecommendedItemSaveSettings]    Script Date: 12/30/2013 14:15:21 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_RecommendedItemSaveSettings]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_RecommendedItemSaveSettings]
+GO
+
+

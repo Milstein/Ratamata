@@ -1,0 +1,121 @@
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\AspxCommerce.TPSL.dll
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\AspxCommerce.TPSL.pdb
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\AspxCommerce.Core.dll
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\com.dll
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\SageFrame.Common.dll
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\SageFrame.Core.dll
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\AjaxControlToolkit.dll
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\CurrencyConverter.dll
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\ICSharpCode.SharpZipLib.dll
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\SageFrame.Templating.dll
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\SageFrame.Security.dll
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\itextsharp.dll
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\CurrencyConverter.pdb
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\SageFrame.Core.pdb
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\SageFrame.Common.pdb
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\com.pdb
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\SageFrame.Templating.pdb
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\AspxCommerce.Core.pdb
+D:\AspxMultiCurrency\AspxCommerce.TPSL\bin\SageFrame.Security.pdb
+D:\AspxMultiCurrency\AspxCommerce.TPSL\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxMultiCurrency\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
+D:\AspxMultiCurrency\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb
+D:\AspxUmair\AspxCommerce.TPSL\bin\AspxCommerce.TPSL.dll
+D:\AspxUmair\AspxCommerce.TPSL\bin\AspxCommerce.TPSL.pdb
+D:\AspxUmair\AspxCommerce.TPSL\bin\AspxCommerce.Core.dll
+D:\AspxUmair\AspxCommerce.TPSL\bin\com.dll
+D:\AspxUmair\AspxCommerce.TPSL\bin\SageFrame.Common.dll
+D:\AspxUmair\AspxCommerce.TPSL\bin\SageFrame.Core.dll
+D:\AspxUmair\AspxCommerce.TPSL\bin\AjaxControlToolkit.dll
+D:\AspxUmair\AspxCommerce.TPSL\bin\CurrencyConverter.dll
+D:\AspxUmair\AspxCommerce.TPSL\bin\ICSharpCode.SharpZipLib.dll
+D:\AspxUmair\AspxCommerce.TPSL\bin\SageFrame.Templating.dll
+D:\AspxUmair\AspxCommerce.TPSL\bin\SageFrame.Security.dll
+D:\AspxUmair\AspxCommerce.TPSL\bin\itextsharp.dll
+D:\AspxUmair\AspxCommerce.TPSL\bin\SageFrame.Core.pdb
+D:\AspxUmair\AspxCommerce.TPSL\bin\SageFrame.Common.pdb
+D:\AspxUmair\AspxCommerce.TPSL\bin\SageFrame.Templating.pdb
+D:\AspxUmair\AspxCommerce.TPSL\bin\AspxCommerce.Core.pdb
+D:\AspxUmair\AspxCommerce.TPSL\bin\SageFrame.Security.pdb
+D:\AspxUmair\AspxCommerce.TPSL\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxUmair\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
+D:\AspxUmair\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\AspxCommerce.TPSL.dll
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\AspxCommerce.TPSL.pdb
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\AspxCommerce.Core.dll
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\com.dll
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\SageFrame.Common.dll
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\SageFrame.Core.dll
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\AjaxControlToolkit.dll
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\CurrencyConverter.dll
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\ICSharpCode.SharpZipLib.dll
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\SageFrame.Templating.dll
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\SageFrame.Security.dll
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\itextsharp.dll
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\CurrencyConverter.pdb
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\SageFrame.Core.pdb
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\SageFrame.Common.pdb
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\SageFrame.Templating.pdb
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\AspxCommerce.Core.pdb
+D:\AspxJivanShopiee\AspxCommerce.TPSL\bin\SageFrame.Security.pdb
+D:\AspxJivanShopiee\AspxCommerce.TPSL\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxJivanShopiee\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
+D:\AspxJivanShopiee\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\AspxCommerce.TPSL.dll
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\AspxCommerce.TPSL.pdb
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\AspxCommerce.Core.dll
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\com.dll
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\SageFrame.Common.dll
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\SageFrame.Core.dll
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\AjaxControlToolkit.dll
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\CurrencyConverter.dll
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\ICSharpCode.SharpZipLib.dll
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\SageFrame.Templating.dll
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\SageFrame.Security.dll
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\itextsharp.dll
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\CurrencyConverter.pdb
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\SageFrame.Core.pdb
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\SageFrame.Common.pdb
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\SageFrame.Templating.pdb
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\AspxCommerce.Core.pdb
+D:\AspxJivanNew\AspxCommerce.TPSL\bin\SageFrame.Security.pdb
+D:\AspxJivanNew\AspxCommerce.TPSL\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxJivanNew\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
+D:\AspxJivanNew\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\SageFrame\bin\AspxCommerce.TPSL.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\SageFrame\bin\AspxCommerce.TPSL.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.TPSL\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.TPSL\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\SageFrame\bin\AspxCommerce.TPSL.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\SageFrame\bin\AspxCommerce.TPSL.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\SageFrame\bin\AspxCommerce.TPSL.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\SageFrame\bin\AspxCommerce.TPSL.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.TPSL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.TPSL.dll.config
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.TPSL.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.TPSL.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.TPSL.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\SageFrame\bin\AspxCommerce.TPSL.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\SageFrame\bin\AspxCommerce.TPSL.dll.config
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\SageFrame\bin\AspxCommerce.TPSL.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\SageFrame\bin\AspxCommerce.TPSL.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.TPSL.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\AspxCommerce.TPSL.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb

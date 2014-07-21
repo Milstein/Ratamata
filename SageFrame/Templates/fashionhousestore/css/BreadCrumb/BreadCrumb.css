@@ -1,0 +1,111 @@
+/* Float Clearing
+ ---------------------------------------------------------------------*/
+
+.module:after
+{
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/* float clearing for IE6 */
+* html .module
+{
+	height: 1%;
+	overflow: visible;
+}
+
+/* float clearing for IE7 */
+* + html .module
+{
+	min-height: 1%;
+}
+
+/* Breadcrumb Styles
+ ---------------------------------------------------------------------*/
+
+.breadCrumb{ 
+	clear:both;
+	background: none repeat scroll 0 0 #fef8f1;
+    display: block;
+	padding:5px 10px;
+    margin-left: 0;
+    overflow: hidden;
+    width: 761px;
+	border-bottom:1px #e6dbcd solid;
+}
+
+
+.breadCrumb ul
+{
+	margin: 0;
+	padding: 0;
+	/*height: 21px;*/
+	display: block;
+}
+.breadCrumb ul li
+{
+	display: block;
+	float: left;
+	position: relative;
+	height: 21px;
+	overflow: hidden;
+	line-height: 21px;
+	color:#bf736c;
+	margin: 0px 6px 0px 0;
+	padding: 0px 10px 0px 0;
+	font:11px/21px Arial, Helvetica, sans-serif;
+	background: url(../../images/breadline.jpg) no-repeat right center;
+}
+.breadCrumb ul li div.chevronOverlay
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+.breadCrumb ul li span
+{
+	display: block;
+	overflow: hidden;
+}
+.breadCrumb ul li a
+{
+	display: block;
+	position: relative;
+	height: 21px;
+	line-height: 21px;
+	overflow: hidden;
+	font-size:11px;
+	float: left; font-weight:normal; color:#666;
+}
+.breadCrumb ul li a:hover { color:#bf736c;}
+.breadCrumb ul li.first a
+{
+	height: 16px !important;
+	text-indent:-1000em;
+	width:16px;
+	padding: 0;
+	margin-top: 2px;
+	overflow: hidden;
+	background:url(../../images/breadhome.png) no-repeat 0 0;
+}
+.breadCrumb ul li.first a:hover
+{
+	background:url(../../images/breadhomehover.png) no-repeat 0 0;
+}
+.breadCrumb ul li.last
+{
+	background: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+.chevronOverlay
+{
+	display: none;
+	width: 13px;
+	height: 20px;
+}
+.breadCrumb ul li a { }

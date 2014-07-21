@@ -1,0 +1,14 @@
+
+
+/****** Object:  Table [dbo].[Aspx_KPISubTabPath]    Script Date: 01/07/2013 09:56:03 ******/
+DELETE FROM [dbo].[Aspx_KPISubTabPath]
+GO
+/****** Object:  Table [dbo].[Aspx_ABTestVariation]    Script Date: 01/07/2013 09:56:03 ******/
+INSERT [dbo].[Aspx_KPISubTabPath] ([SubTabPathID],[SubTabPath]) VALUES (1, N'My Cart')
+INSERT [dbo].[Aspx_KPISubTabPath] ([SubTabPathID],[SubTabPath]) VALUES (2, N'Billing and Shipping')
+INSERT [dbo].[Aspx_KPISubTabPath] ([SubTabPathID],[SubTabPath]) VALUES (3, N'Shipping Methods')
+INSERT [dbo].[Aspx_KPISubTabPath] ([SubTabPathID],[SubTabPath]) VALUES (4, N'Payment Methods')
+INSERT [dbo].[Aspx_KPISubTabPath] ([SubTabPathID],[SubTabPath]) VALUES (5, N'Order Review')
+INSERT [dbo].[Aspx_KPISubTabPath] ([SubTabPathID],[SubTabPath]) VALUES (6, N'Proceed to Payment')
+
+GO

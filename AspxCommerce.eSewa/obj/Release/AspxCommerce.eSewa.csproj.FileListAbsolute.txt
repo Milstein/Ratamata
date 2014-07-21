@@ -1,0 +1,224 @@
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\AspxCommerce.Core.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Common.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Core.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\AjaxControlToolkit.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\CurrencyConverter.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\ICSharpCode.SharpZipLib.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Templating.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Security.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\itextsharp.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\CurrencyConverter.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Core.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Common.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Templating.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\AspxCommerce.Core.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\bin\SageFrame.Security.pdb
+D:\AspxJivanNew\AspxCommerce.eSewa\obj\Release\ResolveAssemblyReference.cache
+D:\AspxJivanNew\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.dll
+D:\AspxJivanNew\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\AspxCommerce.Core.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\SageFrame.Common.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\SageFrame.Core.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\SageFrame.Pages.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\AjaxControlToolkit.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\Ionic.Zip.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\CurrencyConverter.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\System.Web.Mvc.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\SageFrame.Templating.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\SageFrame.Scheduler.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\SageFrame.Security.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\itextsharp.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\ICSharpCode.SharpZipLib.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\SageFrame.Pages.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\SageFrame.Core.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\CurrencyConverter.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\SageFrame.Templating.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\SageFrame.Scheduler.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\SageFrame.Security.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\SageFrame.Common.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\bin\AspxCommerce.Core.pdb
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\obj\Release\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.dll
+D:\!@AspxCommerce\!@AspxCommerce2.0DEC24\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\AspxCommerce.Core.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Common.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Core.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Pages.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\AjaxControlToolkit.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\Ionic.Zip.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\CurrencyConverter.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\System.Web.Mvc.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Templating.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.NewsLetter.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Scheduler.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Security.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\itextsharp.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\ICSharpCode.SharpZipLib.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Pages.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Core.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\CurrencyConverter.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Templating.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.NewsLetter.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Scheduler.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Security.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Common.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\AspxCommerce.Core.pdb
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\obj\Release\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.dll
+D:\!@AspxCommerce\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\AspxCommerce.Core.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Common.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Core.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Pages.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\AjaxControlToolkit.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\Ionic.Zip.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\CurrencyConverter.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Templating.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.NewsLetter.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Scheduler.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Security.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\itextsharp.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Pages.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Core.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\CurrencyConverter.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Templating.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.NewsLetter.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Scheduler.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Security.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\SageFrame.Common.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\bin\AspxCommerce.Core.pdb
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.dll
+C:\Users\Milson\Documents\AA_v3\!@AspxMarchLatestAKBook\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.dll.config
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\AspxCommerce.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\itextsharp.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Pages.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Security.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.NewsLetter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\DocumentFormat.OpenXml.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\CurrencyConverter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\AjaxControlToolkit.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Templating.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.CDN.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\ICSharpCode.SharpZipLib.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Ionic.Zip.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Newtonsoft.Json.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Core.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Pages.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Security.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.NewsLetter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\CurrencyConverter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Templating.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.CDN.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Scheduler.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.Owin.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\AspxCommerce.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\itextsharp.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.NewsLetter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Security.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Pages.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\CurrencyConverter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\AjaxControlToolkit.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Templating.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.CDN.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\ICSharpCode.SharpZipLib.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Ionic.Zip.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Newtonsoft.Json.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\AspxCommerce.Core.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Core.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.NewsLetter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Security.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Pages.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\CurrencyConverter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Templating.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.CDN.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\SageFrame.Scheduler.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.Owin.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\bin\Newtonsoft.Json.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\AspxCommerceV2.5_Source\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\Ratamata2.5\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\AspxCommerce.eSewa.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\AspxCommerce.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\itextsharp.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.Pages.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.Security.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.NewsLetter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\CurrencyConverter.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\AjaxControlToolkit.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.Templating.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.CDN.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\ICSharpCode.SharpZipLib.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\Ionic.Zip.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\Newtonsoft.Json.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\AspxCommerce.Core.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.Core.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.Pages.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.Security.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.NewsLetter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\CurrencyConverter.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.Templating.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.Scheduler.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\SageFrame.CDN.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\Microsoft.AspNet.SignalR.Owin.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\Newtonsoft.Json.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.pdb

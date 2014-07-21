@@ -1,0 +1,55 @@
+﻿<sageframe version="2.5.0.0" type="Module">
+  <folders>
+    <folder>
+      <name>SFE_RecommendedCategory</name>
+      <friendlyname>AspxRecommendedCategory</friendlyname>
+      <foldername>AspxCommerce/AspxRecommendedCategory</foldername>
+      <modulename>AspxRecommendedCategory</modulename>
+      <description>Recommended Category</description>
+      <version>02.05.00</version>
+      <businesscontrollerclass>SageFrame.Modules.AspxRecommendedItem.AspxRecommendedCategoryController, SageFrame.Modules.AspxRecommendedCategoryDataProvider</businesscontrollerclass>
+      <compatibleversions>^[0]?[4-9]{1}\.[0-9]{1}[7-9]{1}\.[0-9]{1}[0-9]{1}$</compatibleversions>
+      <owner>Sageframe Pvt. Ltd.</owner>
+      <organization>Sageframe Pvt. Ltd.</organization>
+      <url>www.aspxcommerce.com</url>
+      <email>info@aspxcommerce.com</email>
+      <releasenotes>This is  release notes for Recommended Category</releasenotes>
+      <license>This is  license copy for AspxRecommended Category</license>
+      <modules>
+        <module>
+          <friendlyname>AspxRecommendedCategory</friendlyname>
+          <cachetime>-1</cachetime>
+          <controls>
+            <control>
+              <key>AspxRecommendedCategoryView</key>
+              <title>AspxRecommendedCategoryView</title>
+              <src>Modules/AspxCommerce/AspxRecommendedCategory/RecommendedCategory.ascx</src>
+              <type>View</type>
+              <helpurl>http://www.sageframe.com/default.aspx</helpurl>
+              <supportspartialrendering>true</supportspartialrendering>
+            </control>
+            <control>
+              <key>AspxRecommendedCategorySetting</key>
+              <title>AspxRecommendedCategorySetting</title>
+              <src>Modules/AspxCommerce/AspxRecommendedCategory/RecommendedCategorySetting.ascx</src>
+              <type>Setting</type>
+              <helpurl>http://www.sageframe.com/default.aspx</helpurl>
+              <supportspartialrendering>true</supportspartialrendering>
+            </control>
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>02.05.00.SqlDataProvider</name>
+        </file>
+        <file>
+          <name>AspxCommerce.RecommendedCategory.dll</name>
+        </file>
+        <file>
+          <name>Uninstall.SqlDataProvider</name>
+        </file>
+      </files>
+    </folder>
+  </folders>
+</sageframe>

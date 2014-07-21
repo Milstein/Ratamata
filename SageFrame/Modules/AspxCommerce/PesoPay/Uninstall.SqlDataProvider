@@ -1,0 +1,18 @@
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_aspx_GetPesoPaySettingAll]    Script Date: 12/29/2011 13:20:04 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_aspx_GetPesoPaySettingAll]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_aspx_GetPesoPaySettingAll]
+GO
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetTransactionIDByInvoice]    Script Date: 12/29/2011 13:19:03 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetTransactionIDByInvoice]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetTransactionIDByInvoice]
+GO
+GO
+/****** Object:  StoredProcedure [dbo].[usp_aspx_GetPesoPaySecretKey]    Script Date: 12/29/2011 13:19:03 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_aspx_GetPesoPaySecretKey]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_aspx_GetPesoPaySecretKey]
+GO
+
+

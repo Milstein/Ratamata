@@ -1,0 +1,1004 @@
+GO
+/****** Object:  Table [dbo].[Aspx_FlightClass]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightClass]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightClass]
+GO
+/****** Object:  Table [dbo].[Aspx_FlightDomesticPlaces]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightDomesticPlaces]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightDomesticPlaces]
+GO
+/****** Object:  Table [dbo].[Aspx_FlightDomesticPlacesMap]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightDomesticPlacesMap]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightDomesticPlacesMap]
+GO
+/****** Object:  Table [dbo].[Aspx_FlightNationality]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightNationality]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightNationality]
+GO
+/****** Object:  Table [dbo].[Aspx_FlightReservationDetail]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightReservationDetail]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightReservationDetail]
+GO
+/****** Object:  Table [dbo].[Aspx_FlightTripType]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightTripType]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightTripType]
+GO
+/****** Object:  Table [dbo].[Aspx_FlightType]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightType]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightType]
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_DeleteFlightMapping]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_DeleteFlightMapping]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_DeleteFlightMapping]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_DeleteFlightReservation]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_DeleteFlightReservation]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_DeleteFlightReservation]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightClass]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightClass]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightClass]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightDomesticPlaces]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightDomesticPlaces]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightDomesticPlaces]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightMapping]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightMapping]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightMapping]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightNationality]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightNationality]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightNationality]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightReservation]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightReservation]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightReservation]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightReservationDetailByID]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightReservationDetailByID]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightReservationDetailByID]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightTripType]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightTripType]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightTripType]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightType]    Script Date: 09/28/2012 13:13:33 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightType]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightType]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_InsertFlightMapping]    Script Date: 09/28/2012 13:13:33 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_InsertFlightMapping]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_InsertFlightMapping]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_InsertFlightReservation]    Script Date: 09/28/2012 13:13:33 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_InsertFlightReservation]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_InsertFlightReservation]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_InsertDomesticPlaces]    Script Date: 09/28/2012 21:42:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_InsertDomesticPlaces]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_InsertDomesticPlaces]
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetDomesticPlacesToIDbyFromID]    Script Date: 09/30/2012 11:09:03 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetDomesticPlacesToIDbyFromID]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetDomesticPlacesToIDbyFromID]
+
+
+
+
+
+
+GO
+/****** Object:  Table [dbo].[Aspx_FlightClass]    Script Date: 09/28/2012 13:10:20 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Aspx_FlightClass](
+	[ClassID] [int] IDENTITY(1,1) NOT NULL,
+	[FlightTypeID] [int] NULL,
+	[Class] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[IsActive] [bit] NULL CONSTRAINT [DF_Aspx_FlightClass_IsActive]  DEFAULT ((1)),
+	[IsDeleted] [bit] NULL CONSTRAINT [DF_Aspx_FlightClass_IsDeleted]  DEFAULT ((0)),
+	[IsModified] [bit] NULL CONSTRAINT [DF_Aspx_FlightClass_IsModified]  DEFAULT ((0)),
+	[AddedOn] [datetime] NULL CONSTRAINT [DF_Aspx_FlightClass_AddedOn]  DEFAULT (getdate()),
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[UpdatedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[DeletedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+ CONSTRAINT [PK_Aspx_FlightClass] PRIMARY KEY CLUSTERED 
+(
+	[ClassID] ASC
+)WITH (PAD_INDEX  = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[Aspx_FlightDomesticPlaces]    Script Date: 09/28/2012 13:10:20 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Aspx_FlightDomesticPlaces](
+	[DomesticPlacesID] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[IsActive] [bit] NULL CONSTRAINT [DF_Aspx_FlightDomesticPlaces_IsActive]  DEFAULT ((1)),
+	[IsDeleted] [bit] NULL CONSTRAINT [DF_Aspx_FlightDomesticPlaces_IsDeleted]  DEFAULT ((0)),
+	[IsModified] [bit] NULL CONSTRAINT [DF_Aspx_FlightDomesticPlaces_IsModified]  DEFAULT ((0)),
+	[AddedOn] [datetime] NULL CONSTRAINT [DF_Aspx_FlightDomesticPlaces_AddedOn]  DEFAULT (getdate()),
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[UpdatedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[DeletedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+ CONSTRAINT [PK_Aspx_FlightDomesticPlaces] PRIMARY KEY CLUSTERED 
+(
+	[DomesticPlacesID] ASC
+)WITH (PAD_INDEX  = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[Aspx_FlightDomesticPlacesMap]    Script Date: 09/28/2012 13:10:20 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Aspx_FlightDomesticPlacesMap](
+	[DomesticPlacesMapID] [int] IDENTITY(1,1) NOT NULL,
+	[DomesticPlacesFromID] [int] NULL,
+	[DomesticPlacesToID] [int] NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[IsActive] [bit] NULL CONSTRAINT [DF_Aspx_FlightDomesticPlacesMap_IsActive]  DEFAULT ((1)),
+	[IsDeleted] [bit] NULL CONSTRAINT [DF_Aspx_FlightDomesticPlacesMap_IsDeleted]  DEFAULT ((0)),
+	[IsModified] [bit] NULL CONSTRAINT [DF_Aspx_FlightDomesticPlacesMap_IsModified]  DEFAULT ((0)),
+	[AddedOn] [datetime] NULL CONSTRAINT [DF_Aspx_FlightDomesticPlacesMap_AddedOn]  DEFAULT (getdate()),
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[UpdatedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[DeletedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+ CONSTRAINT [PK_Aspx_FlightDomesticPlacesMap] PRIMARY KEY CLUSTERED 
+(
+	[DomesticPlacesMapID] ASC
+)WITH (PAD_INDEX  = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[Aspx_FlightNationality]    Script Date: 09/28/2012 13:10:20 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Aspx_FlightNationality](
+	[NationalityID] [int] IDENTITY(1,1) NOT NULL,
+	[Nationality] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[IsActive] [bit] NULL CONSTRAINT [DF_Aspx_FlightNation_IsActive]  DEFAULT ((1)),
+	[IsDeleted] [bit] NULL CONSTRAINT [DF_Aspx_FlightNation_IsDeleted]  DEFAULT ((0)),
+	[IsModified] [bit] NULL CONSTRAINT [DF_Aspx_FlightNation_IsModified]  DEFAULT ((0)),
+	[AddedOn] [datetime] NULL CONSTRAINT [DF_Aspx_FlightNation_AddedOn]  DEFAULT (getdate()),
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[UpdatedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[DeletedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+ CONSTRAINT [PK_Aspx_FlightNation] PRIMARY KEY CLUSTERED 
+(
+	[NationalityID] ASC
+)WITH (PAD_INDEX  = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[Aspx_FlightReservationDetail]    Script Date: 09/28/2012 13:10:20 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Aspx_FlightReservationDetail](
+	[ReservationID] [int] IDENTITY(1,1) NOT NULL,
+	[FlightTypeID] [int] NULL,
+	[TripTypeID] [int] NULL,
+	[From] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[To] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[Depart] [datetime] NULL,
+	[Return] [datetime] NULL,
+	[Adult] [int] NULL,
+	[Child] [int] NULL,
+	[Infant] [int] NULL,
+	[ClassID] [int] NULL,
+	[NationalityID] [int] NULL,
+	[FirstName] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[MiddleName] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[LastName] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[NameOfOtherTraveller] [nvarchar](max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[phone] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[Email] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[MobileNumber] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[AdditionalInfo] [nvarchar](max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[IsActive] [bit] NULL CONSTRAINT [DF_Aspx_FlightReservationDetail_IsActive]  DEFAULT ((1)),
+	[IsDeleted] [bit] NULL CONSTRAINT [DF_Aspx_FlightReservationDetail_IsDeleted]  DEFAULT ((0)),
+	[IsModified] [bit] NULL CONSTRAINT [DF_Aspx_FlightReservationDetail_IsModified]  DEFAULT ((0)),
+	[AddedOn] [datetime] NULL CONSTRAINT [DF_Aspx_FlightReservationDetail_AddedOn]  DEFAULT (getdate()),
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[UpdatedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[DeletedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+ CONSTRAINT [PK_Aspx_FlightReservationDetail] PRIMARY KEY CLUSTERED 
+(
+	[ReservationID] ASC
+)WITH (PAD_INDEX  = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[Aspx_FlightTripType]    Script Date: 09/28/2012 13:10:20 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Aspx_FlightTripType](
+	[TripTypeID] [int] IDENTITY(1,1) NOT NULL,
+	[TripName] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[IsActive] [bit] NULL CONSTRAINT [DF_Aspx_FlightTripType_IsActive]  DEFAULT ((1)),
+	[IsDeleted] [bit] NULL CONSTRAINT [DF_Aspx_FlightTripType_IsDeleted]  DEFAULT ((0)),
+	[IsModified] [bit] NULL CONSTRAINT [DF_Aspx_FlightTripType_IsModified]  DEFAULT ((0)),
+	[AddedOn] [datetime] NULL CONSTRAINT [DF_Aspx_FlightTripType_AddedOn]  DEFAULT (getdate()),
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[UpdatedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[DeletedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+ CONSTRAINT [PK_Aspx_FlightTripType] PRIMARY KEY CLUSTERED 
+(
+	[TripTypeID] ASC
+)WITH (PAD_INDEX  = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[Aspx_FlightType]    Script Date: 09/28/2012 13:10:20 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Aspx_FlightType](
+	[FlightTypeID] [int] IDENTITY(1,1) NOT NULL,
+	[FlightTypeName] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[IsActive] [bit] NULL CONSTRAINT [DF_Aspx_FlightType_IsActive]  DEFAULT ((1)),
+	[IsDeleted] [bit] NULL CONSTRAINT [DF_Aspx_FlightType_IsDeleted]  DEFAULT ((0)),
+	[IsModified] [bit] NULL CONSTRAINT [DF_Aspx_FlightType_IsModified]  DEFAULT ((0)),
+	[AddedOn] [datetime] NULL CONSTRAINT [DF_Aspx_FlightType_AddedOn]  DEFAULT (getdate()),
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[UpdatedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[DeletedBy] [nvarchar](256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+ CONSTRAINT [PK_Aspx_FlightType] PRIMARY KEY CLUSTERED 
+(
+	[FlightTypeID] ASC
+)WITH (PAD_INDEX  = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
+INSERT [dbo].[Aspx_FlightTripType] ([TripName], [StoreID], [PortalID], [CultureName], [IsActive], [IsDeleted], [IsModified], [AddedOn], [UpdatedOn], [DeletedOn], [AddedBy], [UpdatedBy], [DeletedBy]) VALUES (N'Round Trip', 1, 1, N'en-US', 1, 0, 0, CAST(0x0000A0DA00E15854 AS DateTime), NULL, NULL, N'Admin', NULL, NULL)
+INSERT [dbo].[Aspx_FlightTripType] ([TripName], [StoreID], [PortalID], [CultureName], [IsActive], [IsDeleted], [IsModified], [AddedOn], [UpdatedOn], [DeletedOn], [AddedBy], [UpdatedBy], [DeletedBy]) VALUES (N'One Way', 1, 1, N'en-US', 1, 0, 0, CAST(0x0000A0DA00E183A2 AS DateTime), NULL, NULL, N'Admin', NULL, NULL)
+
+/****** Object:  Table [dbo].[Aspx_FlightType]    Script Date: 09/28/2012 14:03:11 ******/
+
+INSERT [dbo].[Aspx_FlightType] ([FlightTypeName], [StoreID], [PortalID], [CultureName], [IsActive], [IsDeleted], [IsModified], [AddedOn], [UpdatedOn], [DeletedOn], [AddedBy], [UpdatedBy], [DeletedBy]) VALUES (N'Domestic', 1, 1, N'en-US', 1, 0, 0, CAST(0x0000A0DA00E0DA0E AS DateTime), NULL, NULL, N'Admin', NULL, NULL)
+INSERT [dbo].[Aspx_FlightType] ([FlightTypeName], [StoreID], [PortalID], [CultureName], [IsActive], [IsDeleted], [IsModified], [AddedOn], [UpdatedOn], [DeletedOn], [AddedBy], [UpdatedBy], [DeletedBy]) VALUES (N'International', 1, 1, N'en-US', 1, 0, 0, CAST(0x0000A0DA00E11143 AS DateTime), NULL, NULL, N'Admin', NULL, NULL)
+
+/****** Object:  Table [dbo].[Aspx_FlightClass]    Script Date: 09/28/2012 14:03:11 ******/
+
+INSERT [dbo].[Aspx_FlightClass] ([FlightTypeID], [Class], [StoreID], [PortalID], [CultureName], [IsActive], [IsDeleted], [IsModified], [AddedOn], [UpdatedOn], [DeletedOn], [AddedBy], [UpdatedBy], [DeletedBy]) VALUES (1, N'Economy', 1, 1, N'en-US', 1, 0, 0, CAST(0x0000A0DA00E1DC84 AS DateTime), NULL, NULL, N'Admin', NULL, NULL)
+INSERT [dbo].[Aspx_FlightClass] ([FlightTypeID], [Class], [StoreID], [PortalID], [CultureName], [IsActive], [IsDeleted], [IsModified], [AddedOn], [UpdatedOn], [DeletedOn], [AddedBy], [UpdatedBy], [DeletedBy]) VALUES (1, N'Business', 1, 1, N'en-US', 1, 0, 0, CAST(0x0000A0DA00E2207D AS DateTime), NULL, NULL, N'Admin', NULL, NULL)
+INSERT [dbo].[Aspx_FlightClass] ([FlightTypeID], [Class], [StoreID], [PortalID], [CultureName], [IsActive], [IsDeleted], [IsModified], [AddedOn], [UpdatedOn], [DeletedOn], [AddedBy], [UpdatedBy], [DeletedBy]) VALUES (2, N'Economy', 1, 1, N'en-US', 1, 0, 0, CAST(0x0000A0DA00E2433F AS DateTime), NULL, NULL, N'Admin', NULL, NULL)
+INSERT [dbo].[Aspx_FlightClass] ([FlightTypeID], [Class], [StoreID], [PortalID], [CultureName], [IsActive], [IsDeleted], [IsModified], [AddedOn], [UpdatedOn], [DeletedOn], [AddedBy], [UpdatedBy], [DeletedBy]) VALUES (2, N'Premium Economy', 1, 1, N'en-US', 1, 0, 0, CAST(0x0000A0DA00E27CE2 AS DateTime), NULL, NULL, N'Admin', NULL, NULL)
+INSERT [dbo].[Aspx_FlightClass] ([FlightTypeID], [Class], [StoreID], [PortalID], [CultureName], [IsActive], [IsDeleted], [IsModified], [AddedOn], [UpdatedOn], [DeletedOn], [AddedBy], [UpdatedBy], [DeletedBy]) VALUES (2, N'Business', 1, 1, N'en-US', 1, 0, 0, CAST(0x0000A0DA00E2B334 AS DateTime), NULL, NULL, N'Admin', NULL, NULL)
+INSERT [dbo].[Aspx_FlightClass] ([FlightTypeID], [Class], [StoreID], [PortalID], [CultureName], [IsActive], [IsDeleted], [IsModified], [AddedOn], [UpdatedOn], [DeletedOn], [AddedBy], [UpdatedBy], [DeletedBy]) VALUES (2, N'First Class', 1, 1, N'en-US', 1, 0, 0, CAST(0x0000A0DA00E2D9B4 AS DateTime), NULL, NULL, N'Admin', NULL, NULL)
+
+/****** Object:  Table [dbo].[Aspx_FlightNationality]    Script Date: 09/28/2012 14:03:11 ******/
+
+INSERT [dbo].[Aspx_FlightNationality] ([Nationality], [StoreID], [PortalID], [CultureName], [IsActive], [IsDeleted], [IsModified], [AddedOn], [UpdatedOn], [DeletedOn], [AddedBy], [UpdatedBy], [DeletedBy]) VALUES (N'Nepali', 1, 1, N'en-US', 1, 0, 0, CAST(0x0000A0DA00E31F17 AS DateTime), NULL, NULL, N'Admin', NULL, NULL)
+INSERT [dbo].[Aspx_FlightNationality] ([Nationality], [StoreID], [PortalID], [CultureName], [IsActive], [IsDeleted], [IsModified], [AddedOn], [UpdatedOn], [DeletedOn], [AddedBy], [UpdatedBy], [DeletedBy]) VALUES (N'Foreigner', 1, 1, N'en-US', 1, 0, 0, CAST(0x0000A0DA00E33FBE AS DateTime), NULL, NULL, N'Admin', NULL, NULL)
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_DeleteFlightMapping]    Script Date: 09/28/2012 13:13:38 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Kamal Khanal
+-- Create date: 2011-04-22
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_DeleteFlightMapping] '4,5,6',1,1,'admin' 
+CREATE PROCEDURE [dbo].[usp_Aspx_DeleteFlightMapping]
+	-- Add the parameters for the stored procedure here
+    @DomesticPlacesMapID nvarchar(1000),
+	@StoreID int,
+	@PortalID int,
+    @CultureName nvarchar(256),
+    @UserName nvarchar(256)
+AS
+BEGIN
+SET NOCOUNT ON;
+DECLARE @tbltemp TABLE
+(
+RowNum int IDENTITY(1,1),
+DomesticPlacesMapID int
+)
+DECLARE @counter int,@rowCount int
+INSERT INTO @tbltemp(DomesticPlacesMapID)
+SELECT rtrim(ltrim(items)) FROm split(@DomesticPlacesMapID,',')
+SELECT @rowCount=COUNT(RowNum) FROM @tbltemp
+SET @counter=1
+  WHILE(@counter<=@rowCount OR @counter=1)
+    BEGIN
+     DECLARE @key nvarchar(1000)
+ SELECT @key=DomesticPlacesMapID FROM @tbltemp WHERE RowNum=@counter
+UPDATE Aspx_FlightDomesticPlacesMap SET IsDeleted=1,
+DeletedBy=@UserName,DeletedOn=getdate()
+	 WHERE DomesticPlacesMapID=@key and StoreID=@StoreID and PortalID=@PortalID and CultureName=@CultureName
+SET @counter=@counter+1
+END
+
+END
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_DeleteFlightReservation]    Script Date: 09/28/2012 13:13:38 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Kamal Khanal
+-- Create date: 2011-04-22
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_DeleteFlightReservation] '4,5,6',1,1,'admin' 
+CREATE PROCEDURE [dbo].[usp_Aspx_DeleteFlightReservation]
+	-- Add the parameters for the stored procedure here
+    @ReservationID nvarchar(1000),
+	@StoreID int,
+	@PortalID int,
+    @CultureName nvarchar(256),
+    @UserName nvarchar(256)
+AS
+BEGIN
+SET NOCOUNT ON;
+DECLARE @tbltemp TABLE
+(
+RowNum int IDENTITY(1,1),
+ReservationID int
+)
+DECLARE @counter int,@rowCount int
+INSERT INTO @tbltemp(ReservationID)
+SELECT rtrim(ltrim(items)) FROm split(@ReservationID,',')
+SELECT @rowCount=COUNT(RowNum) FROM @tbltemp
+SET @counter=1
+  WHILE(@counter<=@rowCount OR @counter=1)
+    BEGIN
+     DECLARE @key nvarchar(1000)
+ SELECT @key=ReservationID FROM @tbltemp WHERE RowNum=@counter
+UPDATE Aspx_FlightReservationDetail SET IsDeleted=1,
+DeletedBy=@UserName,DeletedOn=getdate()
+	 WHERE ReservationID=@key and StoreID=@StoreID and PortalID=@PortalID and CultureName=@CultureName
+SET @counter=@counter+1
+END
+
+END
+
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightClass]    Script Date: 09/28/2012 13:13:38 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Kamal Khanal
+-- Create date: 2011-04-22
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_GetFlightClass] 1,1,'en-US',1
+CREATE PROCEDURE [dbo].[usp_Aspx_GetFlightClass]
+	-- Add the parameters for the stored procedure here
+	@StoreID int,
+	@PortalID int,
+    @CultureName nvarchar(256),
+    @FlightTypeID int
+  
+AS
+BEGIN
+
+Select ClassID as FlightClassID,Class as FlightClass from dbo.Aspx_FlightClass
+	 WHERE  StoreID=@StoreID and PortalID=@PortalID and CultureName=@CultureName
+and IsActive=1 and (IsDeleted=0 or IsDeleted=NULL) and FlightTypeID=@FlightTypeID 
+
+END
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightDomesticPlaces]    Script Date: 09/28/2012 13:13:39 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Kamal Khanal
+-- Create date: 2011-04-22
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_GetFlightDomesticPlaces] '4,5,6',1,1,'admin' 
+CREATE PROCEDURE [dbo].[usp_Aspx_GetFlightDomesticPlaces]
+	-- Add the parameters for the stored procedure here
+	@StoreID int,
+	@PortalID int,
+    @CultureName nvarchar(256)
+AS
+BEGIN
+
+Select DomesticPlacesID,Name from dbo.Aspx_FlightDomesticPlaces 
+	 WHERE  StoreID=@StoreID and PortalID=@PortalID and CultureName=@CultureName
+and IsActive=1 and (IsDeleted=0 or IsDeleted=NULL)
+END
+
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightMapping]    Script Date: 09/28/2012 13:13:39 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- Author:		<Kamal,Khanal>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_GetFlightMapping] 1,10,1,null,1,1,'en-US'
+CREATE PROCEDURE [dbo].[usp_Aspx_GetFlightMapping]                
+@offset int,
+@limit int,
+@FlightFromId int=null,
+@FlightToId int=null,
+@StoreID int,
+@PortalID int,
+@CultureName nvarchar(256)
+                 
+AS
+BEGIN
+
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+    -- Insert statements for procedure here
+declare @RowTotal int
+select @RowTotal=count(*) from Aspx_FlightDomesticPlacesMap
+WHERE (DomesticPlacesFromID=@FlightFromId or @FlightFromId is null) AND
+ (DomesticPlacesToID=@FlightToId or @FlightToId is null) AND
+StoreID=@StoreID AND PortalID=@PortalID  
+AND (IsDeleted=0 OR IsDeleted IS NULL) AND IsActive = 1;
+with test as
+(
+select @RowTotal as RowTotal,*,
+ROW_NUMBER() over(Order by(DomesticPlacesMapID)) as RowNumber
+from
+(
+	SELECT * FROM Aspx_FlightDomesticPlacesMap WHERE (DomesticPlacesFromID=@FlightFromId or @FlightFromId is null) AND
+ (DomesticPlacesToID=@FlightToId or @FlightToId is null) 
+ AND
+ StoreID=@StoreID AND PortalID=@PortalID  
+AND (IsDeleted=0 OR IsDeleted IS NULL) AND IsActive = 1
+)
+DataTable
+)
+ SELECT @RowTotal as RowTotal,DomesticPlacesMapID
+      ,(Select Name from Aspx_FlightDomesticPlaces where DomesticPlacesFromID=DomesticPlacesID) as PlaceFrom
+      ,(Select Name from Aspx_FlightDomesticPlaces where DomesticPlacesToID=DomesticPlacesID) as PlaceTo
+      ,[StoreID]
+      ,[PortalID]
+      ,[CultureName]
+      ,[IsActive]
+      ,[IsDeleted]
+      ,[IsModified]
+      ,[AddedOn]
+      ,[UpdatedOn]
+      ,[DeletedOn]
+      ,[AddedBy]
+      ,[UpdatedBy]
+      ,[DeletedBy]          
+       from test where RowNumber>=@offset
+       and RowNumber<=(@offset+@limit-1)
+end
+
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightNationality]    Script Date: 09/28/2012 13:13:39 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Kamal Khanal
+-- Create date: 2011-04-22
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_GetFlightNationality] 1,1,'en-US' 
+CREATE PROCEDURE [dbo].[usp_Aspx_GetFlightNationality]
+	-- Add the parameters for the stored procedure here
+	@StoreID int,
+	@PortalID int,
+    @CultureName nvarchar(256)
+  
+AS
+BEGIN
+
+Select NationalityID,Nationality from dbo.Aspx_FlightNationality
+	 WHERE  StoreID=@StoreID and PortalID=@PortalID and CultureName=@CultureName
+and IsActive=1 and (IsDeleted=0 or IsDeleted=NULL) 
+
+END
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightReservation]    Script Date: 09/28/2012 13:13:40 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:		<Niranjan Humagain>
+-- Create date: 22-April,2011
+-- Description:	<Description,,>
+-- Modified By: Milson Munakami
+-- =============================================
+--  usp_Aspx_GetFlightReservation 1,20,null,null,1,1,'en-US'
+CREATE PROCEDURE  [dbo].[usp_Aspx_GetFlightReservation]
+	-- Add the parameters for the stored procedure here
+		@offset int,
+		@limit int,
+		@from nvarchar(256)=null,
+		@to nvarchar(256)=null,
+        @fname nvarchar(256)=null,
+        @lname nvarchar(256)=null,
+		@StoreID int,
+		@PortalID int,
+		@CultureName nvarchar(256)
+			
+AS
+BEGIN
+	SET NOCOUNT ON;
+	DECLARE @RowTotal int
+
+	SELECT @RowTotal=COUNT(*) from dbo.Aspx_FlightReservationDetail  
+	WHERE StoreID=@StoreID AND PortalID=@PortalID  
+    AND (IsDeleted=0 OR IsDeleted IS NULL) AND IsActive = 1;
+
+	SELECT  *
+    FROM
+	(
+		select @RowTotal AS RowTotal, frd.ReservationID,frd.FirstName+' '+isnull(frd.MiddleName,'')+' '+frd.LastName as Name,ft.FlightTypeName, ftt.TripName,frd.[From]+' - '+frd.[To] as FromTo,frd.phone as Phone,frd.MobileNumber,
+		CONVERT(CHAR(10),frd.Depart , 101) as Depart ,
+ CASE CONVERT(CHAR(10),frd.[Return] , 101)
+ WHEN '01/01/1900' THEN '' 
+ ELSE CONVERT(CHAR(10),frd.[Return] , 101)
+ END
+ as [Return] 
+       ,convert(nvarchar,frd.Adult)+','+convert(nvarchar,frd.Child)+','+convert(nvarchar,frd.Infant) as Customer ,fc.Class as FlightClass,fn.Nationality,frd.NameOfOtherTraveller,frd.AdditionalInfo,frd.Email,
+		ROW_NUMBER() OVER(ORDER BY(ReservationID)) AS RowNumber from dbo.Aspx_FlightReservationDetail frd
+		inner join dbo.Aspx_FlightType ft on ft.FlightTypeID=frd.FlightTypeID and ft.IsActive=1
+		inner join dbo.Aspx_FlightTripType ftt on ftt.TripTypeID = frd.TripTypeID
+		inner join dbo.Aspx_FlightClass fc on fc.ClassID = frd.ClassID
+        inner join dbo.Aspx_FlightNationality fn on fn.NationalityID=frd.NationalityID
+		WHERE 
+		frd.[From] LIKE ISNULL(@from,'')+'%'
+		and frd.[To] LIKE ISNULL(@to,'')+'%' and frd.FirstName LIKE ISNULL(@fname,'')+'%' and frd.LastName LIKE ISNULL(@lname,'')+'%'
+		and frd.StoreID=@StoreID and 
+		frd.PortalID=@PortalID and (frd.IsDeleted=0 or frd.IsDeleted is null) and frd.IsActive=1 
+	) AS x
+	WHERE RowNumber >= @offset AND x.RowNumber<=@offset+@limit-1
+
+END
+
+
+
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightReservationDetailByID]    Script Date: 09/28/2012 13:13:40 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:		<Niranjan Humagain>
+-- Create date: 22-April,2011
+-- Description:	<Description,,>
+-- Modified By: Milson Munakami
+-- =============================================
+--  usp_Aspx_GetFlightReservationDetailByID 7,1,1,'en-US'
+CREATE PROCEDURE  [dbo].[usp_Aspx_GetFlightReservationDetailByID]
+	-- Add the parameters for the stored procedure here
+	    @ReservationID int,
+		@StoreID int,
+		@PortalID int,
+		@CultureName nvarchar(256)
+			
+AS
+BEGIN
+SELECT ReservationID,FlightTypeID,TripTypeID,[From],[To],CONVERT(CHAR(10),Depart , 101) as Depart,
+ CASE CONVERT(CHAR(10),[Return] , 101)
+ WHEN '01/01/1900' THEN '' 
+ ELSE CONVERT(CHAR(10),[Return] , 101)
+ END
+ as [Return] ,Adult,Child,Infant,ClassID,NationalityID,FirstName,MiddleName,LastName,NameOfOtherTraveller,phone as Phone,Email,MobileNumber,AdditionalInfo FROM dbo.Aspx_FlightReservationDetail 
+WHERE ReservationID=@ReservationID AND StoreID=@StoreID AND PortalID=@PortalID  
+AND (IsDeleted=0 OR IsDeleted IS NULL) AND IsActive = 1;
+
+END
+
+
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightTripType]    Script Date: 09/28/2012 13:13:40 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Kamal Khanal
+-- Create date: 2011-04-22
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_GetFlightTripType] 1,1,'en-US' 
+CREATE PROCEDURE [dbo].[usp_Aspx_GetFlightTripType]
+	-- Add the parameters for the stored procedure here
+	@StoreID int,
+	@PortalID int,
+    @CultureName nvarchar(256)
+  
+AS
+BEGIN
+
+Select TripTypeID as FlightTripTypeID,TripName from dbo.Aspx_FlightTripType
+	 WHERE  StoreID=@StoreID and PortalID=@PortalID and CultureName=@CultureName
+and IsActive=1 and (IsDeleted=0 or IsDeleted=NULL) 
+
+END
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightType]    Script Date: 09/28/2012 13:13:41 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Kamal Khanal
+-- Create date: 2011-04-22
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_GetFlightType] 1,1,'en-US' 
+CREATE PROCEDURE [dbo].[usp_Aspx_GetFlightType]
+	-- Add the parameters for the stored procedure here
+	@StoreID int,
+	@PortalID int,
+    @CultureName nvarchar(256)
+  
+AS
+BEGIN
+
+Select FlightTypeID,FlightTypeName from dbo.Aspx_FlightType
+	 WHERE  StoreID=@StoreID and PortalID=@PortalID and CultureName=@CultureName
+and IsActive=1 and (IsDeleted=0 or IsDeleted=NULL) 
+
+END
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_InsertFlightMapping]    Script Date: 09/28/2012 13:13:41 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- Author:		<Kamal,Khanal>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_InsertFlightMapping] 1,8,1,1,'en-US','Admin',0
+CREATE PROCEDURE [dbo].[usp_Aspx_InsertFlightMapping]                
+@FlightFromId int,
+@FlightToId int,
+@StoreID int,
+@PortalID int,
+@CultureName nvarchar(256),
+@UserName nvarchar(256),
+@returnValue bit output                
+AS
+BEGIN
+set @returnValue=0
+If(not(exists(select * from [Aspx_FlightDomesticPlacesMap] where [DomesticPlacesFromID]=@FlightFromId and [DomesticPlacesToID]=@FlightToId and IsActive=1 and (IsDeleted=0 or IsDeleted=null))))
+BEGIN
+INSERT INTO [Aspx_FlightDomesticPlacesMap]
+           ([DomesticPlacesFromID]
+           ,[DomesticPlacesToID]
+           ,[StoreID]
+           ,[PortalID]
+           ,[CultureName]
+           ,[IsActive]
+           ,[IsDeleted]
+           ,[IsModified]
+           ,[AddedOn]
+           ,[UpdatedOn]
+           ,[DeletedOn]
+           ,[AddedBy]
+           ,[UpdatedBy]
+           ,[DeletedBy])
+     VALUES(@FlightFromId,@FlightToId,@StoreID,@PortalID,@CultureName,1,0,0,GETDATE(),NULL,NULL,@UserName,null,null) 
+set @returnValue=1  
+return @returnValue 
+
+END
+print @returnValue  
+END
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_InsertFlightReservation]    Script Date: 09/28/2012 13:13:41 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[usp_Aspx_InsertFlightReservation]
+@ReservationID int,
+@FlightType int,
+@TripType int,
+@From nvarchar(256),
+@To nvarchar(256),
+@Depart datetime=null,
+@Return datetime=null,
+@Adult int,
+@Child int,
+@Infant int,
+@ClassId int,
+@NationalityId int,
+@FirstName nvarchar(256),
+@MiddleName nvarchar(256),
+@LastName nvarchar(256),
+@NoOfOtherTravelller nvarchar(256),
+@phone nvarchar(256),
+@MobileNumber nvarchar(256),
+@email nvarchar(256),
+@AdditionalInfo nvarchar(max),
+@StoreID int,
+@PortalID int,
+@CultureName nvarchar(50),
+@UserName nvarchar(256)
+AS
+BEGIN
+	SET NOCOUNT ON;
+if(@ReservationID=0)
+begin
+INSERT INTO [dbo].[Aspx_FlightReservationDetail]
+           ([FlightTypeID]
+           ,[TripTypeID]
+           ,[From]
+           ,[To]
+           ,[Depart]
+           ,[Return]
+           ,[Adult]
+           ,[Child]
+           ,[Infant]
+           ,[ClassID]
+           ,[NationalityID]
+           ,[FirstName]
+           ,[MiddleName]
+           ,[LastName]
+           ,[NameOfOtherTraveller]
+           ,[phone]
+           ,[MobileNumber]
+           ,[Email]
+           ,[AdditionalInfo]
+           ,[StoreID]
+           ,[PortalID]
+           ,[CultureName]
+           ,[IsActive]
+           ,[IsDeleted]
+           ,[IsModified]
+           ,[AddedOn]
+           ,[UpdatedOn]
+           ,[DeletedOn]
+           ,[AddedBy]
+           ,[UpdatedBy]
+           ,[DeletedBy])
+     VALUES
+          (@FlightType
+           ,@TripType
+           ,@From
+           ,@To
+           ,@Depart
+           ,@Return
+           ,@Adult
+           ,@Child
+           ,@Infant
+           ,@ClassId
+           ,@NationalityId
+           ,@FirstName
+           ,@MiddleName
+           ,@LastName
+           ,@NoOfOtherTravelller
+           ,@phone
+           ,@MobileNumber
+           ,@email
+           ,@AdditionalInfo
+           ,@StoreID
+           ,@PortalID
+           ,@CultureName
+           ,1
+           ,0
+           ,0
+           ,getdate()
+           ,null
+           ,null
+           ,@UserName
+           ,null
+           ,null)
+end
+else
+begin
+UPDATE [dbo].[Aspx_FlightReservationDetail] 
+        SET [FlightTypeID]=@FlightType
+           ,[TripTypeID]=@TripType
+           ,[From]=@From
+           ,[To]=@To
+           ,[Depart]=@Depart
+           ,[Return]=@Return
+           ,[Adult]=@Adult
+           ,[Child]=@Child
+           ,[Infant]=@Infant
+           ,[ClassID]=@ClassId
+           ,[NationalityID]=@NationalityId
+           ,[FirstName]=@FirstName
+           ,[MiddleName]=@MiddleName
+           ,[LastName]=@LastName
+           ,[NameOfOtherTraveller]=@NoOfOtherTravelller
+           ,[phone]=@phone
+           ,[MobileNumber]=@MobileNumber
+           ,[Email]=@email
+           ,[AdditionalInfo]=@AdditionalInfo
+           ,[IsModified]=1
+           ,[UpdatedOn]=getdate()
+           ,[UpdatedBy]=@UserName WHERE ReservationID=@ReservationID
+          
+end
+END
+GO
+set ANSI_NULLS ON
+set QUOTED_IDENTIFIER ON
+GO
+
+-- Author:		<Kamal,Khanal>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_InsertDomesticPlaces] 1,8,1,1,'en-US','Admin',0
+create PROCEDURE [dbo].[usp_Aspx_InsertDomesticPlaces]                
+@name nvarchar(256),
+@StoreID int,
+@PortalID int,
+@CultureName nvarchar(256),
+@UserName nvarchar(256),
+@returnValue bit output                
+AS
+BEGIN
+set @returnValue=0
+If(not(exists(select * from [dbo].[Aspx_FlightDomesticPlaces] where Name=@name and IsActive=1 and (IsDeleted=0 or IsDeleted=null))))
+BEGIN
+INSERT INTO [dbo].[Aspx_FlightDomesticPlaces]
+           ([Name]
+           ,[StoreID]
+           ,[PortalID]
+           ,[CultureName]
+           ,[IsActive]
+           ,[IsDeleted]
+           ,[IsModified]
+           ,[AddedOn]
+           ,[UpdatedOn]
+           ,[DeletedOn]
+           ,[AddedBy]
+           ,[UpdatedBy]
+           ,[DeletedBy])
+     VALUES
+           (@name
+           ,@StoreID
+           ,@PortalID
+           ,@CultureName
+           ,1
+           ,0
+           ,0
+           ,getdate()
+           ,null
+           ,null
+           ,@UserName
+           ,null
+           ,null)
+set @returnValue=1  
+return @returnValue 
+END
+print @returnValue  
+END
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetDomesticPlacesToIDbyFromID]    Script Date: 09/30/2012 11:09:43 ******/
+set ANSI_NULLS ON
+set QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Kamal Khanal
+-- Create date: 2011-04-22
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_GetDomesticPlacesToIDbyFromID] 1,1,'en-US',8 
+CREATE PROCEDURE [dbo].[usp_Aspx_GetDomesticPlacesToIDbyFromID]
+	-- Add the parameters for the stored procedure here
+	@StoreID int,
+	@PortalID int,
+    @CultureName nvarchar(256),
+    @DomesticPlacesFromID int
+AS
+BEGIN
+if(@DomesticPlacesFromID!=0)
+begin
+Select DomesticPlacesID,Name from dbo.Aspx_FlightDomesticPlaces 
+	 WHERE  StoreID=@StoreID and PortalID=@PortalID and CultureName=@CultureName
+and IsActive=1 and (IsDeleted=0 or IsDeleted=NULL) and DomesticPlacesID IN
+	(SELECT  DomesticPlacesToID FROM Aspx_FlightDomesticPlacesMap WHERE DomesticPlacesFromID=@DomesticPlacesFromID and StoreID=@StoreID and PortalID=@PortalID and CultureName=@CultureName
+and IsActive=1 and (IsDeleted=0 or IsDeleted=NULL))
+end
+else
+begin 
+Select DomesticPlacesID,Name from dbo.Aspx_FlightDomesticPlaces 
+	 WHERE  StoreID=@StoreID and PortalID=@PortalID and CultureName=@CultureName
+and IsActive=1 and (IsDeleted=0 or IsDeleted=NULL)
+end
+END
+
+
+
+
+

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pagepreset>
+  <layout>
+    <preset layout="All">All</preset>
+    <preset layout="AllCMSPages">Customer-service-center,Company-info,About-Us,Why-us,How-to-buy,FAQs,In-News,Jobs,Advertise,Speak-your-mind,Privacy-Policy,Terms-and-Conditions,Order-on-Phone,Delivery-and-Shipping,Returns-and-Refunds,Terms-Conditions,Delivery-Shipping,Returns-Refunds</preset>
+    <preset layout="contact">Contact-Us</preset>
+    <preset layout="home">Home</preset>
+    <preset layout="Underconstruction">Under-Construction</preset>
+    <preset layout="Unsubscribe">UnSubscribe</preset>
+  </layout>
+  <theme>default</theme>
+  <width>wide</width>
+</pagepreset>

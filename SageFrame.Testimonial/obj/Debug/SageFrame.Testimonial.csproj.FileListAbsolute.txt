@@ -1,0 +1,30 @@
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame\bin\SageFrame.Testimonial.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame\bin\SageFrame.Testimonial.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\obj\Debug\ResolveAssemblyReference.cache
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.pdb
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame\bin\SageFrame.Testimonial.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame\bin\SageFrame.Testimonial.pdb
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame\bin\SageFrame.Testimonial.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame\bin\SageFrame.Testimonial.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Debug\ResolveAssemblyReference.cache
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame\bin\SageFrame.Testimonial.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame\bin\SageFrame.Testimonial.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame\bin\SageFrame.Testimonial.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame\bin\SageFrame.Testimonial.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\obj\Debug\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.Testimonial.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame\bin\SageFrame.Testimonial.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.pdb

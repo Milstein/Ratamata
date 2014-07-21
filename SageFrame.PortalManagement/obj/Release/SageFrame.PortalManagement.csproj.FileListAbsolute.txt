@@ -1,0 +1,7 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.PortalManagement\bin\Release\SageFrame.PortalManagement.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.PortalManagement\bin\Release\SageFrame.PortalManagement.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.PortalManagement\bin\Release\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.PortalManagement\bin\Release\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.PortalManagement\obj\Release\SageFrame.PortalManagement.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.PortalManagement\obj\Release\SageFrame.PortalManagement.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.PortalManagement\obj\Release\SageFrame.PortalManagement.csprojResolveAssemblyReference.cache

@@ -1,0 +1,112 @@
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\bin\Release\SageFrame.Testimonial.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\bin\Release\SageFrame.Testimonial.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\bin\Release\SageFrame.Common.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\bin\Release\SageFrame.Core.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\bin\Release\SageFrame.Scheduler.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\bin\Release\AjaxControlToolkit.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\bin\Release\ICSharpCode.SharpZipLib.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\bin\Release\SageFrame.Templating.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\bin\Release\Ionic.Zip.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\bin\Release\SageFrame.Scheduler.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\bin\Release\SageFrame.Core.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\bin\Release\SageFrame.Common.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\bin\Release\SageFrame.Templating.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\obj\Release\ResolveAssemblyReference.cache
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\AspxCommerceV2.0_Sourcexxx\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.pdb
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Testimonial.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Testimonial.pdb
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Common.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Core.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Scheduler.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\AjaxControlToolkit.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\System.Web.Mvc.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Templating.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\Ionic.Zip.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Scheduler.pdb
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Core.pdb
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Common.pdb
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Templating.pdb
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Release\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.dll
+D:\!@AspxCommerce\AspxCommerceV2.1\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Testimonial.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Testimonial.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Common.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Core.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Scheduler.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\AjaxControlToolkit.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\ICSharpCode.SharpZipLib.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Templating.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\Ionic.Zip.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Scheduler.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Core.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Common.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Templating.pdb
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Release\ResolveAssemblyReference.cache
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.dll
+G:\!@SageFrame\SageFrame2.0\AspxCommerceV2.0DEC21\!@Localizations\!@\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Testimonial.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Testimonial.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Common.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Core.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Scheduler.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\AjaxControlToolkit.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\System.Web.Mvc.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Templating.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\Ionic.Zip.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Scheduler.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Core.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Common.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\bin\Release\SageFrame.Templating.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Release\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\AspxCommerceV2.0_Source\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\SageFrame.Testimonial.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\SageFrame.Testimonial.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\SageFrame.Common.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\SageFrame.Core.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\SageFrame.Scheduler.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\AjaxControlToolkit.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\System.Web.Mvc.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\SageFrame.Templating.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\Ionic.Zip.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\SageFrame.Scheduler.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\SageFrame.Core.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\SageFrame.Common.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\bin\Release\SageFrame.Templating.pdb
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\obj\Release\ResolveAssemblyReference.cache
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.dll
+D:\!@AspxCommerce\!@AspxCommerceV2.1SkinStation\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\SageFrame.Testimonial.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\SageFrame.Testimonial.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\SageFrame.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\AjaxControlToolkit.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\SageFrame.Templating.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\SageFrame.CDN.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\Ionic.Zip.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\Microsoft.AspNet.SignalR.Core.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\Microsoft.AspNet.SignalR.Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\Owin.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\Newtonsoft.Json.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\SageFrame.Core.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\SageFrame.Templating.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\SageFrame.Scheduler.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\SageFrame.CDN.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\Microsoft.AspNet.SignalR.Core.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\Microsoft.AspNet.SignalR.Owin.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\bin\Release\Newtonsoft.Json.xml
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Testimonial\obj\Release\SageFrame.Testimonial.pdb

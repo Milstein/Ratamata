@@ -1,0 +1,127 @@
+
+.ui-tabs {
+	position: relative;
+	zoom: 1;
+}
+.ui-tabs .ui-tabs-nav {
+	margin: 0;
+	padding:0;
+	background:none;
+	height:30px;
+	position:absolute; left:0; top:-31px;
+}
+.ui-tabs .ui-tabs-nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 4px;
+	margin: 0 3px 0 5px;
+	border-bottom: 0 !important;
+	padding: 0;
+	white-space: nowrap;
+	height:25px;
+	-moz-box-shadow: 0 0 0 #ccc;
+  -webkit-box-shadow: 0 0 0 #ccc;
+  box-shadow: 0 0 0 #ccc;
+
+	-webkit-border-top-left-radius: 4px;
+-webkit-border-top-right-radius: 4px;
+-moz-border-radius-topleft: 4px;
+-moz-border-radius-topright: 4px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+	float: left;
+	text-decoration: none;
+	height:25px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	background:#EDEDED
+}
+.ui-tabs ul.ui-tabs-nav li.ui-state-default a {
+	float:left;
+	padding:0 0 0 10px;
+	height:25px;
+	font:bold 11px/25px Arial, Helvetica, sans-serif;
+	color:#666;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a span, .ui-tabs .ui-tabs-nav li.ui-state-disabled a span, .ui-tabs .ui-tabs-nav li.ui-state-processing a span {
+	cursor: text;
+	float:left;
+	padding:0 10px 0 0;
+	height:25px;
+}
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+	cursor: pointer;
+}
+.ui-tabs .ui-tabs-panel {
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+ -moz-box-shadow: 0px 0px 1px #b3b4b4;
+  -webkit-box-shadow: 0px 0px 1px #b3b4b4;
+  box-shadow: 0px 0px 1px #b3b4b4; border: 1px solid #FFFFFF; background-color: #F5F5F5; margin:0 0 10px 0; padding:10px
+}
+.ui-tabs .ui-tabs-hide {
+	display: none !important;
+}
+.ui-tabs ul.ui-tabs-nav li.ui-state-default a {
+	padding:0 0 0 9px;
+	height:25px;
+	font:bold 11px/25px Arial, Helvetica, sans-serif;
+	color:#666;
+	background:#058FBE;
+	-webkit-border-top-left-radius: 4px;
+-webkit-border-top-right-radius: 4px;
+-moz-border-radius-topleft: 4px;
+-moz-border-radius-topright: 4px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+border-left:1px #0183af solid; border-right:1px #0183af solid; border-top:1px #0183af solid;
+}
+.ui-tabs ul.ui-tabs-nav li.ui-state-default a span {
+	padding:0 9px 0 0;
+	height:25px;
+	font:bold 11px/25px Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+.ui-tabs ul.ui-tabs-nav li.ui-tabs-selected a, .ui-tabs ul.ui-tabs-nav li.ui-state-active a, .ui-tabs ul.ui-tabs-nav li.ui-state-default a:hover {
+	float:left;
+	padding:0 0 0 9px;
+	height:25px;
+	font:bold 11px/25px Arial, Helvetica, sans-serif;
+	color:#666;
+	background:#EDEDED;
+	border-left:1px #dcdcdc solid; border-right:1px #dcdcdc solid; border-top:1px #dcdcdc solid;
+	-webkit-border-top-left-radius: 4px;
+-webkit-border-top-right-radius: 4px;
+-moz-border-radius-topleft: 4px;
+-moz-border-radius-topright: 4px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+.ui-tabs ul.ui-tabs-nav li.ui-tabs-selected a span, .ui-tabs ul.ui-tabs-nav li.ui-state-active a span, .ui-tabs ul.ui-tabs-nav li.ui-state-default a:hover span {
+	padding:0 9px 0 0;
+	height:25px;
+	font:bold 11px/25px Arial, Helvetica, sans-serif;
+	color:#4b4b4b;
+}
+
+/*---------------TAB PANEL WRAPPER START HERE---------------*/
+.cssClassTabPanelTable .ui-widget-content{ margin:0;}
+.cssClassTabPanelTable table td{padding:3px 0; }
+.cssClassTabPanelTable h2{ height:28px; font:bold 12px/28px Arial, Helvetica, sans-serif; color:#fff; padding:0 0 0 10px; }
+.cssClassTabPanelTable table{}
+tr.cssClassHeading{ background-color:#cbbba5; border-bottom:1px solid #968266; text-shadow:1px 1px 0 #d0d1c7; font:bold 11px/28px Arial, Helvetica, sans-serif; color:#6a4008;}
+tr.cssClassHeading b{ padding:0 0 0 5px; }
+.cssClassTabPanelTable table tr.cssClassHeading th{ border-right:1px solid #968266; padding:0 0 0 5px; }
+.cssClassTabPanelAlternativeOdd{ background-color:#f1e7d9; font:12px/18px Arial, Helvetica, sans-serif; color:#101010; }
+.cssClassTabPanelAlternativeEven{ background-color:#fff; font:12px/18px Arial, Helvetica, sans-serif; color:#101010; }
+tr.cssClassTabPanelAlternativeOdd td, tr.cssClassTabPanelAlternativeEven td{ padding:5px 5px 5px 5px; }
+.cssClassTabpanelTotalAmount{ font:bold 12px Arial, Helvetica, sans-serif; color:#000;}
+.cssClassDashboardTotal{ margin:15px 0 0 0;}
+.cssClassTabPanelTable .cssClassGridWrapper table{ border-right:none;}

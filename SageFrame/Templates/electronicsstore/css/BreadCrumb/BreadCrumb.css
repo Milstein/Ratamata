@@ -1,0 +1,105 @@
+/* Float Clearing
+ ---------------------------------------------------------------------*/
+
+.module:after
+{
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/* float clearing for IE6 */
+* html .module
+{
+	height: 1%;
+	overflow: visible;
+}
+
+/* float clearing for IE7 */
+* + html .module
+{
+	min-height: 1%;
+}
+
+/* Breadcrumb Styles
+ ---------------------------------------------------------------------*/
+
+.breadCrumb
+{
+	margin: 0;
+	padding: 0;
+	width:100%;
+	/*height: 21px;*/
+	/*border:solid 1px #dedede;
+	background:#fff;*/
+	border-bottom: 1px solid #CCCCCC;
+	 -webkit-box-shadow: 0 1px 0 0 #FFFFFF;
+	  -moz-box-shadow: 0 1px 0 0 #FFFFFF;
+    box-shadow: 0 1px 0 0 #FFFFFF; height:24px;
+}
+
+.breadCrumb ul
+{
+	margin: 0;
+	padding: 0;
+	/*height: 21px;*/
+	
+}
+.breadCrumb ul li
+{
+	display: inline-block;
+	height: 21px;
+	line-height: 21px;
+	margin:0px 0px 10px 5px;
+	padding: 0px 10px 0px 0;
+	font:12px/21px segoe,Arial, Helvetica, sans-serif; float:left;
+	background: url(../../images/arrow_crumb.png) no-repeat right center;
+}
+.breadCrumb ul li div.chevronOverlay
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+.breadCrumb ul li span
+{
+	display: block;
+	overflow: hidden;
+}
+.breadCrumb ul li a
+{
+	display: block;
+	line-height: 21px;
+	font-weight:bold; color:#666;
+}
+.breadCrumb ul li a:hover { color:#0173D4;}
+.breadCrumb ul li.first a
+{
+	height: 16px !important;
+	text-indent:-1000em;
+	width:16px;
+	padding: 0;
+	margin-top: 2px;
+	overflow: hidden;
+	background:url(../../images/IconHome.gif) no-repeat 0 0;
+}
+.breadCrumb ul li.first a:hover
+{
+	background-position: 0 -16px;
+}
+.breadCrumb ul li.last
+{
+	background: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+.chevronOverlay
+{
+	display: none;
+	width: 13px;
+	height: 20px;
+}
+.breadCrumb ul li a { }

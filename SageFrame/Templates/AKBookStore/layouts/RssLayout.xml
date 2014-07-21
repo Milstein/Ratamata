@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout name="layout_all">
+  <section name="sfContent">
+    <placeholder name="middlemaincurrent">innercontent</placeholder>
+  </section>
+</layout>

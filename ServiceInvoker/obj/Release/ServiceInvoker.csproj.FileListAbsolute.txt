@@ -1,0 +1,4 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\ServiceInvoker\bin\Release\ServiceInvoker.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\ServiceInvoker\bin\Release\ServiceInvoker.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\ServiceInvoker\obj\Release\ServiceInvoker.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\ServiceInvoker\obj\Release\ServiceInvoker.pdb

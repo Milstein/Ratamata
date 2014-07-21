@@ -1,0 +1,7 @@
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.OauthID\bin\Release\SageFrame.OauthID.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.OauthID\bin\Release\SageFrame.OauthID.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.OauthID\bin\Release\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.OauthID\bin\Release\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.OauthID\obj\Release\SageFrame.OauthID.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.OauthID\obj\Release\SageFrame.OauthID.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.OauthID\obj\Release\SageFrame.OauthID.csprojResolveAssemblyReference.cache
