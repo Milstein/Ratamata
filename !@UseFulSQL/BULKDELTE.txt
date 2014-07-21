@@ -1,0 +1,15 @@
+DELETE FROM [dbo].[aspx_ItemAttributesValue_TEXT] WHERE itemID !=1
+DELETE FROM  [dbo].[aspx_ItemAttributesValue_DECIMAL] WHERE itemID !=1
+DELETE FROM [dbo].[aspx_ItemAttributesValue_NVARCHAR] WHERE itemID !=1
+DELETE FROM  [dbo].[aspx_ItemAttributesValue_INT] WHERE itemID !=1
+DELETE FROM  [dbo].[aspx_ItemAttributesValue_FILE] WHERE itemID !=1
+DELETE FROM  [dbo].[aspx_ItemAttributesValue_DATE]WHERE itemID !=1
+DELETE FROM  [dbo].[aspx_ItemAttributesValue_Boolean] WHERE itemID !=1
+DELETE FROM [dbo].[aspx_ItemAttributesValue_OPTIONS] WHERE itemID !=1
+
+delete from ASPX_ItemsCategories WHERE itemID !=1
+
+delete from aspx_ItemImages where itemID !=1
+delete from aspx_Items where itemID !=1
+
+delete from aspx_specialItems where itemID !=1

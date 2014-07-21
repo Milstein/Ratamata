@@ -1,0 +1,246 @@
+Declare @numberLoop int
+Set @numberLoop = 1
+While (@numberLoop < 8000)
+Begin
+Insert into aspx_Items
+Select 
+      [ItemTypeID]
+      ,[AttributeSetID]
+      ,[HidePrice]
+      ,[HideInRSSFeed]
+      ,[HideToAnonymous]
+      ,[ActiveFrom]
+      ,[ActiveTo]
+      ,'appBran_' + CAST(@numberLoop as nvarchar(256))
+      ,[TaxRuleID]
+      ,[StoreID]
+      ,[PortalID]
+      ,[IsActive]
+      ,[IsDeleted]
+      ,[IsModified]
+      ,[AddedOn]
+      ,[UpdatedOn]
+      ,[DeletedOn]
+      ,[AddedBy]
+      ,[UpdatedBy]
+      ,[DeletedBy]
+ from aspx_Items Where ItemID = 1
+ Declare @ItemID int
+ Select @ItemID = MAX(ItemID) from aspx_Items
+Insert into aspx_ItemAttributesValue_Boolean
+Select 
+@ItemID
+      ,[AttributeID]
+      ,[AttributeSetID]
+      ,[AttributeSetGroupID]
+      ,[AttributeValue]
+      ,[StoreID]
+      ,[PortalID]
+      ,[CultureName]
+      ,[IsActive]
+      ,[IsDeleted]
+      ,[IsModified]
+      ,[AddedOn]
+      ,[UpdatedOn]
+      ,[DeletedOn]
+      ,[AddedBy]
+      ,[UpdatedBy]
+      ,[DeletedBy]
+ from aspx_ItemAttributesValue_Boolean Where ItemID = 1
+Insert into aspx_ItemAttributesValue_DATE
+Select 
+@ItemID
+      ,[AttributeID]
+      ,[AttributeSetID]
+      ,[AttributeSetGroupID]
+      ,[AttributeValue]
+      ,[StoreID]
+      ,[PortalID]
+      ,[CultureName]
+      ,[IsActive]
+      ,[IsDeleted]
+      ,[IsModified]
+      ,[AddedOn]
+      ,[UpdatedOn]
+      ,[DeletedOn]
+      ,[AddedBy]
+      ,[UpdatedBy]
+      ,[DeletedBy]
+ from aspx_ItemAttributesValue_DATE Where ItemID = 1
+Insert into aspx_ItemAttributesValue_DECIMAL
+Select 
+@ItemID
+      ,[AttributeID]
+      ,[AttributeSetID]
+      ,[AttributeSetGroupID]
+      ,[AttributeValue]
+      ,[StoreID]
+      ,[PortalID]
+      ,[CultureName]
+      ,[IsActive]
+      ,[IsDeleted]
+      ,[IsModified]
+      ,[AddedOn]
+      ,[UpdatedOn]
+      ,[DeletedOn]
+      ,[AddedBy]
+      ,[UpdatedBy]
+      ,[DeletedBy]
+
+ from aspx_ItemAttributesValue_DECIMAL Where ItemID = 1
+Insert into aspx_ItemAttributesValue_FILE
+Select 
+@ItemID
+      ,[AttributeID]
+      ,[AttributeSetID]
+      ,[AttributeSetGroupID]
+      ,[AttributeValue]
+      ,[StoreID]
+      ,[PortalID]
+      ,[CultureName]
+      ,[IsActive]
+      ,[IsDeleted]
+      ,[IsModified]
+      ,[AddedOn]
+      ,[UpdatedOn]
+      ,[DeletedOn]
+      ,[AddedBy]
+      ,[UpdatedBy]
+      ,[DeletedBy]
+ from aspx_ItemAttributesValue_FILE Where ItemID = 1
+Insert into aspx_ItemAttributesValue_INT
+Select 
+@ItemID
+      ,[AttributeID]
+      ,[AttributeSetID]
+      ,[AttributeSetGroupID]
+      ,[AttributeValue]
+      ,[StoreID]
+      ,[PortalID]
+      ,[CultureName]
+      ,[IsActive]
+      ,[IsDeleted]
+      ,[IsModified]
+      ,[AddedOn]
+      ,[UpdatedOn]
+      ,[DeletedOn]
+      ,[AddedBy]
+      ,[UpdatedBy]
+      ,[DeletedBy]
+
+ from aspx_ItemAttributesValue_INT Where ItemID = 1
+Insert into aspx_ItemAttributesValue_NVARCHAR
+Select 
+@ItemID
+      ,[AttributeID]
+      ,[AttributeSetID]
+      ,[AttributeSetGroupID]
+      ,[AttributeValue]
+      ,[StoreID]
+      ,[PortalID]
+      ,[CultureName]
+      ,[IsActive]
+      ,[IsDeleted]
+      ,[IsModified]
+      ,[AddedOn]
+      ,[UpdatedOn]
+      ,[DeletedOn]
+      ,[AddedBy]
+      ,[UpdatedBy]
+      ,[DeletedBy]
+ from aspx_ItemAttributesValue_NVARCHAR Where ItemID = 1
+Insert into aspx_ItemAttributesValue_OPTIONS
+Select 
+@ItemID
+      ,[AttributeID]
+      ,[AttributeSetID]
+      ,[AttributeSetGroupID]
+      ,[AttributeValue]
+      ,[StoreID]
+      ,[PortalID]
+      ,[CultureName]
+      ,[IsActive]
+      ,[IsDeleted]
+      ,[IsModified]
+      ,[AddedOn]
+      ,[UpdatedOn]
+      ,[DeletedOn]
+      ,[AddedBy]
+      ,[UpdatedBy]
+      ,[DeletedBy]
+ from aspx_ItemAttributesValue_OPTIONS Where ItemID = 1
+Insert into aspx_ItemAttributesValue_TEXT
+Select 
+@ItemID
+      ,[AttributeID]
+      ,[AttributeSetID]
+      ,[AttributeSetGroupID]
+      ,[AttributeValue]
+      ,[StoreID]
+      ,[PortalID]
+      ,[CultureName]
+      ,[IsActive]
+      ,[IsDeleted]
+      ,[IsModified]
+      ,[AddedOn]
+      ,[UpdatedOn]
+      ,[DeletedOn]
+      ,[AddedBy]
+      ,[UpdatedBy]
+      ,[DeletedBy]
+ from aspx_ItemAttributesValue_TEXT Where ItemID = 1
+Insert into ASPX_ItemsCategories
+Select 
+@ItemID
+      ,[CategoryID]
+      ,[IsActive]
+      ,[StoreID]
+      ,[PortalID]
+      ,[IsDeleted]
+      ,[IsModified]
+      ,[AddedOn]
+      ,[UpdatedOn]
+      ,[DeletedOn]
+      ,[AddedBy]
+      ,[UpdatedBy]
+      ,[DeletedBy]
+ from ASPX_ItemsCategories Where ItemID = 1
+Insert into aspx_ItemImages
+Select 
+      @ItemID
+      ,[ImagePath]
+      ,[IsActive]
+      ,[ImageTypeID]
+      ,[AlternateText]
+      ,[DisplayOrder]
+      ,[IsPrimary] from aspx_ItemImages Where ItemID = 1
+
+Insert into  [aspx_ItemAttributes]
+Select 
+      @ItemID
+           ,[AttributeID]
+           ,[IsIncludeInPriceRule]
+           ,[IsIncludeInPromotions]
+           ,[DisplayOrder]
+           ,[StoreID]
+           ,[PortalID]
+           ,[IsActive]
+           ,[IsDeleted]
+           ,[IsModified]
+           ,[AddedOn]
+           ,[UpdatedOn]
+           ,[DeletedOn]
+           ,[AddedBy]
+           ,[UpdatedBy]
+           ,[DeletedBy] from [aspx_ItemAttributes] Where ItemID = 1
+
+Insert into aspx_specialItems
+Select 
+      @ItemID
+           ,[DateFrom]
+           ,[DateTo]
+           ,[IsActive] from [aspx_specialItems] Where ItemID = 1
+    
+    Set @numberLoop = @numberLoop + 1
+
+End

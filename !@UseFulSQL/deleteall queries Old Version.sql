@@ -1,0 +1,23 @@
+truncate table SessionTracker
+truncate table StoreSessionTracker
+truncate table log
+truncate table aspx_searchterm
+
+
+truncate table aspx_cartItems
+truncate table aspx_cart
+
+
+truncate table ASPX_CartPriceRule
+truncate table [dbo].ASPX_RuleCondition 
+truncate table ASPX_CartPriceRuleStores 
+truncate table ASPX_CatalogPriceRule
+truncate table ASPX_CartPriceRuleStores 
+truncate table Aspx_RecentlyViewedItems 
+truncate table [Aspx_RowTotalForTables]
+
+truncate table Aspx_RowTotalForItemWiseReviews
+truncate table Aspx_RowTotalForPopularTagsWiseUsers
+truncate table Aspx_RowTotalForCustomerWiseReviews
+truncate table Aspx_RowTotalForTables
+truncate table Aspx_RowTotalForShipingMethodIDs
