@@ -305,7 +305,7 @@ namespace AspxCommerce.Core
                 parameterCollection.Add(new KeyValuePair<string, object>("@SpecialPrice", string.IsNullOrEmpty(GetValuesByAttirbuteId(itemObj, 45).ToString()) ? null : GetValuesByAttirbuteId(itemObj, 45)));
                 parameterCollection.Add(new KeyValuePair<string, object>("@SpecialPriceFrom", GetValuesByAttirbuteId(itemObj, 46)));
                 parameterCollection.Add(new KeyValuePair<string, object>("@SpecialPriceTo", GetValuesByAttirbuteId(itemObj, 47)));
-                parameterCollection.Add(new KeyValuePair<string, object>("@ManufacturerPrice", GetValuesByAttirbuteId(itemObj, 48)));
+                parameterCollection.Add(new KeyValuePair<string, object>("@ManufacturerPrice", string.IsNullOrEmpty(GetValuesByAttirbuteId(itemObj, 48).ToString()) ? null : GetValuesByAttirbuteId(itemObj, 48)));
 
                 //Added of new Attributes 50
                 //For Condition option default New done from database
