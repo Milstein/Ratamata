@@ -299,7 +299,6 @@ public partial class Modules_AspxSpecialsItems_Specials : BaseAdministrationUser
                             int inputType = Int32.Parse(attributes[2]);
                             string validationType = attributes[3];
                             specialContent.Append("<div class=\"cssDynamicAttributes\">");
-                            specialContent.Append("<div class=\"cssDynamicAttributes\">");
                             specialContent.Append("<span>");
                             specialContent.Append(attributeName);
                             specialContent.Append("</span> :");
