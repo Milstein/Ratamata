@@ -254,7 +254,7 @@ $(function () {
     },
 
     BindAllValue: function (obj) {
-               $("#hdnPrevFilePath").val(obj.DefaultProductImageURL);
+        $("#hdnPrevFilePath").val(obj.DefaultProductImageURL);
         $("#defaultProductImage").html('<img src="' + aspxRootPath + obj.DefaultProductImageURL + '" class="uploadImage" height="90px" width="100px"/>');
         $("#" + ddlMyAccountURL).val(obj.MyAccountURL);
         $("#" + ddlShoppingCartURL).val(obj.ShoppingCartURL);
@@ -269,7 +269,7 @@ $(function () {
         $("#" + ddlItemMgntPageURL).val(obj.ItemMgntPageURL);
         $("#" + ddlCatMgntPageURL).val(obj.CategoryMgntPageURL);
 
-               $("#hdnPrevStoreLogoPath").val(obj.StoreLogoURL);
+        $("#hdnPrevStoreLogoPath").val(obj.StoreLogoURL);
         $("#divStoreLogo").html('<img src="' + aspxRootPath + obj.StoreLogoURL + '" class="uploadImage" height="90px" width="100px"/>');
         $("#txtStoreName").val(obj.StoreName);
         $("#ddlCurrency").val(obj.MainCurrency);
@@ -279,7 +279,7 @@ $(function () {
         $("#txtDimensionUnit").val(obj.DimensionUnit);
         $("#txtCartAbandonTime").val(obj.CartAbandonedTime);
         $("#txtTimeToDeleteAbandCart").val(obj.TimeToDeleteAbandonedCart);
-        $("#txtLowStockQuantity").val(obj.LowStockQuantity);       
+        $("#txtLowStockQuantity").val(obj.LowStockQuantity);
         $("#txtOutOfStockQuantity").val(obj.OutOfStockQuantity);
         $("#txtShoppingOptionRange").val(obj.ShoppingOptionRange);
         $("#chkAllowAnonymousCheckout").prop("checked", $.parseJSON(obj.AllowAnonymousCheckOut.toLowerCase()));
@@ -289,10 +289,10 @@ $(function () {
         $("#chkEstimateShippingCostInCartPage").prop("checked", $.parseJSON(obj.EstimateShippingCostInCartPage.toLowerCase()))
 
 
-               $("#txtSendEmailsFrom").val(obj.SendEcommerceEmailsFrom);
+        $("#txtSendEmailsFrom").val(obj.SendEcommerceEmailsFrom);
         $("#chkSendOrderNotification").prop("checked", $.parseJSON(obj.SendOrderNotification.toLowerCase()));
 
-               $("#chkShowAddToCartButton").prop("checked", $.parseJSON(obj.ShowAddToCartButton.toLowerCase()));
+        $("#chkShowAddToCartButton").prop("checked", $.parseJSON(obj.ShowAddToCartButton.toLowerCase()));
         $("#txtAddToCartButtonText").val(obj.AddToCartButtonText);
         var ArrFinalViewAs = [];
         if (obj.ViewAsOptions != null) {
@@ -320,7 +320,7 @@ $(function () {
         }
         $("#ddlSortByOptionsDefault").empty().append($("#ddlSortByOptions option:selected").clone());
         $("#ddlSortByOptionsDefault").val(obj.SortByOptionsDefault)
-               $('#ddlViewAsOptions').click(function () {
+        $('#ddlViewAsOptions').click(function () {
             $('#ddlViewAsOptionsDefault').empty();
             $('#ddlViewAsOptionsDefault').append($('#ddlViewAsOptions option:selected').clone());
         });
@@ -328,8 +328,8 @@ $(function () {
             $('#ddlSortByOptionsDefault').empty();
             $('#ddlSortByOptionsDefault').append($('#ddlSortByOptions option:selected').clone());
         });
-       
-               $("#txtMaximumImageSize").val(obj.MaximumImageSize);
+
+        $("#txtMaximumImageSize").val(obj.MaximumImageSize);
         $("#txtMaxDownloadFileSize").val(obj.MaxDownloadFileSize);
         $("#txtItemLargeThumbnailImageHeight").val(obj.ItemLargeThumbnailImageHeight);
         $("#txtItemLargeThumbnailImageWidth").val(obj.ItemLargeThumbnailImageWidth);
@@ -350,24 +350,24 @@ $(function () {
         $("#txtCategoryBannerImageWidth").val(obj.CategoryBannerImageWidth);
         $("#txtCategoryBannerImageHeight").val(obj.CategoryBannerImageHeight);
 
-               $('#txtWaterMark').val(obj.WaterMarkText);
+        $('#txtWaterMark').val(obj.WaterMarkText);
         $('input[name=watermarkposition][value=' + obj.WaterMarkTextPosition.toUpperCase() + ']').prop('checked', 'checked');
         $('#txtWaterMarkRotationAngle').val(obj.WaterMarkTextRotation);
-                                           $('input[name=showWaterMarkImage]').prop("checked", $.parseJSON(obj.ShowWaterMarkImage.toLowerCase()));
+        $('input[name=showWaterMarkImage]').prop("checked", $.parseJSON(obj.ShowWaterMarkImage.toLowerCase()));
         $('input[name=watermarkImageposition][value=' + obj.WaterMarkImagePosition.toUpperCase() + ']').prop('checked', 'checked');
         $('#txtWaterMarkImageRotation').val(obj.WaterMarkImageRotation);
 
 
 
-               $("#chkAllowMultipleAddress").prop("checked", $.parseJSON(obj.AllowUsersToCreateMultipleAddress.toLowerCase()));
+        $("#chkAllowMultipleAddress").prop("checked", $.parseJSON(obj.AllowUsersToCreateMultipleAddress.toLowerCase()));
         $("#chkAllowShippingEstimate").prop("checked", $.parseJSON(obj.AllowShippingRateEstimate.toLowerCase()));
         $("#chkAllowCouponDiscount").prop("checked", $.parseJSON(obj.AllowCouponDiscount.toLowerCase()));
         $("#txtMinimumCartSubTotalAmount").val(obj.MinimumCartSubTotalAmount);
         $("#txtAdditionalCVR").val(obj.AdditionalCVR);
         $("#txtMinCartQuantity").val(obj.MinCartQuantity);
         $("#txtMaxCartQuantity").val(obj.MaxCartQuantity);
-       
-               $("#chkEmailAFriend").prop("checked", $.parseJSON(obj.EnableEmailAFriend.toLowerCase()));
+
+        $("#chkEmailAFriend").prop("checked", $.parseJSON(obj.EnableEmailAFriend.toLowerCase()));
         $("#chkShowMiniShoppingCart").prop("checked", $.parseJSON(obj.ShowMiniShoppingCart.toLowerCase()));
         $("#chkMultipleReviewsPerUser").prop("checked", $.parseJSON(obj.AllowMultipleReviewsPerUser.toLowerCase()));
         $("#chkMultipleReviewsPerIP").prop("checked", $.parseJSON(obj.AllowMultipleReviewsPerIP.toLowerCase()));
@@ -397,7 +397,7 @@ $(function () {
             }
 
         }
-               $("#" + ddlRssFeedURL).val(obj.RssFeedURL);
+        $("#" + ddlRssFeedURL).val(obj.RssFeedURL);
         $('#categoryChkBox').prop("checked", $.parseJSON(obj.NewCategoryRss.toLowerCase()));
         $('#txtCategoryRssCount').val(obj.NewCategoryRssCount);
         $('#newOrderChkBox').prop("checked", $.parseJSON(obj.NewOrderRss.toLowerCase()));
@@ -436,8 +436,8 @@ $(function () {
     },
 
     UpdateStoreSettings: function () {
-               if (aspxRootPath != "/") {
-                       var defaultImageProductURL = $("#defaultProductImage>img").attr("src").replace(aspxRootPath, "");
+        if (aspxRootPath != "/") {
+            var defaultImageProductURL = $("#defaultProductImage>img").attr("src").replace(aspxRootPath, "");
         }
         else {
             var defaultImageProductURL = $("#defaultProductImage>img").attr("src").replace(aspxRootPath, "");
@@ -456,14 +456,14 @@ $(function () {
         var itemMgntPageURL = $("#" + ddlItemMgntPageURL).val();
         var catMgntPageURL = $("#" + ddlCatMgntPageURL).val();
 
-               var currency = $("#ddlCurrency option:selected").val();
+        var currency = $("#ddlCurrency option:selected").val();
         var realTimeCurrency = $("#chkRealTimeCurrency").prop("checked");
-        var realTimeNotifications = $("#chkRealTimeNotifications").prop("checked"); 
+        var realTimeNotifications = $("#chkRealTimeNotifications").prop("checked");
         var weightUnit = $("#txtWeightUnit").val();
         var dimensionUnit = $("#txtDimensionUnit").val();
         var storeName = $("#txtStoreName").val();
         if (aspxRootPath != "/") {
-                       var storeLogoURL = $("#divStoreLogo>img").attr("src").replace(aspxRootPath, "");
+            var storeLogoURL = $("#divStoreLogo>img").attr("src").replace(aspxRootPath, "");
         }
         else {
             var storeLogoURL = $("#divStoreLogo>img").prop("src").replace(aspxRootPath, "");
@@ -471,7 +471,7 @@ $(function () {
         var prevStoreLogoPath = $("#hdnPrevStoreLogoPath").val();
         var cartAbandonedTime = $("#txtCartAbandonTime").val();
         var timeToDeleteAbandonedCart = $("#txtTimeToDeleteAbandCart").val();
-        var lowStockQuantity = $("#txtLowStockQuantity").val();       
+        var lowStockQuantity = $("#txtLowStockQuantity").val();
         var outOfStockQuantity = $("#txtOutOfStockQuantity").val();
         var shoppingOptionRange = $("#txtShoppingOptionRange").val();
         var allowAnonymousCheckout = $("#chkAllowAnonymousCheckout").prop("checked");
@@ -480,10 +480,10 @@ $(function () {
         var AskCustomerToSubscribe = $("#chkAskCustomerToSubscribe").prop("checked");
         var EstimateShippingCostInCartPage = $("#chkEstimateShippingCostInCartPage").prop("checked");
 
-               var emailFrom = $("#txtSendEmailsFrom").val();
+        var emailFrom = $("#txtSendEmailsFrom").val();
         var SendOrderNotification = $("#chkSendOrderNotification").prop("checked");
 
-               var ShowAddToCartButton = $("#chkShowAddToCartButton").prop("checked");
+        var ShowAddToCartButton = $("#chkShowAddToCartButton").prop("checked");
         var AddToCartButtonText = $("#txtAddToCartButtonText").val();
         var ViewAsOptions = "";
         $("#ddlViewAsOptions option:selected").each(function () {
@@ -497,7 +497,7 @@ $(function () {
         var SortByOptionsDefault = $("#ddlSortByOptionsDefault").val();
 
 
-               var maximumImageSize = $("#txtMaximumImageSize").val();
+        var maximumImageSize = $("#txtMaximumImageSize").val();
         var maximumDownloadSize = $("#txtMaxDownloadFileSize").val();
         var ItemLargeThumbnailImageHeight = $("#txtItemLargeThumbnailImageHeight").val();
         var ItemLargeThumbnailImageWidth = $("#txtItemLargeThumbnailImageWidth").val();
@@ -518,8 +518,8 @@ $(function () {
         var CategoryBannerImageWidth = $("#txtCategoryBannerImageWidth").val();
         var CategoryBannerImageHeight = $("#txtCategoryBannerImageHeight").val();
 
-               var allowMultipleAddress = $("#chkAllowMultipleAddress").prop("checked");
-        var allowShippingEstimate=$("#chkAllowShippingEstimate").prop("checked");
+        var allowMultipleAddress = $("#chkAllowMultipleAddress").prop("checked");
+        var allowShippingEstimate = $("#chkAllowShippingEstimate").prop("checked");
         var allowCouponDiscount = $("#chkAllowCouponDiscount").prop("checked");
         var minimumOrderAmount = $("#txtMinimumCartSubTotalAmount").val();
         var additionalCCVR = 0;
@@ -528,7 +528,7 @@ $(function () {
         }
         var MinCartQuantity = $("#txtMinCartQuantity").val();
         var MaxCartQuantity = $("#txtMaxCartQuantity").val();
-       
+
         var enableEmailAFriend = $("#chkEmailAFriend").prop("checked");
         var showMiniShoppingCart = $("#chkShowMiniShoppingCart").prop("checked");
         var allowMultipleReviewsPerUser = $("#chkMultipleReviewsPerUser").prop("checked");
@@ -537,7 +537,7 @@ $(function () {
         var noOfDisplayItems = $("#txtNoOfDisplayItems").val();
         var itemDisplayMode = $("#ddlItemDisplayMode").val();
         var moduleCollapsible = $("#chkModuleCollapsible").prop("checked");
-               if ($("#lbCountryShipping").val().length != null && $("#lbCountryShipping").val().clean('0').length > 0)
+        if ($("#lbCountryShipping").val().length != null && $("#lbCountryShipping").val().clean('0').length > 0)
             var shippingCountry = $('#cbSelectAllShippingCountry').is(':checked') == true ? 'ALL' : $("#lbCountryShipping").val().clean('0').join();
         else {
             csscody.error('<h2>' + getLocale(AspxStoreSettingsManagement, "Error Message") + "</h2><p>" + getLocale(AspxStoreSettingsManagement, "Please select Country for Shipping.") + '</p>');
@@ -549,7 +549,7 @@ $(function () {
             csscody.error('<h2>' + getLocale(AspxStoreSettingsManagement, "Error Message") + "</h2><p>" + getLocale(AspxStoreSettingsManagement, "Please select Country for Billing.") + '</p>');
             return false;
         }
-               var rssFeedURL = $("#" + ddlRssFeedURL).val();
+        var rssFeedURL = $("#" + ddlRssFeedURL).val();
         var newCategoryRss = $('#categoryChkBox').prop('checked');
         var newCategoryRssCount = $.trim($('#txtCategoryRssCount').val());
         var newOrderRss = $('#newOrderChkBox').prop('checked');
@@ -569,10 +569,10 @@ $(function () {
         var wmImagePos = $.trim($('input[name=watermarkImageposition]:checked').val());
         var wmImageRotation = $.trim($('#txtWaterMarkImageRotation').val());
         var showWaterMarkImage = $("input[name=showWaterMarkImage]").is(":checked");
-        var settingValues = '';        
+        var settingValues = '';
         settingValues += myAccountURL + '*' + shoppingCartURL + '*' + detailsPageURL + '*' + itemDetailURL + '*' + categoryDetailURL + '*' + singleCheckOutURL + '*' + multiCheckOutURL + '*' + storeLocatorURL
                 + '*' + trackPackageUrl + '*' + shipDetailPageURL + '*' + itemMgntPageURL + '*' + catMgntPageURL + '*';
-        settingValues += currency + '*' + realTimeCurrency + '*' +realTimeNotifications+'*'+ weightUnit + '*' + dimensionUnit + '*' + storeName + '*' + cartAbandonedTime + '*' + timeToDeleteAbandonedCart + '*' + lowStockQuantity + '*' + outOfStockQuantity
+        settingValues += currency + '*' + realTimeCurrency + '*' + realTimeNotifications + '*' + weightUnit + '*' + dimensionUnit + '*' + storeName + '*' + cartAbandonedTime + '*' + timeToDeleteAbandonedCart + '*' + lowStockQuantity + '*' + outOfStockQuantity
                 + '*' + shoppingOptionRange + '*' + allowAnonymousCheckout + '*' + allowMultipleShippingAddress + '*' + allowOutStockPurchase + '*' + AskCustomerToSubscribe + '*' + EstimateShippingCostInCartPage + '*';
         settingValues += emailFrom + '*' + SendOrderNotification + '*';
         settingValues += ShowAddToCartButton + '*' + AddToCartButtonText + '*' + ViewAsOptions + '*' + ViewAsOptionsDefault + '*' + SortByOptions + '*' + SortByOptionsDefault + '*';
@@ -606,8 +606,9 @@ $(function () {
         settingKeys += '*' + 'RssFeedURL' + '*' + 'NewCategoryRss' + '*' + 'NewCategoryRssCount' + '*' + 'NewOrderRss' + '*' + 'NewOrderRssCount' + '*' + 'NewCustomerRss' + '*' + 'NewCustomerRssCount' + '*' +
                             'NewItemTagRss' + '*' + 'NewItemTagRssCount' + '*' + 'NewItemReviewRss' + '*' + 'NewItemReviewRssCount' + '*' + 'LowStockItemRss' + '*' +
                                 'LowStockItemRssCount' + '*' + "WaterMarkText" + '*' + "WaterMarkTextPosition" + '*' + "WaterMarkTextRotation" + '*' + "WaterMarkImagePosition" + '*' +
-                                                        "WaterMarkImageRotation" + '*' + 'ShowWaterMarkImage';        this.config.method = "AspxCoreHandler.ashx/UpdateStoreSettings";
-        this.config.url = this.config.baseURL + this.config.method;       
+                                                        "WaterMarkImageRotation" + '*' + 'ShowWaterMarkImage'; this.config.method = "AspxCoreHandler.ashx/UpdateStoreSettings";
+                                                        this.config.url = this.config.baseURL + this.config.method;
+
         this.config.data = JSON2.stringify({ settingKeys: settingKeys, settingValues: settingValues, prevFilePath: prevFilePath, newFilePath: defaultImageProductURL, prevStoreLogoPath: prevStoreLogoPath, newStoreLogoPath: storeLogoURL, aspxCommonObj: aspxCommonObj });
         this.config.ajaxCallMode = 4;
         this.ajaxCall(this.config);

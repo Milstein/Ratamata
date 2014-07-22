@@ -27,5 +27,3 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ContactUs\bin\R
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ContactUs\obj\Release\SageFrame.ContactUs.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ContactUs\obj\Release\ContactUs.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.ContactUs\obj\Release\ContactUs.pdb
-E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ContactUs\obj\Release\SageFrame.ContactUs.csprojResolveAssemblyReference.cache
-E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ContactUs\obj\Release\ContactUs.dll

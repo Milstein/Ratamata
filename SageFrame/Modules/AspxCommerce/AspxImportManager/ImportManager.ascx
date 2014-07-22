@@ -32,7 +32,7 @@
                         $("#divAttributeList").html('');
                         var html = "<ul>";
                         $.each(msg.d, function (index, item) {
-                            html += "<li><span class='cssClassLabel'>" + item.AttributeName + ":" + "</span>&nbsp<input type='text' size='5' validid=" + item.ValidationTypeID + " inputid=" + item.InputTypeID + " id=" + item.AttributeID + "></li>";
+                            html += "<li><span class='cssClassLabel'>" + item.AttributeName + ":" + "</span>&nbsp<input type='text' size='5' validid=" + item.ValidationTypeID + " inputid=" + item.InputTypeID + " id=" + item.AttributeID + " autocomplete='on'></li>";
                         });
                         html += "</ul>";
                         $("#divAttributeList").append(html);

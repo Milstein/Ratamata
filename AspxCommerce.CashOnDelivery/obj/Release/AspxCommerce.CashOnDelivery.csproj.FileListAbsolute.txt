@@ -39,4 +39,3 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.CashOnDelive
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.CashOnDelivery\obj\Release\AspxCommerce.CashOnDelivery.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.CashOnDelivery\obj\Release\AspxCommerce.CashOnDelivery.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.CashOnDelivery\obj\Release\AspxCommerce.CashOnDelivery.csprojResolveAssemblyReference.cache
-E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.CashOnDelivery\obj\Release\AspxCommerce.CashOnDelivery.dll

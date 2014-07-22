@@ -129,7 +129,7 @@ namespace AspxCommerce.Core
 
                                 });
                             }
-                            if (columnName == "Category")
+                            if (columnName == "Category Name:")
                             {
                                 itemValues.Add(new ItemsValues()
                                 {
@@ -140,7 +140,7 @@ namespace AspxCommerce.Core
                                 });
                             }
 
-                            if (columnName == "CurrencyCode")
+                            if (columnName == "Currency Code:")
                             {
                                 currencyCode = columnValue;
                             }
@@ -210,7 +210,7 @@ namespace AspxCommerce.Core
             }
             try
             {
-                string attributeIDs = "1,2,3,4,5,6,7,8,9,10,11,13,14,15,19,20,23,24,25,26,27,28,29,30,31,32,33,34,44,45,46,47,48";
+                string attributeIDs = "1,2,3,4,5,6,7,8,9,10,11,13,14,15,19,20,23,24,25,26,27,28,29,30,31,32,33,34,44,45,46,47,48,50";
 
                 List<KeyValuePair<string, object>> parameterCollection = new List<KeyValuePair<string, object>>();
                 parameterCollection.Add(new KeyValuePair<string, object>("@ItemID", 0));
@@ -301,10 +301,15 @@ namespace AspxCommerce.Core
                 parameterCollection.Add(new KeyValuePair<string, object>("@CurrencyCode", currencyCode));
                 //parameterCollection.Add(new KeyValuePair<string, object>("@VideosIDs", '0'));
                 parameterCollection.Add(new KeyValuePair<string, object>("@CostPrice", GetValuesByAttirbuteId(itemObj, 44)));
-                parameterCollection.Add(new KeyValuePair<string, object>("@SpecialPrice", GetValuesByAttirbuteId(itemObj, 45)));
+
+                parameterCollection.Add(new KeyValuePair<string, object>("@SpecialPrice", string.IsNullOrEmpty(GetValuesByAttirbuteId(itemObj, 45).ToString()) ? null : GetValuesByAttirbuteId(itemObj, 45)));
                 parameterCollection.Add(new KeyValuePair<string, object>("@SpecialPriceFrom", GetValuesByAttirbuteId(itemObj, 46)));
                 parameterCollection.Add(new KeyValuePair<string, object>("@SpecialPriceTo", GetValuesByAttirbuteId(itemObj, 47)));
                 parameterCollection.Add(new KeyValuePair<string, object>("@ManufacturerPrice", GetValuesByAttirbuteId(itemObj, 48)));
+
+                //Added of new Attributes 50
+                //For Condition option default New done from database
+                parameterCollection.Add(new KeyValuePair<string, object>("@SellerInfo", GetValuesByAttirbuteId(itemObj, 50)));
                 SQLHandler sqlH = new SQLHandler();
                 return sqlH.ExecuteNonQueryAsGivenType<int>("dbo.usp_Aspx_ItemAddUpdateFromExcel", parameterCollection,
                                                             "@NewItemID");

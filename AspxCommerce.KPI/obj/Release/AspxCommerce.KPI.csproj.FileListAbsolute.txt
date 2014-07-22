@@ -40,4 +40,3 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.KPI\bin\Rele
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.KPI\obj\Release\AspxCommerce.KPI.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.KPI\obj\Release\AspxCommerce.KPI.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.KPI\obj\Release\AspxCommerce.KPI.csprojResolveAssemblyReference.cache
-E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.KPI\obj\Release\AspxCommerce.KPI.dll

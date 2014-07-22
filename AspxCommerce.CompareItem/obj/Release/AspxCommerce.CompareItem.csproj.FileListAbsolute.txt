@@ -39,4 +39,3 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.CompareItem\
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.CompareItem\obj\Release\AspxCommerce.CompareItem.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.CompareItem\obj\Release\AspxCommerce.CompareItem.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.CompareItem\obj\Release\AspxCommerce.CompareItem.csprojResolveAssemblyReference.cache
-E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.CompareItem\obj\Release\AspxCommerce.CompareItem.dll
