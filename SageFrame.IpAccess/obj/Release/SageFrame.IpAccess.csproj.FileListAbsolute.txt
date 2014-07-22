@@ -9,6 +9,5 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IpAccess\bin\Release\SageFra
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IpAccess\bin\Release\SageFrame.IpAccess.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IpAccess\bin\Release\SageFrame.Common.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IpAccess\bin\Release\SageFrame.Common.pdb
-E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IpAccess\obj\Release\SageFrame.IpAccess.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IpAccess\obj\Release\SageFrame.IpAccess.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IpAccess\obj\Release\SageFrame.IpAccess.pdb

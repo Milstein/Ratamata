@@ -1,0 +1,87 @@
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestVariation]    Script Date: 2/13/2014 11:39:03 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestVariation]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_ABTestVariation]
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestSettings]    Script Date: 2/13/2014 11:39:03 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestSettings]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_ABTestSettings]
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestOriginalPage]    Script Date: 2/13/2014 11:39:03 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestOriginalPage]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_ABTestOriginalPage]
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestMain]    Script Date: 2/13/2014 11:39:03 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestMain]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_ABTestMain]
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestGeneralSetting]    Script Date: 2/13/2014 11:39:03 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestGeneralSetting]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_ABTestGeneralSetting]
+GO
+
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestVisitCount]    Script Date: 2/13/2014 11:40:13 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestVisitCount]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestVisitCount]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestSaveVisitAndConversion]    Script Date: 2/13/2014 11:40:13 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestSaveVisitAndConversion]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestSaveVisitAndConversion]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestSaveUpdateSettings]    Script Date: 2/13/2014 11:40:13 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestSaveUpdateSettings]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestSaveUpdateSettings]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestResultsByID]    Script Date: 2/13/2014 11:40:13 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestResultsByID]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestResultsByID]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestIsUserInRoles]    Script Date: 2/13/2014 11:40:13 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestIsUserInRoles]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestIsUserInRoles]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestGetSettingsAll]    Script Date: 2/13/2014 11:40:13 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestGetSettingsAll]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestGetSettingsAll]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestDeleteSettings]    Script Date: 2/13/2014 11:40:13 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestDeleteSettings]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestDeleteSettings]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestConversionRateForChart]    Script Date: 2/13/2014 11:40:13 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestConversionRateForChart]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestConversionRateForChart]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestCheckPageExists]    Script Date: 2/13/2014 11:40:13 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestCheckPageExists]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestCheckPageExists]
+GO
+
+
+
+GO
+
+/****** Object:  UserDefinedFunction [dbo].[ufn_Aspx_ABTestProbabilityWithZSCORE]    Script Date: 2/13/2014 11:41:00 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ufn_Aspx_ABTestProbabilityWithZSCORE]') AND type in (N'FN', N'IF', N'TF', N'FS', N'FT'))
+DROP FUNCTION [dbo].[ufn_Aspx_ABTestProbabilityWithZSCORE]
+GO
+
+

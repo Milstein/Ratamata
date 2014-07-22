@@ -1,0 +1,16 @@
+/****** Object:  StoredProcedure [dbo].[usp_SocialLinkModify]    Script Date: 07/30/2012 16:39:40 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_SocialLinkModify]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_SocialLinkModify]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SocialLinkDelete]    Script Date: 07/30/2012 16:39:40 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_SocialLinkDelete]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_SocialLinkDelete]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_SocialLinkSelect]    Script Date: 07/30/2012 16:39:40 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_SocialLinkSelect]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_SocialLinkSelect]
+GO
+/****** Object:  Table [dbo].[SocialLink]    Script Date: 07/30/2012 16:39:40 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SocialLink]') AND type in (N'U'))
+DROP TABLE [dbo].[SocialLink]
+GO

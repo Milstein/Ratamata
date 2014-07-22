@@ -1,0 +1,82 @@
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_KPITracking]    Script Date: 2/19/2014 11:26:40 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_KPITracking]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_KPITracking]
+GO
+
+/****** Object:  Table [dbo].[Aspx_KPISubTabPath]    Script Date: 2/19/2014 11:26:40 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_KPISubTabPath]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_KPISubTabPath]
+GO
+
+/****** Object:  Table [dbo].[Aspx_KPISettings]    Script Date: 2/19/2014 11:26:40 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_KPISettings]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_KPISettings]
+GO
+
+/****** Object:  Table [dbo].[Aspx_KPIFunnelCart]    Script Date: 2/19/2014 11:26:40 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_KPIFunnelCart]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_KPIFunnelCart]
+GO
+
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_KPITrackingInsert]    Script Date: 2/19/2014 11:27:41 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_KPITrackingInsert]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_KPITrackingInsert]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_KPIFunnelCartInsert]    Script Date: 2/19/2014 11:27:41 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_KPIFunnelCartInsert]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_KPIFunnelCartInsert]
+GO
+
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_KPIVisitDetailsGetAll]    Script Date: 2/19/2014 11:28:40 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_KPIVisitDetailsGetAll]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_KPIVisitDetailsGetAll]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_KPISettingsIsActive]    Script Date: 2/19/2014 11:28:40 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_KPISettingsIsActive]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_KPISettingsIsActive]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_KPISettingsGetAll]    Script Date: 2/19/2014 11:28:40 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_KPISettingsGetAll]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_KPISettingsGetAll]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_KPISaveVisitAndConversion]    Script Date: 2/19/2014 11:28:40 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_KPISaveVisitAndConversion]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_KPISaveVisitAndConversion]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_KPISaveUpdateSettings]    Script Date: 2/19/2014 11:28:40 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_KPISaveUpdateSettings]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_KPISaveUpdateSettings]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_KPISalesConversionsGetAll]    Script Date: 2/19/2014 11:28:40 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_KPISalesConversionsGetAll]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_KPISalesConversionsGetAll]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_KPILocationsVisitGetAll]    Script Date: 2/19/2014 11:28:40 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_KPILocationsVisitGetAll]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_KPILocationsVisitGetAll]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_KPIFunnelCartGetAll]    Script Date: 2/19/2014 11:28:40 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_KPIFunnelCartGetAll]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_KPIFunnelCartGetAll]
+GO
+
+

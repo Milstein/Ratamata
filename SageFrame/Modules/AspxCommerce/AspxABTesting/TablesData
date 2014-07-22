@@ -1,0 +1,12 @@
+
+/****** Object:  Table [dbo].[Aspx_ABTestVariation]    Script Date: 01/07/2013 09:56:03 ******/
+DELETE FROM [dbo].[Aspx_ABTestVariation]
+GO
+/****** Object:  Table [dbo].[Aspx_ABTestVariation]    Script Date: 01/07/2013 09:56:03 ******/
+INSERT [dbo].[Aspx_ABTestVariation] ([VariationID], [Variation]) VALUES (0, N'OriginalPageURL')
+INSERT [dbo].[Aspx_ABTestVariation] ([VariationID], [Variation]) VALUES (1, N'Variation1URL')
+INSERT [dbo].[Aspx_ABTestVariation] ([VariationID], [Variation]) VALUES (2, N'Variation2URL')
+INSERT [dbo].[Aspx_ABTestVariation] ([VariationID], [Variation]) VALUES (3, N'Variation3URL')
+
+GO
+

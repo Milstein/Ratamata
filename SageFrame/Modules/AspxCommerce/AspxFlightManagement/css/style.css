@@ -1,0 +1,122 @@
+@charset "utf-8";
+/*Flight management*/
+#divFlightBooking {
+	width:249px;
+	margin-bottom: 10px;
+	overflow:hidden;
+}
+
+#divFlightBooking table#tblFlightBooking td.cssClassTableRightCol {
+	background:none;
+	padding:0px;
+	border:none;
+	margin:5px 0 5px 0;
+}
+#divFlightBooking table {
+	width: 100%;
+}
+#divFlightBooking table#tblFlightBooking tbody, #divFlightBooking table#tblFlightBooking tr, #divFlightBooking table#tblFlightBooking td {
+	float:left;
+	overflow:hidden;
+}
+.cssClassTableRightCol li {
+	float:left;
+}
+.cssClassTableRightCol li span {
+	margin:8px;
+}
+.cssClassagegroup .tdpadding td {
+	padding:0px;
+}
+#divFlightBooking table#tblFlightBooking td.cssClassHeading1 {
+	background :#eeeeee;
+	height:25px;
+	margin-top: 6px;
+	color:#000;
+	width:220px ;
+	border:1px solid #dbd7d7;
+}
+#divFlightBooking .cssClassLabel1 {
+	background:none;
+}
+
+#divFlightBooking   td.cssClassagegroup{
+width:67px ; text-align:center}
+#divFlightBooking .Cssclassdestination {
+	padding:10px;}
+#divFlightBooking .cssClassFormWrapper .cssClassLabel {
+	color:#8e8d8d;
+	width:75px;
+	font:normal 12px Arial, Helvetica, sans-serif;
+}
+#divFlightBooking table#tblFlightBooking td.cssClassHeading1 .cssClassLabel {
+	font:bold 14px Arial, Helvetica, sans-serif;
+	padding:5px;
+	line-height:25px;
+	color:#8E8D8D
+}
+#divFlightBooking .tdpadding td {
+	padding: 0px 5px 0px 5px !important;
+}
+.Cssclassdestination .cssClassLabel {
+	float:left;
+	width:79px;
+}
+td.Cssclassdestination{
+	width:95%;}
+#divFlightBooking .cssClassFormWrapper .cssClassagegroup select {
+margin: 0px 0 5px 0px ;
+	max-width: 114px;
+	border:1px solid #98C7E0;
+}
+#divFlightBooking .cssClassFormWrapper select {
+	margin: 0px 0 0px 5px;
+	height:28px;
+}
+#divFlightBooking .cssClassFormWrapper input[type="text"] {
+	width:117px;
+	margin:0px 0 0px 5px !important;
+}
+#divFlightBooking .cssClassFormWrapper input{
+	margin:0px 0 0px 0px !important;
+}
+#divFlightBooking .cssClassFormWrapper input[type="text"]:disabled {
+	border:1px solid #ececec;
+	background:#ececec
+}
+.cssClassagegroup span {
+	margin:0 0 10px 0
+}
+.Cssclassdestination {
+	margin:0px 0 5px 0
+}
+.cssClassagegroup {
+	margin-top:5px;
+}
+.cssClassButton{
+	float:right; margin:10px;}
+/*popup reservation*/ 
+.popupbox  #divFlightReservation .cssClassFormWrapper select {
+}
+ .popupbox #divFlightReservation .cssClassFormWrapper input[type="text"]:disabled {
+	border:1px solid #ececec;
+	background:#ececec
+}
+.popupbox #divFlightReservation .cssClassCommonBox {
+	margin:0px;
+}
+.popupbox #divFlightReservation .cssClassCommonBox .cssClassHeader {
+	margin:0px;
+	overflow: hidden;
+	height:auto;
+}
+.popupbox #divFlightReservation .cssClassCommonBox .cssClassHeader h2 {
+	height:auto ;
+	background:none;
+}
+.popupbox #divFlightReservation .cssClassCommonBox {
+	border:none;
+}
+
+
+

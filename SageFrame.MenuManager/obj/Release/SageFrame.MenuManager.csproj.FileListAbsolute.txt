@@ -13,6 +13,5 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.MenuManager\bin\Release\Sage
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.MenuManager\bin\Release\SageFrame.Pages.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.MenuManager\bin\Release\SageFrame.Common.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.MenuManager\bin\Release\SageFrame.Pages.pdb
-E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.MenuManager\obj\Release\SageFrame.MenuManager.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.MenuManager\obj\Release\SageFrame.MenuManager.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.MenuManager\obj\Release\SageFrame.MenuManager.pdb

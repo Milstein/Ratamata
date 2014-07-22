@@ -1,0 +1,1385 @@
+﻿
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestSettings_AddedOn]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestSettings] DROP CONSTRAINT [DF_Aspx_ABTestSettings_AddedOn]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestSettings_IsModified]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestSettings] DROP CONSTRAINT [DF_Aspx_ABTestSettings_IsModified]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestSettings_IsDeleted]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestSettings] DROP CONSTRAINT [DF_Aspx_ABTestSettings_IsDeleted]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestSettings_IsActive]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestSettings] DROP CONSTRAINT [DF_Aspx_ABTestSettings_IsActive]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestOriginalPage_AddedOn]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestOriginalPage] DROP CONSTRAINT [DF_Aspx_ABTestOriginalPage_AddedOn]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestOriginalPage_IsModified]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestOriginalPage] DROP CONSTRAINT [DF_Aspx_ABTestOriginalPage_IsModified]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestOriginalPage_IsDeleted]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestOriginalPage] DROP CONSTRAINT [DF_Aspx_ABTestOriginalPage_IsDeleted]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestOriginalPage_IsActive]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestOriginalPage] DROP CONSTRAINT [DF_Aspx_ABTestOriginalPage_IsActive]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestMain_AddedOn]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestMain] DROP CONSTRAINT [DF_Aspx_ABTestMain_AddedOn]
+END
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestVariation]    Script Date: 2/13/2014 11:38:18 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestVariation]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_ABTestVariation]
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestSettings]    Script Date: 2/13/2014 11:38:18 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestSettings]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_ABTestSettings]
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestOriginalPage]    Script Date: 2/13/2014 11:38:18 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestOriginalPage]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_ABTestOriginalPage]
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestMain]    Script Date: 2/13/2014 11:38:18 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestMain]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_ABTestMain]
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestGeneralSetting]    Script Date: 2/13/2014 11:38:18 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestGeneralSetting]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_ABTestGeneralSetting]
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestGeneralSetting]    Script Date: 2/13/2014 11:38:18 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestGeneralSetting]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[Aspx_ABTestGeneralSetting](
+	[GSID] [int] IDENTITY(1,1) NOT NULL,
+	[IsActive] [bit] NOT NULL,
+ CONSTRAINT [PK_Aspx_ABTestGeneralSetting] PRIMARY KEY CLUSTERED 
+(
+	[GSID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestMain]    Script Date: 2/13/2014 11:38:18 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestMain]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[Aspx_ABTestMain](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[PageURL] [nvarchar](500) NOT NULL,
+	[ABTestID] [int] NOT NULL,
+	[VariationID] [int] NOT NULL,
+	[Visit] [int] NULL,
+	[Conversion] [int] NULL,
+	[StoreID] [int] NULL,
+	[PortalID] [int] NULL,
+	[IsDeleted] [bit] NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](50) NULL,
+	[UpdatedBy] [nvarchar](50) NULL,
+	[DeletedBy] [nvarchar](50) NULL,
+ CONSTRAINT [PK_Aspx_ABTestMain] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestOriginalPage]    Script Date: 2/13/2014 11:38:18 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestOriginalPage]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[Aspx_ABTestOriginalPage](
+	[PageURLID] [int] IDENTITY(1,1) NOT NULL,
+	[PageURL] [nvarchar](500) NULL,
+	[ABTestID] [int] NOT NULL,
+	[Visit] [int] NULL,
+	[Conversion] [int] NULL,
+	[ClientIP] [nvarchar](50) NULL,
+	[SessionCode] [nvarchar](500) NULL,
+	[StoreID] [int] NULL,
+	[PortalID] [int] NULL,
+	[CultureName] [nvarchar](10) NULL,
+	[IsActive] [bit] NULL,
+	[IsDeleted] [bit] NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](50) NULL,
+	[UpdatedBy] [nvarchar](50) NULL,
+	[DeletedBy] [nvarchar](50) NULL,
+ CONSTRAINT [PK_Aspx_ABTestOriginalPage] PRIMARY KEY CLUSTERED 
+(
+	[PageURLID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestSettings]    Script Date: 2/13/2014 11:38:18 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestSettings]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[Aspx_ABTestSettings](
+	[ABTestID] [int] IDENTITY(1,1) NOT NULL,
+	[ABTestName] [nvarchar](500) NULL,
+	[OriginalPageURL] [nvarchar](500) NULL,
+	[Variation1URL] [nvarchar](500) NULL,
+	[Variation2URL] [nvarchar](500) NULL,
+	[Variation3URL] [nvarchar](500) NULL,
+	[TrafficPercentage] [int] NULL,
+	[EmailNotification] [bit] NULL,
+	[StartDate] [datetime] NULL,
+	[EndDate] [datetime] NULL,
+	[EndsOnDate] [datetime] NULL,
+	[EndsOnMaxVisit] [int] NULL,
+	[UsersInRole] [nvarchar](500) NULL,
+	[SessionCode] [nvarchar](500) NULL,
+	[StoreID] [int] NULL,
+	[PortalID] [int] NULL,
+	[CultureName] [nvarchar](10) NULL,
+	[IsActive] [bit] NULL,
+	[IsDeleted] [bit] NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](50) NULL,
+	[UpdatedBy] [nvarchar](50) NULL,
+	[DeletedBy] [nvarchar](50) NULL,
+ CONSTRAINT [PK_Aspx_ABTestSettings] PRIMARY KEY CLUSTERED 
+(
+	[ABTestID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+
+/****** Object:  Table [dbo].[Aspx_ABTestVariation]    Script Date: 2/13/2014 11:38:18 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_ABTestVariation]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[Aspx_ABTestVariation](
+	[VariationID] [int] NOT NULL,
+	[Variation] [nvarchar](50) NOT NULL
+) ON [PRIMARY]
+END
+GO
+
+IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestMain_AddedOn]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestMain] ADD  CONSTRAINT [DF_Aspx_ABTestMain_AddedOn]  DEFAULT (getdate()) FOR [AddedOn]
+END
+
+GO
+
+IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestOriginalPage_IsActive]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestOriginalPage] ADD  CONSTRAINT [DF_Aspx_ABTestOriginalPage_IsActive]  DEFAULT ((1)) FOR [IsActive]
+END
+
+GO
+
+IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestOriginalPage_IsDeleted]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestOriginalPage] ADD  CONSTRAINT [DF_Aspx_ABTestOriginalPage_IsDeleted]  DEFAULT ((0)) FOR [IsDeleted]
+END
+
+GO
+
+IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestOriginalPage_IsModified]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestOriginalPage] ADD  CONSTRAINT [DF_Aspx_ABTestOriginalPage_IsModified]  DEFAULT ((0)) FOR [IsModified]
+END
+
+GO
+
+IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestOriginalPage_AddedOn]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestOriginalPage] ADD  CONSTRAINT [DF_Aspx_ABTestOriginalPage_AddedOn]  DEFAULT (getdate()) FOR [AddedOn]
+END
+
+GO
+
+IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestSettings_IsActive]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestSettings] ADD  CONSTRAINT [DF_Aspx_ABTestSettings_IsActive]  DEFAULT ((1)) FOR [IsActive]
+END
+
+GO
+
+IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestSettings_IsDeleted]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestSettings] ADD  CONSTRAINT [DF_Aspx_ABTestSettings_IsDeleted]  DEFAULT ((0)) FOR [IsDeleted]
+END
+
+GO
+
+IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestSettings_IsModified]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestSettings] ADD  CONSTRAINT [DF_Aspx_ABTestSettings_IsModified]  DEFAULT ((0)) FOR [IsModified]
+END
+
+GO
+
+IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[DF_Aspx_ABTestSettings_AddedOn]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[Aspx_ABTestSettings] ADD  CONSTRAINT [DF_Aspx_ABTestSettings_AddedOn]  DEFAULT (getdate()) FOR [AddedOn]
+END
+
+GO
+
+
+
+/****** Object:  Table [dbo].[Aspx_ABTestVariation]    Script Date: 01/07/2013 09:56:03 ******/
+DELETE FROM [dbo].[Aspx_ABTestVariation]
+GO
+/****** Object:  Table [dbo].[Aspx_ABTestVariation]    Script Date: 01/07/2013 09:56:03 ******/
+INSERT [dbo].[Aspx_ABTestVariation] ([VariationID], [Variation]) VALUES (0, N'OriginalPageURL')
+INSERT [dbo].[Aspx_ABTestVariation] ([VariationID], [Variation]) VALUES (1, N'Variation1URL')
+INSERT [dbo].[Aspx_ABTestVariation] ([VariationID], [Variation]) VALUES (2, N'Variation2URL')
+INSERT [dbo].[Aspx_ABTestVariation] ([VariationID], [Variation]) VALUES (3, N'Variation3URL')
+
+GO
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestVisitCount]    Script Date: 2/13/2014 11:39:54 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestVisitCount]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestVisitCount]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestSaveVisitAndConversion]    Script Date: 2/13/2014 11:39:54 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestSaveVisitAndConversion]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestSaveVisitAndConversion]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestSaveUpdateSettings]    Script Date: 2/13/2014 11:39:54 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestSaveUpdateSettings]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestSaveUpdateSettings]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestResultsByID]    Script Date: 2/13/2014 11:39:54 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestResultsByID]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestResultsByID]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestIsUserInRoles]    Script Date: 2/13/2014 11:39:54 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestIsUserInRoles]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestIsUserInRoles]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestGetSettingsAll]    Script Date: 2/13/2014 11:39:54 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestGetSettingsAll]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestGetSettingsAll]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestDeleteSettings]    Script Date: 2/13/2014 11:39:54 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestDeleteSettings]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestDeleteSettings]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestConversionRateForChart]    Script Date: 2/13/2014 11:39:54 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestConversionRateForChart]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestConversionRateForChart]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestCheckPageExists]    Script Date: 2/13/2014 11:39:54 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestCheckPageExists]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_ABTestCheckPageExists]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestCheckPageExists]    Script Date: 2/13/2014 11:39:54 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestCheckPageExists]') AND type in (N'P', N'PC'))
+BEGIN
+EXEC dbo.sp_executesql @statement = N'
+-- =============================================
+-- Author:		<Jainul Khan>
+-- Create date: <September-22-2013>
+-- Description:	<Checks Page tab path exists>
+-- =============================================
+-- [dbo].[usp_Aspx_ABTestCheckPageExists] ''/Home'',1,null
+CREATE PROCEDURE [dbo].[usp_Aspx_ABTestCheckPageExists]
+	-- Add the parameters for the stored procedure here
+	@PageTabPath NVARCHAR(500)
+	,@PortalID INT
+	,@IsExists BIT OUTPUT
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	SET @IsExists = CAST(0 AS BIT)
+
+	IF EXISTS (	SELECT PageID FROM [dbo].[Pages] WHERE [TabPath] = @PageTabPath	AND [PortalID] = @PortalID )
+	BEGIN
+		SET @IsExists = CAST(1 AS BIT)
+	END
+
+	SET NOCOUNT OFF
+END
+' 
+END
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestConversionRateForChart]    Script Date: 2/13/2014 11:39:54 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestConversionRateForChart]') AND type in (N'P', N'PC'))
+BEGIN
+EXEC dbo.sp_executesql @statement = N'CREATE PROCEDURE [dbo].[usp_Aspx_ABTestConversionRateForChart]
+	-----
+	@ABTestID INT
+	,@ShortBy varchar(50)
+	,@StoreID INT
+	,@PortalID INT
+AS
+BEGIN
+
+        SELECT DATENAME(YEAR, AddedOn) + ''-'' + CAST(DATEPART(MONTH, AddedOn) AS NVARCHAR(4)) + ''-'' + CAST(DATEPART(DAY, AddedOn) AS VARCHAR(4)) AS VisitedDate		
+		,CASE WHEN SUM(Visit)=0 THEN 0
+        ELSE CONVERT(decimal(18,2), (CONVERT(decimal(18,2), SUM(Conversion)) * 100 / CONVERT(DECIMAL(18,2), SUM(Visit)))) END AS ConversionRate
+		FROM [dbo].Aspx_ABTestMain
+		WHERE ABTestID=@ABTestID AND VariationID=0 AND  IsDeleted=0 AND StoreID=@StoreID AND PortalID=@PortalID 		
+		AND CASE @ShortBy 
+		WHEN ''year'' THEN  DATEDIFF(YYYY, AddedOn, GETDATE())
+		WHEN ''''  THEN  DATEDIFF(YYYY, AddedOn, GETDATE())
+		WHEN ''month'' THEN  DATEDIFF(MM, AddedOn, GETDATE())
+		WHEN ''day'' THEN  DATEDIFF(DD, AddedOn, GETDATE())        
+        END	<=1
+		GROUP BY DATENAME(YEAR, AddedOn) + ''-'' + CAST(DATEPART(MONTH, AddedOn) AS NVARCHAR(4)) + ''-'' + CAST(DATEPART(DAY, AddedOn) AS VARCHAR(4))
+		
+		SELECT DATENAME(YEAR, AddedOn) + ''-'' + CAST(DATEPART(MONTH, AddedOn) AS NVARCHAR(4)) + ''-'' + CAST(DATEPART(DAY, AddedOn) AS VARCHAR(4)) AS VisitedDate		
+		,CASE WHEN SUM(Visit)=0 THEN 0
+        ELSE CONVERT(decimal(18,2), (CONVERT(decimal(18,2), SUM(Conversion)) * 100 / CONVERT(DECIMAL(18,2), SUM(Visit)))) END AS ConversionRate
+		FROM [dbo].Aspx_ABTestMain
+		WHERE ABTestID=@ABTestID AND VariationID=1 AND IsDeleted=0 AND StoreID=@StoreID AND PortalID=@PortalID 
+		AND CASE @ShortBy 
+		WHEN ''year'' THEN  DATEDIFF(YYYY, AddedOn, GETDATE())
+		WHEN ''''  THEN  DATEDIFF(YYYY, AddedOn, GETDATE())
+		WHEN ''month'' THEN  DATEDIFF(MM, AddedOn, GETDATE())
+		WHEN ''day'' THEN  DATEDIFF(DD, AddedOn, GETDATE())        
+        END	<=1
+		GROUP BY DATENAME(YEAR, AddedOn) + ''-'' + CAST(DATEPART(MONTH, AddedOn) AS NVARCHAR(4)) + ''-'' + CAST(DATEPART(DAY, AddedOn) AS VARCHAR(4))
+		
+		SELECT DATENAME(YEAR, AddedOn) + ''-'' + CAST(DATEPART(MONTH, AddedOn) AS NVARCHAR(4)) + ''-'' + CAST(DATEPART(DAY, AddedOn) AS VARCHAR(4)) AS VisitedDate		
+		,CASE WHEN SUM(Visit)=0 THEN 0
+        ELSE CONVERT(decimal(18,2), (CONVERT(decimal(18,2), SUM(Conversion)) * 100 / CONVERT(DECIMAL(18,2), SUM(Visit)))) END AS ConversionRate
+		FROM [dbo].Aspx_ABTestMain
+		WHERE ABTestID=@ABTestID AND VariationID=2 AND IsDeleted=0 AND StoreID=@StoreID AND PortalID=@PortalID 
+		AND CASE @ShortBy 
+		WHEN ''year'' THEN  DATEDIFF(YYYY, AddedOn, GETDATE())
+		WHEN ''''  THEN  DATEDIFF(YYYY, AddedOn, GETDATE())
+		WHEN ''month'' THEN  DATEDIFF(MM, AddedOn, GETDATE())
+		WHEN ''day'' THEN  DATEDIFF(DD, AddedOn, GETDATE())        
+        END	<=1
+		GROUP BY DATENAME(YEAR, AddedOn) + ''-'' + CAST(DATEPART(MONTH, AddedOn) AS NVARCHAR(4)) + ''-'' + CAST(DATEPART(DAY, AddedOn) AS VARCHAR(4))
+
+		SELECT DATENAME(YEAR, AddedOn) + ''-'' + CAST(DATEPART(MONTH, AddedOn) AS NVARCHAR(4)) + ''-'' + CAST(DATEPART(DAY, AddedOn) AS VARCHAR(4)) AS VisitedDate		
+		,CASE WHEN ISNULL(SUM(Visit),0)=0 THEN 0
+        ELSE CONVERT(decimal(18,2), (CONVERT(decimal(18,2), SUM(Conversion)) * 100 / CONVERT(DECIMAL(18,2), SUM(Visit)))) END AS ConversionRate
+		FROM [dbo].Aspx_ABTestMain
+		WHERE ABTestID=@ABTestID AND VariationID=3 AND IsDeleted=0 AND StoreID=@StoreID AND PortalID=@PortalID
+		AND CASE @ShortBy 
+		WHEN ''year'' THEN  DATEDIFF(YYYY, AddedOn, GETDATE())
+		WHEN ''''  THEN  DATEDIFF(YYYY, AddedOn, GETDATE())
+		WHEN ''month'' THEN  DATEDIFF(MM, AddedOn, GETDATE())
+		WHEN ''day'' THEN  DATEDIFF(DD, AddedOn, GETDATE())        
+        END	<=1
+		GROUP BY DATENAME(YEAR, AddedOn) + ''-'' + CAST(DATEPART(MONTH, AddedOn) AS NVARCHAR(4)) + ''-'' + CAST(DATEPART(DAY, AddedOn) AS VARCHAR(4))
+END' 
+END
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestDeleteSettings]    Script Date: 2/13/2014 11:39:54 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestDeleteSettings]') AND type in (N'P', N'PC'))
+BEGIN
+EXEC dbo.sp_executesql @statement = N'
+-- =============================================
+-- Author:		<Jainul Khan>
+-- Create date: <September-22-2013>
+-- Description:	<Deletes AB Test Settings>
+-- =============================================
+-- [dbo].[usp_Aspx_ABTestDeleteSettings] 1,1,1,''superuser''
+CREATE PROCEDURE [dbo].[usp_Aspx_ABTestDeleteSettings]
+	-- Add the parameters for the stored procedure here
+	@ABTestID INT = NULL
+	,@StoreID INT
+	,@PortalID INT
+	,@UserName NVARCHAR(250)
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	UPDATE [dbo].Aspx_ABTestSettings
+	SET IsDeleted=1, DeletedOn=GETDATE(), DeletedBy=@UserName
+	WHERE ABTestID = @ABTestID AND StoreID = @StoreID AND PortalID = @PortalID AND AddedBy = @UserName
+
+	SET NOCOUNT OFF
+END
+
+' 
+END
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestGetSettingsAll]    Script Date: 2/13/2014 11:39:54 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestGetSettingsAll]') AND type in (N'P', N'PC'))
+BEGIN
+EXEC dbo.sp_executesql @statement = N'
+-- =============================================
+-- Author:		<Jainul Khan>
+-- Create date: <September-22-2013>
+-- Description:	<Returns AB Test Settingts List>
+-- =============================================
+-- [dbo].[usp_Aspx_ABTestGetSettingsAll] 1,10,1,1,''en-US'',''superuser''
+CREATE PROCEDURE [dbo].[usp_Aspx_ABTestGetSettingsAll]
+	-- Add the parameters for the stored procedure here
+	@Offset INT
+	,@Limit INT = NULL
+	,@StoreID INT
+	,@PortalID INT
+	,@CultureName NVARCHAR(50)
+	,@UserName NVARCHAR(250)
+	,@ABTestName NVARCHAR(250) = NULL
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	IF (@Limit IS NULL)
+	BEGIN
+		SET @Limit = 0
+	END;
+
+	WITH test (
+		ABTestID
+		,ABTestName
+		,OriginalPageURL
+		,Variation1PageURL
+		,Variation2PageURL
+		,Variation3PageURL
+		,TrafficPercentage
+		,EmailNotification
+		,StartDate		
+		,EndsOnDate
+		,EndsOnMaxVisit
+		,UsersInRole
+		,IsActive		
+		,[Status]	
+		,RowNumber
+		)
+	AS (
+		SELECT ABTestID
+			,ABTestName
+			,OriginalPageURL
+			,Variation1URL
+			,Variation2URL
+			,Variation3URL
+			,TrafficPercentage
+			,EmailNotification		
+			,CONVERT(VARCHAR(10), StartDate, 101)
+			,CONVERT(VARCHAR(10), EndsOnDate, 101)			
+			,EndsOnMaxVisit
+			,UsersInRole
+			,IsActive			
+			,CASE 
+				WHEN IsActive=1 and (datediff(day, GETDATE(), EndsOnDate) >=1)
+					THEN ''Still Running''
+				ELSE ''Stoped''
+				END	 as [Status]	
+			,ROW_NUMBER() OVER (ORDER BY (ABTestID) ASC) AS RowNumber
+		FROM [dbo].[Aspx_ABTestSettings]
+		WHERE StoreID = @StoreID AND PortalID = @PortalID AND @CultureName = @CultureName AND IsDeleted=0 
+		AND ABTestName LIKE ISNULL(@ABTestName, '''') + ''%''
+		)
+		,rowTotal (RowTotal)
+		AS (SELECT MAX(RowNumber)	FROM test)
+		SELECT CONVERT(INT, r.RowTotal) AS RowTotal	,c.*
+		FROM test c	,rowTotal r
+		WHERE RowNumber >= @offset
+			AND RowNumber <= CASE @limit
+				WHEN 0
+					THEN (@offset + r.RowTotal - 1)
+				ELSE (@offset + @limit - 1)
+			END
+
+	SET NOCOUNT OFF
+END
+
+
+
+
+
+
+' 
+END
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestIsUserInRoles]    Script Date: 2/13/2014 11:39:54 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER OFF
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestIsUserInRoles]') AND type in (N'P', N'PC'))
+BEGIN
+EXEC dbo.sp_executesql @statement = N'-- =============================================
+-- Author:		<Jainul Khan>
+-- Create date: <October-22-2013>
+-- Description:	<Checks is User Roles Exists in User Defined Roles>
+-- =============================================
+--[dbo].[usp_Aspx_ABTestIsUserInRoles] ''superuser'', ''Super User,Registered User'',0
+CREATE PROCEDURE [dbo].[usp_Aspx_ABTestIsUserInRoles] 
+--
+    @UserName NVARCHAR(256)
+	,@DefinedRoleNames NVARCHAR(256)	
+	,@IsExists BIT OUTPUT
+AS
+SET NOCOUNT ON;
+BEGIN
+	DECLARE @UserID NVARCHAR(250),	@RoleID NVARCHAR(max)
+	SET @UserID = (	SELECT [UserId] FROM [dbo].[aspnet_Users]	WHERE [LoweredUserName] = LOWER(@UserName) )
+	SET @RoleID=''''
+	SELECT @RoleID = @RoleID +  CAST([RoleId] AS NVARCHAR(250)) + '',''   FROM    [dbo].[aspnet_UsersInRoles] WHERE [UserId] = @UserID
+	
+----****Put Multiple Comma Saparated roleids in a temp table @TblUserInRoles****----
+	DECLARE @TblUserInRoles TABLE (RowNum INT IDENTITY(1, 1)	,RoleID NVARCHAR(250))
+	INSERT INTO @TblUserInRoles (RoleID)	SELECT RTRIM(LTRIM(items))	FROM split(@RoleID, '','')
+	
+----****Find User Rolenames by roleids and put it into a temp table @TblUserInRolesWithID****----
+	DECLARE @Counter INT ,@RowCount INT
+	SET @RowCount = (SELECT COUNT(RowNum) FROM @TblUserInRoles)
+	SET @Counter = 1
+	WHILE (	@Counter <= @RowCount OR @Counter = 1 )
+		BEGIN
+			DECLARE @RID NVARCHAR(250)
+			SELECT @RID = RoleID FROM @TblUserInRoles WHERE RowNum = @Counter	
+
+			DECLARE @TblUserInRolesWithID TABLE (RowNum INT IDENTITY(1, 1),RoleName NVARCHAR(250))
+			INSERT INTO @TblUserInRolesWithID (RoleName)	SELECT RoleName FROM [dbo].[aspnet_Roles] WHERE [RoleId]=@RID		
+			SET @Counter = @Counter + 1
+		END
+
+	----****Put Multiple Comma Saparated User Defined RoleNames in a temp table @TblDefinedRoles****----
+		DECLARE @TblDefinedRoles TABLE (RowNum INT IDENTITY(1, 1)	,RoleName NVARCHAR(250))
+		INSERT INTO @TblDefinedRoles (RoleName)	SELECT rtrim(ltrim(items))	FROM split(@DefinedRoleNames, '','')	    
+
+	----****Check if users roles exists on defined user roles****----
+	        DECLARE @UserExistsInRole INT
+			SET @UserExistsInRole=0
+			IF EXISTS (	SELECT RowNum FROM @TblDefinedRoles WHERE RoleName in (SELECT RoleName FROM @TblUserInRolesWithID	) )
+				BEGIN
+					SET @UserExistsInRole = CAST(1 AS BIT)
+				END			
+
+	----****Finally Chaeck if the particaular ABTest for the page is Elgible****----
+				IF(@UserExistsInRole=1)
+					BEGIN
+					SET @IsExists = CAST(1 AS BIT)
+					END
+					ELSE
+					BEGIN
+					SET @IsExists = CAST(0 AS BIT)
+					END
+
+					--PRINT @IsExists
+
+END
+
+
+' 
+END
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestResultsByID]    Script Date: 2/13/2014 11:39:54 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestResultsByID]') AND type in (N'P', N'PC'))
+BEGIN
+EXEC dbo.sp_executesql @statement = N'
+
+
+
+
+CREATE PROCEDURE [dbo].[usp_Aspx_ABTestResultsByID]
+	-- Add the parameters for the stored procedure here		
+	@ABTestID INT
+	,@ShortBy varchar(50)
+	,@StoreID INT
+	,@PortalID INT
+AS
+BEGIN
+
+	SET NOCOUNT ON;
+
+
+	---For each variation **Conversion Count***---  
+	DECLARE  @ConversionCount1 DECIMAL (18,2),@ConversionCount2 DECIMAL (18,2),@ConversionCount3 DECIMAL (18,2),@ConversionCount4 DECIMAL (18,2)
+		
+	---For each variation **Number of Visit Count***---  
+	DECLARE @VisitCount1 DECIMAL (18,2),@VisitCount2 DECIMAL (18,2),@VisitCount3 DECIMAL (18,2),@VisitCount4 DECIMAL (18,2)	
+
+	---For each test **@TotalVisit= Total Visit for a Particular Test***---  
+	DECLARE @TotalVisit INT 
+
+	---For each test **@DaysOfData= Totaldays of data included for a Particular Test***---  
+	DECLARE @DaysOfData INT 
+
+
+IF(@ShortBy=''year'' OR @ShortBy='''')
+BEGIN 
+	
+	SET @ConversionCount1=(SELECT ISNULL(SUM (Conversion),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 0 AND DATEDIFF(YYYY, AddedOn, GETDATE())<=1)
+	SET @ConversionCount2=(SELECT ISNULL(SUM (Conversion),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 1 AND DATEDIFF(YYYY, AddedOn, GETDATE())<=1)
+	SET @ConversionCount3=(SELECT ISNULL(SUM (Conversion),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 2 AND DATEDIFF(YYYY, AddedOn, GETDATE())<=1)
+	SET @ConversionCount4=(SELECT ISNULL(SUM (Conversion),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 3 AND DATEDIFF(YYYY, AddedOn, GETDATE())<=1)
+	SET @VisitCount1=(SELECT ISNULL(SUM (Visit),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 0 AND DATEDIFF(YYYY, AddedOn, GETDATE())<=1)
+	SET @VisitCount2=(SELECT ISNULL(SUM (Visit),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 1 AND DATEDIFF(YYYY, AddedOn, GETDATE())<=1)
+	SET @VisitCount3=(SELECT ISNULL(SUM (Visit),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 2 AND DATEDIFF(YYYY, AddedOn, GETDATE())<=1)
+	SET @VisitCount4=(SELECT ISNULL(SUM (Visit),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 3 AND DATEDIFF(YYYY, AddedOn, GETDATE())<=1)		
+	SET @TotalVisit= (SELECT SUM(Visit) FROM [dbo].Aspx_ABTestMain WHERE ABTestID=@ABTestID AND DATEDIFF(YYYY, AddedOn, GETDATE())<=1)
+	SET @DaysOfData= (SELECT DATEDIFF(DD, MIN(AddedOn), GETDATE()) FROM [dbo].Aspx_ABTestMain  WHERE ABTestID=@ABTestID AND DATEDIFF(YYYY, AddedOn, GETDATE())<=1) 	+1
+
+END
+
+IF(@ShortBy=''month'')
+BEGIN 
+	
+	SET @ConversionCount1=(SELECT ISNULL(SUM (Conversion),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 0 AND DATEDIFF(MM, AddedOn, GETDATE())<=1)
+	SET @ConversionCount2=(SELECT ISNULL(SUM (Conversion),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 1 AND DATEDIFF(MM, AddedOn, GETDATE())<=1)
+	SET @ConversionCount3=(SELECT ISNULL(SUM (Conversion),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 2 AND DATEDIFF(MM, AddedOn, GETDATE())<=1)
+	SET @ConversionCount4=(SELECT ISNULL(SUM (Conversion),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 3 AND DATEDIFF(MM, AddedOn, GETDATE())<=1)
+	SET @VisitCount1=(SELECT ISNULL(SUM (Visit),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 0 AND DATEDIFF(MM, AddedOn, GETDATE())<=1)
+	SET @VisitCount2=(SELECT ISNULL(SUM (Visit),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 1 AND DATEDIFF(MM, AddedOn, GETDATE())<=1)
+	SET @VisitCount3=(SELECT ISNULL(SUM (Visit),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 2 AND DATEDIFF(MM, AddedOn, GETDATE())<=1)
+	SET @VisitCount4=(SELECT ISNULL(SUM (Visit),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 3 AND DATEDIFF(MM, AddedOn, GETDATE())<=1)		
+	SET @TotalVisit= (SELECT SUM(Visit) FROM [dbo].Aspx_ABTestMain WHERE ABTestID=@ABTestID AND DATEDIFF(MM, AddedOn, GETDATE())<=1)
+	SET @DaysOfData= (SELECT DATEDIFF(DD, MIN(AddedOn), GETDATE()) FROM [dbo].Aspx_ABTestMain WHERE ABTestID=@ABTestID AND DATEDIFF(MM, AddedOn, GETDATE())<=1) +1
+
+END
+
+IF(@ShortBy=''day'')
+BEGIN 
+	
+	SET @ConversionCount1=(SELECT ISNULL(SUM (Conversion),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 0 AND DATEDIFF(DD, AddedOn, GETDATE())<=1)
+	SET @ConversionCount2=(SELECT ISNULL(SUM (Conversion),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 1 AND DATEDIFF(DD, AddedOn, GETDATE())<=1)
+	SET @ConversionCount3=(SELECT ISNULL(SUM (Conversion),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 2 AND DATEDIFF(DD, AddedOn, GETDATE())<=1)
+	SET @ConversionCount4=(SELECT ISNULL(SUM (Conversion),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 3 AND DATEDIFF(DD, AddedOn, GETDATE())<=1)
+	SET @VisitCount1=(SELECT ISNULL(SUM (Visit),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 0 AND DATEDIFF(DD, AddedOn, GETDATE())<=1)
+	SET @VisitCount2=(SELECT ISNULL(SUM (Visit),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 1 AND DATEDIFF(DD, AddedOn, GETDATE())<=1)
+	SET @VisitCount3=(SELECT ISNULL(SUM (Visit),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 2 AND DATEDIFF(DD, AddedOn, GETDATE())<=1)
+	SET @VisitCount4=(SELECT ISNULL(SUM (Visit),0) FROM [dbo].Aspx_ABTestMain WHERE ABTestID = @ABTestID AND VariationID = 3 AND DATEDIFF(DD, AddedOn, GETDATE())<=1)		
+	SET @TotalVisit= (SELECT ISNULL( SUM(Visit),0) FROM Aspx_ABTestMain WHERE ABTestID=@ABTestID AND DATEDIFF(DD, AddedOn, GETDATE())<=1)
+	SET @DaysOfData= (SELECT ISNULL( DATEDIFF(DD, MIN(AddedOn), GETDATE()), 0) FROM Aspx_ABTestMain WHERE ABTestID=@ABTestID AND DATEDIFF(DD, AddedOn, GETDATE())<=1) +1
+	IF(@DaysOfData>1)
+	BEGIN		
+	SET @DaysOfData=1
+	END
+END
+
+ ---For each variation **Conversion Rate= Sum(Conversion) * 100 / Sum(Visit)***---  
+	DECLARE @ConversionRate1 DECIMAL (18,2), @ConversionRate2 DECIMAL (18,2), @ConversionRate3 DECIMAL (18,2), @ConversionRate4 DECIMAL (18,2)	
+    SET @ConversionRate1 = 0
+	SET @ConversionRate2 = 0
+	SET @ConversionRate3 = 0
+	SET @ConversionRate4 = 0
+
+		IF (@VisitCount1 != 0)
+		BEGIN
+			SET @ConversionRate1 = @ConversionCount1 * 100 / @VisitCount1
+		END
+
+		IF (@VisitCount2 != 0)
+		BEGIN
+			SET @ConversionRate2 = @ConversionCount2 * 100 / @VisitCount2
+		END
+
+		IF (@VisitCount3 != 0)
+		BEGIN
+			SET @ConversionRate3 = @ConversionCount3 * 100 / @VisitCount3
+		END
+
+		IF (@VisitCount4 != 0)
+		BEGIN
+			SET @ConversionRate4 = @ConversionCount4 * 100 / @VisitCount4
+		END
+
+
+	---For each variation **Compare to Original = (Variation% � Original %) * 100 / Original %***---  
+	DECLARE @CompareToOriginal1 DECIMAL (18,2),@CompareToOriginal2 DECIMAL (18,2),@CompareToOriginal3 DECIMAL (18,2)	
+	SET @CompareToOriginal1 = 0
+	SET @CompareToOriginal2 = 0
+	SET @CompareToOriginal3 = 0
+
+		IF (@ConversionRate1 != 0 AND (@ConversionRate2 - @ConversionRate1) > 0)
+		BEGIN
+			SET @CompareToOriginal1 = (@ConversionRate2 - @ConversionRate1) * 100 / @ConversionRate1			
+		END
+		IF (@ConversionRate1 != 0 AND (@ConversionRate3 - @ConversionRate1) > 0)
+		BEGIN			
+			SET @CompareToOriginal2 = (@ConversionRate3 - @ConversionRate1) * 100 / @ConversionRate1			
+		END
+		IF (@ConversionRate1 != 0 AND (@ConversionRate4 - @ConversionRate1) > 0)
+		BEGIN			
+			SET @CompareToOriginal3 = (@ConversionRate4 - @ConversionRate1) * 100 / @ConversionRate1
+		END
+	
+	---For each variation **Standandard Error=ConversionRate(1-ConversionRate)/samplesize***---  
+	DECLARE @StandardError1 DECIMAL (18,2),@StandardError2 DECIMAL (18,2),@StandardError3 DECIMAL (18,2),@StandardError4 DECIMAL (18,2)		
+	SET @StandardError1= 0
+	SET @StandardError2= 0
+	SET @StandardError3= 0
+	SET @StandardError4= 0
+
+		IF ((@VisitCount1 + @VisitCount2 + @VisitCount3 + @VisitCount4) != 0)
+	BEGIN
+		SET @StandardError1 = ABS(@ConversionRate1 * (1 - @ConversionRate1) / (@VisitCount1 + @VisitCount2 + @VisitCount3 + @VisitCount4))
+		SET @StandardError2 = ABS(@ConversionRate2 * (1 - @ConversionRate2) / (@VisitCount1 + @VisitCount2 + @VisitCount3 + @VisitCount4))
+		SET @StandardError3 = ABS(@ConversionRate2 * (1 - @ConversionRate2) / (@VisitCount1 + @VisitCount2 + @VisitCount3 + @VisitCount4))
+		SET @StandardError4 = ABS(@ConversionRate2 * (1 - @ConversionRate2) / (@VisitCount1 + @VisitCount2 + @VisitCount3 + @VisitCount4))
+	END
+
+	---For each variation **@ZSCORE=ConversionRateOriginal-ConversionRate)/ SQRT(@StandardError1+@StandardError2)***---  
+	DECLARE @ZSCORE2 DECIMAL (18,2),@ZSCORE3 DECIMAL (18,2),@ZSCORE4 DECIMAL (18,2)
+	SET @ZSCORE2 =	0
+	SET @ZSCORE3 =	0
+	SET @ZSCORE4 =	0
+
+		IF ((@StandardError1 + @StandardError2) != 0)
+		BEGIN
+			SET @ZSCORE2 = (@ConversionRate1 - @ConversionRate2) / SQRT(@StandardError1 + @StandardError2)
+		END
+
+		IF ((@StandardError1 + @StandardError3) != 0)
+		BEGIN
+			SET @ZSCORE3 = (@ConversionRate1 - @ConversionRate3) / SQRT(@StandardError1 + @StandardError3)
+		END
+
+		IF ((@StandardError1 + @StandardError4) != 0)
+		BEGIN
+			SET @ZSCORE4 = (@ConversionRate1 - @ConversionRate4) / SQRT(@StandardError1 + @StandardError4)
+		END
+		
+		---For each variation **@P=Probability(ZScore)***---  
+		DECLARE @Probability2 DECIMAL (18,6),@Probability3 DECIMAL (18,6),@Probability4 DECIMAL (18,6)
+		SET  @Probability2=0
+		SET  @Probability3=0
+		SET  @Probability4=0	
+
+		IF (@ZSCORE2 != 0)
+		BEGIN
+			SET @Probability2 = [dbo].[ufn_Aspx_ABTestProbabilityWithZSCORE](@ZSCORE2)
+		END
+
+		IF (@ZSCORE3 != 0)
+		BEGIN
+			SET @Probability3 = [dbo].[ufn_Aspx_ABTestProbabilityWithZSCORE](@ZSCORE3)
+		END
+
+		IF (@ZSCORE4 != 0)
+		BEGIN
+			SET @Probability4 = [dbo].[ufn_Aspx_ABTestProbabilityWithZSCORE](@ZSCORE4)
+		END
+
+	
+
+	
+	---For each variation **@Chance= Chances to Beat original in percenrtage***---  
+	DECLARE @ChancesToBeatOriginal2 DECIMAL (18,2),@ChancesToBeatOriginal3 DECIMAL (18,2),@ChancesToBeatOriginal4 DECIMAL (18,2)
+	SET @ChancesToBeatOriginal2=0
+	SET @ChancesToBeatOriginal3=0
+	SET @ChancesToBeatOriginal4=0
+
+		IF (@Probability2 != 0 AND @CompareToOriginal1 > 0)
+		BEGIN
+			SET @ChancesToBeatOriginal2 = @Probability2 * 100
+
+			IF (@Probability2 <= 0.5)
+			BEGIN
+				SET @ChancesToBeatOriginal2 = (1 - @Probability2) * 100
+			END
+		END
+
+		IF (@Probability3 != 0 AND @CompareToOriginal2 > 0)
+		BEGIN
+			SET @ChancesToBeatOriginal3 = @Probability3 * 100
+
+			IF (@Probability3 <= 0.5)
+			BEGIN
+				SET @ChancesToBeatOriginal3 = (1 - @Probability3) * 100
+			END
+		END
+
+		IF (@Probability4 != 0  AND @CompareToOriginal3 > 0)
+		BEGIN
+			SET @ChancesToBeatOriginal4 = @Probability4 * 100
+
+			IF (@Probability4 <= 0.5)
+			BEGIN
+				SET @ChancesToBeatOriginal4 = (1 - @Probability4) * 100
+			END
+		END		
+
+	SELECT ABTV.VariationID
+	,LEFT(ABTV.Variation, LEN(ABTV.Variation) - 3) AS Variation	
+	,CASE ABTV.VariationID
+		WHEN 0
+			THEN CAST(@VisitCount1 AS int)
+		WHEN 1
+			THEN CAST(@VisitCount2 AS int)
+		WHEN 2
+			THEN CAST(@VisitCount3 AS int)
+		ELSE CAST(@VisitCount4 AS int)
+		END AS Visit	
+	,CASE ABTV.VariationID
+		WHEN 0
+			THEN CAST(@ConversionCount1 AS int)
+		WHEN 1
+			THEN CAST(@ConversionCount2 AS int)
+		WHEN 2
+			THEN CAST(@ConversionCount3 AS int)
+		ELSE CAST(@ConversionCount4 AS int)
+		END AS Conversion
+	,CASE ABTV.VariationID
+		WHEN 0
+			THEN CAST(@ConversionRate1 AS VARCHAR(10)) + '' %''
+		WHEN 1
+			THEN CAST(@ConversionRate2 AS VARCHAR(10)) + '' %''
+		WHEN 2
+			THEN CAST(@ConversionRate3 AS VARCHAR(10)) + '' %''
+		ELSE CAST(@ConversionRate4 AS VARCHAR(10)) + '' %''
+		END AS ConversionRate
+	,CASE ABTV.VariationID
+		WHEN 0
+			THEN ''----''
+		WHEN 1
+			THEN CAST(@CompareToOriginal1 AS VARCHAR(10)) + '' %''
+		WHEN 2
+			THEN CAST(@CompareToOriginal2 AS VARCHAR(10)) + '' %''
+		ELSE CAST(@CompareToOriginal3 AS VARCHAR(10)) + '' %''
+		END AS CompareToOriginal
+	,CASE ABTV.VariationID
+		WHEN 0
+			THEN ''----''
+		WHEN 1
+			THEN  CAST(ISNULL(@ChancesToBeatOriginal2,0) AS VARCHAR(10)) + '' %''
+		WHEN 2
+			THEN CAST(ISNULL(@ChancesToBeatOriginal3,0) AS VARCHAR(10)) + '' %''
+		ELSE CAST(ISNULL(@ChancesToBeatOriginal3,0) AS VARCHAR(10)) + '' %'' END AS ChancesToBeatOriginal
+	,@TotalVisit AS TotalVisit
+	,@DaysOfData AS DaysOfData		
+FROM [dbo].Aspx_ABTestMain ABTM
+INNER JOIN [dbo].Aspx_ABTestVariation ABTV ON ABTM.VariationID = ABTV.VariationID
+WHERE ABTM.ABTestID = @ABTestID AND ABTM.IsDeleted=0 AND DATEDIFF(YYYY, ABTM.AddedOn, GETDATE())<=1
+GROUP BY ABTV.VariationID,Variation
+	
+	
+
+
+	SET NOCOUNT OFF
+END
+
+' 
+END
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestSaveUpdateSettings]    Script Date: 2/13/2014 11:39:54 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestSaveUpdateSettings]') AND type in (N'P', N'PC'))
+BEGIN
+EXEC dbo.sp_executesql @statement = N'
+-- =============================================
+-- Author:		<Jainul Khan>
+-- Create date: <September-22-2013>
+-- Description:	<Saves and Updates AB Test Settings>
+-- =============================================
+-- [dbo].[usp_Aspx_ABTestSaveUpdateSettings] 1,''My Cart'',''/my-cart'',''/my-cart2'',null,null,75,1,0,1,1,''en-US'',''superuser''
+CREATE PROCEDURE [dbo].[usp_Aspx_ABTestSaveUpdateSettings]
+	-- Add the parameters for the stored procedure here
+	@ABTestID INT = NULL
+	,@ABTestName NVARCHAR(500)
+	,@OriginalPageURL NVARCHAR(500)
+	,@Variation1PageURL NVARCHAR(500)
+	,@Variation2PageURL NVARCHAR(500) = NULL
+	,@Variation3PageURL NVARCHAR(500) = NULL
+	,@TrafficPercentage INT
+	,@EmailNotification BIT
+	,@EndsOnDate NVARCHAR(50) = NULL
+	,@EndsOnMaxVisit INT = NULL
+	,@UsersInRole NVARCHAR(500) = NULL
+	,@IsActive BIT
+	,@StoreID INT
+	,@PortalID INT
+	,@CultureName NVARCHAR(50)
+	,@UserName NVARCHAR(250)
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	IF EXISTS (SELECT ABTestID	FROM [dbo].Aspx_ABTestSettings WHERE ABTestID = @ABTestID)
+	BEGIN
+		UPDATE Aspx_ABTestSettings
+		SET ABTestName = @ABTestName
+			,OriginalPageURL = @OriginalPageURL
+			,Variation1URL = @Variation1PageURL
+			,Variation2URL = @Variation2PageURL
+			,Variation3URL = @Variation3PageURL
+			,TrafficPercentage = @TrafficPercentage
+			,EmailNotification = @EmailNotification
+			,EndDate = (CASE WHEN (@IsActive = 0) THEN GETDATE() ELSE NULL	END	)
+			,EndsOnDate=@EndsOnDate
+			,EndsOnMaxVisit=@EndsOnMaxVisit
+			,UsersInRole=@UsersInRole
+			,IsActive = @IsActive
+			,UpdatedOn = GETDATE()
+			,UpdatedBy = @UserName
+			,IsModified = 1
+		WHERE StoreID = @StoreID AND PortalID = @PortalID	AND ABTestID = @ABTestID
+
+		IF EXISTS (SELECT [ABTestID] FROM [dbo].[Aspx_ABTestMain] WHERE [ABTestID]=@ABTestID AND [VariationID]=2 AND [StoreID]=@StoreID AND [PortalID]=@PortalID)
+		BEGIN
+			IF(@Variation2PageURL='''' OR @Variation2PageURL IS NULL)
+				BEGIN
+				UPDATE [dbo].[Aspx_ABTestMain]   SET [IsDeleted] = 1 ,[DeletedBy] = @UserName, [Visit]=0, [Conversion]=0 
+				WHERE [ABTestID]=@ABTestID AND [VariationID]=2 AND [StoreID]=@StoreID AND [PortalID]=@PortalID
+				END
+			ELSE
+				BEGIN
+				UPDATE [dbo].[Aspx_ABTestMain]   SET [IsDeleted] = 0 ,[DeletedBy] = NULL , [IsModified]=1, [UpdatedBy]= @UserName, [UpdatedOn]=GETDATE()
+				WHERE [ABTestID]=@ABTestID AND [VariationID]=2 AND [StoreID]=@StoreID AND [PortalID]=@PortalID
+				END
+	    END
+
+		IF EXISTS (SELECT [ABTestID] FROM [dbo].[Aspx_ABTestMain] WHERE [ABTestID]=@ABTestID AND [VariationID]=3 AND [StoreID]=@StoreID AND [PortalID]=@PortalID)
+		BEGIN
+			IF(@Variation3PageURL='''' OR @Variation3PageURL IS NULL)
+				BEGIN
+				UPDATE [dbo].[Aspx_ABTestMain]   SET [IsDeleted] = 1 ,[DeletedBy] = @UserName, [Visit]=0, [Conversion]=0 
+				WHERE [ABTestID]=@ABTestID AND [VariationID]=3 AND [StoreID]=@StoreID AND [PortalID]=@PortalID
+				END
+			ELSE
+				BEGIN
+				UPDATE [dbo].[Aspx_ABTestMain]   SET [IsDeleted] = 0 ,[DeletedBy] = NULL , [IsModified]=1, [UpdatedBy]= @UserName, [UpdatedOn]=GETDATE()
+				WHERE [ABTestID]=@ABTestID AND [VariationID]=3 AND [StoreID]=@StoreID AND [PortalID]=@PortalID
+				END
+	    END
+
+	END
+	ELSE
+	BEGIN
+		INSERT INTO [dbo].Aspx_ABTestSettings (
+			ABTestName
+			,OriginalPageURL
+			,Variation1URL
+			,Variation2URL
+			,Variation3URL
+			,TrafficPercentage
+			,EmailNotification
+			,StartDate
+			,EndDate
+			,EndsOnDate
+			,EndsOnMaxVisit
+			,UsersInRole
+			,SessionCode
+			,StoreID
+			,PortalID
+			,CultureName
+			,IsActive
+			,IsDeleted
+			,IsModified
+			,AddedOn
+			,UpdatedOn
+			,DeletedOn
+			,AddedBy
+			,UpdatedBy
+			,DeletedBy
+			)
+		VALUES (
+			@ABTestName
+			,@OriginalPageURL
+			,@Variation1PageURL
+			,@Variation2PageURL
+			,@Variation3PageURL
+			,@TrafficPercentage
+			,@EmailNotification
+			,GETDATE()
+			,NULL
+			,@EndsOnDate
+			,@EndsOnMaxVisit
+			,@UsersInRole
+			,NULL
+			,@StoreID
+			,@PortalID
+			,@CultureName
+			,1
+			,0
+			,0
+			,GETDATE()
+			,NULL
+			,NULL
+			,@UserName
+			,NULL
+			,NULL
+			)
+	END
+
+END
+' 
+END
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestSaveVisitAndConversion]    Script Date: 2/13/2014 11:39:54 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestSaveVisitAndConversion]') AND type in (N'P', N'PC'))
+BEGIN
+EXEC dbo.sp_executesql @statement = N'
+CREATE PROCEDURE [dbo].[usp_Aspx_ABTestSaveVisitAndConversion]
+	-- Add the parameters for the stored procedure here	
+	@ABTestID INT
+	,@VariationID INT
+	,@ABTestPageURL NVARCHAR(256)
+	,@Visit INT = NULL
+	,@Conversion INT = NULL
+	,@StoreID INT
+	,@PortalID INT
+	,@UserName NVARCHAR(256)
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	IF EXISTS (
+			SELECT ABTestID
+			FROM [dbo].[Aspx_ABTestMain]
+			WHERE ABTestID = @ABTestID
+				AND VariationID = @VariationID
+				AND StoreID = @StoreID
+				AND PortalID = @PortalID
+				AND DATEDIFF(DD, AddedOn, GETDATE()) < 1
+			)
+	BEGIN
+		DECLARE @TotalVisit INT
+			,@TotalConversion INT
+
+		SET @TotalVisit = (
+				SELECT ISNULL(Visit, 0)
+				FROM [dbo].[Aspx_ABTestMain]
+				WHERE ABTestID = @ABTestID
+					AND VariationID = @VariationID
+					AND StoreID = @StoreID
+					AND PortalID = @PortalID
+					AND DATEDIFF(DD, AddedOn, GETDATE()) < 1
+				) + @Visit
+		SET @TotalConversion = (
+				SELECT ISNULL(Conversion, 0)
+				FROM [dbo].[Aspx_ABTestMain]
+				WHERE ABTestID = @ABTestID
+					AND VariationID = @VariationID
+					AND StoreID = @StoreID
+					AND PortalID = @PortalID
+					AND DATEDIFF(DD, AddedOn, GETDATE()) < 1
+				) + @Conversion
+
+		IF (@Visit = 1)
+		BEGIN
+			UPDATE [dbo].[Aspx_ABTestMain]
+			SET Visit = @TotalVisit
+				,[UpdatedOn] = GETDATE()
+				,[UpdatedBy] = @UserName
+				,[IsModified] = 1
+			WHERE ABTestID = @ABTestID
+				AND VariationID = @VariationID
+				AND StoreID = @StoreID
+				AND PortalID = @PortalID
+				AND DATEDIFF(DD, AddedOn, GETDATE()) < 1
+		END
+
+		IF (@Conversion = 1)
+		BEGIN
+			UPDATE [dbo].[Aspx_ABTestMain]
+			SET Conversion = @TotalConversion
+				,[UpdatedOn] = GETDATE()
+				,[UpdatedBy] = @UserName
+				,[IsModified] = 1
+			WHERE ABTestID = @ABTestID
+				AND VariationID = @VariationID
+				AND StoreID = @StoreID
+				AND PortalID = @PortalID
+				AND DATEDIFF(DD, AddedOn, GETDATE()) < 1
+				AND @TotalConversion<=@TotalVisit
+		END
+	END
+	ELSE
+	BEGIN
+		INSERT INTO [dbo].[Aspx_ABTestMain] (
+			[PageURL]
+			,[ABTestID]
+			,[VariationID]
+			,[Visit]
+			,[Conversion]
+			,[StoreID]
+			,[PortalID]
+			,[IsDeleted]
+			,[IsModified]
+			,[AddedOn]
+			,[UpdatedOn]
+			,[DeletedOn]
+			,[AddedBy]
+			,[UpdatedBy]
+			,[DeletedBy]
+			)
+		VALUES (
+			@ABTestPageURL
+			,@ABTestID
+			,@VariationID
+			,@Visit
+			,@Conversion
+			,@StoreID
+			,@PortalID
+			,0
+			,0
+			,GETDATE()
+			,NULL
+			,NULL
+			,@UserName
+			,NULL
+			,NULL
+			)
+	END
+
+	SET NOCOUNT OFF
+END
+' 
+END
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_ABTestVisitCount]    Script Date: 2/13/2014 11:39:54 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_ABTestVisitCount]') AND type in (N'P', N'PC'))
+BEGIN
+EXEC dbo.sp_executesql @statement = N'
+-- =============================================
+-- Author:		<Jainul Khan>
+-- Create date: <September-22-2013>
+-- Description:	<Returns AB Test Visit Count>
+-- =============================================
+-- [dbo].[usp_Aspx_ABTestVisitCount] 1,1,1
+CREATE PROCEDURE [dbo].[usp_Aspx_ABTestVisitCount]
+	-- Add the parameters for the stored procedure here	
+	@ABTestID INT
+	,@StoreID INT
+	,@PortalID INT
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+    DECLARE @OriginalPageVisitCount INT, @Variation1VisitCount INT, @Variation2VisitCount INT, @Variation3VisitCount INT
+
+	IF EXISTS(SELECT ABTesTID FROM [dbo].[Aspx_ABTestSettings] WHERE ABTestID = @ABTestID AND StoreID = @StoreID AND PortalID = @PortalID AND OriginalPageURL <> '''')
+	BEGIN
+	SET @OriginalPageVisitCount = (SELECT ISNULL(SUM(Visit), 0) FROM [dbo].[Aspx_ABTestMain] WHERE ABTestID = @ABTestID AND VariationID = 0 AND StoreID = @StoreID AND PortalID = @PortalID)
+	END
+
+	IF EXISTS(SELECT ABTesTID FROM [dbo].[Aspx_ABTestSettings] WHERE ABTestID = @ABTestID AND StoreID = @StoreID AND PortalID = @PortalID AND Variation1URL <> '''')
+	BEGIN
+	SET @Variation1VisitCount = (SELECT ISNULL(SUM(Visit), 0) FROM [dbo].[Aspx_ABTestMain] WHERE ABTestID = @ABTestID AND VariationID = 1 AND StoreID = @StoreID AND PortalID = @PortalID)
+	END
+
+	IF EXISTS(SELECT ABTesTID FROM [dbo].[Aspx_ABTestSettings] WHERE ABTestID = @ABTestID AND StoreID = @StoreID AND PortalID = @PortalID AND Variation2URL <> '''')
+	BEGIN
+	SET @Variation2VisitCount = (SELECT ISNULL(SUM(Visit), 0) FROM [dbo].[Aspx_ABTestMain] WHERE ABTestID = @ABTestID AND VariationID = 2 AND StoreID = @StoreID AND PortalID = @PortalID)
+	END
+
+	IF EXISTS(SELECT ABTesTID FROM [dbo].[Aspx_ABTestSettings] 
+	WHERE ABTestID = @ABTestID AND StoreID = @StoreID AND PortalID = @PortalID AND Variation3URL <> ''''
+	)
+	BEGIN
+	SET @Variation3VisitCount = (SELECT ISNULL(SUM(Visit), 0) FROM [dbo].[Aspx_ABTestMain] WHERE ABTestID = @ABTestID AND VariationID = 3 AND StoreID = @StoreID AND PortalID = @PortalID)
+	END 
+
+	SELECT @OriginalPageVisitCount AS OriginalPageVisitCount
+	, @Variation1VisitCount AS Variation1VisitCount
+	, @Variation2VisitCount AS Variation2VisitCount
+	, @Variation3VisitCount AS Variation3VisitCount
+
+	SET NOCOUNT OFF
+END
+' 
+END
+GO
+
+
+
+GO
+
+/****** Object:  UserDefinedFunction [dbo].[ufn_Aspx_ABTestProbabilityWithZSCORE]    Script Date: 2/13/2014 11:40:44 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ufn_Aspx_ABTestProbabilityWithZSCORE]') AND type in (N'FN', N'IF', N'TF', N'FS', N'FT'))
+DROP FUNCTION [dbo].[ufn_Aspx_ABTestProbabilityWithZSCORE]
+GO
+
+/****** Object:  UserDefinedFunction [dbo].[ufn_Aspx_ABTestProbabilityWithZSCORE]    Script Date: 2/13/2014 11:40:44 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ufn_Aspx_ABTestProbabilityWithZSCORE]') AND type in (N'FN', N'IF', N'TF', N'FS', N'FT'))
+BEGIN
+execute dbo.sp_executesql @statement = N'
+-- =============================================
+-- Author:		<Jainul Khan>
+-- Create date: <November 1, 2013>
+-- Description:	<Cumulatie Normal Distributions to find Probability With ZSCORE>
+-- =============================================
+--  select [dbo].[ufn_Aspx_ABTestProbabilityWithZSCORE] (2.08)
+CREATE FUNCTION [dbo].[ufn_Aspx_ABTestProbabilityWithZSCORE] 
+-----
+(@ZSCORE FLOAT)
+RETURNS FLOAT
+AS
+BEGIN
+	DECLARE @L FLOAT,@K FLOAT,@a1 FLOAT,@a2 FLOAT,@a3 FLOAT,@a4 FLOAT,@a5 FLOAT	
+
+	SET @a1 = 0.31938153
+	SET @a2 = - 0.356563782
+	SET @a3 = 1.781477937
+	SET @a4 = - 1.821255978
+	SET @a5 = 1.330274429
+	SET @L = Abs(@ZSCORE)
+	SET @K = 1 / (1 + 0.2316419 * @L)
+
+	DECLARE @ProbabilityWithZSCORE FLOAT
+
+	SET @ProbabilityWithZSCORE = 1 - 1 / Sqrt(2 * Pi()) * Exp(- power(@L, 2) / 2) * (@a1 * @K + @a2 * power(@K, 2) + @a3 * power(@K, 3) + @a4 * power(@K, 4) + @a5 * power(@K, 5))
+
+	IF @ProbabilityWithZSCORE < 0
+	BEGIN
+		SET @ProbabilityWithZSCORE = 1 - @ProbabilityWithZSCORE
+	END
+
+	RETURN @ProbabilityWithZSCORE
+END
+
+
+
+' 
+END
+
+GO
+
+

@@ -1,0 +1,92 @@
+GO
+/****** Object:  Table [dbo].[Aspx_FlightClass]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightClass]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightClass]
+GO
+/****** Object:  Table [dbo].[Aspx_FlightDomesticPlaces]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightDomesticPlaces]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightDomesticPlaces]
+GO
+/****** Object:  Table [dbo].[Aspx_FlightDomesticPlacesMap]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightDomesticPlacesMap]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightDomesticPlacesMap]
+GO
+/****** Object:  Table [dbo].[Aspx_FlightNationality]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightNationality]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightNationality]
+GO
+/****** Object:  Table [dbo].[Aspx_FlightReservationDetail]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightReservationDetail]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightReservationDetail]
+GO
+/****** Object:  Table [dbo].[Aspx_FlightTripType]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightTripType]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightTripType]
+GO
+/****** Object:  Table [dbo].[Aspx_FlightType]    Script Date: 09/28/2012 13:10:14 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_FlightType]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_FlightType]
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_DeleteFlightMapping]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_DeleteFlightMapping]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_DeleteFlightMapping]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_DeleteFlightReservation]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_DeleteFlightReservation]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_DeleteFlightReservation]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightClass]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightClass]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightClass]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightDomesticPlaces]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightDomesticPlaces]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightDomesticPlaces]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightMapping]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightMapping]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightMapping]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightNationality]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightNationality]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightNationality]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightReservation]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightReservation]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightReservation]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightReservationDetailByID]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightReservationDetailByID]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightReservationDetailByID]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightTripType]    Script Date: 09/28/2012 13:13:32 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightTripType]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightTripType]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetFlightType]    Script Date: 09/28/2012 13:13:33 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetFlightType]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetFlightType]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_InsertFlightMapping]    Script Date: 09/28/2012 13:13:33 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_InsertFlightMapping]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_InsertFlightMapping]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_InsertFlightReservation]    Script Date: 09/28/2012 13:13:33 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_InsertFlightReservation]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_InsertFlightReservation]
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_InsertDomesticPlaces]    Script Date: 09/28/2012 21:42:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_InsertDomesticPlaces]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_InsertDomesticPlaces]
+
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetDomesticPlacesToIDbyFromID]    Script Date: 09/30/2012 11:09:03 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetDomesticPlacesToIDbyFromID]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetDomesticPlacesToIDbyFromID]
+
+
+
+

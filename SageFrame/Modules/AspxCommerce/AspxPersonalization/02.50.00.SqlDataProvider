@@ -1,0 +1,1992 @@
+
+GO
+/****** Object:  Table [dbo].[Aspx_PersonalizationItem]    Script Date: 01/06/2014 13:27:49 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_PersonalizationItem]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_PersonalizationItem]
+GO
+
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationBrand]    Script Date: 01/06/2014 13:27:49 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_PersonalizationBrand]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_PersonalizationBrand]
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationCategory]    Script Date: 01/06/2014 13:27:49 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_PersonalizationCategory]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_PersonalizationCategory]
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationDetail]    Script Date: 01/06/2014 13:27:49 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_PersonalizationDetail]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_PersonalizationDetail]
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationIPSession]    Script Date: 01/06/2014 13:27:49 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_PersonalizationIPSession]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_PersonalizationIPSession]
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationPages]    Script Date: 01/06/2014 13:27:49 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_PersonalizationPages]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_PersonalizationPages]
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationModules]    Script Date: 01/06/2014 13:27:49 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_PersonalizationModules]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_PersonalizationModules]
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationSearch]    Script Date: 01/06/2014 13:27:49 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_PersonalizationSearch]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_PersonalizationSearch]
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationSetting]    Script Date: 01/06/2014 13:27:49 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_PersonalizationSetting]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_PersonalizationSetting]
+GO
+
+
+/****** Object:  Table [dbo].[Aspx_Personalization]    Script Date: 01/06/2014 13:27:49 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Aspx_Personalization]') AND type in (N'U'))
+DROP TABLE [dbo].[Aspx_Personalization]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_AddPersonalizationBrand]    Script Date: 01/06/2014 13:44:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_AddPersonalizationBrand]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_AddPersonalizationBrand]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_AddPersonalizationCategory]    Script Date: 01/06/2014 13:44:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_AddPersonalizationCategory]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_AddPersonalizationCategory]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_AddPersonalizationItem]    Script Date: 01/06/2014 13:44:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_AddPersonalizationItem]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_AddPersonalizationItem]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_AddPersonalizationSearchTerm]    Script Date: 01/06/2014 13:44:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_AddPersonalizationSearchTerm]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_AddPersonalizationSearchTerm]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_AddPersonalizationVisitPage]    Script Date: 01/06/2014 13:44:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_AddPersonalizationVisitPage]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_AddPersonalizationVisitPage]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_CheckUpdatePersonalization]    Script Date: 01/06/2014 13:44:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_CheckUpdatePersonalization]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_CheckUpdatePersonalization]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetPersonalizationSettings]    Script Date: 01/06/2014 13:44:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetPersonalizationSettings]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetPersonalizationSettings]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetPersonalizeSettingValueBYKey]    Script Date: 01/06/2014 13:44:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_GetPersonalizeSettingValueBYKey]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_GetPersonalizeSettingValueBYKey]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_PersonalizationFeaturedItems]    Script Date: 01/06/2014 13:44:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_PersonalizationFeaturedItems]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_PersonalizationFeaturedItems]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_PersonalizationGetLatestItems]    Script Date: 01/06/2014 13:44:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_PersonalizationGetLatestItems]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_PersonalizationGetLatestItems]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_PersonalizationRecentViewedItem]    Script Date: 01/06/2014 13:44:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_PersonalizationRecentViewedItem]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_PersonalizationRecentViewedItem]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_PersonalizationSettingsUpdate]    Script Date: 01/06/2014 13:44:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_PersonalizationSettingsUpdate]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_PersonalizationSettingsUpdate]
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_PersonalizationSpecialItemsGallery]    Script Date: 01/06/2014 13:44:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_Aspx_PersonalizationSpecialItemsGallery]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[usp_Aspx_PersonalizationSpecialItemsGallery]
+GO
+
+/****** Object:  Table [dbo].[Aspx_Personalization]    Script Date: 01/06/2014 11:32:02 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Aspx_Personalization](
+	[UserProfileID] [int] IDENTITY(1,1) NOT NULL,
+	[CustomerID] [int] NULL,
+	[UserName] [nvarchar](100) NULL,
+	[VisitCount] [int] NULL,
+	[SessionCode] [nvarchar](500) NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](50) NULL,
+	[IsActive] [bit] NULL,
+	[IsDeleted] [bit] NOT NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) NULL,
+	[UpdatedBy] [nvarchar](256) NULL,
+	[DeletedBy] [nvarchar](256) NULL,
+ CONSTRAINT [PK_Aspx_Personalization] PRIMARY KEY CLUSTERED 
+(
+	[UserProfileID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationBrand]    Script Date: 01/06/2014 11:32:02 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Aspx_PersonalizationBrand](
+	[PersonalizationBrandID] [int] IDENTITY(1,1) NOT NULL,
+	[UserProfileID] [int] NULL,
+	[PageVisitID] [int] NULL,
+	[BrandID] [int] NULL,
+	[BrandName] [nvarchar](256) NULL,
+	[BrandCount] [int] NULL,
+	[SessionCode] [nvarchar](50) NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](50) NULL,
+	[IsActive] [bit] NULL,
+	[IsDeleted] [bit] NOT NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) NULL,
+	[UpdatedBy] [nvarchar](256) NULL,
+	[DeletedBy] [nvarchar](256) NULL
+) ON [PRIMARY]
+
+GO
+
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationCategory]    Script Date: 01/06/2014 11:32:02 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Aspx_PersonalizationCategory](
+	[PersonalizationCategoryID] [int] IDENTITY(1,1) NOT NULL,
+	[UserProfileID] [int] NULL,
+	[PageVisitID] [int] NULL,
+	[CategoryID] [int] NULL,
+	[CategoryName] [nvarchar](256) NULL,
+	[IsService] [bit] NULL,
+	[CategoryVisitCount] [int] NULL,
+	[SessionCode] [nvarchar](50) NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](50) NULL,
+	[IsActive] [bit] NULL,
+	[IsDeleted] [bit] NOT NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) NULL,
+	[UpdatedBy] [nvarchar](256) NULL,
+	[DeletedBy] [nvarchar](256) NULL
+) ON [PRIMARY]
+
+GO
+
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationDetail]    Script Date: 01/06/2014 11:32:02 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Aspx_PersonalizationDetail](
+	[PersonDetailID] [int] IDENTITY(1,1) NOT NULL,
+	[OrderID] [int] NULL,
+	[CartID] [int] NULL,
+	[WishItemID] [int] NULL,
+	[ShareWishedID] [int] NULL,
+	[CompareItemID] [int] NULL,
+	[EmailAFriendID] [int] NULL,
+	[ItemReviewID] [int] NULL,
+	[ItemTagID] [int] NULL,
+	[DownloadableID] [int] NULL,
+	[SearchTermID] [int] NULL,
+	[LocationIP] [nvarchar](50) NULL,
+	[LocationCountry] [nvarchar](50) NULL,
+	[Device] [nvarchar](500) NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](50) NULL,
+	[IsActive] [bit] NULL,
+	[IsDeleted] [bit] NOT NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) NULL,
+	[UpdatedBy] [nvarchar](256) NULL,
+	[DeletedBy] [nvarchar](256) NULL
+) ON [PRIMARY]
+
+GO
+
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationIPSession]    Script Date: 01/06/2014 11:32:02 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Aspx_PersonalizationIPSession](
+	[UserProfileIPID] [int] IDENTITY(1,1) NOT NULL,
+	[UserProfileID] [int] NULL,
+	[SessionCode] [nvarchar](50) NULL,
+	[LocationIP] [nvarchar](50) NULL,
+	[Continent] [nvarchar](50) NULL,
+	[Country] [nvarchar](50) NULL,
+	[State] [nvarchar](50) NULL,
+	[City] [nvarchar](50) NULL,
+	[Browser] [nvarchar](50) NULL,
+	[Device] [nvarchar](256) NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](50) NULL,
+	[IsActive] [bit] NULL,
+	[IsDeleted] [bit] NOT NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) NULL,
+	[UpdatedBy] [nvarchar](256) NULL,
+	[DeletedBy] [nvarchar](256) NULL
+) ON [PRIMARY]
+
+GO
+
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationItem]    Script Date: 01/06/2014 11:32:02 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Aspx_PersonalizationItem](
+	[PersonalizationItemID] [int] IDENTITY(1,1) NOT NULL,
+	[UserProfileID] [int] NULL,
+	[PageVisitID] [int] NULL,
+	[ItemID] [int] NULL,
+	[SKU] [nvarchar](256) NULL,
+	[ItemVisitCount] [int] NULL,
+	[SessionCode] [nvarchar](50) NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](50) NULL,
+	[IsActive] [bit] NULL,
+	[IsDeleted] [bit] NOT NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) NULL,
+	[UpdatedBy] [nvarchar](256) NULL,
+	[DeletedBy] [nvarchar](256) NULL
+) ON [PRIMARY]
+
+GO
+
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationModules]    Script Date: 01/06/2014 11:32:02 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Aspx_PersonalizationModules](
+	[PersonalizationModuleID] [int] IDENTITY(1,1) NOT NULL,
+	[ModuleID] [int] NULL,
+	[FriendlyName] [nvarchar](256) NULL,
+	[ControlSrc] [nvarchar](256) NULL,
+	[IsDependent] [bit] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](50) NULL,
+	[IsActive] [bit] NULL,
+	[IsDeleted] [bit] NOT NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) NULL,
+	[UpdatedBy] [nvarchar](256) NULL,
+	[DeletedBy] [nvarchar](256) NULL,
+ CONSTRAINT [PK_Aspx_PersonalizationModules] PRIMARY KEY CLUSTERED 
+(
+	[PersonalizationModuleID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationPages]    Script Date: 01/06/2014 11:32:02 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Aspx_PersonalizationPages](
+	[PageVisitID] [int] IDENTITY(1,1) NOT NULL,
+	[UserProfileID] [int] NULL,
+	[PageName] [nvarchar](50) NULL,
+	[PageCount] [int] NULL,
+	[SubPageName] [nvarchar](50) NULL,
+	[SubPageCount] [int] NULL,
+	[SessionCode] [nvarchar](50) NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](50) NULL,
+	[IsActive] [bit] NULL,
+	[IsDeleted] [bit] NOT NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) NULL,
+	[UpdatedBy] [nvarchar](256) NULL,
+	[DeletedBy] [nvarchar](256) NULL,
+ CONSTRAINT [PK_Aspx_PersonalizationPages] PRIMARY KEY CLUSTERED 
+(
+	[PageVisitID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationSearch]    Script Date: 01/06/2014 11:32:02 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Aspx_PersonalizationSearch](
+	[PersonalizationSearchID] [int] IDENTITY(1,1) NOT NULL,
+	[UserProfileID] [int] NULL,
+	[PageVisitID] [int] NULL,
+	[SearchTerm] [nvarchar](100) NULL,
+	[SearchCount] [int] NULL,
+	[SessionCode] [nvarchar](50) NULL,
+	[HasData] [bit] NULL,
+	[StoreID] [int] NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[CultureName] [nvarchar](50) NULL,
+	[IsActive] [bit] NULL,
+	[IsDeleted] [bit] NOT NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) NULL,
+	[UpdatedBy] [nvarchar](256) NULL,
+	[DeletedBy] [nvarchar](256) NULL
+) ON [PRIMARY]
+
+GO
+
+
+GO
+
+/****** Object:  Table [dbo].[Aspx_PersonalizationSetting]    Script Date: 01/06/2014 11:32:02 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Aspx_PersonalizationSetting](
+	[SettingID] [int] IDENTITY(1,1) NOT NULL,
+	[SettingKey] [nvarchar](256) NULL,
+	[SettingValue] [nvarchar](256) NULL,
+	[CultureName] [nvarchar](256) NULL,
+	[StoreID] [int] NULL,
+	[PortalID] [int] NULL,
+	[IsActive] [bit] NOT NULL,
+	[IsDeleted] [bit] NOT NULL,
+	[IsModified] [bit] NULL,
+	[AddedOn] [datetime] NULL,
+	[DeletedOn] [datetime] NULL,
+	[UpdatedOn] [datetime] NULL,
+	[AddedBy] [nvarchar](256) NULL,
+	[DeletedBy] [nvarchar](256) NULL,
+	[UpdatedBy] [nvarchar](256) NULL,
+ CONSTRAINT [PK_Aspx_PersonalizationSetting] PRIMARY KEY CLUSTERED 
+(
+	[SettingID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+GO
+SET IDENTITY_INSERT [dbo].[Aspx_PersonalizationSetting] ON
+INSERT [dbo].[Aspx_PersonalizationSetting] ([SettingID], [SettingKey], [SettingValue], [CultureName], [StoreID], [PortalID], [IsActive], [IsDeleted], [IsModified], [AddedOn], [DeletedOn], [UpdatedOn], [AddedBy], [DeletedBy], [UpdatedBy]) VALUES (1, N'AspxPersonalization', N'True', N'en-US', 0, 1, 1, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[Aspx_PersonalizationSetting] ([SettingID], [SettingKey], [SettingValue], [CultureName], [StoreID], [PortalID], [IsActive], [IsDeleted], [IsModified], [AddedOn], [DeletedOn], [UpdatedOn], [AddedBy], [DeletedBy], [UpdatedBy]) VALUES (2, N'PersonalizeLatestItemPercent', N'40', N'en-US', 0, 1, 1, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[Aspx_PersonalizationSetting] ([SettingID], [SettingKey], [SettingValue], [CultureName], [StoreID], [PortalID], [IsActive], [IsDeleted], [IsModified], [AddedOn], [DeletedOn], [UpdatedOn], [AddedBy], [DeletedBy], [UpdatedBy]) VALUES (3, N'PersonalizeFeatureItemCount', N'5', N'en-US', 0, 1, 1, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[Aspx_PersonalizationSetting] ([SettingID], [SettingKey], [SettingValue], [CultureName], [StoreID], [PortalID], [IsActive], [IsDeleted], [IsModified], [AddedOn], [DeletedOn], [UpdatedOn], [AddedBy], [DeletedBy], [UpdatedBy]) VALUES (4, N'PersonalizeSpecialItemCount', N'5', N'en-US', 0, 1, 1, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[Aspx_PersonalizationSetting] ([SettingID], [SettingKey], [SettingValue], [CultureName], [StoreID], [PortalID], [IsActive], [IsDeleted], [IsModified], [AddedOn], [DeletedOn], [UpdatedOn], [AddedBy], [DeletedBy], [UpdatedBy]) VALUES (5, N'PersonalizeRecentlyViewItemCount', N'4', N'en-US', 0, 1, 1, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+SET IDENTITY_INSERT [dbo].[Aspx_PersonalizationSetting] OFF
+GO
+
+ALTER TABLE [dbo].[Aspx_Personalization] ADD  CONSTRAINT [DF_Aspx_Personalization_IsActive]  DEFAULT ((1)) FOR [IsActive]
+GO
+
+ALTER TABLE [dbo].[Aspx_Personalization] ADD  CONSTRAINT [DF_Aspx_Personalization_IsDeleted]  DEFAULT ((0)) FOR [IsDeleted]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationBrand]  WITH CHECK ADD  CONSTRAINT [FK_Aspx_PersonalizationBrand_Aspx_PersonalizationPages] FOREIGN KEY([PageVisitID])
+REFERENCES [dbo].[Aspx_PersonalizationPages] ([PageVisitID])
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationBrand] CHECK CONSTRAINT [FK_Aspx_PersonalizationBrand_Aspx_PersonalizationPages]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationBrand] ADD  CONSTRAINT [DF_Aspx_PersonalizationBrand_IsActive]  DEFAULT ((1)) FOR [IsActive]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationBrand] ADD  CONSTRAINT [DF_Aspx_PersonalizationBrand_IsDeleted]  DEFAULT ((0)) FOR [IsDeleted]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationCategory]  WITH CHECK ADD  CONSTRAINT [FK_Aspx_PersonalizationCategory_Aspx_PersonalizationPages] FOREIGN KEY([PageVisitID])
+REFERENCES [dbo].[Aspx_PersonalizationPages] ([PageVisitID])
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationCategory] CHECK CONSTRAINT [FK_Aspx_PersonalizationCategory_Aspx_PersonalizationPages]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationCategory] ADD  CONSTRAINT [DF_Aspx_PersonalizationCategory_IsActive]  DEFAULT ((1)) FOR [IsActive]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationCategory] ADD  CONSTRAINT [DF_Aspx_PersonalizationCategory_IsDeleted]  DEFAULT ((0)) FOR [IsDeleted]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationDetail] ADD  CONSTRAINT [DF_Aspx_PersonalizationDetail_IsActive]  DEFAULT ((1)) FOR [IsActive]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationDetail] ADD  CONSTRAINT [DF_Aspx_PersonalizationDetail_IsDeleted]  DEFAULT ((0)) FOR [IsDeleted]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationIPSession] ADD  CONSTRAINT [DF_Aspx_PersonalizationIPSession_IsActive]  DEFAULT ((1)) FOR [IsActive]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationIPSession] ADD  CONSTRAINT [DF_Aspx_PersonalizationIPSession_IsDeleted]  DEFAULT ((0)) FOR [IsDeleted]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationItem]  WITH CHECK ADD  CONSTRAINT [FK_Aspx_PersonalizationItem_Aspx_PersonalizationPages] FOREIGN KEY([PageVisitID])
+REFERENCES [dbo].[Aspx_PersonalizationPages] ([PageVisitID])
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationItem] CHECK CONSTRAINT [FK_Aspx_PersonalizationItem_Aspx_PersonalizationPages]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationItem] ADD  CONSTRAINT [DF_Aspx_PersonalizationItem_IsActive]  DEFAULT ((1)) FOR [IsActive]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationItem] ADD  CONSTRAINT [DF_Aspx_PersonalizationItem_IsDeleted]  DEFAULT ((0)) FOR [IsDeleted]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationModules] ADD  CONSTRAINT [DF_Aspx_PersonalizationModules_IsDependent]  DEFAULT ((0)) FOR [IsDependent]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationModules] ADD  CONSTRAINT [DF_Aspx_PersonalizationModules_IsActive]  DEFAULT ((1)) FOR [IsActive]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationModules] ADD  CONSTRAINT [DF_Aspx_PersonalizationModules_IsDeleted]  DEFAULT ((0)) FOR [IsDeleted]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationPages]  WITH CHECK ADD  CONSTRAINT [FK_Aspx_PersonalizationPages_Aspx_Personalization] FOREIGN KEY([UserProfileID])
+REFERENCES [dbo].[Aspx_Personalization] ([UserProfileID])
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationPages] CHECK CONSTRAINT [FK_Aspx_PersonalizationPages_Aspx_Personalization]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationPages] ADD  CONSTRAINT [DF_Aspx_PersonalizationPages_IsActive]  DEFAULT ((1)) FOR [IsActive]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationPages] ADD  CONSTRAINT [DF_Aspx_PersonalizationPages_IsDeleted]  DEFAULT ((0)) FOR [IsDeleted]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationSearch]  WITH CHECK ADD  CONSTRAINT [FK_Aspx_PersonalizationSearch_Aspx_PersonalizationPages] FOREIGN KEY([PageVisitID])
+REFERENCES [dbo].[Aspx_PersonalizationPages] ([PageVisitID])
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationSearch] CHECK CONSTRAINT [FK_Aspx_PersonalizationSearch_Aspx_PersonalizationPages]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationSearch] ADD  CONSTRAINT [DF_Aspx_PersonalizationSearch_IsActive]  DEFAULT ((1)) FOR [IsActive]
+GO
+
+ALTER TABLE [dbo].[Aspx_PersonalizationSearch] ADD  CONSTRAINT [DF_Aspx_PersonalizationSearch_IsDeleted]  DEFAULT ((0)) FOR [IsDeleted]
+GO
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_AddPersonalizationBrand]    Script Date: 01/06/2014 11:52:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_AddPersonalizationBrand] 1,1,'en-US','hari','pcjdbf4fn1pph31xh4ty14hq',2,'brand',null,'Brand1'
+CREATE PROCEDURE [dbo].[usp_Aspx_AddPersonalizationBrand]
+	(
+		@StoreID int,
+		@PortalID int,
+		@CultureName nvarchar(50),
+		@UserName nvarchar(256),
+		@SessionCode nvarchar(50),
+		@UserProfileID int,
+		@PageName nvarchar(50),
+		@SubPageName nvarchar(50)=null,
+		@BrandName nvarchar(256)
+	)
+AS
+BEGIN	
+	SET NOCOUNT ON;
+	DECLARE @PageVisitID int
+	DECLARE @BrandID int
+	SET @BrandID =(SELECT b.BrandID FROM Aspx_Brand b INNER JOIN Aspx_BrandAlias ba on b.BrandID=ba.BrandID
+	  WHERE b.StoreID=@StoreID AND b.PortalID=@PortalID AND ba.CultureName=@CultureName AND ba.BrandName=@BrandName)
+			
+	IF(NOT EXISTS(SELECT 1 FROM Aspx_PersonalizationPages WHERE UserProfileID=@UserProfileID AND
+		PageName=@PageName AND SessionCode=@SessionCode AND (IsDeleted=0)))		
+		BEGIN		
+			INSERT INTO Aspx_PersonalizationPages(
+				UserProfileID,PageName,[PageCount],SubPageName,SessionCode,StoreID,PortalID,CultureName,AddedOn,AddedBy
+			)
+			VALUES(
+				@UserProfileID,@PageName,1,@SubPageName,@SessionCode,@StoreID,@PortalID,@CultureName,GETDATE(),@UserName
+			)						
+		SET @PageVisitID = @@IDENTITY
+		END		
+	ELSE
+		BEGIN		
+			UPDATE Aspx_PersonalizationPages
+			SET [PageCount]=[PageCount]+1,
+			IsModified=1,
+			UpdatedOn=GETDATE(),
+			UpdatedBy=@UserName
+			WHERE UserProfileID=@UserProfileID AND PageName=@PageName
+			AND StoreID=@StoreID AND PortalID=@PortalID AND CultureName=@CultureName
+			AND SessionCode=@SessionCode
+			SET @PageVisitID=(SELECT PageVisitID FROM Aspx_PersonalizationPages WHERE UserProfileID=@UserProfileID
+			AND PageName=@PageName AND SessionCode=@SessionCode)
+		END	
+   
+   IF(NOT EXISTS(SELECT 1 FROM Aspx_PersonalizationBrand WHERE UserProfileID=@UserProfileID AND 
+   PageVisitID=@PageVisitID AND SessionCode=@SessionCode AND BrandName=@BrandName))
+		BEGIN		
+			INSERT INTO Aspx_PersonalizationBrand
+			(
+				UserProfileID,PageVisitID,BrandID,BrandName,BrandCount,SessionCode,StoreID,PortalID,CultureName,IsActive,
+				AddedOn,AddedBy
+			)VALUES
+			(
+				@UserProfileID,@PageVisitID,@BrandID,@BrandName,1,@SessionCode,@StoreID,@PortalID,@CultureName,1,
+				GETDATE(),@UserName
+			)
+		END
+	ELSE
+		BEGIN		
+			UPDATE Aspx_PersonalizationBrand
+				SET BrandCount= BrandCount+1,
+				IsModified=1,
+				UpdatedOn=GETDATE(),
+				UpdatedBy=@UserName
+				WHERE UserProfileID=@UserProfileID AND PageVisitID=@PageVisitID
+				AND BrandName=@BrandName AND SessionCode=@SessionCode
+		END
+   
+END
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_AddPersonalizationCategory]    Script Date: 01/06/2014 11:52:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: 11/27/2013
+-- Description:	<Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[usp_Aspx_AddPersonalizationCategory] 
+	(
+		@StoreID int,
+		@PortalID int,
+		@CultureName nvarchar(50),
+		@UserName nvarchar(256),
+		@SessionCode nvarchar(50),
+		@UserProfileID int,
+		@PageName nvarchar(50),
+		@SubPageName nvarchar(50)=null,
+		@CategoryName nvarchar(256),
+		@IsService bit
+	)
+AS
+BEGIN	
+	SET NOCOUNT ON;
+	DECLARE @PageVisitID int
+	DECLARE @CategoryID int
+	set @CategoryID=(select CategoryID from Aspx_CategoryInformationDetails where CategoryName=@CategoryName AND StoreID=@StoreID AND PortalID=@PortalID
+			AND CultureName=@CultureName)
+	
+	IF(NOT EXISTS(SELECT 1 FROM Aspx_PersonalizationPages WHERE UserProfileID=@UserProfileID AND
+		PageName=@PageName AND SessionCode=@SessionCode AND (IsDeleted=0)))
+		BEGIN		
+			INSERT INTO Aspx_PersonalizationPages(
+				UserProfileID,PageName,[PageCount],SubPageName,SessionCode,StoreID,PortalID,CultureName,AddedOn,AddedBy
+			)
+			VALUES(
+				@UserProfileID,@PageName,1,@SubPageName,@SessionCode,@StoreID,@PortalID,@CultureName,GETDATE(),@UserName
+			)				
+		SET @PageVisitID = @@IDENTITY
+		END
+	ELSE
+		BEGIN
+			UPDATE Aspx_PersonalizationPages
+			SET [PageCount]=[PageCount]+1,
+			IsModified=1,
+			UpdatedOn=GETDATE(),
+			UpdatedBy=@UserName
+			WHERE UserProfileID=@UserProfileID AND PageName=@PageName
+			AND StoreID=@StoreID AND PortalID=@PortalID AND CultureName=@CultureName
+			AND SessionCode=@SessionCode
+			SET @PageVisitID=(SELECT PageVisitID FROM Aspx_PersonalizationPages WHERE UserProfileID=@UserProfileID
+			AND PageName=@PageName AND SessionCode=@SessionCode)
+		END
+		
+		IF(NOT EXISTS(SELECT 1 FROM Aspx_PersonalizationCategory WHERE UserProfileID=@UserProfileID AND
+					PageVisitID=@PageVisitID AND CategoryName=@CategoryName AND SessionCode=@SessionCode))
+			BEGIN
+				INSERT INTO Aspx_PersonalizationCategory
+				(
+					UserProfileID,PageVisitID,CategoryID,CategoryName,IsService,CategoryVisitCount,
+					SessionCode,StoreID,PortalID,CultureName,IsActive,AddedOn,AddedBy
+				)
+				VALUES(
+					@UserProfileID,@PageVisitID,@CategoryID,@CategoryName,@IsService,1,@SessionCode,@StoreID,
+					@PortalID,@CultureName,1,GETDATE(),@UserName
+				)
+			END
+		ELSE
+			BEGIN
+				UPDATE Aspx_PersonalizationCategory
+				SET
+					CategoryVisitCount=CategoryVisitCount+1,
+					IsModified=1,
+					UpdatedOn=GETDATE(),
+					UpdatedBy=@UserName
+					WHERE UserProfileID=@UserProfileID AND PageVisitID=@PageVisitID
+					AND CategoryName=@CategoryName AND SessionCode=@SessionCode
+			END
+END
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_AddPersonalizationItem]    Script Date: 01/06/2014 11:52:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: 11/25/2013
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_AddPersonalizationItem] 1,1,'en-US','ddrlujl4agib4kwrulcdhjvq','hari',1,'item',null,'sku60'
+CREATE PROCEDURE [dbo].[usp_Aspx_AddPersonalizationItem] 
+	(
+		@StoreID int,
+		@PortalID int,
+		@CultureName nvarchar(50),
+		@SessionCode nvarchar(50),
+		@UserName nvarchar(256),
+		@UserProfileID int,
+		@PageName nvarchar(50),
+		@SubPageName nvarchar(50)=null, 
+		@SKU nvarchar(50)	
+	)
+AS
+BEGIN	
+	SET NOCOUNT ON;
+	DECLARE @PageVisitID int
+	DECLARE @ItemID int
+	set @ItemID=(select ItemID from Aspx_Items where SKU=@SKU AND StoreID=@StoreID AND PortalID=@PortalID)
+	
+	IF(NOT EXISTS(SELECT 1 FROM Aspx_PersonalizationPages WHERE UserProfileID=@UserProfileID
+		AND PageName=@PageName AND SessionCode=@SessionCode AND (IsDeleted=0)))
+		BEGIN
+		IF(@SubPageName = '' OR @SubPageName IS NULL)	
+			BEGIN				
+				INSERT INTO Aspx_PersonalizationPages(
+				UserProfileID,PageName,[PageCount],SubPageName,SessionCode,StoreID,PortalID,CultureName,AddedOn,AddedBy
+			)
+			VALUES(
+				@UserProfileID,@PageName,1,@SubPageName,@SessionCode,@StoreID,@PortalID,@CultureName,GETDATE(),@UserName
+			)
+			END
+		ELSE
+			BEGIN
+					INSERT INTO Aspx_PersonalizationPages(
+				UserProfileID,PageName,[PageCount],SubPageName,SubPageCount,SessionCode,StoreID,PortalID,CultureName,AddedOn,AddedBy
+			)
+			VALUES(
+				@UserProfileID,@PageName,1,@SubPageName,1,@SessionCode,@StoreID,@PortalID,@CultureName,GETDATE(),@UserName
+			)
+			END
+		SET @PageVisitID = @@IDENTITY
+		END
+	ELSE
+		BEGIN			
+			IF(@SubPageName = '' OR @SubPageName IS NULL)
+				BEGIN
+					UPDATE Aspx_PersonalizationPages
+					SET [PageCount]= [PageCount]+1,
+					IsModified=1,
+					UpdatedOn=GETDATE(),
+					UpdatedBy=@UserName
+					WHERE UserProfileID=@UserProfileID AND
+					PageName=@PageName AND StoreID=@StoreID AND
+					PortalID=@PortalID AND CultureName=@CultureName
+					AND PageName=@PageName AND SessionCode=@SessionCode
+					
+					SET @PageVisitID = (SELECT PageVisitID FROM Aspx_PersonalizationPages WHERE 
+						UserProfileID=@UserProfileID AND PageName=@PageName AND SessionCode=@SessionCode)
+						print @PageVisitID
+				END
+			ELSE
+				BEGIN
+					UPDATE Aspx_PersonalizationPages
+						SET [PageCount]=[PageCount]+1,
+						SubPageCount=SubPageCount+1,
+						IsModified=1,
+						UpdatedOn=GETDATE(),
+						UpdatedBy=@UserName
+						WHERE UserProfileID=@UserProfileID AND
+						PageName=@PageName AND StoreID=@StoreID AND
+						PortalID=@PortalID AND CultureName=@CultureName AND
+						PageName=@PageName AND SubPageName=@SubPageName AND
+						SessionCode=@SessionCode
+						
+					SET @PageVisitID = (SELECT PageVisitID FROM Aspx_PersonalizationPages WHERE 
+						UserProfileID=@UserProfileID AND PageName=@PageName AND SessionCode=@SessionCode)	
+				END
+		END	
+		
+	IF(NOT EXISTS(SELECT 1 FROM Aspx_PersonalizationItem WHERE UserProfileID=@UserProfileID
+		AND PageVisitID=@PageVisitID AND SKU=@SKU AND SessionCode=@SessionCode AND (IsDeleted=0)))
+		BEGIN
+			INSERT INTO Aspx_PersonalizationItem
+			( UserProfileID,PageVisitID,ItemID,SKU,ItemVisitCount,SessionCode,StoreID,PortalID,
+			CultureName,IsActive,AddedOn,AddedBy)
+			VALUES(
+				@UserProfileID,@PageVisitID,@ItemID,@SKU,1,@SessionCode,@StoreID,@PortalID,@CultureName,1,GETDATE(),@UserName
+			)
+		END
+	ELSE
+		BEGIN
+			UPDATE Aspx_PersonalizationItem
+			SET ItemVisitCount=ItemVisitCount+1,
+			IsModified=1,
+			UpdatedOn=GETDATE(),
+			UpdatedBy=@UserName
+			WHERE UserProfileID=@UserProfileID AND
+			PageVisitID=@PageVisitID AND ItemID=@ItemID AND SKU=@SKU
+			AND SessionCode=@SessionCode
+		END	
+   
+END
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_AddPersonalizationSearchTerm]    Script Date: 01/06/2014 11:52:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[usp_Aspx_AddPersonalizationSearchTerm]
+	(
+		@StoreID int,
+		@PortalID int,
+		@CultureName nvarchar(50),
+		@SessionCode nvarchar(50),
+		@UserName nvarchar(256),
+		@UserProfileID int,
+		@PageName nvarchar(50),
+		@SubPageName nvarchar(50)=null, 
+		@SearchTerm nvarchar(256),
+		@HasData bit
+	)
+AS
+BEGIN	
+	SET NOCOUNT ON;
+	DECLARE @PageVisitID int
+	IF(NOT EXISTS(SELECT 1 FROM Aspx_PersonalizationPages WHERE UserProfileID=@UserProfileID
+		AND PageName=@PageName AND SessionCode=@SessionCode AND (IsDeleted=0)))
+		BEGIN		
+			
+			INSERT INTO Aspx_PersonalizationPages(
+				UserProfileID,PageName,[PageCount],SubPageName,SessionCode,StoreID,PortalID,CultureName,AddedOn,AddedBy
+			)
+			VALUES(
+				@UserProfileID,@PageName,1,@SubPageName,@SessionCode,@StoreID,@PortalID,@CultureName,GETDATE(),@UserName
+			)				
+		SET @PageVisitID = @@IDENTITY
+		END
+	ELSE
+		BEGIN	
+				UPDATE Aspx_PersonalizationPages
+					SET [PageCount]= [PageCount]+1,
+					IsModified=1,
+					UpdatedOn=GETDATE(),
+					UpdatedBy=@UserName
+					WHERE UserProfileID=@UserProfileID AND
+					PageName=@PageName AND StoreID=@StoreID AND
+					PortalID=@PortalID AND CultureName=@CultureName
+					AND SessionCode=@SessionCode
+					AND PageName=@PageName
+					
+					SET @PageVisitID = (SELECT PageVisitID FROM Aspx_PersonalizationPages WHERE 
+						UserProfileID=@UserProfileID AND PageName=@PageName AND SessionCode=@SessionCode)						
+		END	
+		
+   IF(NOT EXISTS(SELECT 1 FROM Aspx_PersonalizationSearch WHERE UserProfileID=@UserProfileID
+		AND PageVisitID=@PageVisitID AND SearchTerm=@SearchTerm AND SessionCode=@SessionCode AND (IsDeleted=0)))
+		BEGIN
+			INSERT INTO Aspx_PersonalizationSearch
+			( UserProfileID,PageVisitID,SearchTerm,SearchCount,SessionCode,HasData,StoreID,PortalID,
+			CultureName,IsActive,AddedOn,AddedBy)
+			VALUES(
+				@UserProfileID,@PageVisitID,@SearchTerm,1,@SessionCode,@HasData,@StoreID,@PortalID,@CultureName,1,GETDATE(),@UserName
+			)
+		END
+	ELSE
+		BEGIN
+			UPDATE Aspx_PersonalizationSearch
+			SET SearchCount=SearchCount+1,
+			IsModified=1,
+			UpdatedOn=GETDATE(),
+			UpdatedBy=@UserName			
+			WHERE UserProfileID=@UserProfileID AND
+			PageVisitID=@PageVisitID AND SearchTerm=@SearchTerm
+			AND SessionCode=@SessionCode
+		END	
+END
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_AddPersonalizationVisitPage]    Script Date: 01/06/2014 11:52:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: 11/26/2013
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_AddPersonalizationVisitPage] 1,1,'en-US','hari',1,'Home',null,'nztpg4n5w4smzuv2q3kwjdhz'
+CREATE PROCEDURE [dbo].[usp_Aspx_AddPersonalizationVisitPage]
+	(
+		@StoreID int,
+		@PortalID int,
+		@CultureName nvarchar(50),
+		@UserName nvarchar(50),
+		@UserProfileID int,
+		@PageName nvarchar(50),
+		@SubPageName nvarchar(50)=null,
+		@SessionCode nvarchar(50)		
+	)
+AS
+BEGIN	
+	SET NOCOUNT ON;				
+				IF(@SubPageName IS NULL)
+					BEGIN	
+						IF(NOT EXISTS(SELECT 1 FROM Aspx_PersonalizationPages WHERE UserProfileID=@UserProfileID 
+						AND StoreID=@StoreID AND PortalID=@PortalID AND CultureName=@CultureName AND PageName=@PageName
+							AND SessionCode=@SessionCode))
+							BEGIN					
+									INSERT INTO Aspx_PersonalizationPages
+										(
+											UserProfileID,PageName,[PageCount],SubPageName,SessionCode,
+											StoreID, PortalID,CultureName,IsActive,AddedOn,AddedBy
+										)
+										VALUES(
+										@UserProfileID,@PageName,1,@SubPageName,@SessionCode,
+										@StoreID,@PortalID,@CultureName,1,GETDATE(),@UserName
+										)
+									END															
+							
+						ELSE
+							BEGIN		
+								UPDATE Aspx_PersonalizationPages
+								SET [PageCount]= [PageCount]+1,
+								IsModified=1,
+								UpdatedOn=GETDATE(),
+								UpdatedBy=@UserName								
+								WHERE UserProfileID=@UserProfileID AND PageName=@PageName
+								AND SessionCode=@SessionCode
+								-- AND SubPageName=@SubPageName
+							END
+						END
+				ELSE
+					BEGIN
+						IF(NOT EXISTS(SELECT 1 FROM Aspx_PersonalizationPages WHERE UserProfileID=@UserProfileID 
+						AND StoreID=@StoreID AND PortalID=@PortalID AND CultureName=@CultureName AND PageName=@PageName
+						 AND SubPageName=@SubPageName AND SessionCode=@SessionCode))
+									BEGIN
+										INSERT INTO Aspx_PersonalizationPages
+											(
+												UserProfileID,PageName,[PageCount],SubPageName,SubPageCount,
+												SessionCode,StoreID, PortalID,CultureName,IsActive,AddedOn,AddedBy
+											)
+											VALUES(
+											@UserProfileID,@PageName,1,@SubPageName,1,
+											@SessionCode,@StoreID,@PortalID,@CultureName,1,GETDATE(),@UserName
+											)
+									END							
+						ELSE
+							BEGIN		
+								UPDATE Aspx_PersonalizationPages
+									SET [PageCount]= [PageCount]+1,
+									SubPageCount= SubPageCount+1,
+									IsModified=1,
+									UpdatedOn=GETDATE(),
+									UpdatedBy=@UserName
+									WHERE UserProfileID=@UserProfileID AND PageName=@PageName AND SubPageName=@SubPageName
+						END
+					END								  
+END
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_CheckUpdatePersonalization]    Script Date: 01/06/2014 11:52:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: 11/25/2013
+-- Description:	<Description,,>
+-- =============================================
+--  [usp_Aspx_CheckUpdatePersonalization] 1,1,'en-US',20,'hari','ynuivk5par4rdtnmaabyw2o2','127.0.0.0',null,null,null,null,null,null,0
+CREATE PROCEDURE [dbo].[usp_Aspx_CheckUpdatePersonalization] 
+(
+	@StoreID int,
+	@PortalID int,
+	@CultureName nvarchar(50),
+	@CustomerID int,
+	@UserName nvarchar(256),
+	@SessionCode nvarchar(256),
+	@IP nvarchar(50),
+	@Continent nvarchar(50)=null,
+	@CountryName nvarchar(256)=null,
+	@State nvarchar(256)=null,
+	@City nvarchar(256)=null,
+	@Browser nvarchar(50)=null,
+	@Device nvarchar(256)=null,
+	@UserProfileID int output
+	)
+AS
+BEGIN 
+	IF(NOT EXISTS(select 1 from Aspx_Personalization WHERE StoreID=@StoreID AND PortalID=@PortalID AND
+		CultureName=@CultureName AND CustomerID=@CustomerID))
+		BEGIN
+			INSERT INTO Aspx_Personalization
+			(
+				CustomerID,UserName,VisitCount,SessionCode,StoreID,PortalID,CultureName,AddedOn,AddedBy
+			)
+			VALUES(
+				@CustomerID,@UserName,1,@SessionCode,@StoreID,@PortalID,@CultureName,GETDATE(),@UserName
+			)
+			SET @UserProfileID = @@IDENTITY
+		END
+	ELSE
+		BEGIN
+		UPDATE Aspx_Personalization
+		set VisitCount= VisitCount+1,
+		SessionCode=@SessionCode
+		WHERE CustomerID =@CustomerID AND SessionCode!=@SessionCode		
+		
+		SET @UserProfileID = (select UserProfileID from Aspx_Personalization where CustomerID=@CustomerID)
+		END
+	
+	IF(NOT EXISTS(SELECT 1 FROM Aspx_PersonalizationIPSession WHERE StoreID=@StoreID AND PortalID=@PortalID
+	AND CultureName=@CultureName AND SessionCode=@SessionCode AND LocationIP=@IP AND Country=@CountryName))
+		BEGIN
+			INSERT INTO Aspx_PersonalizationIPSession
+				(
+					UserProfileID,SessionCode,LocationIP,Continent,Country,[State],City,Browser,Device,StoreID,PortalID,CultureName,IsActive,
+					AddedOn,AddedBy
+				)
+				VALUES(
+					@UserProfileID,@SessionCode,@IP,@Continent,@CountryName,@State,@City,@Browser,@Device,@StoreID,@PortalID,@CultureName,1,GETDATE(),@UserName
+				)
+		--	PRINT @UserProfileID
+		END
+END
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetPersonalizationSettings]    Script Date: 01/06/2014 11:52:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: 1/1/2014
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_GetPersonalizationSettings] 1,1,'en-US'
+CREATE PROCEDURE [dbo].[usp_Aspx_GetPersonalizationSettings] (
+	@StoreID INT
+	,@PortalID INT
+	,@CultureName NVARCHAR(256)
+	)
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	IF (
+			NOT EXISTS (
+				SELECT 1
+				FROM dbo.Aspx_PersonalizationSetting
+				WHERE storeID = @StoreID
+					AND PortalID = @PortalID
+				)
+			)
+	BEGIN
+		INSERT INTO dbo.Aspx_PersonalizationSetting (
+			[SettingKey]
+			,[SettingValue]
+			,[StoreID]
+			,[PortalID]
+			,[CultureName]
+			,[IsActive]
+			,[IsDeleted]
+			,[IsModified]
+			,[AddedOn]
+			,[UpdatedOn]
+			,[DeletedOn]
+			,[AddedBy]
+			,[UpdatedBy]
+			,[DeletedBy]
+			)
+		SELECT SettingKey
+			,SettingValue
+			,@StoreID
+			,@PortalID
+			,@CultureName
+			,[IsActive]
+			,[IsDeleted]
+			,[IsModified]
+			,[AddedOn]
+			,[UpdatedOn]
+			,[DeletedOn]
+			,[AddedBy]
+			,[UpdatedBy]
+			,[DeletedBy]
+		FROM dbo.Aspx_PersonalizationSetting
+		WHERE PortalID = 1
+			AND StoreID = 0
+	END;
+
+	WITH settingCTE
+	AS (
+		SELECT ps.SettingKey
+			,ps.SettingValue
+		FROM dbo.Aspx_PersonalizationSetting ps
+		WHERE StoreID = @StoreID
+			AND PortalID = @PortalID
+		)
+		,PersonalizeSetting
+	AS (
+		SELECT *
+		FROM (
+			SELECT CASE [SettingKey]
+					WHEN 'AspxPersonalization'
+						THEN 'AspxPersonalization'
+					WHEN 'PersonalizeLatestItemPercent'
+						THEN 'PersonalizeLatestItemPercent'
+					WHEN 'PersonalizeFeatureItemCount'
+						THEN 'PersonalizeFeatureItemCount'
+					WHEN 'PersonalizeSpecialItemCount'
+						THEN 'PersonalizeSpecialItemCount'
+					WHEN 'PersonalizeRecentlyViewItemCount'
+						THEN 'PersonalizeRecentlyViewItemCount'
+					END AS SettingKey
+				,SettingValue
+			FROM settingCTE
+			) DataTable
+			pivot(max(SettingValue) FOR SettingKey IN (
+			AspxPersonalization,PersonalizeLatestItemPercent,
+			PersonalizeFeatureItemCount,PersonalizeSpecialItemCount,
+			PersonalizeRecentlyViewItemCount
+			)) PivotTable
+		)
+	SELECT *
+	FROM PersonalizeSetting
+END
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_GetPersonalizeSettingValueBYKey]    Script Date: 01/06/2014 11:52:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: 1/1/2014
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_GetPersonalizeSettingValueBYKey] 1,1,'en-US','AspxPersonalization'
+CREATE PROCEDURE [dbo].[usp_Aspx_GetPersonalizeSettingValueBYKey] (
+	@StoreID INT
+	,@PortalID INT
+	,@CultureName NVARCHAR(256)
+	,@SettingKey NVARCHAR(256)
+	)
+AS
+BEGIN
+	SET NOCOUNT ON;
+	DECLARE @SettingID INT
+	IF (
+			NOT EXISTS (
+				SELECT 1
+				FROM dbo.Aspx_PersonalizationSetting
+				WHERE StoreID = @StoreID
+					AND SettingKey = @SettingKey
+					AND PortalID = @PortalID
+				)
+			)
+	BEGIN
+		SELECT @SettingID = SettingID
+		FROM dbo.Aspx_PersonalizationSetting
+		WHERE StoreID = 0
+			AND SettingKey = @SettingKey
+			AND PortalID = 1
+
+		PRINT @SettingID
+	END
+	ELSE
+	BEGIN
+		SELECT @SettingID = SettingID
+		FROM dbo.Aspx_PersonalizationSetting
+		WHERE StoreID = @StoreID
+			AND SettingKey = @SettingKey
+			AND PortalID = @PortalID
+	END
+
+	IF (
+			NOT EXISTS (
+				SELECT SettingKey
+				FROM dbo.Aspx_PersonalizationSetting
+				WHERE StoreID = @StoreID
+					AND SettingID = @SettingID
+					AND PortalID = @PortalID
+				)
+			)
+	BEGIN
+		SELECT SettingValue
+		FROM dbo.Aspx_PersonalizationSetting
+		WHERE SettingID = @SettingID
+			AND StoreID = 0
+			AND PortalID = 1
+	END
+	ELSE
+	BEGIN
+		SELECT SettingKey
+			,SettingValue
+		FROM dbo.Aspx_PersonalizationSetting
+		WHERE SettingID = @SettingID
+			AND StoreID = @StoreID
+			AND PortalID = @PortalID
+	END
+END
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_PersonalizationFeaturedItems]    Script Date: 01/06/2014 11:52:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_PersonalizationFeaturedItems] 1, 1,'hari','en-US',33,5
+CREATE PROCEDURE [dbo].[usp_Aspx_PersonalizationFeaturedItems]
+(
+	@StoreID INT
+	,@PortalID INT
+	,@UserName NVARCHAR(256)
+	,@CultureName NVARCHAR(256)
+	,@CustomerID INT
+	,@Count INT	
+		
+)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+declare @UserProfileID INT
+ set @UserProfileID = (select UserProfileID from Aspx_Personalization where CustomerID=@CustomerID)
+
+ 
+  SELECT TOP (@Count) im.ImagePath
+		,i.SKU
+		,iid.[Name]
+		,sum(pItem.ItemVisitCount) as [Count]
+		,i.ItemID
+		,i.ItemTypeID		
+		,dbo.[ufn_CatalogPriceRule](i.ItemID, @StoreID, @PortalID, @UserName, @CultureName) AS Price
+	FROM [dbo].[Aspx_items] AS i
+	JOIN Aspx_AttributeSet ias ON i.AttributeSetID = ias.AttributeSetID
+	INNER JOIN [dbo].[Aspx_ItemInformationDetails] AS iid ON iid.ItemID = i.ItemID
+	LEFT JOIN [dbo].[Aspx_ItemImages] im ON im.itemID = i.ItemID
+	INNER JOIN [dbo].[Aspx_PersonalizationItem] pItem ON pItem.ItemID=i.ItemID
+		AND im.IsActive = 1
+		AND im.[ImageTypeID] = 1
+	WHERE i.StoreID = @StoreID
+		AND i.PortalID = @PortalID
+		AND i.IsActive = 1
+		AND i.Visibility = 1
+		AND i.IsDeleted = 0
+		AND ias.StoreID = @StoreID
+		AND ias.PortalID = @PortalID
+		AND ias.IsActive = 1
+		AND ias.IsDeleted = 0
+		AND iid.CultureName = @CultureName
+		AND i.IsFeatured = 1
+		AND pItem.UserProfileID=@UserProfileID
+		AND (
+			i.FeaturedFromDate <= convert(VARCHAR(10), getdate(), 111)
+			AND i.FeaturedToDate >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND (
+			i.ActiveFrom <= convert(VARCHAR(10), getdate(), 111)
+			AND i.ActiveTo >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND (
+			(
+				HideToAnonymous = 0
+				AND @UserName = 'anonymoususer'
+				)
+			OR @UserName != 'anonymoususer'
+			)
+			group by im.ImagePath	
+				,i.SKU	
+		,iid.[Name] 	
+		,i.ItemID		
+		,i.ItemTypeID
+	ORDER BY [COUNT] DESC 
+	
+	SELECT TOP (@Count) im.ImagePath
+		,i.SKU
+		,iid.[Name]
+		,i.ItemID
+		,i.ItemTypeID
+		,dbo.[ufn_CatalogPriceRule](i.ItemID, @StoreID, @PortalID, @UserName, @CultureName) AS Price
+	FROM [dbo].[Aspx_items] AS i
+	JOIN Aspx_AttributeSet ias ON i.AttributeSetID = ias.AttributeSetID
+	INNER JOIN [dbo].[Aspx_ItemInformationDetails] AS iid ON iid.ItemID = i.ItemID
+	LEFT JOIN [dbo].[Aspx_ItemImages] im ON im.itemID = i.ItemID
+		AND im.IsActive = 1
+		AND im.[ImageTypeID] = 1
+	WHERE i.StoreID = @StoreID
+		AND i.PortalID = @PortalID
+		AND i.IsActive = 1
+		AND i.Visibility = 1
+		AND i.IsDeleted = 0
+		AND ias.StoreID = @StoreID
+		AND ias.PortalID = @PortalID
+		AND ias.IsActive = 1
+		AND ias.IsDeleted = 0
+		AND iid.CultureName = @CultureName
+		AND i.IsFeatured = 1
+		AND (
+			i.FeaturedFromDate <= convert(VARCHAR(10), getdate(), 111)
+			AND i.FeaturedToDate >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND (
+			i.ActiveFrom <= convert(VARCHAR(10), getdate(), 111)
+			AND i.ActiveTo >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND (
+			(
+				HideToAnonymous = 0
+				AND @UserName = 'anonymoususer'
+				)
+			OR @UserName != 'anonymoususer'
+			)
+	ORDER BY i.ItemID DESC
+END
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_PersonalizationGetLatestItems]    Script Date: 01/06/2014 11:52:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:		
+-- Create date: 12/18/2013
+-- Description:	LatestItems Personalization
+-- =============================================
+-- [dbo].[usp_Aspx_PersonalizationGetLatestItems] 1,1,'hari','en-US',33,15
+CREATE PROCEDURE [dbo].[usp_Aspx_PersonalizationGetLatestItems]
+(
+	@StoreID INT
+	,@PortalID INT
+	,@UserName NVARCHAR(256)
+	,@CultureName NVARCHAR(256)
+	,@CustomerID INT
+	,@Count INT	
+		
+)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- item list form Personalization Table, item visit by user --
+     SELECT TOP (@count) (i.HasCostVariants) AS IsCostVariantItem
+		,i.ItemID
+		,i.SKU		
+		,i.HidePrice		
+		,i.HideToAnonymous
+		,[dbo].[ufn_CheckOutOfStock](i.ItemID, @StoreID, @PortalID) AS IsOutOfStock	
+		,ii.ImagePath
+		,(
+			SELECT TOP 1 [ImagePath]
+			FROM [dbo].[Aspx_ItemImages]
+			WHERE ImageTypeID = 3
+				AND ItemID = i.ItemID
+			) AS AlternateImagePath
+		,ima.AlternateText
+		,iid.NAME
+		,dbo.[ufn_CatalogPriceRule](i.ItemID, @StoreID, @PortalID, @UserName, @CultureName) AS Price
+		,CAST((i.ListPrice / ISNULL(c.ConversionRate, 1)) AS DECIMAL(16, 4)) AS ListPrice
+		
+		,ROW_NUMBER() OVER (
+			ORDER BY i.[ItemID] DESC
+			) AS RowNumber
+	FROM Aspx_items i
+	INNER JOIN dbo.Aspx_ItemInformationDetails iid ON i.ItemID = iid.ItemID
+	INNER JOIN dbo.Aspx_PersonalizationItem pItem ON pItem.ItemID=i.ItemID
+	INNER JOIN dbo.Aspx_Currency c ON i.CurrencyCode = c.CurrencyCode
+		AND c.StoreID = @StoreID
+		AND c.PortalID = @PortalID
+		AND c.IsDeleted = 0
+		AND c.IsActive = 1
+	INNER JOIN dbo.Aspx_AttributeSet ias ON i.AttributeSetID = ias.AttributeSetID
+	LEFT JOIN dbo.Aspx_ItemImages ii ON ii.ItemID = iid.ItemID
+		AND ii.ImageTypeID = 1
+		AND ii.IsActive = 1
+	LEFT JOIN [dbo].[Aspx_ItemImagesAlias] ima ON ima.ItemImageID = ii.ItemImageID
+		AND ima.CultureName = @CultureName
+	WHERE i.StoreID = @StoreID
+		AND i.PortalID = @PortalID
+		AND iid.CultureName = @CultureName
+		AND i.IsDeleted = 0
+		AND i.IsActive = 1
+		AND i.Visibility = 1		
+		AND (
+			i.ActiveFrom <= convert(VARCHAR(10), getdate(), 111)
+			AND i.ActiveTo >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND ias.IsActive = 1
+		AND ias.IsDeleted = 0
+		AND i.ItemTypeID != 4
+		AND (
+			(
+				i.HideToAnonymous = 0
+				AND @UserName = 'anonymoususer'
+				)
+			OR @UserName != 'anonymoususer'
+			)  
+  
+						
+	-- for ordered item ----		
+	SELECT TOP (@count) (i.HasCostVariants) AS IsCostVariantItem
+		,i.ItemID
+		,i.SoldItem
+		,i.SKU		
+		,i.HidePrice		
+		,i.HideToAnonymous
+		,[dbo].[ufn_CheckOutOfStock](i.ItemID, @StoreID, @PortalID) AS IsOutOfStock	
+		,ii.ImagePath
+		,(
+			SELECT TOP 1 [ImagePath]
+			FROM [dbo].[Aspx_ItemImages]
+			WHERE ImageTypeID = 3
+				AND ItemID = i.ItemID
+			) AS AlternateImagePath
+		,ima.AlternateText
+		,iid.NAME
+		,dbo.[ufn_CatalogPriceRule](i.ItemID, @StoreID, @PortalID, @UserName, @CultureName) AS Price
+		,CAST((i.ListPrice / ISNULL(c.ConversionRate, 1)) AS DECIMAL(16, 4)) AS ListPrice
+		
+		,ROW_NUMBER() OVER (
+			ORDER BY i.[ItemID] DESC
+			) AS RowNumber
+	FROM Aspx_items i
+	INNER JOIN dbo.Aspx_ItemInformationDetails iid ON i.ItemID = iid.ItemID	
+	INNER JOIN dbo.Aspx_Currency c ON i.CurrencyCode = c.CurrencyCode
+		AND c.StoreID = @StoreID
+		AND c.PortalID = @PortalID
+		AND c.IsDeleted = 0
+		AND c.IsActive = 1
+	INNER JOIN dbo.Aspx_AttributeSet ias ON i.AttributeSetID = ias.AttributeSetID
+	LEFT JOIN dbo.Aspx_ItemImages ii ON ii.ItemID = iid.ItemID
+		AND ii.ImageTypeID = 1
+		AND ii.IsActive = 1
+	LEFT JOIN [dbo].[Aspx_ItemImagesAlias] ima ON ima.ItemImageID = ii.ItemImageID
+		AND ima.CultureName = @CultureName
+	WHERE i.StoreID = @StoreID
+		AND i.PortalID = @PortalID
+		AND iid.CultureName = @CultureName
+		AND i.IsDeleted = 0
+		AND i.IsActive = 1
+		AND i.Visibility = 1		
+		AND (
+			i.ActiveFrom <= convert(VARCHAR(10), getdate(), 111)
+			AND i.ActiveTo >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND ias.IsActive = 1
+		AND ias.IsDeleted = 0
+		AND i.ItemTypeID != 4
+		and i.SoldItem>0
+		AND i.ItemID NOT IN (
+		SELECT oi.ItemId
+		FROM Aspx_OrderItem oi
+		INNER JOIN Aspx_Order o ON oi.OrderID = o.OrderID
+		WHERE o.CustomerID = @CustomerID
+		)
+		AND (
+			(
+				i.HideToAnonymous = 0
+				AND @UserName = 'anonymoususer'
+				)
+			OR @UserName != 'anonymoususer'
+			)		
+			order by i.SoldItem desc
+			
+	  -- general latest item list
+    SELECT TOP (@count) (i.HasCostVariants) AS IsCostVariantItem
+		,i.ItemID
+		,i.SKU		
+		,i.HidePrice		
+		,i.HideToAnonymous
+		,[dbo].[ufn_CheckOutOfStock](i.ItemID, @StoreID, @PortalID) AS IsOutOfStock	
+		,ii.ImagePath
+		,(
+			SELECT TOP 1 [ImagePath]
+			FROM [dbo].[Aspx_ItemImages]
+			WHERE ImageTypeID = 3
+				AND ItemID = i.ItemID
+			) AS AlternateImagePath
+		,ima.AlternateText
+		,iid.NAME
+		,dbo.[ufn_CatalogPriceRule](i.ItemID, @StoreID, @PortalID, @UserName, @CultureName) AS Price
+		,CAST((i.ListPrice / ISNULL(c.ConversionRate, 1)) AS DECIMAL(16, 4)) AS ListPrice
+		
+		,ROW_NUMBER() OVER (
+			ORDER BY i.[ItemID] DESC
+			) AS RowNumber
+	FROM Aspx_items i
+	INNER JOIN dbo.Aspx_ItemInformationDetails iid ON i.ItemID = iid.ItemID
+	INNER JOIN dbo.Aspx_Currency c ON i.CurrencyCode = c.CurrencyCode
+		AND c.StoreID = @StoreID
+		AND c.PortalID = @PortalID
+		AND c.IsDeleted = 0
+		AND c.IsActive = 1
+	INNER JOIN dbo.Aspx_AttributeSet ias ON i.AttributeSetID = ias.AttributeSetID
+	LEFT JOIN dbo.Aspx_ItemImages ii ON ii.ItemID = iid.ItemID
+		AND ii.ImageTypeID = 1
+		AND ii.IsActive = 1
+	LEFT JOIN [dbo].[Aspx_ItemImagesAlias] ima ON ima.ItemImageID = ii.ItemImageID
+		AND ima.CultureName = @CultureName
+	WHERE i.StoreID = @StoreID
+		AND i.PortalID = @PortalID
+		AND iid.CultureName = @CultureName
+		AND i.IsDeleted = 0
+		AND i.IsActive = 1
+		AND i.Visibility = 1		
+		AND (
+			i.ActiveFrom <= convert(VARCHAR(10), getdate(), 111)
+			AND i.ActiveTo >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND ias.IsActive = 1
+		AND ias.IsDeleted = 0
+		AND i.ItemTypeID != 4
+		AND (
+			(
+				i.HideToAnonymous = 0
+				AND @UserName = 'anonymoususer'
+				)
+			OR @UserName != 'anonymoususer'
+			)	
+END
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_PersonalizationRecentViewedItem]    Script Date: 01/06/2014 11:52:36 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_PersonalizationRecentViewedItem] 1,1,'en-US','superuser',5
+CREATE PROCEDURE [dbo].[usp_Aspx_PersonalizationRecentViewedItem] 
+	(
+	@StoreID INT
+	,@PortalID INT
+	,@CultureName NVARCHAR(256)
+	,@UserName NVARCHAR(256)	
+	,@Count INT
+	)
+AS
+BEGIN	
+	SET NOCOUNT ON;
+
+    --select * from Aspx_RecentlyViewedItems
+    CREATE TABLE #tblItems (
+		ItemID INT
+		,ViewedDate DATETIME
+		)
+
+	INSERT INTO #tblItems
+	SELECT ItemID
+		,ViewedDate
+	FROM (
+		SELECT ItemID
+			,ViewedDate
+			,max(ViewedDate) OVER (PARTITION BY ItemID) max_my_date
+		FROM [dbo].[Aspx_RecentlyViewedItems]
+		WHERE StoreID = @StoreID
+			AND PortalID = @PortalID
+			AND UserName=@UserName
+		) AS x
+	WHERE ViewedDate = max_my_date
+
+	SELECT TOP (@Count) rvi.ItemID
+		,i.ItemTypeID
+		,i.SKU
+		,iid.NAME AS ItemName
+		,im.ImagePath
+		,i.HideToAnonymous
+	FROM #tblItems rvi
+	INNER JOIN [dbo].[Aspx_Items] i ON i.ItemID = rvi.ItemID
+	INNER JOIN [dbo].[Aspx_AttributeSet] ias ON i.AttributeSetID = ias.AttributeSetID
+	INNER JOIN [dbo].[Aspx_ItemInformationDetails] iid ON iid.ItemID = i.ItemID
+		AND i.Visibility = 1
+		AND iid.CultureName = @CultureName
+	LEFT JOIN [dbo].[Aspx_ItemImages] AS im ON i.ItemID = im.ItemID
+		AND im.ImageTypeID = 1
+		AND im.IsActive = 1
+	WHERE i.IsActive = 1
+		AND i.IsDeleted = 0
+		AND i.StoreID = @StoreID
+		AND i.PortalID = @PortalID
+		AND ias.IsActive = 1
+		AND ias.IsDeleted = 0
+		AND (
+			i.ActiveFrom <= convert(VARCHAR(10), getdate(), 111)
+			AND i.ActiveTo >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND (
+			(
+				i.HideToAnonymous = 0
+				AND @UserName = 'anonymoususer'
+				)
+			OR @UserName != 'anonymoususer'
+			)
+	ORDER BY ViewedDate DESC
+END
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_PersonalizationSettingsUpdate]    Script Date: 01/06/2014 11:52:36 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: 1/1/2014
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_PersonalizationSettingsUpdate] 1,1,'AspxPersonalization*PersonalizeLatestItemPercent*PersonalizeFeatureItemCount*PersonalizeSpecialItemCount*PersonalizeRecentlyViewItemCount','True*40*5*5*6','en-US'
+CREATE PROCEDURE [dbo].[usp_Aspx_PersonalizationSettingsUpdate] (
+	@StoreID INT
+	,@PortalID INT
+	,@SettingKeys NVARCHAR(MAX)
+	,@SettingValues NVARCHAR(MAX)
+	,@CultureName NVARCHAR(256)
+	)
+AS
+BEGIN
+	SET NOCOUNT ON;	
+
+	DECLARE @tblKey TABLE (
+		RowNum INT IDENTITY(1, 1)
+		,SettingKey NVARCHAR(500)
+		)
+	DECLARE @tblValue TABLE (
+		RowNum INT IDENTITY(1, 1)
+		,SettingValue NVARCHAR(MAX)
+		)
+
+	INSERT INTO @tblKey
+	SELECT RTRIM(LTRIM(items))
+	FROM split(@SettingKeys, '*')
+
+	INSERT INTO @tblValue
+	SELECT RTRIM(LTRIM(items))
+	FROM split(@SettingValues, '*')
+
+	DECLARE @counter INT
+		,@RowCount INT
+
+	SELECT @RowCount = COUNT(RowNum)
+	FROM @tblKey
+
+	SET @counter = 1
+
+	WHILE (
+			@counter <= @RowCount
+			OR @counter = 1
+			)
+	BEGIN
+		DECLARE @key NVARCHAR(2000)
+			,@value NVARCHAR(MAX)
+
+		SELECT @key = SettingKey
+		FROM @tblKey
+		WHERE RowNum = @counter
+
+		SELECT @value = SettingValue
+		FROM @tblValue
+		WHERE RowNum = @counter
+		
+		UPDATE dbo.Aspx_PersonalizationSetting
+		SET SettingValue = @value,
+			IsModified=1,
+			UpdatedOn=GETDATE()
+		WHERE SettingKey = @key
+			AND StoreID = @StoreID
+			AND PortalID = @PortalID
+			
+		IF(@key ='AspxPersonalization' AND @value = 'false' )
+		BEGIN
+			UPDATE dbo.UserModules
+			SET IsActive=0 where ModuleDefID IN (select ModuleID from Aspx_PersonalizationModules)
+			
+			UPDATE dbo.Aspx_PersonalizationModules
+			SET IsActive=0,
+				IsModified=1,
+				UpdatedOn=GETDATE() where PortalID=@PortalID
+		END
+		ELSE IF(@key ='AspxPersonalization' AND @value = 'true' )
+			BEGIN
+				UPDATE dbo.UserModules
+			SET IsActive=1 where ModuleDefID IN (select ModuleID from Aspx_PersonalizationModules)
+			
+			UPDATE dbo.Aspx_PersonalizationModules
+			SET IsActive=1,
+				IsModified=1,
+				UpdatedOn=GETDATE() where PortalID=@PortalID
+			END
+		SET @counter = @counter + 1
+	END
+END
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_Aspx_PersonalizationSpecialItemsGallery]    Script Date: 01/06/2014 11:52:36 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+-- [dbo].[usp_Aspx_PersonalizationSpecialItemsGallery] 1, 1,'superuser','en-US',18,10
+CREATE PROCEDURE [dbo].[usp_Aspx_PersonalizationSpecialItemsGallery] 
+	(
+	@StoreID INT
+	,@PortalID INT
+	,@UserName NVARCHAR(256)
+	,@CultureName NVARCHAR(256)
+	,@CustomerID INT
+	,@Count INT		
+)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+	
+	DECLARE @UserProfileID INT
+	SET @UserProfileID = (select UserProfileID from Aspx_Personalization where CustomerID=@CustomerID)
+ 
+SELECT TOP (@Count) im.ImagePath
+		,i.SKU
+		,iid.[Name]
+		,sum(pItem.ItemVisitCount) as [Count]
+		,i.ItemID
+		,i.ItemTypeID
+		,dbo.[ufn_CatalogPriceRule](i.ItemID, @StoreID, @PortalID, @UserName, @CultureName) AS Price
+	FROM [dbo].[Aspx_items] AS i
+	JOIN Aspx_AttributeSet ias ON i.AttributeSetID = ias.AttributeSetID
+	INNER JOIN [dbo].[Aspx_ItemInformationDetails] AS iid ON iid.ItemID = i.ItemID
+	LEFT JOIN [dbo].[Aspx_ItemImages] im ON im.itemID = i.ItemID
+	INNER JOIN [dbo].[Aspx_PersonalizationItem] pItem ON pItem.ItemID=i.ItemID
+		AND im.IsActive = 1
+		AND im.[ImageTypeID] = 1
+	WHERE i.StoreID = @StoreID
+		AND i.PortalID = @PortalID
+		AND i.IsActive = 1
+		AND i.Visibility = 1
+		AND i.IsDeleted = 0
+		AND ias.StoreID = @StoreID
+		AND ias.PortalID = @PortalID
+		AND ias.IsActive = 1
+		AND ias.IsDeleted = 0
+		AND iid.CultureName = @CultureName
+		AND i.IsSpecial = 1
+		AND pItem.UserProfileID=@UserProfileID
+		AND (
+			i.SpecialFromDate <= convert(VARCHAR(10), getdate(), 111)
+			AND i.SpecialToDate >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND (
+			i.ActiveFrom <= convert(VARCHAR(10), getdate(), 111)
+			AND i.ActiveTo >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND (
+			(
+				HideToAnonymous = 0
+				AND @UserName = 'anonymoususer'
+				)
+			OR @UserName != 'anonymoususer'
+			)
+			group by im.ImagePath	
+				,i.SKU	
+		,iid.[Name] 	
+		,i.ItemID
+		,i.ItemTypeID
+	ORDER BY [COUNT] DESC 
+    
+    	SELECT TOP (@Count) im.ImagePath
+		,i.SKU
+		,iid.[Name]
+		,i.ItemID
+		,i.ItemTypeID
+		,dbo.[ufn_CatalogPriceRule](i.ItemID, @StoreID, @PortalID, @UserName, @CultureName) AS Price
+	FROM [dbo].[Aspx_items] AS i
+	JOIN Aspx_AttributeSet ias ON i.AttributeSetID = ias.AttributeSetID
+	INNER JOIN [dbo].[Aspx_ItemInformationDetails] AS iid ON iid.ItemID = i.ItemID
+	LEFT JOIN [dbo].[Aspx_ItemImages] im ON im.itemID = i.ItemID
+		AND im.IsActive = 1
+		AND im.[ImageTypeID] = 1
+	WHERE i.StoreID = @StoreID
+		AND i.PortalID = @PortalID
+		AND i.IsActive = 1
+		AND i.Visibility = 1
+		AND i.IsDeleted = 0
+		AND ias.StoreID = @StoreID
+		AND ias.PortalID = @PortalID
+		AND ias.IsActive = 1
+		AND ias.IsDeleted = 0
+		AND iid.CultureName = @CultureName
+		AND i.IsFeatured = 1
+		AND (
+			i.FeaturedFromDate <= convert(VARCHAR(10), getdate(), 111)
+			AND i.FeaturedToDate >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND (
+			i.ActiveFrom <= convert(VARCHAR(10), getdate(), 111)
+			AND i.ActiveTo >= convert(VARCHAR(10), getdate(), 111)
+			)
+		AND (
+			(
+				HideToAnonymous = 0
+				AND @UserName = 'anonymoususer'
+				)
+			OR @UserName != 'anonymoususer'
+			)
+	ORDER BY i.ItemID DESC
+END
+GO
+
+GO
+
+IF(EXISTS(SELECT 1 FROM Modules WHERE FriendlyName='AspxLatestItems'))
+	BEGIN
+		INSERT INTO Aspx_PersonalizationModules (ModuleID,FriendlyName,ControlSrc,IsDependent,PortalID,
+			IsActive,AddedOn,AddedBy)
+			SELECT m.ModuleID,m.FriendlyName, mc.ControlSrc,1,m.PortalID,m.IsActive,GETDATE(),m.AddedBy FROM Modules m 
+			INNER JOIN ModuleControls mc on m.ModuleID=mc.ModuleDefID WHERE m.FriendlyName='AspxLatestItems' AND ControlType=1
+		UNION
+			SELECT m.ModuleID,m.FriendlyName, mc.ControlSrc,1,m.PortalID,m.IsActive,GETDATE(),m.AddedBy FROM Modules m 
+			INNER JOIN ModuleControls mc on m.ModuleID=mc.ModuleDefID WHERE m.FriendlyName='AspxLatestItems' AND ControlType=3
+			
+		UPDATE ModuleControls 
+		SET ControlSrc='Modules/AspxCommerce/AspxPersonalization/PersonalizationLatestItems.ascx'
+		WHERE ModuleDefID=(select ModuleID FROM Modules WHERE FriendlyName='AspxLatestItems')
+		AND ControlType=1
+		UPDATE ModuleControls 
+		SET ControlSrc='Modules/AspxCommerce/AspxPersonalization/PersonalizationSetting.ascx'
+		WHERE ModuleDefID=(select ModuleID FROM Modules WHERE FriendlyName='AspxLatestItems')
+		AND ControlType=3
+	END
+	
+IF(EXISTS(SELECT 1 FROM Modules WHERE FriendlyName='AspxFrontItemGallery'))
+	BEGIN
+		INSERT INTO Aspx_PersonalizationModules (ModuleID,FriendlyName,ControlSrc,IsDependent,PortalID,
+			IsActive,AddedOn,AddedBy)
+			SELECT m.ModuleID,m.FriendlyName, mc.ControlSrc,1,m.PortalID,m.IsActive,GETDATE(),m.AddedBy FROM Modules m 
+			INNER JOIN ModuleControls mc on m.ModuleID=mc.ModuleDefID WHERE m.FriendlyName='AspxFrontItemGallery' AND ControlType=1
+		
+		UPDATE ModuleControls 
+		SET ControlSrc='Modules/AspxCommerce/AspxPersonalization/PersonalizationFrontItemGallery.ascx'
+		WHERE ModuleDefID=(select ModuleID FROM Modules WHERE FriendlyName='AspxFrontItemGallery')
+		AND ControlType=1
+	END
+	
+IF(EXISTS(SELECT 1 FROM Modules WHERE FriendlyName='AspxRecentlyViewedItems'))
+	BEGIN
+		INSERT INTO Aspx_PersonalizationModules (ModuleID,FriendlyName,ControlSrc,IsDependent,PortalID,
+			IsActive,AddedOn,AddedBy)
+			SELECT m.ModuleID,m.FriendlyName, mc.ControlSrc,1,m.PortalID,m.IsActive,GETDATE(),m.AddedBy FROM Modules m 
+			INNER JOIN ModuleControls mc on m.ModuleID=mc.ModuleDefID WHERE m.FriendlyName='AspxRecentlyViewedItems' AND ControlType=1
+		
+		UPDATE ModuleControls 
+		SET ControlSrc='Modules/AspxCommerce/AspxPersonalization/PersonalizationRecentlyViewedItem.ascx'
+		WHERE ModuleDefID=(select ModuleID FROM Modules WHERE FriendlyName='AspxRecentlyViewedItems')
+		AND ControlType=1
+	END
+
+GO
