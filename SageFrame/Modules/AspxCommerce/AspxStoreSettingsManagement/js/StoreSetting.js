@@ -466,7 +466,7 @@ $(function () {
             var storeLogoURL = $("#divStoreLogo>img").attr("src").replace(aspxRootPath, "");
         }
         else {
-            var storeLogoURL = $("#divStoreLogo>img").prop("src").replace(aspxRootPath, "");
+            var storeLogoURL = $("#divStoreLogo>img").attr("src").replace(aspxRootPath, "");
         }
         var prevStoreLogoPath = $("#hdnPrevStoreLogoPath").val();
         var cartAbandonedTime = $("#txtCartAbandonTime").val();
