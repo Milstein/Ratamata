@@ -11,3 +11,4 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SiteAnalytics\bin\Release\Sa
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SiteAnalytics\bin\Release\SageFrame.Common.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SiteAnalytics\obj\Release\DashBoardControl.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SiteAnalytics\obj\Release\DashBoardControl.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SiteAnalytics\obj\Release\DashBoardControl.csprojResolveAssemblyReference.cache

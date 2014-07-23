@@ -11,3 +11,4 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SageBanner\bin\Release\SageF
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SageBanner\bin\Release\SageFrame.Common.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SageBanner\obj\Release\SageFrame.SageBanner.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SageBanner\obj\Release\SageFrame.SageBanner.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SageBanner\obj\Release\SageFrame.SageBanner.csprojResolveAssemblyReference.cache

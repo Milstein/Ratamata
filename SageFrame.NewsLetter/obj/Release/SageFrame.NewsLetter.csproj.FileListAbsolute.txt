@@ -27,3 +27,4 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.NewsLetter\bin\
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.NewsLetter\obj\Release\SageFrame.NewsLetter.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.NewsLetter\obj\Release\SageFrame.NewsLetter.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.NewsLetter\obj\Release\SageFrame.NewsLetter.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.NewsLetter\obj\Release\SageFrame.NewsLetter.csprojResolveAssemblyReference.cache

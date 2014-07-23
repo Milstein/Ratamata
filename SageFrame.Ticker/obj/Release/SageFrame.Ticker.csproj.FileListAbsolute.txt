@@ -110,3 +110,4 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Ticker\bin\Rele
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Ticker\obj\Release\SageFrame.Ticker.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Ticker\obj\Release\SageFrame.Ticker.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.Ticker\obj\Release\SageFrame.Ticker.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Ticker\obj\Release\SageFrame.Ticker.csprojResolveAssemblyReference.cache

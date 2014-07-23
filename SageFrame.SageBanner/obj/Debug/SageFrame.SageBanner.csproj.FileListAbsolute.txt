@@ -5,6 +5,6 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SageBanner\obj\
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.SageBanner.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.SageBanner.pdb
-E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.csprojResolveAssemblyReference.cache

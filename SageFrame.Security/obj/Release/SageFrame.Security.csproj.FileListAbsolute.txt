@@ -11,3 +11,4 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Security\bin\Release\SageFra
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Security\bin\Release\SageFrame.Common.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Security\obj\Release\SageFrame.Security.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Security\obj\Release\SageFrame.Security.csprojResolveAssemblyReference.cache

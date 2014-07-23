@@ -11,3 +11,4 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.OauthID\bin\Release\SageFram
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.OauthID\bin\Release\SageFrame.Common.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.OauthID\obj\Release\SageFrame.OauthID.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.OauthID\obj\Release\SageFrame.OauthID.pdb
+E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.OauthID\obj\Release\SageFrame.OauthID.csprojResolveAssemblyReference.cache
