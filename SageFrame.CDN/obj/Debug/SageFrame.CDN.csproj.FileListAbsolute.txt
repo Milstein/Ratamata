@@ -18,3 +18,9 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.CDN\bin\Debug\SageFr
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.CDN\bin\Debug\SageFrame.Common.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.CDN\obj\Debug\SageFrame.CDN.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.CDN\obj\Debug\SageFrame.CDN.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.CDN\bin\Debug\SageFrame.CDN.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.CDN\bin\Debug\SageFrame.CDN.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.CDN\bin\Debug\SageFrame.Common.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.CDN\bin\Debug\SageFrame.Common.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.CDN\obj\Debug\SageFrame.CDN.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.CDN\obj\Debug\SageFrame.CDN.pdb

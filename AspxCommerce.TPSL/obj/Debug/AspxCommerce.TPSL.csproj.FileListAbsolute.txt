@@ -131,3 +131,9 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.TPS
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.TPSL.dll.config
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.TPSL.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.TPSL.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb

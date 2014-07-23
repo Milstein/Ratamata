@@ -12,3 +12,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Common\bin\Release\S
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Common\obj\Release\SageFrame.Common.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Common\obj\Release\SageFrame.Common.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Common\obj\Release\SageFrame.Common.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Common\bin\Release\SageFrame.Common.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Common\bin\Release\SageFrame.Common.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Common\obj\Release\SageFrame.Common.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Common\obj\Release\SageFrame.Common.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Common\obj\Release\SageFrame.Common.pdb

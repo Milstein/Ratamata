@@ -40,3 +40,4 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.BrandView\ob
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.BrandView\obj\Release\AspxCommerce.BrandView.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.BrandView\obj\Release\AspxCommerce.BrandView.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.BrandView\obj\Release\AspxCommerce.BrandView.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.BrandView\obj\Release\AspxCommerce.BrandView.csprojResolveAssemblyReference.cache

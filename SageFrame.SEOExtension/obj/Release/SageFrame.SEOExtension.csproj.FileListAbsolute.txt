@@ -18,3 +18,9 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SEOExtension\bin\Rel
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SEOExtension\bin\Release\SageFrame.Common.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SEOExtension\bin\Release\SageFrame.SEOExtension.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SEOExtension\bin\Release\SageFrame.SEOExtension.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SEOExtension\bin\Release\SageFrame.Common.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SEOExtension\bin\Release\SageFrame.Common.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SEOExtension\obj\Release\SageFrame.SEOExtension.pdb

@@ -362,3 +362,43 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.PesoPay\bin\Debug
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.PesoPay.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\itextsharp.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\AjaxControlToolkit.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.CDN.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\Ionic.Zip.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Owin.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\Owin.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\Newtonsoft.Json.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\AspxCommerce.Core.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.Common.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.Core.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.NewsLetter.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.Security.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.Pages.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\CurrencyConverter.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.Templating.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.CDN.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\SageFrame.Scheduler.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\Microsoft.AspNet.SignalR.Owin.xml
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\Newtonsoft.Json.xml
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb

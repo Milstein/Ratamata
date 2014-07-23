@@ -13,3 +13,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.Core.p
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Core\obj\Debug\SageFrame.Core.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Core\obj\Debug\SageFrame.Core.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Core\obj\Debug\SageFrame.Core.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.Core.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.Core.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Core\obj\Debug\SageFrame.Core.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Core\obj\Debug\SageFrame.Core.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Core\obj\Debug\SageFrame.Core.pdb

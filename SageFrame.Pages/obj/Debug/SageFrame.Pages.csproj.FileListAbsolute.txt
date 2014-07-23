@@ -12,3 +12,7 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.Pages.
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.Pages.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Pages\obj\Debug\SageFrame.Pages.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Pages\obj\Debug\SageFrame.Pages.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.Pages.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.Pages.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Pages\obj\Debug\SageFrame.Pages.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Pages\obj\Debug\SageFrame.Pages.pdb

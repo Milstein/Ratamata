@@ -12,3 +12,7 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.FileMa
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.FileManager.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.FileManager.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.FileManager.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb

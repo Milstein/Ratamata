@@ -12,3 +12,7 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.IpAcce
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.IpAccess.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.IpAccess.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.IpAccess.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.pdb

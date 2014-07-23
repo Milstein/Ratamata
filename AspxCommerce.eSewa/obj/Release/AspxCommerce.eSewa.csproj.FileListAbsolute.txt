@@ -224,3 +224,4 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\obj\Re
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache

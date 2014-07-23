@@ -10,3 +10,7 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\ServiceInvoker\bin\Release\Ser
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\ServiceInvoker\bin\Release\ServiceInvoker.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\ServiceInvoker\obj\Release\ServiceInvoker.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\ServiceInvoker\obj\Release\ServiceInvoker.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\ServiceInvoker\bin\Release\ServiceInvoker.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\ServiceInvoker\bin\Release\ServiceInvoker.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\ServiceInvoker\obj\Release\ServiceInvoker.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\ServiceInvoker\obj\Release\ServiceInvoker.pdb

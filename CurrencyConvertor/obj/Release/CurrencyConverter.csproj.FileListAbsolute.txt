@@ -11,3 +11,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\CurrencyConvertor\bin\Release\
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\CurrencyConvertor\obj\Release\CurrencyConverter.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\CurrencyConvertor\obj\Release\CurrencyConverter.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\CurrencyConvertor\obj\Release\CurrencyConverter.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\CurrencyConvertor\bin\Release\CurrencyConverter.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\CurrencyConvertor\bin\Release\CurrencyConverter.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\CurrencyConvertor\obj\Release\CurrencyConverter.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\CurrencyConvertor\obj\Release\CurrencyConverter.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\CurrencyConvertor\obj\Release\CurrencyConverter.pdb

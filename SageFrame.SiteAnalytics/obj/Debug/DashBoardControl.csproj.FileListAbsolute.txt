@@ -12,3 +12,7 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\DashBoardControl
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\DashBoardControl.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\DashBoardControl.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\DashBoardControl.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb

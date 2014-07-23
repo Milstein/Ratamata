@@ -12,3 +12,7 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.SageBa
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.SageBanner.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.SageBanner.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.SageBanner.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SageBanner\obj\Debug\SageFrame.SageBanner.pdb

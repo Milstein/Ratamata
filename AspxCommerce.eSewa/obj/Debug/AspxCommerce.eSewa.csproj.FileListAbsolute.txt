@@ -67,3 +67,9 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.eSe
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.eSewa.dll.config
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.eSewa.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.eSewa.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.eSewa\obj\Debug\AspxCommerce.eSewa.pdb

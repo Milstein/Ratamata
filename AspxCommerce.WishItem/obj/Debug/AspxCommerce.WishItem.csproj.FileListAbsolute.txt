@@ -13,3 +13,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.Wis
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.WishItem\obj\Debug\AspxCommerce.WishItem.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.WishItem\obj\Debug\AspxCommerce.WishItem.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.WishItem\obj\Debug\AspxCommerce.WishItem.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.WishItem.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.WishItem.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.WishItem\obj\Debug\AspxCommerce.WishItem.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.WishItem\obj\Debug\AspxCommerce.WishItem.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.WishItem\obj\Debug\AspxCommerce.WishItem.pdb

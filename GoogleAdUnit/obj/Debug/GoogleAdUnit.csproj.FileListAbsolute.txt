@@ -10,3 +10,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\GoogleAdUnit\bin\Debug\SFE.Goo
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\GoogleAdUnit\bin\Debug\SFE.GoogleAdUnit.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\GoogleAdUnit\bin\Debug\SFE.GoogleAdUnit.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\GoogleAdUnit\bin\Debug\SFE.GoogleAdUnit.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\GoogleAdUnit\obj\Debug\GoogleAdUnit.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.pdb

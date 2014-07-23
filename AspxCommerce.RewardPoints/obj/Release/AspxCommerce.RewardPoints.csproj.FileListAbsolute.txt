@@ -5,3 +5,4 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.RewardPoints
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.RewardPoints\obj\Release\AspxCommerce.RewardPoints.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.RewardPoints\obj\Release\AspxCommerce.RewardPoints.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.RewardPoints\obj\Release\AspxCommerce.RewardPoints.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.RewardPoints\obj\Release\AspxCommerce.RewardPoints.csprojResolveAssemblyReference.cache

@@ -18,3 +18,9 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Pages\bin\Release\Sa
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Pages\bin\Release\SageFrame.Common.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Pages\obj\Release\SageFrame.Pages.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Pages\obj\Release\SageFrame.Pages.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Pages\bin\Release\SageFrame.Pages.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Pages\bin\Release\SageFrame.Pages.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Pages\bin\Release\SageFrame.Common.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Pages\bin\Release\SageFrame.Common.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Pages\obj\Release\SageFrame.Pages.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Pages\obj\Release\SageFrame.Pages.pdb

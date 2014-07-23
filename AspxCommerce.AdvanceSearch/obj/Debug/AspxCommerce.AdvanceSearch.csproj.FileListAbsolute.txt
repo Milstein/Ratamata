@@ -13,3 +13,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.Adv
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.AdvanceSearch\obj\Debug\AspxCommerce.AdvanceSearch.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.AdvanceSearch\obj\Debug\AspxCommerce.AdvanceSearch.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.AdvanceSearch\obj\Debug\AspxCommerce.AdvanceSearch.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.AdvanceSearch.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.AdvanceSearch.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.AdvanceSearch\obj\Debug\AspxCommerce.AdvanceSearch.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.AdvanceSearch\obj\Debug\AspxCommerce.AdvanceSearch.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.AdvanceSearch\obj\Debug\AspxCommerce.AdvanceSearch.pdb

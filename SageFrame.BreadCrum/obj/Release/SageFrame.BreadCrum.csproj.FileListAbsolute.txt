@@ -18,3 +18,9 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.BreadCrum\bin\Releas
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.BreadCrum\bin\Release\SageFrame.Common.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.BreadCrum\bin\Release\SageFrame.BreadCrum.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.BreadCrum\bin\Release\SageFrame.BreadCrum.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.BreadCrum\bin\Release\SageFrame.Common.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.BreadCrum\bin\Release\SageFrame.Common.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.BreadCrum\obj\Release\SageFrame.BreadCrum.pdb

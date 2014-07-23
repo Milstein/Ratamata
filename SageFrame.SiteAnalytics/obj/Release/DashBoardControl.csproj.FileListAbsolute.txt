@@ -18,3 +18,9 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SiteAnalytics\bin\Re
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SiteAnalytics\bin\Release\SageFrame.Common.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SiteAnalytics\obj\Release\DashBoardControl.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SiteAnalytics\obj\Release\DashBoardControl.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SiteAnalytics\bin\Release\DashBoardControl.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SiteAnalytics\bin\Release\DashBoardControl.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SiteAnalytics\bin\Release\SageFrame.Common.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SiteAnalytics\bin\Release\SageFrame.Common.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SiteAnalytics\obj\Release\DashBoardControl.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SiteAnalytics\obj\Release\DashBoardControl.pdb

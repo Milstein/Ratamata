@@ -10,3 +10,7 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\CurrencyConverte
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\CurrencyConverter.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\CurrencyConvertor\obj\Debug\CurrencyConverter.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\CurrencyConvertor\obj\Debug\CurrencyConverter.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\CurrencyConverter.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\CurrencyConverter.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\CurrencyConvertor\obj\Debug\CurrencyConverter.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\CurrencyConvertor\obj\Debug\CurrencyConverter.pdb

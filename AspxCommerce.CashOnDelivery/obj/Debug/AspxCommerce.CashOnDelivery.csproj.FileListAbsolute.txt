@@ -15,3 +15,9 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.Cas
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.CashOnDelivery.dll.config
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.CashOnDelivery.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.CashOnDelivery.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.pdb

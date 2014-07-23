@@ -40,3 +40,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.Fli
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.FlightManagement.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.FlightManagement.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.FlightManagement\obj\Debug\AspxCommerce.FlightManagement.pdb

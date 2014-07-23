@@ -18,3 +18,9 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.IpAccess\bin\Release
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.IpAccess\bin\Release\SageFrame.Common.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.IpAccess\obj\Release\SageFrame.IpAccess.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.IpAccess\obj\Release\SageFrame.IpAccess.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.IpAccess\bin\Release\SageFrame.IpAccess.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.IpAccess\bin\Release\SageFrame.IpAccess.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.IpAccess\bin\Release\SageFrame.Common.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.IpAccess\bin\Release\SageFrame.Common.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.IpAccess\obj\Release\SageFrame.IpAccess.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.IpAccess\obj\Release\SageFrame.IpAccess.pdb

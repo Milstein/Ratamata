@@ -118,3 +118,43 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.YouMayAlsoLike\bi
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.YouMayAlsoLike\obj\Release\AspxCommerce.YouMayAlsoLike.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.YouMayAlsoLike\obj\Release\AspxCommerce.YouMayAlsoLike.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.YouMayAlsoLike\obj\Release\AspxCommerce.YouMayAlsoLike.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\AspxCommerce.YouMayAlsoLike.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\AspxCommerce.YouMayAlsoLike.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\AspxCommerce.Core.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.Common.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.Core.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\itextsharp.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.NewsLetter.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.Security.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.Pages.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\CurrencyConverter.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\AjaxControlToolkit.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.Templating.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.CDN.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.Scheduler.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\Ionic.Zip.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\Microsoft.AspNet.SignalR.Core.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\Microsoft.AspNet.SignalR.Owin.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\Owin.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\Newtonsoft.Json.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\AspxCommerce.Core.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.Common.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.Core.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.NewsLetter.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.Security.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.Pages.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\CurrencyConverter.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.Templating.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.CDN.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\SageFrame.Scheduler.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\Microsoft.AspNet.SignalR.Core.xml
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\Microsoft.AspNet.SignalR.Owin.xml
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\bin\Release\Newtonsoft.Json.xml
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\obj\Release\AspxCommerce.YouMayAlsoLike.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\obj\Release\AspxCommerce.YouMayAlsoLike.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\obj\Release\AspxCommerce.YouMayAlsoLike.pdb

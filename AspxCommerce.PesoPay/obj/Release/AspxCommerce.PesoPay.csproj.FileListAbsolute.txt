@@ -43,3 +43,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.Pes
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.PesoPay\obj\Release\AspxCommerce.PesoPay.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.PesoPay\obj\Release\AspxCommerce.PesoPay.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.PesoPay\obj\Release\AspxCommerce.PesoPay.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.PesoPay.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.PesoPay.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\obj\Release\AspxCommerce.PesoPay.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\obj\Release\AspxCommerce.PesoPay.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\obj\Release\AspxCommerce.PesoPay.pdb

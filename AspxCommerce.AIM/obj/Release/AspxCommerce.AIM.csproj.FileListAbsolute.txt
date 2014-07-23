@@ -40,3 +40,4 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AIM\obj\Rele
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AIM\obj\Release\AspxCommerce.AIM.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AIM\obj\Release\AspxCommerce.AIM.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.AIM\obj\Release\AspxCommerce.AIM.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.AIM\obj\Release\AspxCommerce.AIM.csprojResolveAssemblyReference.cache

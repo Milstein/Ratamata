@@ -41,3 +41,4 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.ABTesting\ob
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.ABTesting\obj\Release\AspxCommerce.ABTesting.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.ABTesting\obj\Release\AspxCommerce.ABTesting.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.ABTesting\obj\Release\AspxCommerce.ABTesting.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.ABTesting\obj\Release\AspxCommerce.ABTesting.csprojResolveAssemblyReference.cache

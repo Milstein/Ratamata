@@ -41,3 +41,4 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AdvertiseGal
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.AdvertiseGallery\obj\Release\AspxCommerce.AdvertiseGallery.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AdvertiseGallery\obj\Release\AspxCommerce.AdvertiseGallery.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.AdvertiseGallery\obj\Release\AspxCommerce.AdvertiseGallery.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.AdvertiseGallery\obj\Release\AspxCommerce.AdvertiseGallery.csprojResolveAssemblyReference.cache

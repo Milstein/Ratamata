@@ -24,3 +24,11 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.MenuManager\bin\Rele
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.MenuManager\bin\Release\SageFrame.Pages.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.MenuManager\obj\Release\SageFrame.MenuManager.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.MenuManager\obj\Release\SageFrame.MenuManager.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.MenuManager\bin\Release\SageFrame.MenuManager.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.MenuManager\bin\Release\SageFrame.MenuManager.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.MenuManager\bin\Release\SageFrame.Common.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.MenuManager\bin\Release\SageFrame.Pages.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.MenuManager\bin\Release\SageFrame.Common.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.MenuManager\bin\Release\SageFrame.Pages.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.MenuManager\obj\Release\SageFrame.MenuManager.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.MenuManager\obj\Release\SageFrame.MenuManager.pdb

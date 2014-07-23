@@ -13,3 +13,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.You
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.YouMayAlsoLike\obj\Debug\AspxCommerce.YouMayAlsoLike.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.YouMayAlsoLike\obj\Debug\AspxCommerce.YouMayAlsoLike.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.YouMayAlsoLike\obj\Debug\AspxCommerce.YouMayAlsoLike.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.YouMayAlsoLike.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.YouMayAlsoLike.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\obj\Debug\AspxCommerce.YouMayAlsoLike.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\obj\Debug\AspxCommerce.YouMayAlsoLike.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.YouMayAlsoLike\obj\Debug\AspxCommerce.YouMayAlsoLike.pdb

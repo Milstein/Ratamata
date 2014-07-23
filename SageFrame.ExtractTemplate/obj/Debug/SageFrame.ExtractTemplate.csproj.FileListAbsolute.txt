@@ -18,3 +18,9 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ExtractTemplate\bin\
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ExtractTemplate\bin\Debug\SageFrame.Common.pdb
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ExtractTemplate\bin\Debug\SageFrame.ExtractTemplate.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ExtractTemplate\bin\Debug\SageFrame.ExtractTemplate.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ExtractTemplate\bin\Debug\SageFrame.Common.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ExtractTemplate\bin\Debug\SageFrame.Common.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.pdb

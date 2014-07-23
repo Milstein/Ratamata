@@ -39,3 +39,8 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.Dra
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.DragonPay\obj\Release\AspxCommerce.DragonPay.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.DragonPay\obj\Release\AspxCommerce.DragonPay.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.DragonPay\obj\Release\AspxCommerce.DragonPay.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.DragonPay.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.DragonPay.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.DragonPay\obj\Release\AspxCommerce.DragonPay.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.DragonPay\obj\Release\AspxCommerce.DragonPay.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.DragonPay\obj\Release\AspxCommerce.DragonPay.pdb

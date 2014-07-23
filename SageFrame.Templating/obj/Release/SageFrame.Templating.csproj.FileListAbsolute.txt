@@ -19,3 +19,10 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Templating\bin\Relea
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Templating\obj\Release\SageFrame.Templating.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Templating\obj\Release\SageFrame.Templating.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Templating\obj\Release\SageFrame.Templating.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Templating\bin\Release\SageFrame.Templating.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Templating\bin\Release\SageFrame.Templating.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Templating\bin\Release\SageFrame.Common.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Templating\bin\Release\SageFrame.Common.pdb
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Templating\obj\Release\SageFrame.Templating.csprojResolveAssemblyReference.cache
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Templating\obj\Release\SageFrame.Templating.dll
+E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Templating\obj\Release\SageFrame.Templating.pdb
