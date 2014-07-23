@@ -33,3 +33,7 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.Ticker.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.Ticker.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.Ticker.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.pdb

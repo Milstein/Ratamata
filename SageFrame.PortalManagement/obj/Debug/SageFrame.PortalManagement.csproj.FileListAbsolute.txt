@@ -8,3 +8,7 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.PortalManageme
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.PortalManagement.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.PortalManagement.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.PortalManagement\obj\Debug\SageFrame.PortalManagement.pdb

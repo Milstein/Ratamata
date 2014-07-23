@@ -9,3 +9,8 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\AspxCommerce.AdvertiseGa
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AdvertiseGallery\obj\Debug\AspxCommerce.AdvertiseGallery.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AdvertiseGallery\obj\Debug\AspxCommerce.AdvertiseGallery.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AdvertiseGallery\obj\Debug\AspxCommerce.AdvertiseGallery.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.AdvertiseGallery.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.AdvertiseGallery.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.AdvertiseGallery\obj\Debug\AspxCommerce.AdvertiseGallery.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.AdvertiseGallery\obj\Debug\AspxCommerce.AdvertiseGallery.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.AdvertiseGallery\obj\Debug\AspxCommerce.AdvertiseGallery.pdb

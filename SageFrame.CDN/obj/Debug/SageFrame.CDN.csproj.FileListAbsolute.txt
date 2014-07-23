@@ -12,3 +12,9 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.CDN\bin\Debug\SageFrame.Comm
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.CDN\obj\Debug\SageFrame.CDN.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.CDN\obj\Debug\SageFrame.CDN.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.CDN\obj\Debug\SageFrame.CDN.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.CDN\bin\Debug\SageFrame.CDN.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.CDN\bin\Debug\SageFrame.CDN.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.CDN\bin\Debug\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.CDN\bin\Debug\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.CDN\obj\Debug\SageFrame.CDN.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.CDN\obj\Debug\SageFrame.CDN.pdb

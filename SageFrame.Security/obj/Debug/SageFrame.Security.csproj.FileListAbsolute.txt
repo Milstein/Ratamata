@@ -12,3 +12,9 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Security\bin\Debug\SageFrame
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Security\obj\Debug\SageFrame.Security.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Security\obj\Debug\SageFrame.Security.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Security\obj\Debug\SageFrame.Security.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Security\bin\Debug\SageFrame.Security.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Security\bin\Debug\SageFrame.Security.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Security\bin\Debug\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Security\bin\Debug\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Security\obj\Debug\SageFrame.Security.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Security\obj\Debug\SageFrame.Security.pdb

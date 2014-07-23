@@ -6,3 +6,7 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\GoogleAdUnit\bin\Release\SFE.GoogleAdU
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb

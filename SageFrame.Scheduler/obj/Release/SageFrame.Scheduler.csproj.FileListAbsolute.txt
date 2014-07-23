@@ -12,3 +12,10 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Scheduler\bin\Release\SageFr
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Scheduler\bin\Release\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Scheduler\bin\Release\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.pdb

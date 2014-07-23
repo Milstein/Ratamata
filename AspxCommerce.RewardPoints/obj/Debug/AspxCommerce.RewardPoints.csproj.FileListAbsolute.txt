@@ -9,3 +9,9 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\AspxCommerce.RewardPoint
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.RewardPoints\obj\Debug\AspxCommerce.RewardPoints.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.RewardPoints\obj\Debug\AspxCommerce.RewardPoints.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.RewardPoints\obj\Debug\AspxCommerce.RewardPoints.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.RewardPoints.dll.config
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.RewardPoints.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.RewardPoints.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.RewardPoints\obj\Debug\AspxCommerce.RewardPoints.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.RewardPoints\obj\Debug\AspxCommerce.RewardPoints.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.RewardPoints\obj\Debug\AspxCommerce.RewardPoints.pdb

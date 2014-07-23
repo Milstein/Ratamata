@@ -8,3 +8,7 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.Pages.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Pages\obj\Debug\SageFrame.Pages.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Pages\obj\Debug\SageFrame.Pages.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Pages\obj\Debug\SageFrame.Pages.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.Pages.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.Pages.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Pages\obj\Debug\SageFrame.Pages.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Pages\obj\Debug\SageFrame.Pages.pdb

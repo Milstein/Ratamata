@@ -33,3 +33,7 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.Testimonial.pd
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.Testimonial.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.Testimonial.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Testimonial\obj\Debug\SageFrame.Testimonial.pdb

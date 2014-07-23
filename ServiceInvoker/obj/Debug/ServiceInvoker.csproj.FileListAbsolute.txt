@@ -6,3 +6,7 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\ServiceInvoker.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\ServiceInvoker.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\ServiceInvoker\obj\Debug\ServiceInvoker.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\ServiceInvoker\obj\Debug\ServiceInvoker.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\ServiceInvoker.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\ServiceInvoker.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\ServiceInvoker\obj\Debug\ServiceInvoker.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\ServiceInvoker\obj\Debug\ServiceInvoker.pdb

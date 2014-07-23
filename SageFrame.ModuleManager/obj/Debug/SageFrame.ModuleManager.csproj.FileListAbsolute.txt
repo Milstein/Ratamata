@@ -12,3 +12,9 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ModuleManager\bin\Debug\Sage
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ModuleManager\bin\Debug\SageFrame.ModuleManager.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ModuleManager\bin\Debug\SageFrame.ModuleManager.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ModuleManager\bin\Debug\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ModuleManager\bin\Debug\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.pdb

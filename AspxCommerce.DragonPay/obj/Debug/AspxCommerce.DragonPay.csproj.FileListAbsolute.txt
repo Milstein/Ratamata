@@ -95,3 +95,8 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\AspxCommerce.DragonPay.p
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.DragonPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.DragonPay.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.pdb

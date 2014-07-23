@@ -8,3 +8,8 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\AspxCommerce.AdminNotifi
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AdminNotification\obj\Debug\AspxCommerce.AdminNotification.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AdminNotification\obj\Debug\AspxCommerce.AdminNotification.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.AdminNotification\obj\Debug\AspxCommerce.AdminNotification.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.AdminNotification.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.AdminNotification.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.AdminNotification\obj\Debug\AspxCommerce.AdminNotification.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.AdminNotification\obj\Debug\AspxCommerce.AdminNotification.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.AdminNotification\obj\Debug\AspxCommerce.AdminNotification.pdb

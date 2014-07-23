@@ -8,3 +8,8 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\AspxCommerce.SpecialItem
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.SpecialItems\obj\Debug\AspxCommerce.SpecialItems.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.SpecialItems\obj\Debug\AspxCommerce.SpecialItems.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.SpecialItems\obj\Debug\AspxCommerce.SpecialItems.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.SpecialItems.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.SpecialItems.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.SpecialItems\obj\Debug\AspxCommerce.SpecialItems.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.SpecialItems\obj\Debug\AspxCommerce.SpecialItems.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.SpecialItems\obj\Debug\AspxCommerce.SpecialItems.pdb

@@ -125,3 +125,9 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\AspxCommerce.TPSL.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.TPSL.dll.config
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.TPSL.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.TPSL.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.TPSL\obj\Debug\AspxCommerce.TPSL.pdb

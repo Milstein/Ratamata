@@ -8,3 +8,7 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.Scheduler.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.Scheduler.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Scheduler\obj\Debug\SageFrame.Scheduler.pdb

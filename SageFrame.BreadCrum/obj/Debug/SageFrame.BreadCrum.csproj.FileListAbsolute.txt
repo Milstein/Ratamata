@@ -8,3 +8,7 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.BreadCrum.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.BreadCrum.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.BreadCrum.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb

@@ -9,3 +9,9 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\AspxCommerce.CashOnDeliv
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.CashOnDelivery.dll.config
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.CashOnDelivery.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.CashOnDelivery.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.pdb

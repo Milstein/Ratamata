@@ -8,3 +8,7 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.SEOExtension.p
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SEOExtension\obj\Debug\SageFrame.SEOExtension.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SEOExtension\obj\Debug\SageFrame.SEOExtension.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.SEOExtension\obj\Debug\SageFrame.SEOExtension.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.SEOExtension.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.SEOExtension.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SEOExtension\obj\Debug\SageFrame.SEOExtension.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.SEOExtension\obj\Debug\SageFrame.SEOExtension.pdb

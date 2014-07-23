@@ -223,3 +223,4 @@ E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\bin\Ne
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.dll
 E:\GitHub Repo\AspxCommerce\!@TO Compare\compare\Again\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.eSewa\obj\Release\AspxCommerce.eSewa.csprojResolveAssemblyReference.cache

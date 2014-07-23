@@ -12,3 +12,9 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ExtractTemplate\bin\Release\
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ExtractTemplate\bin\Release\SageFrame.ExtractTemplate.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ExtractTemplate\bin\Release\SageFrame.ExtractTemplate.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ExtractTemplate\bin\Release\SageFrame.Common.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ExtractTemplate\bin\Release\SageFrame.Common.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.ExtractTemplate\obj\Release\SageFrame.ExtractTemplate.pdb

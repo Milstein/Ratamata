@@ -6,3 +6,7 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\ServiceInvoker\bin\Release\ServiceInvo
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\ServiceInvoker\bin\Release\ServiceInvoker.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\ServiceInvoker\obj\Release\ServiceInvoker.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\ServiceInvoker\obj\Release\ServiceInvoker.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\ServiceInvoker\bin\Release\ServiceInvoker.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\ServiceInvoker\bin\Release\ServiceInvoker.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\ServiceInvoker\obj\Release\ServiceInvoker.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\ServiceInvoker\obj\Release\ServiceInvoker.pdb

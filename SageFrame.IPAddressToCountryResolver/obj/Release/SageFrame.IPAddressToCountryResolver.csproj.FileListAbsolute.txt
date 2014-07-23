@@ -6,3 +6,7 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IPAddressToCountryResolver\b
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IPAddressToCountryResolver\bin\Release\SageFrame.IPAddressToCountryResolver.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IPAddressToCountryResolver\obj\Release\SageFrame.IPAddressToCountryResolver.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.IPAddressToCountryResolver\obj\Release\SageFrame.IPAddressToCountryResolver.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.IPAddressToCountryResolver\bin\Release\SageFrame.IPAddressToCountryResolver.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.IPAddressToCountryResolver\bin\Release\SageFrame.IPAddressToCountryResolver.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.IPAddressToCountryResolver\obj\Release\SageFrame.IPAddressToCountryResolver.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.IPAddressToCountryResolver\obj\Release\SageFrame.IPAddressToCountryResolver.pdb

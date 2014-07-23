@@ -8,3 +8,7 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\SageFrame.Logo.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Logo\obj\Debug\SageFrame.Logo.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Logo\obj\Debug\SageFrame.Logo.pdb
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame.Logo\obj\Debug\SageFrame.Logo.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.Logo.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\SageFrame.Logo.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Logo\obj\Debug\SageFrame.Logo.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame.Logo\obj\Debug\SageFrame.Logo.pdb

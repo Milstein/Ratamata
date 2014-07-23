@@ -8,3 +8,8 @@ E:\GitHub Repo\AspxCommerce\BuyNSellNepal\SageFrame\bin\AspxCommerce.BrandView.p
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.BrandView\obj\Debug\AspxCommerce.BrandView.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.BrandView\obj\Debug\AspxCommerce.BrandView.dll
 E:\GitHub Repo\AspxCommerce\BuyNSellNepal\AspxCommerce.BrandView\obj\Debug\AspxCommerce.BrandView.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.BrandView.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\SageFrame\bin\AspxCommerce.BrandView.pdb
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.BrandView\obj\Debug\AspxCommerce.BrandView.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.BrandView\obj\Debug\AspxCommerce.BrandView.dll
+E:\GitHub Repo\AspxCommerce\!@TO Compare\Ratamata\AspxCommerce.BrandView\obj\Debug\AspxCommerce.BrandView.pdb
