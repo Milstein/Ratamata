@@ -16,6 +16,6 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Ser
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\ServiceInvoker\obj\Debug\ServiceInvoker.pdb
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\ServiceInvoker.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\ServiceInvoker.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\ServiceInvoker\obj\Debug\ServiceInvoker.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\ServiceInvoker\obj\Debug\ServiceInvoker.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\ServiceInvoker\obj\Debug\ServiceInvoker.pdb
-E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\ServiceInvoker\obj\Debug\ServiceInvoker.csprojResolveAssemblyReference.cache

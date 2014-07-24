@@ -20,6 +20,5 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Asp
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.USPS\obj\Debug\AspxCommerce.USPS.pdb
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.USPS.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.USPS.pdb
-E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.USPS\obj\Debug\AspxCommerce.USPS.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.USPS\obj\Debug\AspxCommerce.USPS.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.USPS\obj\Debug\AspxCommerce.USPS.pdb

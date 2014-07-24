@@ -25,6 +25,5 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Asp
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.KPI\obj\Debug\AspxCommerce.KPI.pdb
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.KPI.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.KPI.pdb
-E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.KPI\obj\Debug\AspxCommerce.KPI.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.KPI\obj\Debug\AspxCommerce.KPI.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.KPI\obj\Debug\AspxCommerce.KPI.pdb

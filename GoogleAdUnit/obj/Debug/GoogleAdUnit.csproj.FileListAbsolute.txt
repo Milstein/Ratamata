@@ -17,5 +17,6 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Goo
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.pdb
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\GoogleAdUnit\bin\Debug\SFE.GoogleAdUnit.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\GoogleAdUnit\bin\Debug\SFE.GoogleAdUnit.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\GoogleAdUnit\obj\Debug\GoogleAdUnit.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.pdb

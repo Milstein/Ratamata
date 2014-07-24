@@ -441,4 +441,3 @@ E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\bin\Debug\Newtonsoft.Json.xml
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.pdb
-E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.PesoPay\obj\Debug\AspxCommerce.PesoPay.csprojResolveAssemblyReference.cache

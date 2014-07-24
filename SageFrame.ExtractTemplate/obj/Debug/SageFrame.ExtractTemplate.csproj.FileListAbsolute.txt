@@ -28,6 +28,5 @@ E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ExtractTemp
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ExtractTemplate\bin\Debug\SageFrame.ExtractTemplate.pdb
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ExtractTemplate\bin\Debug\SageFrame.Common.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ExtractTemplate\bin\Debug\SageFrame.Common.pdb
-E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ExtractTemplate\obj\Debug\SageFrame.ExtractTemplate.pdb

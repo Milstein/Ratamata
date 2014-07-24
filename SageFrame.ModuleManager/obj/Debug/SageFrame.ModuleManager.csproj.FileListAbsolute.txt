@@ -28,6 +28,5 @@ E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ModuleManag
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ModuleManager\bin\Debug\SageFrame.ModuleManager.pdb
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ModuleManager\bin\Debug\SageFrame.Common.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ModuleManager\bin\Debug\SageFrame.Common.pdb
-E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.pdb

@@ -21,6 +21,5 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Asp
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.AdvertiseGallery\obj\Debug\AspxCommerce.AdvertiseGallery.pdb
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.AdvertiseGallery.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.AdvertiseGallery.pdb
-E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.AdvertiseGallery\obj\Debug\AspxCommerce.AdvertiseGallery.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.AdvertiseGallery\obj\Debug\AspxCommerce.AdvertiseGallery.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.AdvertiseGallery\obj\Debug\AspxCommerce.AdvertiseGallery.pdb

@@ -18,6 +18,5 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Sag
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\DashBoardControl.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\DashBoardControl.pdb
-E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SiteAnalytics\obj\Debug\DashBoardControl.pdb

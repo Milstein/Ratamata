@@ -20,4 +20,3 @@ E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFra
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.SEOExtension.pdb
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SEOExtension\obj\Debug\SageFrame.SEOExtension.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SEOExtension\obj\Debug\SageFrame.SEOExtension.pdb
-E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.SEOExtension\obj\Debug\SageFrame.SEOExtension.csprojResolveAssemblyReference.cache

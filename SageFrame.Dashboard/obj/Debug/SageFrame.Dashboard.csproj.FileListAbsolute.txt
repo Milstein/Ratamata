@@ -30,6 +30,5 @@ E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Dashboard\b
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Dashboard\bin\Debug\SageFrame.Dashboard.pdb
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Dashboard\bin\Debug\SageFrame.Common.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Dashboard\bin\Debug\SageFrame.Common.pdb
-E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Dashboard\obj\Debug\SageFrame.Dashboard.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Dashboard\obj\Debug\SageFrame.Dashboard.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Dashboard\obj\Debug\SageFrame.Dashboard.pdb
