@@ -20,6 +20,6 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Asp
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.ServiceItem\obj\Debug\AspxCommerce.ServiceItem.pdb
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.ServiceItem.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.ServiceItem.pdb
-E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.ServiceItem\obj\Debug\AspxCommerce.ServiceItem.csprojResolveAssemblyReference.cache
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.ServiceItem\obj\Debug\AspxCommerce.ServiceItem.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.ServiceItem\obj\Debug\AspxCommerce.ServiceItem.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.ServiceItem\obj\Debug\AspxCommerce.ServiceItem.csprojResolveAssemblyReference.cache

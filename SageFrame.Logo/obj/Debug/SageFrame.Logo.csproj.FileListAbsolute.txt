@@ -20,3 +20,4 @@ E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFra
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.Logo.pdb
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Logo\obj\Debug\SageFrame.Logo.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Logo\obj\Debug\SageFrame.Logo.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.Logo\obj\Debug\SageFrame.Logo.csprojResolveAssemblyReference.cache

@@ -20,3 +20,4 @@ E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFra
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.IpAccess.pdb
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.dll
 E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.IpAccess\obj\Debug\SageFrame.IpAccess.csprojResolveAssemblyReference.cache
