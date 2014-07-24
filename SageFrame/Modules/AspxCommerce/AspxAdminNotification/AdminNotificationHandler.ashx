@@ -3,7 +3,6 @@
 using System;
 using System.Web;
 using System.Web.Script.Serialization;
-using ServiceInvoker;
 
 public class AdminNotificationHandler : IHttpHandler
 {
