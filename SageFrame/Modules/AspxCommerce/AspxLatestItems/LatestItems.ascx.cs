@@ -315,7 +315,7 @@ public partial class Modules_AspxLatestItems_LatestItems : BaseAdministrationUse
                             RecentItemContents.Append("<div class=\"cssDynamicAttributes\">");
                             RecentItemContents.Append("<span>");
                             RecentItemContents.Append(attributeName);
-                            RecentItemContents.Append("</span> :");
+                            RecentItemContents.Append("</span>: ");
                             if (inputType == 7)
                             {
                                 RecentItemContents.Append("<span class=\"cssClassFormatCurrency\">");
