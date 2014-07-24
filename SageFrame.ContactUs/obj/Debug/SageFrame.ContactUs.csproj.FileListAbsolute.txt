@@ -17,3 +17,8 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Sag
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ContactUs\obj\Debug\SageFrame.ContactUs.csprojResolveAssemblyReference.cache
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ContactUs\obj\Debug\ContactUs.dll
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ContactUs\obj\Debug\ContactUs.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\ContactUs.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\ContactUs.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ContactUs\obj\Debug\SageFrame.ContactUs.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ContactUs\obj\Debug\ContactUs.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.ContactUs\obj\Debug\ContactUs.pdb

@@ -21,3 +21,9 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Sag
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.RewardPoints\obj\Debug\AspxCommerce.RewardPoints.csprojResolveAssemblyReference.cache
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.RewardPoints\obj\Debug\AspxCommerce.RewardPoints.dll
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.RewardPoints\obj\Debug\AspxCommerce.RewardPoints.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.RewardPoints.dll.config
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.RewardPoints.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.RewardPoints.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.RewardPoints\obj\Debug\AspxCommerce.RewardPoints.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.RewardPoints\obj\Debug\AspxCommerce.RewardPoints.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.RewardPoints\obj\Debug\AspxCommerce.RewardPoints.pdb

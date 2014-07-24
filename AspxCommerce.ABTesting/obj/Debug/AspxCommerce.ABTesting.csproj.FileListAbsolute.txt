@@ -23,3 +23,8 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Sag
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.ABTesting\obj\Debug\AspxCommerce.ABTesting.csprojResolveAssemblyReference.cache
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.ABTesting\obj\Debug\AspxCommerce.ABTesting.dll
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.ABTesting\obj\Debug\AspxCommerce.ABTesting.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.ABTesting.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.ABTesting.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.ABTesting\obj\Debug\AspxCommerce.ABTesting.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.ABTesting\obj\Debug\AspxCommerce.ABTesting.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.ABTesting\obj\Debug\AspxCommerce.ABTesting.pdb

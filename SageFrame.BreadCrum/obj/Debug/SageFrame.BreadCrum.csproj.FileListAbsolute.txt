@@ -17,3 +17,8 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Sag
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.BreadCrum.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\SageFrame.BreadCrum.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb

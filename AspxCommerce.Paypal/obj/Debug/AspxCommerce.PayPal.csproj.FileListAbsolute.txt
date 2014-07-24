@@ -21,3 +21,9 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Sag
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.Paypal\obj\Debug\AspxCommerce.PayPal.csprojResolveAssemblyReference.cache
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.Paypal\obj\Debug\AspxCommerce.Paypal.dll
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.Paypal\obj\Debug\AspxCommerce.Paypal.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.Paypal.dll.config
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.Paypal.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.Paypal.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.Paypal\obj\Debug\AspxCommerce.PayPal.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.Paypal\obj\Debug\AspxCommerce.Paypal.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.Paypal\obj\Debug\AspxCommerce.Paypal.pdb

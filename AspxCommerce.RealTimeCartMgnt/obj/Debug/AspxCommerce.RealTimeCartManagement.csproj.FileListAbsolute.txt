@@ -18,3 +18,8 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Sag
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.RealTimeCartMgnt\obj\Debug\AspxCommerce.RealTimeCartManagement.csprojResolveAssemblyReference.cache
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.RealTimeCartMgnt\obj\Debug\AspxCommerce.RearTimeCartMgnt.dll
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.RealTimeCartMgnt\obj\Debug\AspxCommerce.RearTimeCartMgnt.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.RearTimeCartMgnt.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.RearTimeCartMgnt.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.RealTimeCartMgnt\obj\Debug\AspxCommerce.RealTimeCartManagement.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.RealTimeCartMgnt\obj\Debug\AspxCommerce.RearTimeCartMgnt.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.RealTimeCartMgnt\obj\Debug\AspxCommerce.RearTimeCartMgnt.pdb

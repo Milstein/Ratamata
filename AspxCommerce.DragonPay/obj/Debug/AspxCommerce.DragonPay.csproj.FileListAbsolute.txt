@@ -105,3 +105,8 @@ E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\Sag
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.csprojResolveAssemblyReference.cache
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.dll
 E:\!@Jobs Hunting\BrainDigit Job\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.DragonPay.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\SageFrame\bin\AspxCommerce.DragonPay.pdb
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.csprojResolveAssemblyReference.cache
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.dll
+E:\GitHub Repo\AspxCommerce\!@July Latest Final\!@Ratamata\AspxCommerce.DragonPay\obj\Debug\AspxCommerce.DragonPay.pdb
